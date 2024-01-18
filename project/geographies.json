@@ -1,0 +1,30 @@
+[
+  {
+    "geographyId": "world",
+    "datasourceId": "world",
+    "display": "World",
+    "groups": [],
+    "precalc": false
+  },
+  {
+    "geographyId": "eez",
+    "datasourceId": "global-eez-mr-v12",
+    "display": "Micronesian Exclusive Economic Zone",
+    "propertyFilter": {
+      "property": "GEONAME",
+      "values": [
+        "Micronesian Exclusive Economic Zone"
+      ]
+    },
+    "bboxFilter": [
+      135.31555560000015,
+      -1.171388888586307,
+      165.67611110000007,
+      13.44070556000014
+    ],
+    "groups": [
+      "default-boundary"
+    ],
+    "precalc": true
+  }
+]
