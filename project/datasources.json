@@ -2,9 +2,7 @@
   {
     "datasourceId": "global-clipping-osm-land",
     "geo_type": "vector",
-    "formats": [
-      "subdivided"
-    ],
+    "formats": ["subdivided"],
     "precalc": false,
     "idProperty": "gid",
     "nameProperty": "gid",
@@ -14,9 +12,7 @@
   {
     "datasourceId": "global-clipping-eez-land-union",
     "geo_type": "vector",
-    "formats": [
-      "subdivided"
-    ],
+    "formats": ["subdivided"],
     "precalc": false,
     "idProperty": "UNION",
     "nameProperty": "UNION",
@@ -26,11 +22,8 @@
   {
     "datasourceId": "global-eez-mr-v12",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
-    "precalc": true,
+    "formats": ["fgb", "json"],
+    "precalc": false,
     "metadata": {
       "name": "World EEZ v11",
       "description": "World EEZ boundaries and disputed areas",
@@ -41,28 +34,21 @@
     },
     "idProperty": "GEONAME",
     "nameProperty": "GEONAME",
-    "classKeys": [],
-    "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/global-eez-mr-v12.fgb",
     "propertyFilter": {
       "property": "GEONAME",
-      "values": [
-        "Micronesian Exclusive Economic Zone"
-      ]
+      "values": ["Micronesian Exclusive Economic Zone"]
     },
     "bboxFilter": [
-      135.31555560000015,
-      -1.171388888586307,
-      165.67611110000007,
+      135.31555560000015, -1.171388888586307, 165.67611110000007,
       13.44070556000014
-    ]
+    ],
+    "classKeys": [],
+    "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/global-eez-mr-v12.fgb"
   },
   {
     "datasourceId": "world",
     "geo_type": "vector",
-    "formats": [
-      "json",
-      "fgb"
-    ],
+    "formats": ["json", "fgb"],
     "precalc": false,
     "metadata": {
       "name": "World Outline Polygon",
@@ -79,10 +65,8 @@
   {
     "datasourceId": "bo-present-surface-ph",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
-    "precalc": true,
+    "formats": ["tif"],
+    "precalc": false,
     "metadata": {
       "name": "BioOracle Present Day Surface pH",
       "description": "BioOracle Present Day Surface pH global raster",
@@ -93,7 +77,7 @@
     },
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.3999999521443642e+38,
+    "noDataValue": -3.3999999521443642e38,
     "created": "2023-12-11T11:55:31.053Z",
     "lastUpdated": "2023-12-11T12:52:22.966Z",
     "src": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/bo-present-surface-ph.tif"
@@ -101,10 +85,8 @@
   {
     "datasourceId": "bo-present-surface-temp-max",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
-    "precalc": true,
+    "formats": ["tif"],
+    "precalc": false,
     "metadata": {
       "name": "BioOracle Present Day Surface Temperature Maximum",
       "description": "BioOracle Present Day Surface Temperature Maximum global raster",
@@ -115,16 +97,14 @@
     },
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -1.7e+308,
+    "noDataValue": -1.7e308,
     "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/bo-present-surface-temp-max.tif"
   },
   {
     "datasourceId": "bo-present-surface-temp-min",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
-    "precalc": true,
+    "formats": ["tif"],
+    "precalc": false,
     "metadata": {
       "name": "BioOracle Present Day Surface Temperature Minimum",
       "description": "BioOracle Present Day Surface Temperature Minimum global raster",
@@ -135,15 +115,13 @@
     },
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -1.7e+308,
+    "noDataValue": -1.7e308,
     "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/bo-present-surface-temp-min.tif"
   },
   {
     "datasourceId": "meow-ecos",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "metadata": {
       "name": "Marine Ecoregions of the World",
@@ -158,5 +136,70 @@
     "layerName": "meow_ecos",
     "classKeys": [],
     "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/meow-ecos.fgb"
+  },
+  {
+    "datasourceId": "nearshore",
+    "geo_type": "vector",
+    "formats": ["fgb", "json"],
+    "precalc": true,
+    "layerName": "nearshore_mr_osm",
+    "classKeys": [],
+    "created": "2024-01-18T19:50:00.407Z",
+    "lastUpdated": "2024-01-18T19:50:00.407Z",
+    "src": "data/src/Analytics/current-vector.gpkg",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "chuuk",
+    "geo_type": "vector",
+    "formats": ["fgb", "json"],
+    "precalc": true,
+    "layerName": "chuuk_nearshore_mr_osm",
+    "classKeys": [],
+    "created": "2024-01-18T19:51:25.039Z",
+    "lastUpdated": "2024-01-18T19:51:25.039Z",
+    "src": "data/src/Analytics/state_nearshore_boundaries/chuuk_nearshore_mr_osm.geojson",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "kosrae",
+    "geo_type": "vector",
+    "formats": ["fgb", "json"],
+    "precalc": true,
+    "layerName": "kosrae_nearshore_mr_osm",
+    "classKeys": [],
+    "created": "2024-01-18T19:52:08.630Z",
+    "lastUpdated": "2024-01-18T19:52:08.630Z",
+    "src": "data/src/Analytics/state_nearshore_boundaries/kosrae_nearshore_mr_osm.geojson",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "pohnpei",
+    "geo_type": "vector",
+    "formats": ["fgb", "json"],
+    "precalc": true,
+    "layerName": "pohnpei_nearshore_mr_osm",
+    "classKeys": [],
+    "created": "2024-01-18T19:52:26.201Z",
+    "lastUpdated": "2024-01-18T19:52:26.201Z",
+    "src": "data/src/Analytics/state_nearshore_boundaries/pohnpei_nearshore_mr_osm.geojson",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "src": "data/src/Analytics/state_nearshore_boundaries/yap_nearshore_mr_osm.geojson",
+    "layerName": "yap_nearshore_mr_osm",
+    "geo_type": "vector",
+    "datasourceId": "yap",
+    "formats": ["fgb", "json"],
+    "classKeys": [],
+    "created": "2024-01-18T19:53:09.996Z",
+    "lastUpdated": "2024-01-18T19:53:09.996Z",
+    "propertiesToKeep": [],
+    "explodeMulti": true,
+    "precalc": true
   }
 ]

@@ -17,9 +17,8 @@
   "preprocessingFunctions": [
     "src/functions/clipToOceanEez.ts",
     "src/functions/clipToLand.ts",
-    "src/functions/clipToOcean.ts"
+    "src/functions/clipToOcean.ts",
+    "src/functions/clipToOceanNearshore.ts"
   ],
-  "geoprocessingFunctions": [
-    "src/functions/boundaryAreaOverlap.ts"
-  ]
+  "geoprocessingFunctions": ["src/functions/boundaryAreaOverlap.ts"]
 }

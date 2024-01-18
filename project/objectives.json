@@ -1,8 +1,10 @@
-[{
-  "objectiveId": "eez",
-  "shortDesc": "EEZ Objective",
-  "target": 0.2,
-  "countsToward": {
+[
+  {
+    "objectiveId": "nearshore",
+    "shortDesc": "Coastal Objective",
+    "target": 0.3,
+    "countsToward": {
       "Fully Protected Area": "yes"
+    }
   }
-}]
+]

@@ -1,1 +1,482 @@
-[]
+[
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 45533180604.76358
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "meow-ecos-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 45533180604.76359
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "nearshore-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 45533180604.76359
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "pohnpei-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "meow-ecos-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "nearshore-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "pohnpei-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2642577683.0023313
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "meow-ecos-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2642577683.0023313
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "nearshore-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2642577683.0023313
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "pohnpei-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "meow-ecos-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "nearshore-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "pohnpei-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "area",
+    "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 45533180604.76358
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "area",
+    "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2642577683.0023313
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "area",
+    "classId": "meow-ecos-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 109952198342.24036
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "area",
+    "classId": "nearshore-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 110581348595.9775
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "area",
+    "classId": "pohnpei-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 24429546123.192757
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "area",
+    "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 37976044185.01876
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "count",
+    "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "count",
+    "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "count",
+    "classId": "meow-ecos-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "count",
+    "classId": "nearshore-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 30
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "count",
+    "classId": "pohnpei-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 8
+  },
+  {
+    "geographyId": "nearshore",
+    "metricId": "count",
+    "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "meow-ecos-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 23800395869.455673
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "nearshore-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 24429546123.192753
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "pohnpei-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 24429546123.192757
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "meow-ecos-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "nearshore-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 8
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "pohnpei-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 8
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "meow-ecos-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 37976044185.01875
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "nearshore-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 37976044185.01875
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "pohnpei-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 37976044185.01876
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "meow-ecos-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "nearshore-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "pohnpei-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14
+  }
+]

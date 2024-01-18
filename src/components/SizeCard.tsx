@@ -108,13 +108,11 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
               }
             >
               <p>
-                {planningUnitName}{" "}
                 <Trans i18nKey="SizeCard - introduction">
-                  national waters extend from the shoreline out to 200 nautical
-                  miles, known as the Exclusive Economic Zone (EEZ). This report
-                  summarizes offshore plan overlap with the EEZ and other
-                  boundaries within it, measuring progress towards achieving %
-                  targets for each boundary.
+                  The Micronesian territorial sea extends from the shoreline out
+                  to 12 nautical miles. This report summarizes coastal plan
+                  overlap with the territorial sea, measuring progress towards
+                  achieving % protection targets.
                 </Trans>
               </p>
               {genSingleSizeTable(data, precalcMetrics, metricGroup, t)}
