@@ -11,6 +11,7 @@ import {
   MetricGroup,
   GeogProp,
   firstMatchingMetric,
+  Geography,
 } from "@seasketch/geoprocessing/client-core";
 import {
   ClassTable,
@@ -102,7 +103,7 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
 
         return (
           <>
-            {!areaMetric.value ? genWarning() : null}
+            {!areaMetric.value ? genWarning(curGeography) : null}
             <ToolbarCard
               title={t("Size")}
               items={
@@ -363,15 +364,18 @@ const ErrorIndicator = styled.div`
   }
 `;
 
-const genWarning = () => {
+const genWarning = (curGeography: Geography) => {
   return (
     <Card>
       <div role="alert">
         <ErrorIndicator />
-        <Trans i18nKey="SizeCard - warning">
-          This plan <b>does not</b> overlap with the selected coastal planning
-          area, please select a different planning area for useful report
-          metrics.
+        <Trans i18nKey="SizeCard - warning 1">
+          This plan <b>does not</b> overlap with{" "}
+        </Trans>{" "}
+        {curGeography.display}
+        <Trans i18nKey="SizeCard - warning 2">
+          's territorial sea, please select a different planning area for useful
+          report metrics.
         </Trans>
       </div>
     </Card>

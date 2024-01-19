@@ -4,7 +4,7 @@
     "datasourceId": "chuuk",
     "display": "Chuuk",
     "groups": [],
-    "layerId": "",
+    "layerId": "U816lpRvr",
     "precalc": true
   },
   {
@@ -12,12 +12,14 @@
     "datasourceId": "kosrae",
     "display": "Kosrae",
     "groups": ["default-boundary"],
+    "layerId": "QWu7lxa6u",
     "precalc": true
   },
   {
     "geographyId": "pohnpei",
     "datasourceId": "pohnpei",
     "display": "Pohnpei",
+    "layerId": "uUqfw6yqj",
     "groups": [],
     "precalc": true
   },
@@ -25,6 +27,7 @@
     "geographyId": "yap",
     "datasourceId": "yap",
     "display": "Yap",
+    "layerId": "90TgHdb_j",
     "groups": [],
     "precalc": true
   }
