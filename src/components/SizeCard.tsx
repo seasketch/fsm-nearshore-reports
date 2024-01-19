@@ -8,9 +8,9 @@ import {
   valueFormatter,
   toPercentMetric,
   sortMetricsDisplayOrder,
-  isSketchCollection,
   MetricGroup,
   GeogProp,
+  firstMatchingMetric,
 } from "@seasketch/geoprocessing/client-core";
 import {
   ClassTable,
@@ -22,6 +22,7 @@ import {
   useSketchProperties,
   ToolbarCard,
   DataDownload,
+  Card,
 } from "@seasketch/geoprocessing/client-ui";
 import styled from "styled-components";
 import project from "../../project";
@@ -93,8 +94,15 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
       {(data: ReportResult) => {
         if (Object.keys(data).length === 0) throw new Error(notFoundString);
 
+        // Get overall area of sketch metric
+        const areaMetric = firstMatchingMetric(
+          data.metrics,
+          (m) => m.sketchId === data.sketch.properties.id && m.groupId === null
+        );
+
         return (
           <>
+            {!areaMetric.value ? genWarning() : null}
             <ToolbarCard
               title={t("Size")}
               items={
@@ -109,11 +117,12 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
               }
             >
               <p>
+                {curGeography.display}'s{" "}
                 <Trans i18nKey="SizeCard - introduction">
-                  The Micronesian territorial sea extends from the shoreline out
-                  to 12 nautical miles. This report summarizes coastal plan
-                  overlap with the territorial sea, measuring progress towards
-                  achieving % protection targets.
+                  territorial sea extends from the shoreline out to 12 nautical
+                  miles. This report summarizes coastal plan overlap with the
+                  territorial sea, measuring progress towards achieving %
+                  protection targets.
                 </Trans>
               </p>
               {genSingleSizeTable(data, precalcMetrics, metricGroup, t)}
@@ -331,6 +340,41 @@ const genNetworkSizeTable = (
     <TableStyled>
       <Table columns={columns} data={rows} />
     </TableStyled>
+  );
+};
+
+// styled-components are needed here to use the ::before pseudo selector
+const ErrorIndicator = styled.div`
+  display: inline-block;
+  font-weight: bold;
+  font-size: 18px;
+  line-height: 1em;
+  background-color: #ea4848;
+  width: 20px;
+  height: 20px;
+  border-radius: 20px;
+  color: white;
+  text-align: center;
+  margin-right: 8px;
+  ::before {
+    position: relative;
+    bottom: -1px;
+    content: "!";
+  }
+`;
+
+const genWarning = () => {
+  return (
+    <Card>
+      <div role="alert">
+        <ErrorIndicator />
+        <Trans i18nKey="SizeCard - warning">
+          This plan <b>does not</b> overlap with the selected coastal planning
+          area, please select a different planning area for useful report
+          metrics.
+        </Trans>
+      </div>
+    </Card>
   );
 };
 
