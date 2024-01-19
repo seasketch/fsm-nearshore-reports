@@ -1,7 +1,7 @@
 {
   "metrics": [
     {
-      "geographyId": "nearshore",
+      "geographyId": "kosrae",
       "metricId": "boundaryAreaOverlap",
       "classId": "nearshore",
       "sketchId": "24597",

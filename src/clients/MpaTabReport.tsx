@@ -1,9 +1,16 @@
-import React, { useState } from "react";
-import { SegmentControl, ReportPage } from "@seasketch/geoprocessing/client-ui";
+import React, { useState, ChangeEventHandler } from "react";
+import {
+  SegmentControl,
+  ReportPage,
+  GeographySwitcher,
+  LayerToggle,
+  ToolbarCard,
+} from "@seasketch/geoprocessing/client-ui";
 import ViabilityPage from "../components/ViabilityPage";
 import RepresentationPage from "../components/RepresentationPage";
 import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync";
+import project from "../../project";
 
 const enableAllTabs = false;
 
@@ -16,8 +23,32 @@ const MpaTabReport = () => {
     { id: representationId, label: t("Representation") },
   ];
   const [tab, setTab] = useState<string>(viabilityId);
+  const [geographyId, setGeography] = useState("kosrae");
+
+  const geographySwitcher: ChangeEventHandler<HTMLSelectElement> = (e: any) => {
+    setGeography(e.target.value);
+  };
+
+  const switcherAndMap = (
+    <>
+      <GeographySwitcher
+        geographies={project.geographies}
+        curGeographyId={geographyId}
+        changeGeography={geographySwitcher}
+      />
+      <LayerToggle
+        label=" "
+        layerId={project.getGeographyById(geographyId).layerId}
+        simple
+      />
+    </>
+  );
+
   return (
     <>
+      <ToolbarCard title={t("Coastal Planning Area")} items={switcherAndMap}>
+        <></>
+      </ToolbarCard>
       <div style={{ marginTop: 5 }}>
         <SegmentControl
           value={tab}
@@ -26,10 +57,10 @@ const MpaTabReport = () => {
         />
       </div>
       <ReportPage hidden={!enableAllTabs && tab !== viabilityId}>
-        <ViabilityPage />
+        <ViabilityPage geographyId={geographyId} />
       </ReportPage>
       <ReportPage hidden={!enableAllTabs && tab !== representationId}>
-        <RepresentationPage />
+        <RepresentationPage geographyId={geographyId} />
       </ReportPage>
     </>
   );

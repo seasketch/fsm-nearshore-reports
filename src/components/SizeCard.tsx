@@ -87,6 +87,7 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
     <ResultsCard
       title={t("Size")}
       functionName="boundaryAreaOverlap"
+      extraParams={{ geographyIds: [curGeography.geographyId] }}
       useChildCard
     >
       {(data: ReportResult) => {
