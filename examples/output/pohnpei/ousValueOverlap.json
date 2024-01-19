@@ -1,0 +1,150 @@
+{
+  "metrics": [
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_aquaculture",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_cultural_use",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_fisheries",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_research",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_tourism",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_transportation",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    }
+  ],
+  "sketch": {
+    "type": "Feature",
+    "properties": {
+      "6289": "pohnpei",
+      "id": "24608",
+      "name": "pohnpei",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-01-19T18:33:19.730358+00:00",
+      "updatedAt": "2024-01-19T18:33:19.730358+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "745",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6292,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    },
+    "id": 24608,
+    "bbox": [
+      157.902591505,
+      6.963865676,
+      158.036993696,
+      7.099727119
+    ],
+    "geometry": null
+  }
+}

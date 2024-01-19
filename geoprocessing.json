@@ -20,5 +20,8 @@
     "src/functions/clipToOcean.ts",
     "src/functions/clipToOceanNearshore.ts"
   ],
-  "geoprocessingFunctions": ["src/functions/boundaryAreaOverlap.ts"]
+  "geoprocessingFunctions": [
+    "src/functions/boundaryAreaOverlap.ts",
+    "src/functions/ousValueOverlap.ts"
+  ]
 }
