@@ -6,10 +6,12 @@ import {
   getFirstFromParam,
   rasterMetrics,
   splitSketchAntimeridian,
+  overlapRasterGroupMetrics,
 } from "@seasketch/geoprocessing";
 import project from "../../project";
 import {
   DefaultExtraParams,
+  Georaster,
   Metric,
   ReportResult,
   Sketch,
@@ -21,6 +23,7 @@ import {
 import { clipToGeography } from "../util/clipToGeography";
 import bbox from "@turf/bbox";
 import { loadCog } from "@seasketch/geoprocessing/dataproviders";
+import { getGroup, groups } from "../util/getGroup";
 
 const mg = project.getMetricGroup("ousValueOverlap");
 
@@ -47,6 +50,8 @@ export async function ousValueOverlap(
   // Get bounding box of sketch remainder
   const sketchBox = clippedSketch.bbox || bbox(clippedSketch);
 
+  const featuresByClass: Record<string, Georaster> = {};
+
   const metrics: Metric[] = (
     await Promise.all(
       mg.classes.map(async (curClass) => {
@@ -57,6 +62,7 @@ export async function ousValueOverlap(
           project.getInternalRasterDatasourceById(curClass.datasourceId)
         )}`;
         const raster = await loadCog(url);
+        featuresByClass[curClass.classId] = raster;
         // start analysis as soon as source load done
         const overlapResult = await rasterMetrics(raster, {
           metricId: mg.metricId,
@@ -77,9 +83,25 @@ export async function ousValueOverlap(
     []
   );
 
+  // Generate area metrics grouped by zone type, with area overlap within zones removed
+  // Each sketch gets one group metric for its zone type, while collection generates one for each zone type
+  const sketchToZone = getGroup(sketch);
+  const metricToZone = (sketchMetric: Metric) => {
+    return sketchToZone[sketchMetric.sketchId!];
+  };
+
+  const groupMetrics = await overlapRasterGroupMetrics({
+    metricId: mg.metricId,
+    groupIds: groups,
+    sketch: clippedSketch as Sketch<Polygon> | SketchCollection<Polygon>,
+    metricToGroup: metricToZone,
+    metrics: metrics,
+    featuresByClass,
+  });
+
   return {
-    metrics: sortMetrics(rekeyMetrics(metrics)),
-    sketch: toNullSketch(clippedSketch, true),
+    metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
+    sketch: toNullSketch(sketch, true),
   };
 }
 

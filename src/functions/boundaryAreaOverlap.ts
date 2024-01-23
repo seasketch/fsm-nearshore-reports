@@ -15,11 +15,14 @@ import {
   DefaultExtraParams,
   splitSketchAntimeridian,
   isVectorDatasource,
+  overlapAreaGroupMetrics,
 } from "@seasketch/geoprocessing";
 import { getFeatures } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
 import project from "../../project";
 import { clipToGeography } from "../util/clipToGeography";
+import { getGroup, groups } from "../util/getGroup";
+import { firstMatchingMetric } from "@seasketch/geoprocessing/client-core";
 
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
 
@@ -74,32 +77,53 @@ export async function boundaryAreaOverlap(
     };
   }, {});
 
-  const metrics: Metric[] = // calculate area overlap metrics for each class
-    (
-      await Promise.all(
-        metricGroup.classes.map(async (curClass) => {
-          const overlapResult = await overlapFeatures(
-            metricGroup.metricId,
-            polysByBoundary[curClass.classId],
-            clippedSketch
-          );
-          return overlapResult.map(
-            (metric): Metric => ({
-              ...metric,
-              classId: curClass.classId,
-              geographyId: curGeography.geographyId,
-            })
-          );
-        })
-      )
-    ).reduce(
-      // merge
-      (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
-      []
-    );
+  const metrics: Metric[] = ( // calculate area overlap metrics for each class
+    await Promise.all(
+      metricGroup.classes.map(async (curClass) => {
+        const overlapResult = await overlapFeatures(
+          metricGroup.metricId,
+          polysByBoundary[curClass.classId],
+          clippedSketch
+        );
+        return overlapResult.map(
+          (metric): Metric => ({
+            ...metric,
+            classId: curClass.classId,
+            geographyId: curGeography.geographyId,
+          })
+        );
+      })
+    )
+  ).reduce(
+    // merge
+    (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
+    []
+  );
+
+  // Generate area metrics grouped by zone type, with area overlap within zones removed
+  // Each sketch gets one group metric for its zone type, while collection generates one for each zone type
+  const sketchToZone = getGroup(sketch);
+  const metricToZone = (sketchMetric: Metric) => {
+    return sketchToZone[sketchMetric.sketchId!];
+  };
+
+  const totalArea = firstMatchingMetric(
+    project.getPrecalcMetrics(metricGroup, "area", curGeography.geographyId),
+    (m) => m.groupId === null
+  ).value;
+
+  const levelMetrics = await overlapAreaGroupMetrics({
+    metricId: metricGroup.metricId,
+    groupIds: groups,
+    sketch: clippedSketch as Sketch<Polygon> | SketchCollection<Polygon>,
+    metricToGroup: metricToZone,
+    metrics: metrics,
+    classId: metricGroup.classes[0].classId,
+    outerArea: totalArea,
+  });
 
   return {
-    metrics: sortMetrics(rekeyMetrics(metrics)),
+    metrics: sortMetrics(rekeyMetrics([...metrics, ...levelMetrics])),
     sketch: toNullSketch(sketch, true),
   };
 }

@@ -1,37 +1,12 @@
 {
   "metrics": [
     {
-      "geographyId": "kosrae",
-      "metricId": "boundaryAreaOverlap",
-      "classId": "nearshore",
-      "sketchId": "24608",
-      "groupId": null,
-      "value": 0,
-      "extra": {
-        "sketchName": "pohnpei"
-      }
-    },
-    {
-      "geographyId": "kosrae",
-      "metricId": "boundaryAreaOverlap",
-      "classId": "nearshore",
-      "sketchId": "24608",
-      "groupId": "mpa",
-      "value": 0,
-      "extra": {
-        "sketchName": "pohnpei"
-      }
-    },
-    {
       "geographyId": null,
-      "metricId": "boundaryAreaOverlap",
-      "classId": "nearshore",
-      "sketchId": "24608",
-      "groupId": "aquaculture",
-      "value": 0,
-      "extra": {
-        "sketchName": "pohnpei"
-      }
+      "metricId": "groupCountOverlap",
+      "classId": "mpa",
+      "sketchId": null,
+      "groupId": "mpa",
+      "value": 1
     }
   ],
   "sketch": {
@@ -78,7 +53,6 @@
         }
       ],
       "descriptionconsider_adding_a_ra": null
-    },
-    "geometry": null
+    }
   }
 }

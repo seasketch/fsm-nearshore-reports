@@ -2,70 +2,32 @@ import React from "react";
 import {
   ReportResult,
   percentWithEdge,
-  keyBy,
-  toNullSketchArray,
-  nestMetrics,
-  valueFormatter,
-  toPercentMetric,
-  sortMetricsDisplayOrder,
-  MetricGroup,
   GeogProp,
   firstMatchingMetric,
   Geography,
+  roundLower,
+  squareMeterToKilometer,
 } from "@seasketch/geoprocessing/client-core";
 import {
-  ClassTable,
   Collapse,
-  Column,
-  ReportTableStyled,
   ResultsCard,
-  Table,
   useSketchProperties,
   ToolbarCard,
   DataDownload,
   Card,
+  VerticalSpacer,
+  KeySection,
+  LayerToggle,
 } from "@seasketch/geoprocessing/client-ui";
 import styled from "styled-components";
 import project from "../../project";
-import { Metric, squareMeterToKilometer } from "@seasketch/geoprocessing";
 import Translator from "../components/TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
-import { TFunction } from "i18next";
-
-const Number = new Intl.NumberFormat("en", { style: "decimal" });
-
-const TableStyled = styled(ReportTableStyled)`
-  font-size: 12px;
-  td {
-    text-align: right;
-  }
-
-  tr:nth-child(1) > th:nth-child(n + 1) {
-    text-align: center;
-  }
-
-  tr:nth-child(2) > th:nth-child(n + 1) {
-    text-align: center;
-  }
-
-  tr > td:nth-child(1),
-  tr > th:nth-child(1) {
-    border-right: 1px solid #777;
-  }
-
-  tr:nth-child(1) > th:nth-child(2) {
-    border-right: 1px solid #777;
-  }
-
-  tr > td:nth-child(3),
-  tr > th:nth-child(3) {
-    border-right: 1px solid #777;
-  }
-  tr > td:nth-child(5),
-  tr > th:nth-child(5) {
-    border-right: 1px solid #777;
-  }
-`;
+import {
+  genAreaSketchTable,
+  groupedCollectionReport,
+  groupedSketchReport,
+} from "../util/ProtectionLevelOverlapReports";
 
 export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
@@ -80,11 +42,8 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
     "area",
     curGeography.geographyId
   );
-
   const notFoundString = t("Results not found");
 
-  /* i18next-extract-disable-next-line */
-  const planningUnitName = t(project.basic.planningAreaName);
   return (
     <ResultsCard
       title={t("Size")}
@@ -100,6 +59,22 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
           data.metrics,
           (m) => m.sketchId === data.sketch.properties.id && m.groupId === null
         );
+
+        // Grab overall size precalc metric
+        const totalAreaMetric = firstMatchingMetric(
+          precalcMetrics,
+          (m) => m.groupId === null
+        );
+
+        // Format area metrics for key section display
+        const areaDisplay = roundLower(
+          squareMeterToKilometer(areaMetric.value)
+        );
+        const percDisplay = percentWithEdge(
+          areaMetric.value / totalAreaMetric.value
+        );
+        const areaUnitDisplay = t("km²");
+        const mapLabel = t("Show Map Layer");
 
         return (
           <>
@@ -122,16 +97,44 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
                 <Trans i18nKey="SizeCard - introduction">
                   territorial sea extends from the shoreline out to 12 nautical
                   miles. This report summarizes coastal plan overlap with the
-                  territorial sea, measuring progress towards achieving %
-                  protection targets.
+                  territorial sea.
                 </Trans>
               </p>
-              {genSingleSizeTable(data, precalcMetrics, metricGroup, t)}
+
+              <KeySection>
+                {t("This plan is")}{" "}
+                <b>
+                  {areaDisplay} {areaUnitDisplay}
+                </b>
+                {", "}
+                {t("which is")} <b>{percDisplay}</b> {t("of ")}{" "}
+                {curGeography.display}'s {t("territorial sea")}.
+              </KeySection>
+
+              <LayerToggle
+                label={mapLabel}
+                layerId={metricGroup.classes[0].layerId}
+              />
+              <VerticalSpacer />
+
+              {isCollection
+                ? groupedCollectionReport(
+                    data,
+                    precalcMetrics,
+                    metricGroup,
+                    t,
+                    { showLayerToggles: false }
+                  )
+                : groupedSketchReport(data, precalcMetrics, metricGroup, t, {
+                    showLayerToggles: false,
+                  })}
+
               {isCollection && (
-                <Collapse title={t("Show by MPA")}>
-                  {genNetworkSizeTable(data, precalcMetrics, metricGroup, t)}
+                <Collapse title={t("Show by Zone")}>
+                  {genAreaSketchTable(data, precalcMetrics, metricGroup, t)}
                 </Collapse>
               )}
+
               <Collapse title={t("Learn more")}>
                 <p>
                   <img
@@ -164,183 +167,6 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
         );
       }}
     </ResultsCard>
-  );
-};
-
-const genSingleSizeTable = (
-  data: ReportResult,
-  precalcMetrics: Metric[],
-  mg: MetricGroup,
-  t: TFunction
-) => {
-  const boundaryLabel = t("Boundary");
-  const foundWithinLabel = t("Found Within Plan");
-  const areaWithinLabel = t("Area Within Plan");
-  const areaPercWithinLabel = t("% Within Plan");
-  const mapLabel = t("Map");
-  const sqKmLabel = t("km²");
-
-  const classesById = keyBy(mg.classes, (c) => c.classId);
-  let singleMetrics = data.metrics.filter(
-    (m) => m.sketchId === data.sketch.properties.id
-  );
-
-  const finalMetrics = sortMetricsDisplayOrder(
-    [
-      ...singleMetrics,
-      ...toPercentMetric(singleMetrics, precalcMetrics, {
-        metricIdOverride: project.getMetricGroupPercId(mg),
-      }),
-    ],
-    "classId",
-    ["eez", "offshore", "contiguous"]
-  );
-
-  return (
-    <>
-      <ClassTable
-        rows={finalMetrics}
-        metricGroup={mg}
-        objective={project.getMetricGroupObjectives(mg, t)}
-        columnConfig={[
-          {
-            columnLabel: boundaryLabel,
-            type: "class",
-            width: 25,
-          },
-          {
-            columnLabel: foundWithinLabel,
-            type: "metricValue",
-            metricId: mg.metricId,
-            valueFormatter: (val: string | number) =>
-              Number.format(
-                Math.round(
-                  squareMeterToKilometer(
-                    typeof val === "string" ? parseInt(val) : val
-                  )
-                )
-              ),
-            valueLabel: sqKmLabel,
-            width: 20,
-          },
-          {
-            columnLabel: " ",
-            type: "metricChart",
-            metricId: project.getMetricGroupPercId(mg),
-            valueFormatter: "percent",
-            chartOptions: {
-              showTitle: true,
-              showTargetLabel: true,
-              targetLabelPosition: "bottom",
-              targetLabelStyle: "tight",
-              barHeight: 11,
-            },
-            width: 40,
-            targetValueFormatter: (
-              value: number,
-              row: number,
-              numRows: number
-            ) => {
-              if (row === 0) {
-                return (value: number) =>
-                  `${valueFormatter(value / 100, "percent0dig")} ${t(
-                    "Target"
-                  )}`;
-              } else {
-                return (value: number) =>
-                  `${valueFormatter(value / 100, "percent0dig")}`;
-              }
-            },
-          },
-          {
-            type: "layerToggle",
-            width: 15,
-            columnLabel: mapLabel,
-          },
-        ]}
-      />
-    </>
-  );
-};
-
-const genNetworkSizeTable = (
-  data: ReportResult,
-  precalcMetrics: Metric[],
-  mg: MetricGroup,
-  t: TFunction
-) => {
-  const sketches = toNullSketchArray(data.sketch);
-  const sketchesById = keyBy(sketches, (sk) => sk.properties.id);
-  const sketchIds = sketches.map((sk) => sk.properties.id);
-  const sketchMetrics = data.metrics.filter(
-    (m) => m.sketchId && sketchIds.includes(m.sketchId)
-  );
-  const finalMetrics = [
-    ...sketchMetrics,
-    ...toPercentMetric(sketchMetrics, precalcMetrics, {
-      metricIdOverride: project.getMetricGroupPercId(mg),
-    }),
-  ];
-
-  const aggMetrics = nestMetrics(finalMetrics, [
-    "sketchId",
-    "classId",
-    "metricId",
-  ]);
-  // Use sketch ID for each table row, index into aggMetrics
-  const rows = Object.keys(aggMetrics).map((sketchId) => ({
-    sketchId,
-  }));
-
-  const classColumns: Column<{ sketchId: string }>[] = mg.classes.map(
-    (curClass, index) => {
-      /* i18next-extract-disable-next-line */
-      const transString = t(curClass.display);
-      return {
-        Header: transString,
-        style: { color: "#777" },
-        columns: [
-          {
-            Header: t("Area") + " ".repeat(index),
-            accessor: (row) => {
-              const value =
-                aggMetrics[row.sketchId][curClass.classId as string][
-                  mg.metricId
-                ][0].value;
-              return (
-                Number.format(Math.round(squareMeterToKilometer(value))) +
-                " " +
-                t("km²")
-              );
-            },
-          },
-          {
-            Header: t("% Area") + " ".repeat(index),
-            accessor: (row) => {
-              const value =
-                aggMetrics[row.sketchId][curClass.classId as string][
-                  project.getMetricGroupPercId(mg)
-                ][0].value;
-              return percentWithEdge(value);
-            },
-          },
-        ],
-      };
-    }
-  );
-
-  const columns: Column<any>[] = [
-    {
-      Header: " ",
-      accessor: (row) => <b>{sketchesById[row.sketchId].properties.name}</b>,
-    },
-    ...classColumns,
-  ];
-
-  return (
-    <TableStyled>
-      <Table columns={columns} data={rows} />
-    </TableStyled>
   );
 };
 

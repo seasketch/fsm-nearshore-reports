@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import {
   Collapse,
   ResultsCard,
-  ClassTable,
   SketchClassTable,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
@@ -18,6 +17,12 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
+import Translator from "./TranslatorAsync";
+import {
+  genSketchTable,
+  groupedCollectionReport,
+  groupedSketchReport,
+} from "../util/ProtectionLevelOverlapReports";
 
 export const OUSCard: React.FunctionComponent<GeogProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
@@ -31,9 +36,6 @@ export const OUSCard: React.FunctionComponent<GeogProp> = (props) => {
     "sum",
     curGeography.geographyId
   );
-  const mapLabel = t("Map");
-  const sectorLabel = t("Sector");
-  const percValueLabel = t("% Value Found Within Plan");
 
   return (
     <>
@@ -67,37 +69,22 @@ export const OUSCard: React.FunctionComponent<GeogProp> = (props) => {
                 </Trans>
               </p>
 
-              <ClassTable
-                rows={parentMetrics}
-                metricGroup={metricGroup}
-                columnConfig={[
-                  {
-                    columnLabel: sectorLabel,
-                    type: "class",
-                    width: 45,
-                  },
-                  {
-                    columnLabel: percValueLabel,
-                    type: "metricChart",
-                    metricId: metricGroup.metricId,
-                    valueFormatter: "percent",
-                    chartOptions: {
-                      showTitle: true,
-                    },
-                    width: 45,
-                  },
-                  {
-                    columnLabel: mapLabel,
-                    type: "layerToggle",
-                    width: 10,
-                  },
-                ]}
-              />
-              {isCollection && (
-                <Collapse title={t("Show by MPA")}>
-                  {genSketchTable(data, precalcMetrics, metricGroup)}
-                </Collapse>
-              )}
+              <Translator>
+                {isCollection
+                  ? groupedCollectionReport(
+                      data,
+                      precalcMetrics,
+                      metricGroup,
+                      t
+                    )
+                  : groupedSketchReport(data, precalcMetrics, metricGroup, t)}
+
+                {isCollection && (
+                  <Collapse title={t("Show by Zone")}>
+                    {genSketchTable(data, precalcMetrics, metricGroup)}
+                  </Collapse>
+                )}
+              </Translator>
 
               <Collapse title={t("Learn more")}>
                 <Trans i18nKey="OUS Card - learn more">
@@ -159,27 +146,5 @@ export const OUSCard: React.FunctionComponent<GeogProp> = (props) => {
         }}
       </ResultsCard>
     </>
-  );
-};
-
-const genSketchTable = (
-  data: ReportResult,
-  precalcMetrics: Metric[],
-  metricGroup: MetricGroup
-) => {
-  const childSketches = toNullSketchArray(data.sketch);
-  const childSketchIds = childSketches.map((sk) => sk.properties.id);
-  const childSketchMetrics = toPercentMetric(
-    metricsWithSketchId(data.metrics, childSketchIds),
-    precalcMetrics
-  );
-  const sketchRows = flattenBySketchAllClass(
-    childSketchMetrics,
-    metricGroup.classes,
-    childSketches
-  );
-
-  return (
-    <SketchClassTable rows={sketchRows} metricGroup={metricGroup} formatPerc />
   );
 };

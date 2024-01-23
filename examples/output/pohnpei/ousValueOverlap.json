@@ -14,9 +14,53 @@
     {
       "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
+      "classId": "ous_aquaculture",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_aquaculture",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
       "classId": "ous_community_recreational_use",
       "sketchId": "24608",
       "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -36,9 +80,53 @@
     {
       "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
       "classId": "ous_cultural_use",
       "sketchId": "24608",
       "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_cultural_use",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_cultural_use",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -58,9 +146,53 @@
     {
       "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
+      "classId": "ous_fisheries",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_fisheries",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
       "classId": "ous_maritime_activity",
       "sketchId": "24608",
       "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -80,9 +212,53 @@
     {
       "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
+      "classId": "ous_research",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_research",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
       "classId": "ous_tourism",
       "sketchId": "24608",
       "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_tourism",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_tourism",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -98,9 +274,38 @@
       "extra": {
         "sketchName": "pohnpei"
       }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousValueOverlap",
+      "classId": "ous_transportation",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_transportation",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
     }
   ],
   "sketch": {
+    "id": 24608,
+    "bbox": [
+      157.90259,
+      6.9638658,
+      158.03699,
+      7.099727
+    ],
     "type": "Feature",
     "properties": {
       "6289": "pohnpei",
@@ -138,13 +343,6 @@
       ],
       "descriptionconsider_adding_a_ra": null
     },
-    "id": 24608,
-    "bbox": [
-      157.902591505,
-      6.963865676,
-      158.036993696,
-      7.099727119
-    ],
     "geometry": null
   }
 }

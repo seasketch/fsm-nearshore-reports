@@ -1,5 +1,19 @@
 [
   {
+    "metricId": "groupCountOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "mpa",
+        "display": "Marine Protected Areas"
+      },
+      {
+        "classId": "aquaculture",
+        "display": "Aquaculture Areas"
+      }
+    ]
+  },
+  {
     "metricId": "boundaryAreaOverlap",
     "type": "areaOverlap",
     "classes": [
@@ -7,7 +21,6 @@
         "classId": "nearshore",
         "display": "Territorial Sea",
         "datasourceId": "nearshore",
-        "objectiveId": "nearshore",
         "layerId": "f2Z9cV8d9"
       }
     ]
@@ -24,13 +37,13 @@
       },
       {
         "classId": "ous_community_recreational_use",
-        "display": "Community & Recreational Use",
+        "display": "Community/Recreational",
         "datasourceId": "ous_community_recreational_use",
         "layerId": "1HN8AsnYC"
       },
       {
         "classId": "ous_construction_infrastructure",
-        "display": "Construction & Infrastructure",
+        "display": "Construction/Infrastructure",
         "datasourceId": "ous_construction_infrastructure",
         "layerId": "Bqy5Bd1gF"
       },

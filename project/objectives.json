@@ -4,7 +4,8 @@
     "shortDesc": "Coastal Objective",
     "target": 0.3,
     "countsToward": {
-      "Fully Protected Area": "yes"
+      "mpa": "yes",
+      "aquaculture": "no"
     }
   }
 ]

@@ -21,6 +21,7 @@
     "src/functions/clipToOceanNearshore.ts"
   ],
   "geoprocessingFunctions": [
+    "src/functions/groupCountOverlap.ts",
     "src/functions/boundaryAreaOverlap.ts",
     "src/functions/ousValueOverlap.ts"
   ]
