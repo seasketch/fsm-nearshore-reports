@@ -10,6 +10,7 @@ import {
   ObjectiveStatus,
   SketchClassTableStyled,
   ReportTableStyled,
+  Tooltip,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -39,6 +40,7 @@ import {
   groupsDisplay,
 } from "./getGroup";
 import { HorizontalStackedBar, RowConfig } from "./HorizontalStackedBar";
+import { InfoCircleFill } from "@styled-icons/bootstrap";
 import project from "../../project";
 import { AreaSketchTableStyled, PercentSketchTableStyled } from "./TableStyles";
 
@@ -197,7 +199,30 @@ export const genClassTableGrouped = (
   const blockGroupStyles = groupColors.map((curBlue) => ({
     backgroundColor: curBlue,
   }));
-  const valueFormatter = (value: number) => percentWithEdge(value / 100);
+  const valueFormatter = (value: number) => {
+    if (isNaN(value)) {
+      const tooltipText =
+        "This feature is not present in the selected planning area";
+      return (
+        <>
+          0%{" "}
+          <Tooltip
+            text={tooltipText}
+            placement="right"
+            offset={{ horizontal: 0, vertical: 0 }}
+          >
+            <InfoCircleFill
+              size={14}
+              style={{
+                color: "#83C6E6",
+              }}
+            />
+          </Tooltip>
+        </>
+      );
+    }
+    return percentWithEdge(value / 100);
+  };
 
   const rowConfig: RowConfig[] = [];
   metricGroup.classes.forEach((curClass) => {
@@ -405,7 +430,11 @@ export const genGroupLevelTable = (
             groupColorMap={groupColorMap}
             group={row.groupId.toString()}
           >
-            {percentWithEdge(row[curClass.classId] as number)}
+            {percentWithEdge(
+              isNaN(row[curClass.classId] as number)
+                ? 0
+                : (row[curClass.classId] as number)
+            )}
           </GroupPill>
         );
       },
@@ -465,8 +494,6 @@ export const genSketchTable = (
   );
 
   const zoneLabel = "Zone";
-
-  console.log(sketchRows);
 
   const classColumns: Column<Record<string, string | number>>[] =
     metricGroup.classes.map((curClass) => ({
@@ -565,7 +592,7 @@ export const genAreaSketchTable = (
                 aggMetrics[row.sketchId][curClass.classId as string][
                   project.getMetricGroupPercId(mg)
                 ][0].value;
-              return percentWithEdge(value);
+              return percentWithEdge(isNaN(value) ? 0 : value);
             },
           },
         ],

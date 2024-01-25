@@ -2,10 +2,74 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "benthic-Coral/Algae",
+    "sketchId": null,
+    "groupId": null,
+    "value": 16283153.96162557
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "benthic-Microalgal Mats",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1397758.944535179
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "benthic-Rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3421520.2536012037
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "benthic-Rubble",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4988762.322200226
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "benthic-Sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 25636020.579662994
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "benthic-Seagrass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1096044.6848727355
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 52823260.746497676
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "chuuk-total",
     "sketchId": null,
     "groupId": null,
     "value": 45533180604.76358
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "coral_algae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 16283153.961625556
   },
   {
     "geographyId": "chuuk",
@@ -122,10 +186,74 @@
   {
     "geographyId": "chuuk",
     "metricId": "count",
+    "classId": "benthic-Coral/Algae",
+    "sketchId": null,
+    "groupId": null,
+    "value": 9552
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "benthic-Microalgal Mats",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1074
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "benthic-Rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3000
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "benthic-Rubble",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2264
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "benthic-Sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3606
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "benthic-Seagrass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1003
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 20499
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
     "classId": "chuuk-total",
     "sketchId": null,
     "groupId": null,
     "value": 7
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "coral_algae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 9552
   },
   {
     "geographyId": "chuuk",
@@ -386,6 +514,62 @@
   {
     "geographyId": "kosrae",
     "metricId": "area",
+    "classId": "benthic-Coral/Algae",
+    "sketchId": null,
+    "groupId": null,
+    "value": 560070.8196201344
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "benthic-Microalgal Mats",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "benthic-Rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 663647.1786478697
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "benthic-Rubble",
+    "sketchId": null,
+    "groupId": null,
+    "value": 177184.59910449534
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "benthic-Sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4971.329878068802
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "benthic-Seagrass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1807916.7756901507
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3213790.702940713
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
     "classId": "chuuk-total",
     "sketchId": null,
     "groupId": null,
@@ -502,6 +686,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "benthic-Coral/Algae",
+    "sketchId": null,
+    "groupId": null,
+    "value": 372
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "benthic-Microalgal Mats",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "benthic-Rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 204
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "benthic-Rubble",
+    "sketchId": null,
+    "groupId": null,
+    "value": 130
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "benthic-Sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "benthic-Seagrass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 297
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1008
   },
   {
     "geographyId": "kosrae",
@@ -770,6 +1010,62 @@
   {
     "geographyId": "pohnpei",
     "metricId": "area",
+    "classId": "benthic-Coral/Algae",
+    "sketchId": null,
+    "groupId": null,
+    "value": 11192743.900480453
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "benthic-Microalgal Mats",
+    "sketchId": null,
+    "groupId": null,
+    "value": 282493.2527732458
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "benthic-Rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2003822.2821877773
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "benthic-Rubble",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1628925.1468223943
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "benthic-Sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6866035.250529194
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "benthic-Seagrass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10232265.650857376
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 32206285.483650453
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
     "classId": "chuuk-total",
     "sketchId": null,
     "groupId": null,
@@ -886,6 +1182,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "benthic-Coral/Algae",
+    "sketchId": null,
+    "groupId": null,
+    "value": 9338
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "benthic-Microalgal Mats",
+    "sketchId": null,
+    "groupId": null,
+    "value": 333
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "benthic-Rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2337
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "benthic-Rubble",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1418
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "benthic-Sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1963
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "benthic-Seagrass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4580
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 19969
   },
   {
     "geographyId": "pohnpei",
@@ -1154,6 +1506,62 @@
   {
     "geographyId": "yap",
     "metricId": "area",
+    "classId": "benthic-Coral/Algae",
+    "sketchId": null,
+    "groupId": null,
+    "value": 11242297.46855494
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "benthic-Microalgal Mats",
+    "sketchId": null,
+    "groupId": null,
+    "value": 812594.86140167
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "benthic-Rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 11161737.540438563
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "benthic-Rubble",
+    "sketchId": null,
+    "groupId": null,
+    "value": 8271803.293912576
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "benthic-Sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 9411343.211166125
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "benthic-Seagrass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 9987722.989399986
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 50887499.36487372
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
     "classId": "chuuk-total",
     "sketchId": null,
     "groupId": null,
@@ -1270,6 +1678,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 37976044185.01876
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "benthic-Coral/Algae",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5844
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "benthic-Microalgal Mats",
+    "sketchId": null,
+    "groupId": null,
+    "value": 689
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "benthic-Rock",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2205
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "benthic-Rubble",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1872
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "benthic-Sand",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1070
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "benthic-Seagrass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2540
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "benthic-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14220
   },
   {
     "geographyId": "yap",

@@ -84,5 +84,48 @@
         "layerId": "WqhqAjWkl"
       }
     ]
+  },
+  {
+    "metricId": "habitatAreaOverlap",
+    "type": "areaOverlap",
+    "layerId": "kBre13eD_",
+    "classes": [
+      {
+        "classKey": "class",
+        "classId": "Coral/Algae",
+        "display": "Coral/Algae",
+        "datasourceId": "benthic"
+      },
+      {
+        "classKey": "class",
+        "classId": "Microalgal Mats",
+        "display": "Microalgal Mats",
+        "datasourceId": "benthic"
+      },
+      {
+        "classKey": "class",
+        "classId": "Rock",
+        "display": "Rock",
+        "datasourceId": "benthic"
+      },
+      {
+        "classKey": "class",
+        "classId": "Rubble",
+        "display": "Rubble",
+        "datasourceId": "benthic"
+      },
+      {
+        "classKey": "class",
+        "classId": "Sand",
+        "display": "Sand",
+        "datasourceId": "benthic"
+      },
+      {
+        "classKey": "class",
+        "classId": "Seagrass",
+        "display": "Seagrass",
+        "datasourceId": "benthic"
+      }
+    ]
   }
 ]
