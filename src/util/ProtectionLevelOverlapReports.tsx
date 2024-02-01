@@ -32,6 +32,7 @@ import {
   keyBy,
   nestMetrics,
   squareMeterToKilometer,
+  roundDecimal,
 } from "@seasketch/geoprocessing/client-core";
 import {
   groupColorMap,
@@ -528,7 +529,7 @@ export const genSketchTable = (
 };
 
 /**
- * Creates "Show by Zone" report, with only percentages
+ * Creates "Show by Zone" report, with area + percentages
  * @param data data returned from lambda
  * @param precalcMetrics metrics from precalc.json
  * @param metricGroup metric group to get stats for
@@ -578,11 +579,14 @@ export const genAreaSketchTable = (
                 aggMetrics[row.sketchId][curClass.classId as string][
                   mg.metricId
                 ][0].value;
-              return (
-                Number.format(Math.round(squareMeterToKilometer(value))) +
-                " " +
-                t("km²")
-              );
+              const kmVal = squareMeterToKilometer(value);
+
+              // If value is nonzero but would be rounded to zero, replace with < 0.1
+              const valDisplay =
+                kmVal && kmVal < 0.1
+                  ? "< 0.1"
+                  : Number.format(roundDecimal(kmVal));
+              return valDisplay + " " + t("km²");
             },
           },
           {
