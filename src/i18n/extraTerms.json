@@ -24,5 +24,15 @@
   "Tourism": "Tourism",
   "Transportation": "Transportation",
   "mpa": "mpa",
-  "aquaculture": "aquaculture"
+  "aquaculture": "aquaculture",
+  "Marine Protected Areas": "Marine Protected Areas",
+  "Aquaculture Areas": "Aquaculture Areas",
+  "Community/Recreational": "Community/Recreational",
+  "Construction/Infrastructure": "Construction/Infrastructure",
+  "Coral/Algae": "Coral/Algae",
+  "Microalgal Mats": "Microalgal Mats",
+  "Rock": "Rock",
+  "Rubble": "Rubble",
+  "Sand": "Sand",
+  "Seagrass": "Seagrass"
 }

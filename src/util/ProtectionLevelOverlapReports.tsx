@@ -205,21 +205,18 @@ export const genClassTableGrouped = (
       const tooltipText =
         "This feature is not present in the selected planning area";
       return (
-        <>
-          0%{" "}
-          <Tooltip
-            text={tooltipText}
-            placement="right"
-            offset={{ horizontal: 0, vertical: 0 }}
-          >
-            <InfoCircleFill
-              size={14}
-              style={{
-                color: "#83C6E6",
-              }}
-            />
-          </Tooltip>
-        </>
+        <Tooltip
+          text={tooltipText}
+          placement="right"
+          offset={{ horizontal: 15, vertical: 0 }}
+        >
+          <InfoCircleFill
+            size={14}
+            style={{
+              color: "#83C6E6",
+            }}
+          />
+        </Tooltip>
       );
     }
     return percentWithEdge(value / 100);

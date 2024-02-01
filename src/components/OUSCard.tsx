@@ -43,8 +43,8 @@ export const OUSCard: React.FunctionComponent<GeogProp> = (props) => {
               {curGeography.display}
               <Trans i18nKey="OUS Card 2">
                 's territorial sea that overlaps with this plan, as reported in
-                the Ocean Use Survey. Plans should consider the potential impact
-                to sectors if access or activities are restricted.
+                the Kosrae Ocean Use Survey. Plans should consider the potential
+                impact to sectors if access or activities are restricted.
               </Trans>
             </p>
 

@@ -10,7 +10,11 @@ const ReportPage: React.FunctionComponent<GeogProp> = (props) => {
     <>
       <GroupCard geographyId={props.geographyId} />
       <SizeCard geographyId={props.geographyId} />
-      <OUSCard geographyId={props.geographyId} />
+      {props.geographyId === "kosrae" ? (
+        <OUSCard geographyId={props.geographyId} />
+      ) : (
+        <></>
+      )}
       <SketchAttributesCard autoHide />
     </>
   );
