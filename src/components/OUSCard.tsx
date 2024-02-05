@@ -9,6 +9,7 @@ import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 import Translator from "./TranslatorAsync";
 import {
+  genPercGroupLevelTable,
   genSketchTable,
   groupedCollectionReport,
   groupedSketchReport,
@@ -17,12 +18,12 @@ import {
 export const OUSCard: React.FunctionComponent<GeogProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
-  const metricGroup = project.getMetricGroup("ousValueOverlap", t);
+  const mg = project.getMetricGroup("ousValueOverlap", t);
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
   const precalcMetrics = project.getPrecalcMetrics(
-    metricGroup,
+    mg,
     "sum",
     curGeography.geographyId
   );
@@ -50,13 +51,18 @@ export const OUSCard: React.FunctionComponent<GeogProp> = (props) => {
 
             <Translator>
               {isCollection
-                ? groupedCollectionReport(data, precalcMetrics, metricGroup, t)
-                : groupedSketchReport(data, precalcMetrics, metricGroup, t)}
+                ? groupedCollectionReport(data, precalcMetrics, mg, t)
+                : groupedSketchReport(data, precalcMetrics, mg, t)}
 
               {isCollection && (
-                <Collapse title={t("Show by Zone")}>
-                  {genSketchTable(data, precalcMetrics, metricGroup)}
-                </Collapse>
+                <>
+                  <Collapse title={t("Show by Zone Type")}>
+                    {genPercGroupLevelTable(data, precalcMetrics, mg, t)}
+                  </Collapse>
+                  <Collapse title={t("Show by Zone")}>
+                    {genSketchTable(data, precalcMetrics, mg)}
+                  </Collapse>
+                </>
               )}
             </Translator>
 

@@ -1,15 +1,12 @@
 import React from "react";
 import {
   Collapse,
-  SketchClassTable,
   ReportChartFigure,
   Column,
   GroupPill,
   Table,
   GroupCircleRow,
   ObjectiveStatus,
-  SketchClassTableStyled,
-  ReportTableStyled,
   Tooltip,
 } from "@seasketch/geoprocessing/client-ui";
 import {
@@ -44,6 +41,7 @@ import { HorizontalStackedBar, RowConfig } from "./HorizontalStackedBar";
 import { InfoCircleFill } from "@styled-icons/bootstrap";
 import project from "../../project";
 import { AreaSketchTableStyled, PercentSketchTableStyled } from "./TableStyles";
+import { flattenByGroup } from "./flattenByGroup";
 
 export interface ClassTableGroupedProps {
   showDetailedObjectives?: boolean;
@@ -164,15 +162,7 @@ export const groupedCollectionReport = (
     {}
   );
 
-  return (
-    <>
-      {genClassTableGrouped(metricGroup, totalsByClass, t, options)}
-
-      <Collapse title={t("Show by Zone Type")}>
-        {genGroupLevelTable(data, precalcMetrics, metricGroup, t)}
-      </Collapse>
-    </>
-  );
+  return <>{genClassTableGrouped(metricGroup, totalsByClass, t, options)}</>;
 };
 
 /**
@@ -394,13 +384,13 @@ export const collectionMsgs: Record<string, any> = {
 };
 
 /**
- * Creates "Show by Zone Type" report
+ * Creates "Show by Zone Type" report with percentages
  * @param data data returned from lambda
  * @param precalcMetrics metrics from precalc.json
  * @param metricGroup metric group to get stats for
  * @param t TFunction
  */
-export const genGroupLevelTable = (
+export const genPercGroupLevelTable = (
   data: ReportResult,
   precalcMetrics: Metric[],
   metricGroup: MetricGroup,
@@ -413,7 +403,7 @@ export const genGroupLevelTable = (
     (m) => m.groupId && groups.includes(m.groupId)
   );
 
-  const levelAggs: GroupMetricAgg[] = flattenByGroupAllClass(
+  const levelAggs: GroupMetricAgg[] = flattenByGroup(
     data.sketch,
     levelMetrics,
     precalcMetrics
@@ -429,9 +419,9 @@ export const genGroupLevelTable = (
             group={row.groupId.toString()}
           >
             {percentWithEdge(
-              isNaN(row[curClass.classId] as number)
+              isNaN(row[curClass.classId + "Perc"] as number)
                 ? 0
-                : (row[curClass.classId] as number)
+                : (row[curClass.classId + "Perc"] as number)
             )}
           </GroupPill>
         );
@@ -460,6 +450,106 @@ export const genGroupLevelTable = (
         data={levelAggs.sort((a, b) => a.groupId.localeCompare(b.groupId))}
       />
     </PercentSketchTableStyled>
+  );
+};
+
+/**
+ * Creates "Show by Protection Level" report with area + percentages
+ * @param data data returned from lambda
+ * @param precalcMetrics metrics from precalc.json
+ * @param metricGroup metric group to get stats for
+ * @param t TFunction
+ */
+export const genAreaGroupLevelTable = (
+  data: ReportResult,
+  precalcMetrics: Metric[],
+  metricGroup: MetricGroup,
+  t: any
+) => {
+  if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
+
+  // Filter down to metrics which have groupIds
+  const levelMetrics = data.metrics.filter(
+    (m) => m.groupId && groups.includes(m.groupId)
+  );
+
+  const levelAggs: GroupMetricAgg[] = flattenByGroup(
+    data.sketch,
+    levelMetrics,
+    precalcMetrics
+  );
+
+  const classColumns: Column<Record<string, string | number>>[] =
+    metricGroup.classes.map((curClass, index) => {
+      /* i18next-extract-disable-next-line */
+      const transString = t(curClass.display);
+
+      return {
+        Header: transString,
+        style: { color: "#777" },
+        columns: [
+          {
+            Header: t("Area") + " ".repeat(index),
+            accessor: (row) => {
+              const value = row[curClass.classId] as number;
+              const kmVal = squareMeterToKilometer(value);
+
+              // If value is nonzero but would be rounded to zero, replace with < 0.1
+              const valDisplay =
+                kmVal && kmVal < 0.1
+                  ? "< 0.1"
+                  : Number.format(roundDecimal(kmVal));
+              return (
+                <GroupPill
+                  groupColorMap={groupColorMap}
+                  group={row.groupId.toString()}
+                >
+                  {valDisplay + " " + t("km²")}
+                </GroupPill>
+              );
+            },
+          },
+          {
+            Header: t("% Area") + " ".repeat(index),
+            accessor: (row) => (
+              <GroupPill
+                groupColorMap={groupColorMap}
+                group={row.groupId.toString()}
+              >
+                {percentWithEdge(
+                  isNaN(row[curClass.classId + "Perc"] as number)
+                    ? 0
+                    : (row[curClass.classId + "Perc"] as number)
+                )}
+              </GroupPill>
+            ),
+          },
+        ],
+      };
+    });
+
+  const columns: Column<Record<string, string | number>>[] = [
+    {
+      Header: t("This plan contains") + ":",
+      accessor: (row) => (
+        <GroupCircleRow
+          group={row.groupId.toString()}
+          groupColorMap={groupColorMap}
+          circleText={`${row.numSketches}`}
+          rowText={t(groupDisplayMapPl[row.groupId])}
+        />
+      ),
+    },
+    ...classColumns,
+  ];
+  return (
+    <AreaSketchTableStyled>
+      <Table
+        className="styled"
+        columns={columns}
+        data={levelAggs.sort((a, b) => a.groupId.localeCompare(b.groupId))}
+      />
+    </AreaSketchTableStyled>
   );
 };
 

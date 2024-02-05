@@ -24,6 +24,7 @@ import project from "../../project";
 import Translator from "../components/TranslatorAsync";
 import { Trans, useTranslation } from "react-i18next";
 import {
+  genAreaGroupLevelTable,
   genAreaSketchTable,
   groupedCollectionReport,
   groupedSketchReport,
@@ -36,9 +37,9 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
-  const metricGroup = project.getMetricGroup("boundaryAreaOverlap", t);
+  const mg = project.getMetricGroup("boundaryAreaOverlap", t);
   const precalcMetrics = project.getPrecalcMetrics(
-    metricGroup,
+    mg,
     "area",
     curGeography.geographyId
   );
@@ -111,28 +112,26 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
                 {curGeography.display}'s {t("territorial sea")}.
               </KeySection>
 
-              <LayerToggle
-                label={mapLabel}
-                layerId={metricGroup.classes[0].layerId}
-              />
+              <LayerToggle label={mapLabel} layerId={mg.classes[0].layerId} />
               <VerticalSpacer />
 
               {isCollection
-                ? groupedCollectionReport(
-                    data,
-                    precalcMetrics,
-                    metricGroup,
-                    t,
-                    { showLayerToggles: false }
-                  )
-                : groupedSketchReport(data, precalcMetrics, metricGroup, t, {
+                ? groupedCollectionReport(data, precalcMetrics, mg, t, {
+                    showLayerToggles: false,
+                  })
+                : groupedSketchReport(data, precalcMetrics, mg, t, {
                     showLayerToggles: false,
                   })}
 
               {isCollection && (
-                <Collapse title={t("Show by Zone")}>
-                  {genAreaSketchTable(data, precalcMetrics, metricGroup, t)}
-                </Collapse>
+                <>
+                  <Collapse title={t("Show by Zone Type")}>
+                    {genAreaGroupLevelTable(data, precalcMetrics, mg, t)}
+                  </Collapse>
+                  <Collapse title={t("Show by Zone")}>
+                    {genAreaSketchTable(data, precalcMetrics, mg, t)}
+                  </Collapse>
+                </>
               )}
 
               <Collapse title={t("Learn more")}>

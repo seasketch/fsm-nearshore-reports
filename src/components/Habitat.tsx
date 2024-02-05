@@ -11,6 +11,7 @@ import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 import Translator from "./TranslatorAsync";
 import {
+  genAreaGroupLevelTable,
   genAreaSketchTable,
   genSketchTable,
   groupedCollectionReport,
@@ -20,12 +21,12 @@ import {
 export const Habitat: React.FunctionComponent<GeogProp> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
-  const metricGroup = project.getMetricGroup("habitatAreaOverlap", t);
+  const mg = project.getMetricGroup("habitatAreaOverlap", t);
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
   const precalcMetrics = project.getPrecalcMetrics(
-    metricGroup,
+    mg,
     "area",
     curGeography.geographyId
   );
@@ -51,20 +52,22 @@ export const Habitat: React.FunctionComponent<GeogProp> = (props) => {
               </Trans>
             </p>
 
-            <LayerToggle
-              label={t("Show Map Layer")}
-              layerId={metricGroup.layerId}
-            />
+            <LayerToggle label={t("Show Map Layer")} layerId={mg.layerId} />
 
             <Translator>
               {isCollection
-                ? groupedCollectionReport(data, precalcMetrics, metricGroup, t)
-                : groupedSketchReport(data, precalcMetrics, metricGroup, t)}
+                ? groupedCollectionReport(data, precalcMetrics, mg, t)
+                : groupedSketchReport(data, precalcMetrics, mg, t)}
 
               {isCollection && (
-                <Collapse title={t("Show by Zone")}>
-                  {genAreaSketchTable(data, precalcMetrics, metricGroup, t)}
-                </Collapse>
+                <>
+                  <Collapse title={t("Show by Zone Type")}>
+                    {genAreaGroupLevelTable(data, precalcMetrics, mg, t)}
+                  </Collapse>
+                  <Collapse title={t("Show by Zone")}>
+                    {genAreaSketchTable(data, precalcMetrics, mg, t)}
+                  </Collapse>
+                </>
               )}
             </Translator>
 
