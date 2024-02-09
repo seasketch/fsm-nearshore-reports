@@ -1,5 +1,6 @@
 import React from "react";
 import { scaleLinear, ScaleLinear } from "d3-scale";
+import styled, { keyframes } from "styled-components";
 
 export type ScatterplotProps = {
   // Array of tradeoff points from Crow analysis
@@ -18,6 +19,28 @@ export type ScatterplotProps = {
   yDomain?: [number, number];
 };
 
+const fadeInAndMove = keyframes`
+  from {
+    opacity: 0;
+    transform: translate(-5px, 5px); // Move the point up and left
+  }
+  to {
+    opacity: 1;
+    transform: translate(0, 0); // Move the point to its correct position
+  }
+`;
+
+// Animated circle
+const AnimatedCircle = styled.circle<React.SVGProps<SVGCircleElement>>`
+  animation: ${fadeInAndMove} 1s ease;
+`;
+
+// Animated text beneath circle
+const AnimatedText = styled.text<React.SVGProps<SVGTextElement>>`
+  animation: ${fadeInAndMove} 1s ease;
+  text-shadow: white 0 0 55px, white 0 0 5px, white 0 0 5px, white 0 0 5px;
+`;
+
 export const Scatterplot = ({
   data,
   tradeoff,
@@ -32,13 +55,13 @@ export const Scatterplot = ({
   const boundsWidth = width - margins.right - margins.left;
   const boundsHeight = height - margins.top - margins.bottom;
 
-  // Scales
+  // Scales for plotting axes and points
   const yScale = scaleLinear().domain(yDomain).range([boundsHeight, 0]);
   const xScale = scaleLinear().domain(xDomain).range([0, boundsWidth]);
 
-  // Tradeoff horizon
+  // Tradeoff horizon from Crow analysis
   const tradeoffPoints = data.map((d, i) => (
-    <circle
+    <AnimatedCircle
       key={i}
       r={3}
       cx={xScale(d.x)}
@@ -54,8 +77,7 @@ export const Scatterplot = ({
   // Tradeoff point
   const planPoint = (
     <g key="tradeoff_shape">
-      {/* Point */}
-      <circle
+      <AnimatedCircle
         key={"tradeoffPt"}
         r={5}
         cx={xScale(tradeoff.x.value)}
@@ -66,23 +88,7 @@ export const Scatterplot = ({
         fillOpacity={1}
         strokeWidth={1}
       />
-
-      {/* Label */}
-      <text
-        x={xScale(tradeoff.x.value)}
-        y={yScale(tradeoff.y.value) + 15}
-        fill="white"
-        fontSize="11px"
-        fontWeight="bold"
-        textAnchor="middle"
-        alignmentBaseline="middle"
-        strokeWidth="2"
-        stroke="white"
-        opacity={0.8}
-      >
-        {sketchName}
-      </text>
-      <text
+      <AnimatedText
         x={xScale(tradeoff.x.value)}
         y={yScale(tradeoff.y.value) + 15}
         fill="#666666"
@@ -91,7 +97,7 @@ export const Scatterplot = ({
         alignmentBaseline="middle"
       >
         {sketchName}
-      </text>
+      </AnimatedText>
     </g>
   );
 
@@ -104,7 +110,7 @@ export const Scatterplot = ({
           transform={`translate(${[margins.left, margins.top].join(",")})`}
         >
           {/* Y axis */}
-          <AxisLeft yScale={yScale} pixelsPerTick={40} width={boundsWidth} />
+          <AxisLeft scale={yScale} pixelsPerTick={40} length={boundsWidth} />
           {tradeoff.y.label && (
             <text
               transform={`translate(${-margins.left / 1.5}, ${
@@ -121,9 +127,9 @@ export const Scatterplot = ({
           {/* X axis */}
           <g transform={`translate(0, ${boundsHeight})`}>
             <AxisBottom
-              xScale={xScale}
+              scale={xScale}
               pixelsPerTick={40}
-              height={boundsHeight}
+              length={boundsHeight}
             />
             {tradeoff.x.label && (
               <text
@@ -147,29 +153,23 @@ export const Scatterplot = ({
   );
 };
 
-type AxisLeftProps = {
-  yScale: ScaleLinear<number, number>;
+type AxisProps = {
+  scale: ScaleLinear<number, number>;
   pixelsPerTick: number;
-  width: number;
+  length: number;
 };
 
-type AxisBottomProps = {
-  xScale: ScaleLinear<number, number>;
-  pixelsPerTick: number;
-  height: number;
-};
-
-const AxisLeft = ({ yScale, pixelsPerTick, width }: AxisLeftProps) => {
-  const range = yScale.range();
+const AxisLeft = ({ scale, pixelsPerTick, length }: AxisProps) => {
+  const range = scale.range();
   const tickLength = 5;
 
   const ticks = (() => {
     const height = range[0] - range[1];
     const numberOfTicksTarget = Math.floor(height / pixelsPerTick);
 
-    return yScale.ticks(numberOfTicksTarget).map((value) => ({
+    return scale.ticks(numberOfTicksTarget).map((value) => ({
       value,
-      yOffset: yScale(value),
+      yOffset: scale(value),
     }));
   })();
 
@@ -185,7 +185,7 @@ const AxisLeft = ({ yScale, pixelsPerTick, width }: AxisLeftProps) => {
           {!value ? (
             <line
               x1={-tickLength}
-              x2={width}
+              x2={length}
               stroke="#777777"
               strokeWidth={0.5}
             />
@@ -211,21 +211,17 @@ const AxisLeft = ({ yScale, pixelsPerTick, width }: AxisLeftProps) => {
   );
 };
 
-export const AxisBottom = ({
-  xScale,
-  pixelsPerTick,
-  height,
-}: AxisBottomProps) => {
-  const range = xScale.range();
+export const AxisBottom = ({ scale, pixelsPerTick, length }: AxisProps) => {
+  const range = scale.range();
   const tickLength = 5;
 
   const ticks = (() => {
     const width = range[1] - range[0];
     const numberOfTicksTarget = Math.floor(width / pixelsPerTick);
 
-    return xScale.ticks(numberOfTicksTarget).map((value) => ({
+    return scale.ticks(numberOfTicksTarget).map((value) => ({
       value,
-      xOffset: xScale(value),
+      xOffset: scale(value),
     }));
   })();
 
@@ -239,7 +235,7 @@ export const AxisBottom = ({
           shapeRendering={"crispEdges"}
         >
           {!value ? (
-            <line y1={0} y2={-height} stroke="#777777" strokeWidth={0.5} />
+            <line y1={0} y2={-length} stroke="#777777" strokeWidth={0.5} />
           ) : (
             <></>
           )}
