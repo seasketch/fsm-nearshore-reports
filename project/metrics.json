@@ -127,5 +127,28 @@
         "datasourceId": "benthic"
       }
     ]
+  },
+  {
+    "metricId": "tradeoffValueOverlap",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "nearshore",
+        "display": "Nearshore",
+        "datasourceId": "nearshore"
+      },
+      {
+        "classId": "benthic_tradeoff",
+        "display": "Key Benthic Habitat",
+        "datasourceId": "benthic",
+        "layerId": "kBre13eD_"
+      },
+      {
+        "classId": "fisheries_tradeoff",
+        "display": "Fisheries",
+        "datasourceId": "ous_fisheries",
+        "layerId": "8p_ow_c5I"
+      }
+    ]
   }
 ]

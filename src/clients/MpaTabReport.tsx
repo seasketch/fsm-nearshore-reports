@@ -8,6 +8,7 @@ import {
 } from "@seasketch/geoprocessing/client-ui";
 import ViabilityPage from "../components/ViabilityPage";
 import RepresentationPage from "../components/RepresentationPage";
+import TradeoffsPage from "../components/TradeoffsPage";
 import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync";
 import project from "../../project";
@@ -18,9 +19,11 @@ const MpaTabReport = () => {
   const { t } = useTranslation();
   const viabilityId = "viability";
   const representationId = "representation";
+  const tradeoffsId = "tradeoffs";
   const segments = [
     { id: viabilityId, label: t("Viability") },
     { id: representationId, label: t("Representation") },
+    { id: tradeoffsId, label: t("Tradeoffs") },
   ];
   const [tab, setTab] = useState<string>(viabilityId);
   const [geographyId, setGeography] = useState("kosrae");
@@ -61,6 +64,9 @@ const MpaTabReport = () => {
       </ReportPage>
       <ReportPage hidden={!enableAllTabs && tab !== representationId}>
         <RepresentationPage geographyId={geographyId} />
+      </ReportPage>
+      <ReportPage hidden={!enableAllTabs && tab !== tradeoffsId}>
+        <TradeoffsPage geographyId={geographyId} />
       </ReportPage>
     </>
   );

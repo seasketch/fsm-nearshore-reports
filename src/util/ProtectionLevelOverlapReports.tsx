@@ -1,13 +1,11 @@
 import React from "react";
 import {
-  Collapse,
   ReportChartFigure,
   Column,
   GroupPill,
   Table,
   GroupCircleRow,
   ObjectiveStatus,
-  Tooltip,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -42,6 +40,7 @@ import { InfoCircleFill } from "@styled-icons/bootstrap";
 import project from "../../project";
 import { AreaSketchTableStyled, PercentSketchTableStyled } from "./TableStyles";
 import { flattenByGroup } from "./flattenByGroup";
+import { Tooltip } from "./Tooltip";
 
 export interface ClassTableGroupedProps {
   showDetailedObjectives?: boolean;
@@ -197,8 +196,8 @@ export const genClassTableGrouped = (
       return (
         <Tooltip
           text={tooltipText}
-          placement="right"
-          offset={{ horizontal: 15, vertical: 0 }}
+          offset={{ horizontal: 0, vertical: 5 }}
+          placement="bottom"
         >
           <InfoCircleFill
             size={14}

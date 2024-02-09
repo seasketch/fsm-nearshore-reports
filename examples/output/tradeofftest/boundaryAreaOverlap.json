@@ -1,0 +1,220 @@
+{
+  "metrics": [
+    {
+      "geographyId": "kosrae",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "25164",
+      "groupId": null,
+      "value": 5030505.710621,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "25164",
+      "groupId": "mpa",
+      "value": 5030505.710621,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "25165",
+      "groupId": null,
+      "value": 1231537.434778,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "25165",
+      "groupId": "mpa",
+      "value": 1231537.434778,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 6262043.145399,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "25166",
+      "groupId": "mpa",
+      "value": 6261855.195244771,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "25166",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    }
+  ],
+  "sketch": {
+    "id": 25166,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 25164,
+        "bbox": [
+          162.89255,
+          5.299203,
+          162.94028,
+          5.3289547
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "mpa1_tradeofftest",
+          "id": "25164",
+          "name": "mpa1_tradeofftest",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2024-02-08T18:43:05.815649+00:00",
+          "updatedAt": "2024-02-08T18:43:32.548116+00:00",
+          "collectionId": "25166",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 25165,
+        "bbox": [
+          162.89998,
+          5.2656755,
+          162.912,
+          5.283677
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "mpa2_tradeofftest",
+          "id": "25165",
+          "name": "mpa2_tradeofftest",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2024-02-08T18:43:21.035183+00:00",
+          "updatedAt": "2024-02-08T18:43:30.703963+00:00",
+          "collectionId": "25166",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "6293": "tradeofftest",
+      "id": "25166",
+      "name": "tradeofftest",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-02-08T18:43:27.930885+00:00",
+      "updatedAt": "2024-02-08T18:43:32.548116+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "746",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6294,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6295,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    }
+  }
+}
