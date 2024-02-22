@@ -9,7 +9,6 @@ import {
 import {
   ReportResult,
   Metric,
-  GeogProp,
   firstMatchingMetric,
   roundDecimal,
   squareMeterToKilometer,
@@ -26,8 +25,9 @@ import {
   isRasterDatasource,
   isVectorDatasource,
 } from "@seasketch/geoprocessing";
+import { ReportProps } from "../util/ReportProp";
 
-export const Tradeoffs: React.FunctionComponent<GeogProp> = (props) => {
+export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
   const { t } = useTranslation();
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
@@ -56,139 +56,143 @@ export const Tradeoffs: React.FunctionComponent<GeogProp> = (props) => {
   }, []);
 
   return (
-    <ResultsCard
-      title={t("Key Benthic Habitat & Fisheries Tradeoff")}
-      functionName="tradeoffValueOverlap"
-      extraParams={{ geographyIds: [curGeography.geographyId] }}
-    >
-      {(data: ReportResult) => {
-        // Get overall area of sketch metric using 'nearshore' metrics
-        const areaMetric = firstMatchingMetric(
-          data.metrics,
-          (m) =>
-            m.sketchId === data.sketch.properties.id &&
-            m.groupId === "mpa" &&
-            m.classId === "nearshore"
-        );
-        const totalAreaMetric = firstMatchingMetric(
-          precalcMetrics,
-          (m) => m.groupId === null && m.classId === "nearshore"
-        );
-        const areaDisplay = roundDecimal(
-          squareMeterToKilometer(areaMetric.value)
-        );
-        const areaUnitDisplay = t("km²");
-        const percDisplay = percentWithEdge(
-          areaMetric.value / totalAreaMetric.value
-        );
+    <div style={{ breakInside: "avoid" }}>
+      <ResultsCard
+        title={t("Key Benthic Habitat & Fisheries Tradeoff")}
+        functionName="tradeoffValueOverlap"
+        extraParams={{ geographyIds: [curGeography.geographyId] }}
+      >
+        {(data: ReportResult) => {
+          // Get overall area of sketch metric using 'nearshore' metrics
+          const areaMetric = firstMatchingMetric(
+            data.metrics,
+            (m) =>
+              m.sketchId === data.sketch.properties.id &&
+              m.groupId === "mpa" &&
+              m.classId === "nearshore"
+          );
+          const totalAreaMetric = firstMatchingMetric(
+            precalcMetrics,
+            (m) => m.groupId === null && m.classId === "nearshore"
+          );
+          const areaDisplay = roundDecimal(
+            squareMeterToKilometer(areaMetric.value)
+          );
+          const areaUnitDisplay = t("km²");
+          const percDisplay = percentWithEdge(
+            areaMetric.value / totalAreaMetric.value
+          );
 
-        // Calculate tradeoff values for benthic/fisheries tradeoff
-        const acceptedGroups = ["mpa"];
-        const tradeoffClasses: { x: any; y: any } = {
-          x: mg.classes.find(
-            (curClass) => curClass.classId === "fisheries_tradeoff"
-          ),
-          y: mg.classes.find(
-            (curClass) => curClass.classId === "benthic_tradeoff"
-          ),
-        };
-        const valueFormatter = (val: number) => val * 100;
-        const benthicFisheriesTradeoffs = getTradeoffs(
-          data,
-          precalcMetrics,
-          mg,
-          tradeoffClasses,
-          valueFormatter,
-          acceptedGroups
-        );
-        // Switch fisheries value to value EXCLUDED from plan
-        const scatterBenthicFisheries = {
-          x: {
-            value: 100 - benthicFisheriesTradeoffs.x,
-            label: t("Fishery Value") + " (%)",
-          },
-          y: {
-            value: benthicFisheriesTradeoffs.y,
-            label: t("Key Benthic Habitat") + " (%)",
-          },
-        };
+          // Calculate tradeoff values for benthic/fisheries tradeoff
+          const acceptedGroups = ["mpa"];
+          const tradeoffClasses: { x: any; y: any } = {
+            x: mg.classes.find(
+              (curClass) => curClass.classId === "fisheries_tradeoff"
+            ),
+            y: mg.classes.find(
+              (curClass) => curClass.classId === "benthic_tradeoff"
+            ),
+          };
+          const valueFormatter = (val: number) => val * 100;
+          const benthicFisheriesTradeoffs = getTradeoffs(
+            data,
+            precalcMetrics,
+            mg,
+            tradeoffClasses,
+            valueFormatter,
+            acceptedGroups
+          );
+          // Switch fisheries value to value EXCLUDED from plan
+          const scatterBenthicFisheries = {
+            x: {
+              value: 100 - benthicFisheriesTradeoffs.x,
+              label: t("Fishery Value") + " (%)",
+            },
+            y: {
+              value: benthicFisheriesTradeoffs.y,
+              label: t("Key Benthic Habitat") + " (%)",
+            },
+          };
 
-        return (
-          <ReportError>
-            <InfoStatus
-              msg={
-                <>
-                  This report is in development and is currently using false
-                  data for testing
-                </>
-              }
-            />
-            <p>
-              {t("This plan designates")}{" "}
-              <b>
-                {areaDisplay} {areaUnitDisplay} ({percDisplay})
-              </b>
-              {t(" of ")} {curGeography.display}
-              {t("'s territorial sea in Marine Protected Areas, protecting ")}
-              <b>{percentWithEdge(benthicFisheriesTradeoffs.y / 100)}</b>
-              {t(
-                " of key benthic habitats while maintaining access to areas containing "
+          return (
+            <ReportError>
+              <InfoStatus
+                msg={
+                  <>
+                    This report is in development and is currently using false
+                    data for testing
+                  </>
+                }
+              />
+              <p>
+                {t("This plan designates")}{" "}
+                <b>
+                  {areaDisplay} {areaUnitDisplay} ({percDisplay})
+                </b>
+                {t(" of ")} {curGeography.display}
+                {t("'s territorial sea in Marine Protected Areas, protecting ")}
+                <b>{percentWithEdge(benthicFisheriesTradeoffs.y / 100)}</b>
+                {t(
+                  " of key benthic habitats while maintaining access to areas containing "
+                )}
+                <b>{percentWithEdge(1 - benthicFisheriesTradeoffs.x / 100)}</b>
+                {t(" of fishery value.")}
+              </p>
+
+              <LayerToggle
+                label={"Show " + tradeoffClasses.x.display + " On Map"}
+                layerId={tradeoffClasses.x.layerId}
+                style={{ paddingBottom: 5 }}
+              />
+              <LayerToggle
+                label={"Show " + tradeoffClasses.y.display + " On Map"}
+                layerId={tradeoffClasses.y.layerId}
+              />
+
+              <Scatterplot
+                data={scatterdata}
+                tradeoff={scatterBenthicFisheries}
+                sketchName={data.sketch.properties.name}
+              />
+
+              {!props.printing && (
+                <Collapse title={t("Learn more")}>
+                  <Trans i18nKey="Tradeoffs Card - learn more">
+                    <p>
+                      ℹ️ Overview: This plan's tradeoff is plotted against all
+                      possible plans, with each grey point representing a
+                      theoretical plan. The outer edge of this scatterplot is
+                      defined as the "efficiency frontier," and represents the
+                      most effective plans for maximizing stakeholder interests.
+                    </p>
+                    <p>
+                      % Key benthic habitat is measured as the % of total key
+                      benthic habitat area that falls within an MPA in this
+                      plan. % Fishery value is measured as the % of total
+                      fishery value that falls <b>outside</b> all MPAs in this
+                      plan (aka, still accessible to fishers).
+                    </p>
+                    <p>
+                      🎯 Planning Objective: No defined planning objective for
+                      tradeoff analyses.
+                    </p>
+                    <p>
+                      🗺️ Methods:{" "}
+                      <a
+                        href="https://www.pnas.org/doi/10.1073/pnas.1114215109"
+                        target="_blank"
+                      >
+                        White, C., Halpern, B. S., & Kappel, C. V. (2012)
+                      </a>
+                    </p>
+                  </Trans>
+                </Collapse>
               )}
-              <b>{percentWithEdge(1 - benthicFisheriesTradeoffs.x / 100)}</b>
-              {t(" of fishery value.")}
-            </p>
-
-            <LayerToggle
-              label={"Show " + tradeoffClasses.x.display + " On Map"}
-              layerId={tradeoffClasses.x.layerId}
-              style={{ paddingBottom: 5 }}
-            />
-            <LayerToggle
-              label={"Show " + tradeoffClasses.y.display + " On Map"}
-              layerId={tradeoffClasses.y.layerId}
-            />
-
-            <Scatterplot
-              data={scatterdata}
-              tradeoff={scatterBenthicFisheries}
-              sketchName={data.sketch.properties.name}
-            />
-
-            <Collapse title={t("Learn more")}>
-              <Trans i18nKey="Tradeoffs Card - learn more">
-                <p>
-                  ℹ️ Overview: This plan's tradeoff is plotted against all
-                  possible plans, with each grey point representing a
-                  theoretical plan. The outer edge of this scatterplot is
-                  defined as the "efficiency frontier," and represents the most
-                  effective plans for maximizing stakeholder interests.
-                </p>
-                <p>
-                  % Key benthic habitat is measured as the % of total key
-                  benthic habitat area that falls within an MPA in this plan. %
-                  Fishery value is measured as the % of total fishery value that
-                  falls <b>outside</b> all MPAs in this plan (aka, still
-                  accessible to fishers).
-                </p>
-                <p>
-                  🎯 Planning Objective: No defined planning objective for
-                  tradeoff analyses.
-                </p>
-                <p>
-                  🗺️ Methods:{" "}
-                  <a
-                    href="https://www.pnas.org/doi/10.1073/pnas.1114215109"
-                    target="_blank"
-                  >
-                    White, C., Halpern, B. S., & Kappel, C. V. (2012)
-                  </a>
-                </p>
-              </Trans>
-            </Collapse>
-          </ReportError>
-        );
-      }}
-    </ResultsCard>
+            </ReportError>
+          );
+        }}
+      </ResultsCard>
+    </div>
   );
 };
 

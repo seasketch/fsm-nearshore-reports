@@ -37,7 +37,7 @@ const AnimatedCircle = styled.circle<React.SVGProps<SVGCircleElement>>`
 
 // Animated text beneath circle
 const AnimatedText = styled.text<React.SVGProps<SVGTextElement>>`
-  animation: ${fadeInAndMove} 1s ease;
+  animation: ${fadeInAndMove} 0.5s ease;
   text-shadow: white 0 0 55px, white 0 0 5px, white 0 0 5px, white 0 0 5px;
 `;
 

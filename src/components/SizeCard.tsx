@@ -2,7 +2,6 @@ import React from "react";
 import {
   ReportResult,
   percentWithEdge,
-  GeogProp,
   firstMatchingMetric,
   Geography,
   roundLower,
@@ -29,8 +28,9 @@ import {
   groupedCollectionReport,
   groupedSketchReport,
 } from "../util/ProtectionLevelOverlapReports";
+import { ReportProps } from "../util/ReportProp";
 
-export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
+export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
 
@@ -46,126 +46,151 @@ export const SizeCard: React.FunctionComponent<GeogProp> = (props) => {
   const notFoundString = t("Results not found");
 
   return (
-    <ResultsCard
-      title={t("Size")}
-      functionName="boundaryAreaOverlap"
-      extraParams={{ geographyIds: [curGeography.geographyId] }}
-      useChildCard
-    >
-      {(data: ReportResult) => {
-        if (Object.keys(data).length === 0) throw new Error(notFoundString);
+    <div style={{ breakInside: "avoid" }}>
+      <ResultsCard
+        title={t("Size")}
+        functionName="boundaryAreaOverlap"
+        extraParams={{ geographyIds: [curGeography.geographyId] }}
+        useChildCard
+      >
+        {(data: ReportResult) => {
+          if (Object.keys(data).length === 0) throw new Error(notFoundString);
 
-        // Get overall area of sketch metric
-        const areaMetric = firstMatchingMetric(
-          data.metrics,
-          (m) => m.sketchId === data.sketch.properties.id && m.groupId === null
-        );
+          // Get overall area of sketch metric
+          const areaMetric = firstMatchingMetric(
+            data.metrics,
+            (m) =>
+              m.sketchId === data.sketch.properties.id && m.groupId === null
+          );
 
-        // Grab overall size precalc metric
-        const totalAreaMetric = firstMatchingMetric(
-          precalcMetrics,
-          (m) => m.groupId === null
-        );
+          // Grab overall size precalc metric
+          const totalAreaMetric = firstMatchingMetric(
+            precalcMetrics,
+            (m) => m.groupId === null
+          );
 
-        // Format area metrics for key section display
-        const areaDisplay = roundLower(
-          squareMeterToKilometer(areaMetric.value)
-        );
-        const percDisplay = percentWithEdge(
-          areaMetric.value / totalAreaMetric.value
-        );
-        const areaUnitDisplay = t("km²");
-        const mapLabel = t("Show Map Layer");
+          // Format area metrics for key section display
+          const areaDisplay = roundLower(
+            squareMeterToKilometer(areaMetric.value)
+          );
+          const percDisplay = percentWithEdge(
+            areaMetric.value / totalAreaMetric.value
+          );
+          const areaUnitDisplay = t("km²");
+          const mapLabel = t("Show Map Layer");
 
-        return (
-          <>
-            {!areaMetric.value ? genWarning(curGeography) : null}
-            <ToolbarCard
-              title={t("Size")}
-              items={
-                <>
-                  <DataDownload
-                    filename="size"
-                    data={data.metrics}
-                    formats={["csv", "json"]}
-                    placement="left-end"
-                  />
-                </>
-              }
-            >
-              <p>
-                {curGeography.display}'s{" "}
-                <Trans i18nKey="SizeCard - introduction">
-                  territorial sea extends from the shoreline out to 12 nautical
-                  miles. This report summarizes coastal plan overlap with the
-                  territorial sea.
-                </Trans>
-              </p>
-
-              <KeySection>
-                {t("This plan is")}{" "}
-                <b>
-                  {areaDisplay} {areaUnitDisplay}
-                </b>
-                {", "}
-                {t("which is")} <b>{percDisplay}</b> {t("of ")}{" "}
-                {curGeography.display}'s {t("territorial sea")}.
-              </KeySection>
-
-              <LayerToggle label={mapLabel} layerId={mg.classes[0].layerId} />
-              <VerticalSpacer />
-
-              {isCollection
-                ? groupedCollectionReport(data, precalcMetrics, mg, t, {
-                    showLayerToggles: false,
-                  })
-                : groupedSketchReport(data, precalcMetrics, mg, t, {
-                    showLayerToggles: false,
-                  })}
-
-              {isCollection && (
-                <>
-                  <Collapse title={t("Show by Zone Type")}>
-                    {genAreaGroupLevelTable(data, precalcMetrics, mg, t)}
-                  </Collapse>
-                  <Collapse title={t("Show by Zone")}>
-                    {genAreaSketchTable(data, precalcMetrics, mg, t)}
-                  </Collapse>
-                </>
-              )}
-
-              <Collapse title={t("Learn more")}>
+          return (
+            <>
+              {!areaMetric.value ? genWarning(curGeography) : null}
+              <ToolbarCard
+                title={t("Size")}
+                items={
+                  <>
+                    <DataDownload
+                      filename="size"
+                      data={data.metrics}
+                      formats={["csv", "json"]}
+                      placement="left-end"
+                    />
+                  </>
+                }
+              >
                 <p>
-                  <img
-                    src={require("../assets/img/territorial_waters.png")}
-                    style={{ maxWidth: "100%" }}
-                  />
-                  <a
-                    target="_blank"
-                    href="https://en.wikipedia.org/wiki/Territorial_waters"
-                  >
-                    <Trans i18nKey="SizeCard - learn more source">
-                      Source: Wikipedia - Territorial Waters
-                    </Trans>
-                  </a>
+                  {curGeography.display}'s{" "}
+                  <Trans i18nKey="SizeCard - introduction">
+                    territorial sea extends from the shoreline out to 12
+                    nautical miles. This report summarizes coastal plan overlap
+                    with the territorial sea.
+                  </Trans>
                 </p>
-                <Trans i18nKey="SizeCard - learn more">
-                  <p>
-                    {" "}
-                    This report summarizes the size and proportion of this plan
-                    within these boundaries.
-                  </p>
-                  <p>
-                    If sketch boundaries within a plan overlap with each other,
-                    the overlap is only counted once.
-                  </p>
-                </Trans>
-              </Collapse>
-            </ToolbarCard>
-          </>
-        );
-      }}
-    </ResultsCard>
+
+                <KeySection>
+                  {t("This plan is")}{" "}
+                  <b>
+                    {areaDisplay} {areaUnitDisplay}
+                  </b>
+                  {", "}
+                  {t("which is")} <b>{percDisplay}</b> {t("of ")}{" "}
+                  {curGeography.display}'s {t("territorial sea")}.
+                </KeySection>
+
+                <LayerToggle label={mapLabel} layerId={mg.classes[0].layerId} />
+                <VerticalSpacer />
+
+                {isCollection
+                  ? groupedCollectionReport(data, precalcMetrics, mg, t, {
+                      showLayerToggles: false,
+                    })
+                  : groupedSketchReport(data, precalcMetrics, mg, t, {
+                      showLayerToggles: false,
+                    })}
+
+                {isCollection && (
+                  <>
+                    <Collapse
+                      title={t("Show by Zone Type")}
+                      collapsed={!props.printing}
+                      key={String(props.printing) + "Zone Type"}
+                    >
+                      {genAreaGroupLevelTable(
+                        data,
+                        precalcMetrics,
+                        mg,
+                        t,
+                        props.printing
+                      )}
+                    </Collapse>
+                    <Collapse
+                      title={t("Show by Zone")}
+                      collapsed={!props.printing}
+                      key={String(props.printing) + "Zone"}
+                    >
+                      {genAreaSketchTable(
+                        data,
+                        precalcMetrics,
+                        mg,
+                        t,
+                        props.printing
+                      )}
+                    </Collapse>
+                  </>
+                )}
+
+                {!props.printing && (
+                  <Collapse title={t("Learn more")}>
+                    <p>
+                      <img
+                        src={require("../assets/img/territorial_waters.png")}
+                        style={{ maxWidth: "100%" }}
+                      />
+                      <a
+                        target="_blank"
+                        href="https://en.wikipedia.org/wiki/Territorial_waters"
+                      >
+                        <Trans i18nKey="SizeCard - learn more source">
+                          Source: Wikipedia - Territorial Waters
+                        </Trans>
+                      </a>
+                    </p>
+                    <Trans i18nKey="SizeCard - learn more">
+                      <p>
+                        {" "}
+                        This report summarizes the size and proportion of this
+                        plan within these boundaries.
+                      </p>
+                      <p>
+                        If sketch boundaries within a plan overlap with each
+                        other, the overlap is only counted once.
+                      </p>
+                    </Trans>
+                  </Collapse>
+                )}
+              </ToolbarCard>
+            </>
+          );
+        }}
+      </ResultsCard>
+    </div>
   );
 };
 

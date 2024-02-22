@@ -1,10 +1,16 @@
 import { ReportTableStyled } from "@seasketch/geoprocessing/client-ui";
 import styled from "styled-components";
 
-export const PercentSketchTableStyled = styled(ReportTableStyled)`
+interface SketchTableProps {
+  printing: boolean;
+}
+
+export const PercentSketchTableStyled = styled(
+  ReportTableStyled
+)<SketchTableProps>`
   & {
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: ${(props) => (props.printing ? "visible" : "scroll")};
     font-size: 12px;
   }
 
@@ -33,10 +39,12 @@ export const PercentSketchTableStyled = styled(ReportTableStyled)`
   }
 `;
 
-export const AreaSketchTableStyled = styled(ReportTableStyled)`
+export const AreaSketchTableStyled = styled(
+  ReportTableStyled
+)<SketchTableProps>`
   & {
     width: 100%;
-    overflow-x: scroll;
+    overflow-x: ${(props) => (props.printing ? "visible" : "scroll")};
     font-size: 12px;
   }
 

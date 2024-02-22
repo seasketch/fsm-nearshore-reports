@@ -3,22 +3,21 @@ import {
   Collapse,
   LayerToggle,
   ResultsCard,
-  VerticalSpacer,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
-import { ReportResult, GeogProp } from "@seasketch/geoprocessing/client-core";
+import { ReportResult } from "@seasketch/geoprocessing/client-core";
 import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
 import Translator from "./TranslatorAsync";
 import {
   genAreaGroupLevelTable,
   genAreaSketchTable,
-  genSketchTable,
   groupedCollectionReport,
   groupedSketchReport,
 } from "../util/ProtectionLevelOverlapReports";
+import { ReportProps } from "../util/ReportProp";
 
-export const Habitat: React.FunctionComponent<GeogProp> = (props) => {
+export const Habitat: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
   const mg = project.getMetricGroup("habitatAreaOverlap", t);
@@ -32,7 +31,7 @@ export const Habitat: React.FunctionComponent<GeogProp> = (props) => {
   );
 
   return (
-    <>
+    <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={t("Key Benthic Habitat")}
         functionName="habitatAreaOverlap"
@@ -61,38 +60,61 @@ export const Habitat: React.FunctionComponent<GeogProp> = (props) => {
 
               {isCollection && (
                 <>
-                  <Collapse title={t("Show by Zone Type")}>
-                    {genAreaGroupLevelTable(data, precalcMetrics, mg, t)}
+                  <Collapse
+                    title={t("Show by Zone Type")}
+                    collapsed={!props.printing}
+                    key={String(props.printing) + "Zone Type"}
+                  >
+                    {genAreaGroupLevelTable(
+                      data,
+                      precalcMetrics,
+                      mg,
+                      t,
+                      props.printing
+                    )}
                   </Collapse>
-                  <Collapse title={t("Show by Zone")}>
-                    {genAreaSketchTable(data, precalcMetrics, mg, t)}
+                  <Collapse
+                    title={t("Show by Zone")}
+                    collapsed={!props.printing}
+                    key={String(props.printing) + "Zone"}
+                  >
+                    {genAreaSketchTable(
+                      data,
+                      precalcMetrics,
+                      mg,
+                      t,
+                      props.printing
+                    )}
                   </Collapse>
                 </>
               )}
             </Translator>
 
-            <Collapse title={t("Learn more")}>
-              <Trans i18nKey="Habitat Card - learn more">
-                <p>
-                  ℹ️ Overview: Plans should ensure representative coverage of
-                  key benthic habitat. The report summarizes the percentage of
-                  the key habitat that fall within the plan.
-                </p>
-                <p>🎯 Planning Objective: TBD.</p>
-                <p>🗺️ Source data: Allen Coral Atlas</p>
-                <p>
-                  📈 Report: The percentage of each feature type within this
-                  plan is calculated by finding the overlap of each feature type
-                  with the plan, summing its area, then dividing it by the total
-                  area of each feature type found within the selected nearshore
-                  planning area. If the plan includes multiple areas that
-                  overlap, the overlap is only counted once.
-                </p>
-              </Trans>
-            </Collapse>
+            {!props.printing && (
+              <Collapse title={t("Learn more")}>
+                <Trans i18nKey="Habitat Card - learn more">
+                  <p>
+                    ℹ️ Overview: Plans should ensure representative coverage of
+                    key benthic habitat. The report summarizes the percentage of
+                    the key habitat that fall within the plan.
+                  </p>
+                  <p>🎯 Planning Objective: TBD.</p>
+                  <p>🗺️ Source data: Allen Coral Atlas</p>
+                  <p>
+                    📈 Report: The percentage of each feature type within this
+                    plan is calculated by finding the overlap of each feature
+                    type with the plan, summing its area, then dividing it by
+                    the total area of each feature type found within the
+                    selected nearshore planning area. If the plan includes
+                    multiple areas that overlap, the overlap is only counted
+                    once.
+                  </p>
+                </Trans>
+              </Collapse>
+            )}
           </>
         )}
       </ResultsCard>
-    </>
+    </div>
   );
 };

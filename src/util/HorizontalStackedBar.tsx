@@ -104,7 +104,7 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
     position: relative;
     overflow: visible;
     width: 0%;
-    animation: expand 1.5s ease forwards;
+    animation: expand 0.5s ease forwards;
   }
 
   .row + .row .chart {

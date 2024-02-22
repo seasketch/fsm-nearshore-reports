@@ -1,11 +1,11 @@
 import React from "react";
-import { GeogProp } from "@seasketch/geoprocessing/client-core";
 import { Habitat } from "./Habitat";
+import { ReportProps } from "../util/ReportProp";
 
-const ReportPage: React.FunctionComponent<GeogProp> = (props) => {
+const ReportPage: React.FunctionComponent<ReportProps> = (props) => {
   return (
     <>
-      <Habitat geographyId={props.geographyId} />
+      <Habitat geographyId={props.geographyId} printing={props.printing} />
     </>
   );
 };

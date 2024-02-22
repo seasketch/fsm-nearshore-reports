@@ -18,13 +18,10 @@ import {
   NullSketchCollection,
   Metric,
   toNullSketchArray,
-  getUserAttribute,
-  GeogProp,
 } from "@seasketch/geoprocessing/client-core";
 import styled from "styled-components";
-import project from "../../project";
 import { Trans, useTranslation } from "react-i18next";
-import { MetricGroup } from "@seasketch/geoprocessing";
+import { ReportProps } from "../util/ReportProp";
 import {
   groupColorMap,
   groupDisplayMapPl,
@@ -42,23 +39,28 @@ export const SmallReportTableStyled = styled(ReportTableStyled)`
 /**
  * Top level Group report - JSX.Element
  */
-export const GroupCard: React.FunctionComponent<GeogProp> = (props) => {
+export const GroupCard: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection }] = useSketchProperties();
   const { t } = useTranslation();
-
-  const mg = project.getMetricGroup("groupCountOverlap", t);
   return (
-    <ResultsCard title={t("Plan Overview")} functionName="groupCountOverlap">
-      {(data: ReportResult) => {
-        return (
-          <ReportError>
-            {isCollection
-              ? sketchCollectionReport(data.sketch, data.metrics, mg, t)
-              : sketchReport(data.metrics, mg, t)}
-          </ReportError>
-        );
-      }}
-    </ResultsCard>
+    <div style={{ breakInside: "avoid" }}>
+      <ResultsCard title={t("Plan Overview")} functionName="groupCountOverlap">
+        {(data: ReportResult) => {
+          return (
+            <ReportError>
+              {isCollection
+                ? sketchCollectionReport(
+                    data.sketch,
+                    data.metrics,
+                    t,
+                    props.printing
+                  )
+                : sketchReport(data.metrics, t, props.printing)}
+            </ReportError>
+          );
+        }}
+      </ResultsCard>
+    </div>
   );
 };
 
@@ -68,7 +70,7 @@ export const GroupCard: React.FunctionComponent<GeogProp> = (props) => {
  * @param mg MetricGroup
  * @param t TFunction for translation
  */
-const sketchReport = (metrics: Metric[], mg: MetricGroup, t: any) => {
+const sketchReport = (metrics: Metric[], t: any, printing: boolean = false) => {
   // Should only have only a single metric
   if (metrics.length !== 1)
     throw new Error(
@@ -94,9 +96,11 @@ const sketchReport = (metrics: Metric[], mg: MetricGroup, t: any) => {
         />
       </div>
 
-      <Collapse title={t("Learn More")}>
-        <ProtectionLearnMore t={t} />
-      </Collapse>
+      {!printing && (
+        <Collapse title={t("Learn More")}>
+          <ProtectionLearnMore t={t} />
+        </Collapse>
+      )}
     </>
   );
 };
@@ -111,8 +115,8 @@ const sketchReport = (metrics: Metric[], mg: MetricGroup, t: any) => {
 const sketchCollectionReport = (
   sketch: NullSketchCollection | NullSketch,
   metrics: Metric[],
-  mg: MetricGroup,
-  t: any
+  t: any,
+  printing: boolean = false
 ) => {
   const sketches = toNullSketchArray(sketch);
   const columns: Column<Metric>[] = [
@@ -133,12 +137,18 @@ const sketchCollectionReport = (
   return (
     <>
       <Table className="styled" columns={columns} data={metrics} />
-      <Collapse title={t("Show by Zone")}>
+      <Collapse
+        title={t("Show by Zone")}
+        collapsed={!printing}
+        key={String(printing) + "Zone"}
+      >
         {genMpaSketchTable(sketches, t)}
       </Collapse>
-      <Collapse title={t("Learn More")}>
-        <ProtectionLearnMore t={t} />
-      </Collapse>
+      {!printing && (
+        <Collapse title={t("Learn More")}>
+          <ProtectionLearnMore t={t} />
+        </Collapse>
+      )}
     </>
   );
 };
