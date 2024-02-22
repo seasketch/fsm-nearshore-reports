@@ -30,12 +30,12 @@ const MpaTabReport = () => {
     { id: tradeoffsId, label: t("Tradeoffs") },
   ];
   const [tab, setTab] = useState<string>(viabilityId);
-  const [geographyId, setGeography] = useState("kosrae");
 
+  // Geography
+  const [geographyId, setGeography] = useState("kosrae");
   const geographySwitcher: ChangeEventHandler<HTMLSelectElement> = (e: any) => {
     setGeography(e.target.value);
   };
-
   const switcherAndMap = (
     <>
       <GeographySwitcher
@@ -51,39 +51,46 @@ const MpaTabReport = () => {
     </>
   );
 
+  // Printing
   const printRef = useRef(null);
-  const promiseResolveRef = useRef<any>(null);
   const [isPrinting, setIsPrinting] = useState(false);
+  const [attributes] = useSketchProperties();
+  const originalAnimationDurations: string[] = [
+    ...document.querySelectorAll(".chart, .animated-scatter"),
+  ].map((el) => (el as HTMLElement).style.animationDuration);
 
   useEffect(() => {
-    if (isPrinting && promiseResolveRef.current) {
-      // Letting `react-to-print` know that the DOM updates are completed
-      promiseResolveRef.current();
+    if (isPrinting) {
+      [...document.querySelectorAll(".chart, .animated-scatter")].forEach(
+        (el) => ((el as HTMLElement).style.animationDuration = "0s")
+      );
+      handlePrint();
     }
-  }, [isPrinting]);
 
-  const [attributes] = useSketchProperties();
+    return () => {
+      [...document.querySelectorAll(".chart, .animated-scatter")].forEach(
+        (el, index) =>
+          ((el as HTMLElement).style.animationDuration =
+            originalAnimationDurations[index])
+      );
+    };
+  }, [isPrinting]);
 
   const handlePrint = useReactToPrint({
     content: () => printRef.current,
     documentTitle: attributes.name,
-    onBeforeGetContent: () => {
-      return new Promise((resolve) => {
-        setIsPrinting(true);
-        promiseResolveRef.current = resolve;
-      });
-    },
-    onAfterPrint: () => {
-      promiseResolveRef.current = null;
-      setIsPrinting(false);
-    },
+    onBeforeGetContent: () => {},
+    onAfterPrint: () => setIsPrinting(false),
   });
 
   return (
     <>
+      {/* Geography Switcher */}
       <ToolbarCard title={t("Coastal Planning Area")} items={switcherAndMap}>
         <></>
       </ToolbarCard>
+
+      {/* Saving to PDF/Printing */}
       <Printer
         size={18}
         color="#999"
@@ -96,16 +103,10 @@ const MpaTabReport = () => {
         }}
         onMouseEnter={(e) => (e.currentTarget.style.color = "#666")}
         onMouseLeave={(e) => (e.currentTarget.style.color = "#999")}
-        onClick={() => handlePrint()}
+        onClick={() => {
+          setIsPrinting(true);
+        }}
       />
-
-      <div style={{ marginTop: 5 }}>
-        <SegmentControl
-          value={tab}
-          onClick={(segment) => setTab(segment)}
-          segments={segments}
-        />
-      </div>
 
       {isPrinting && (
         <div
@@ -128,6 +129,16 @@ const MpaTabReport = () => {
         </div>
       )}
 
+      {/* Segment control / tabs */}
+      <div style={{ marginTop: 5 }}>
+        <SegmentControl
+          value={tab}
+          onClick={(segment) => setTab(segment)}
+          segments={segments}
+        />
+      </div>
+
+      {/* Reports */}
       <div
         ref={printRef}
         style={{ backgroundColor: isPrinting ? "#FFF" : "inherit" }}

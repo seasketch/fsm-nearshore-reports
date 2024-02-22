@@ -62,6 +62,7 @@ export const Scatterplot = ({
   // Tradeoff horizon from Crow analysis
   const tradeoffPoints = data.map((d, i) => (
     <AnimatedCircle
+      className="animated-scatter"
       key={i}
       r={3}
       cx={xScale(d.x)}
@@ -78,6 +79,7 @@ export const Scatterplot = ({
   const planPoint = (
     <g key="tradeoff_shape">
       <AnimatedCircle
+        className="animated-scatter"
         key={"tradeoffPt"}
         r={5}
         cx={xScale(tradeoff.x.value)}
@@ -89,6 +91,7 @@ export const Scatterplot = ({
         strokeWidth={1}
       />
       <AnimatedText
+        className="animated-scatter"
         x={xScale(tradeoff.x.value)}
         y={yScale(tradeoff.y.value) + 15}
         fill="#666666"
