@@ -558,13 +558,12 @@ export const genAreaGroupLevelTable = (
       ];
 
       tables.push(
-        <AreaSketchTableStyled printing={printing}>
+        <AreaSketchTableStyled printing={printing} key={String(i)}>
           <Table
             className="styled"
             columns={tableColumns}
             data={levelAggs.sort((a, b) => a.groupId.localeCompare(b.groupId))}
             manualPagination={printing}
-            key={String(i)}
           />
         </AreaSketchTableStyled>
       );
@@ -748,12 +747,11 @@ export const genAreaSketchTable = (
       ];
 
       tables.push(
-        <AreaSketchTableStyled printing={printing}>
+        <AreaSketchTableStyled printing={printing} key={String(i)}>
           <Table
             columns={tableColumns}
             data={rows}
             manualPagination={printing}
-            key={String(i)}
           />
         </AreaSketchTableStyled>
       );
