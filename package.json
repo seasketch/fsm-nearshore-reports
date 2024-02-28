@@ -25,6 +25,8 @@
     "translation:publish": "npx ts-node src/i18n/bin/publishTerms.ts",
     "translation:import": "npx ts-node src/i18n/bin/importTerms.ts",
     "translation:sync": "npm run translation:extract && npm run translation:publish && npm run translation:import",
+    "create:report": "start-server-and-test 'http-server data/dist -c-1 -p 8001' http://localhost:8001 create:report_",
+    "create:report_": "npx ts-node src/util/createReport.ts",
     "create:function": "geoprocessing create:function",
     "create:client": "geoprocessing create:client",
     "start:client": "geoprocessing start:client",
@@ -58,6 +60,7 @@
     "d3-scale": "^4.0.2",
     "geoblaze": "2.6.0",
     "geojson-antimeridian-cut": "^0.1.0",
+    "pascalcase": "^1.0.0",
     "react-i18next": "^12.2.0",
     "react-to-print": "^2.15.1",
     "union-subdivided-polygons": "^0.9.1"

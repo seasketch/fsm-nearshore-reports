@@ -16,8 +16,6 @@ import {
   clipMultiMerge,
   zeroSketchArray,
   zeroPolygon,
-  splitFeature,
-  toFeaturePolygonArray,
 } from "@seasketch/geoprocessing";
 import simplify from "@turf/simplify";
 
