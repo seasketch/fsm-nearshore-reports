@@ -21,9 +21,12 @@ import {
 import project from "../../project";
 
 /**
- * RasterCard component
+ * OverlapCard component
+ *
+ * @param props - geographyId
+ * @returns A react component which displays an overlap report
  */
-export const RasterCard: React.FunctionComponent<GeogProp> = (props) => {
+export const OverlapCard: React.FunctionComponent<GeogProp> = (props) => {
   const { t } = useTranslation();
   const [{ isCollection }] = useSketchProperties();
   const curGeography = project.getGeographyById(props.geographyId, {
@@ -31,7 +34,7 @@ export const RasterCard: React.FunctionComponent<GeogProp> = (props) => {
   });
 
   // Metrics
-  const metricGroup = project.getMetricGroup("rasterFunction", t);
+  const metricGroup = project.getMetricGroup("overlapFunction", t);
   const precalcMetrics = project.getPrecalcMetrics(
     metricGroup,
     "sum",
@@ -39,13 +42,18 @@ export const RasterCard: React.FunctionComponent<GeogProp> = (props) => {
   );
 
   // Labels
+  const titleLabel = t("OverlapCard");
   const mapLabel = t("Map");
   const withinLabel = t("Within Plan");
   const percWithinLabel = t("% Within Plan");
   const unitsLabel = t("units");
 
   return (
-    <ResultsCard title={t("RasterCard")} functionName="rasterFunction">
+    <ResultsCard
+      title={titleLabel}
+      functionName="overlapFunction"
+      extraParams={{ geographyIds: [curGeography.geographyId] }}
+    >
       {(data: ReportResult) => {
         const percMetricIdName = `${metricGroup.metricId}Perc`;
 
@@ -61,8 +69,9 @@ export const RasterCard: React.FunctionComponent<GeogProp> = (props) => {
         return (
           <ReportError>
             <p>
-              <Trans i18nKey="RasterCard 1">
-                This report summarizes this plan's overlap with RasterCard data.
+              <Trans i18nKey="OverlapCard 1">
+                This report summarizes this plan's overlap with OverlapCard
+                data.
               </Trans>
             </p>
 
@@ -111,16 +120,16 @@ export const RasterCard: React.FunctionComponent<GeogProp> = (props) => {
             )}
 
             <Collapse title={t("Learn More")}>
-              <Trans i18nKey="RasterCard - learn more">
+              <Trans i18nKey="OverlapCard - learn more">
                 <p>ℹ️ Overview:</p>
                 <p>🎯 Planning Objective:</p>
                 <p>🗺️ Source Data:</p>
                 <p>
-                  📈 Report: This report sums the values of each feature type
-                  within the plan to obtain total value of each feature within
-                  the plan. This value is divided by the total area of each
-                  feature type to obtain % within plan. If the plan includes
-                  multiple areas that overlap, the overlap is only counted once.
+                  📈 Report: This report calculates the total value of each
+                  feature within the plan. This value is divided by the total
+                  value of each feature to obtain the % contained within the
+                  plan. If the plan includes multiple areas that overlap, the
+                  overlap is only counted once.
                 </p>
               </Trans>
             </Collapse>

@@ -23,11 +23,11 @@ const createReport = async () => {
         },
         {
           value: "raster",
-          name: "Sketch overlap with raster data report",
+          name: "Raster overlap report - Calculates sketch overlap with raster data sources",
         },
         {
           value: "vector",
-          name: "Sketch overlap with vector data report",
+          name: "Vector overlap report - Calculates sketch overlap with vector data sources",
         },
       ],
     },
@@ -54,7 +54,7 @@ const createReport = async () => {
   ]);
 
   // Get title of report either from metrics.json or user input
-  if (answers.type === "raster") {
+  if (answers.type === "raster" || answers.type === "vector") {
     const titleChoiceQuestion = {
       type: "list",
       name: "title",
@@ -64,14 +64,19 @@ const createReport = async () => {
     const { title } = await inquirer.prompt([titleChoiceQuestion]);
     answers.title = title;
 
-    const statQuestion = {
-      type: "list",
-      name: "stat",
-      message: "Statistic to calculate",
-      choices: ["sum", "count", "area"],
-    };
-    const { stat } = await inquirer.prompt([statQuestion]);
-    answers.stat = stat;
+    if (answers.type === "raster") {
+      const statQuestion = {
+        type: "list",
+        name: "stat",
+        message: "Statistic to calculate",
+        choices: ["sum", "count", "area"],
+      };
+      const { stat } = await inquirer.prompt([statQuestion]);
+      answers.stat = stat;
+    } else {
+      // Vector
+      answers.stat = "area";
+    }
   } else if (answers.type === "blank") {
     const titleQuestion = {
       type: "input",
@@ -106,7 +111,7 @@ export async function makeReport(
 ) {
   // Start interactive spinner
   const spinner = interactive
-    ? ora("Creating new geoprocessing handler").start()
+    ? ora("Creating new report").start()
     : { start: () => false, stop: () => false, succeed: () => false };
   spinner.start(`creating handler from templates`);
 
@@ -124,16 +129,30 @@ export async function makeReport(
     fs.mkdirSync(path.join(basePath, "src", "components"));
   }
 
-  const defaultFunctionName =
-    options.type === "raster" ? "rasterFunction" : "blankFunction";
+  const defaultFuncName =
+    options.type === "raster"
+      ? "rasterFunction"
+      : options.type === "vector"
+      ? "vectorFunction"
+      : "blankFunction";
+  const defaultFuncRegex =
+    options.type === "raster"
+      ? /rasterFunction/g
+      : options.type === "vector"
+      ? /vectorFunction/g
+      : /blankFunction/g;
   const defaultCompName =
-    options.type === "raster" ? "RasterCard" : "BlankCard";
+    options.type === "raster" || options.type === "vector"
+      ? "OverlapCard"
+      : "BlankCard";
+  const defaultCompRegex =
+    options.type === "raster" || options.type === "vector"
+      ? /OverlapCard/g
+      : /BlankCard/g;
 
-  const functionCode = await fs.readFile(
-    `${templatePath}/${defaultFunctionName}.ts`
-  );
-  const testFunctionCode = await fs.readFile(
-    `${templatePath}/${defaultFunctionName}Smoke.test.ts`
+  const funcCode = await fs.readFile(`${templatePath}/${defaultFuncName}.ts`);
+  const testFuncCode = await fs.readFile(
+    `${templatePath}/${defaultFuncName}Smoke.test.ts`
   );
   const componentCode = await fs.readFile(
     `${templatePath}/${defaultCompName}.tsx`
@@ -142,109 +161,45 @@ export async function makeReport(
     `${templatePath}/${defaultCompName}.stories.tsx`
   );
 
-  // BLANK REPORT
-  if (options.type === "blank") {
-    await fs.writeFile(
-      `${projectFunctionPath}/${options.title}.ts`,
-      functionCode
-        .toString()
-        .replace(/blankFunction/g, options.title)
-        .replace(
-          /blankFunction/g,
-          options.title.slice(0, 1).toUpperCase() + options.title.slice(1)
-        )
-        .replace(/functionName/g, options.title)
-        .replace(`"async"`, `"${options.executionMode}"`)
-        .replace("Function description", options.description)
-    );
-    await fs.writeFile(
-      `${projectFunctionPath}/${options.title}Smoke.test.ts`,
-      testFunctionCode
-        .toString()
-        .replace(/blankFunction/g, options.title)
-        .replace("./blankFunction", `./${options.title}`)
-    );
+  const funcName = options.title;
+  const compName = funcName.charAt(0).toUpperCase() + funcName.slice(1);
 
-    await fs.writeFile(
-      `${projectComponentPath}/${
-        options.title.charAt(0).toUpperCase() + options.title.slice(1)
-      }.tsx`,
-      componentCode
-        .toString()
-        .replace(
-          /BlankCard/g,
-          `${options.title.charAt(0).toUpperCase() + options.title.slice(1)}`
-        )
-        .replace(`"blankFunction"`, `"${options.title}"`)
-        .replace(`functions/blankFunction`, `functions/${options.title}`)
-    );
+  // Write function file
+  await fs.writeFile(
+    `${projectFunctionPath}/${funcName}.ts`,
+    funcCode
+      .toString()
+      .replace(defaultFuncRegex, funcName)
+      .replace(`"async"`, `"${options.executionMode}"`)
+      .replace("Function description", options.description)
+      .replace(`stats: ["sum"]`, `stats: ["${options.stat}"]`) // for raster
+  );
 
-    await fs.writeFile(
-      `${projectComponentPath}/${
-        options.title.charAt(0).toUpperCase() + options.title.slice(1)
-      }.stories.tsx`,
-      storiesComponentCode
-        .toString()
-        .replace(
-          /BlankCard/g,
-          `${options.title.charAt(0).toUpperCase() + options.title.slice(1)}`
-        )
-        .replace(`"blankFunction"`, `"${options.title}"`)
-    );
-  } else if (options.type === "raster") {
-    // RASTER REPORT
+  // Write function smoke test file
+  await fs.writeFile(
+    `${projectFunctionPath}/${funcName}Smoke.test.ts`,
+    testFuncCode.toString().replace(defaultFuncRegex, funcName)
+  );
 
-    await fs.writeFile(
-      `${projectFunctionPath}/${options.title}.ts`,
-      functionCode
-        .toString()
-        .replace(/rasterFunction/g, options.title)
-        .replace(
-          /rasterFunction/g,
-          options.title.slice(0, 1).toUpperCase() + options.title.slice(1)
-        )
-        .replace(/functionName/g, options.title)
-        .replace(`"async"`, `"${options.executionMode}"`)
-        .replace("Function description", options.description)
-        .replace(`"sum"`, `"${options.stat}"`)
-    );
-    await fs.writeFile(
-      `${projectFunctionPath}/${options.title}Smoke.test.ts`,
-      testFunctionCode
-        .toString()
-        .replace(/rasterFunction/g, options.title)
-        .replace("./rasterFunction", `./${options.title}`)
-    );
+  // Write component file
+  await fs.writeFile(
+    `${projectComponentPath}/${compName}.tsx`,
+    componentCode
+      .toString()
+      .replace(defaultCompRegex, `${compName}`)
+      .replace(defaultFuncRegex, `${funcName}`)
+      .replace(/overlapFunction/g, `${funcName}`)
+      .replace(`"sum"`, `"${options.stat}"`) // for raster/vector overlap reports
+  );
 
-    await fs.writeFile(
-      `${projectComponentPath}/${
-        options.title.charAt(0).toUpperCase() + options.title.slice(1)
-      }.tsx`,
-      componentCode
-        .toString()
-        .replace(
-          /RasterCard/g,
-          `${options.title.charAt(0).toUpperCase() + options.title.slice(1)}`
-        )
-        .replace(`"rasterFunction"`, `"${options.title}"`)
-        .replace(/rasterFunction/g, options.title)
-        .replace(`functions/rasterFunction`, `functions/${options.title}`)
-        .replace(`"sum"`, `"${options.stat}"`)
-    );
-
-    await fs.writeFile(
-      `${projectComponentPath}/${
-        options.title.charAt(0).toUpperCase() + options.title.slice(1)
-      }.stories.tsx`,
-      storiesComponentCode
-        .toString()
-        .replace(
-          /RasterCard/g,
-          `${options.title.charAt(0).toUpperCase() + options.title.slice(1)}`
-        )
-        .replace(`"rasterFunction"`, `"${options.title}"`)
-    );
-  }
+  // Write component stories file
+  await fs.writeFile(
+    `${projectComponentPath}/${compName}.stories.tsx`,
+    storiesComponentCode
+      .toString()
+      .replace(defaultCompRegex, `${compName}`)
+      .replace(defaultFuncRegex, `${funcName}`)
+  );
 
   // Add function to geoprocessing.json
   const geoprocessingJson = JSON.parse(
@@ -261,22 +216,19 @@ export async function makeReport(
   );
 
   // Finish and show next steps
-  spinner.succeed(
-    `Created ${options.title} function in ${projectFunctionPath} and ${options.title} component in ${projectComponentPath}/`
-  );
+  spinner.succeed(`Created ${options.title} report`);
   if (interactive) {
     console.log(chalk.blue(`\nReport successfully created!`));
+    console.log(
+      chalk.blue(`Function: ${`${projectFunctionPath}/${funcName}.ts`}`)
+    );
+    console.log(
+      chalk.blue(`Component: ${`${projectComponentPath}/${compName}.tsx`}`)
+    );
     console.log(`\nNext Steps:
-    * Edit your function: ${`${projectFunctionPath}/${options.title}.ts`}
-    * Edit your component: ${`${projectComponentPath}/${
-      options.title.charAt(0).toUpperCase() + options.title.slice(1)
-    }.tsx`}
-    * Smoke test in ${`${projectFunctionPath}/${options.title}Smoke.test.ts`} will be run the next time you use 'npm test'
-    * Populate examples/sketches folder with sketches for smoke test to run against
-    * Add your new <${
-      options.title.charAt(0).toUpperCase() + options.title.slice(1)
-    } /> component to your reports by adding it to Viability.tsx or Representation.tsx
-    * View your report using 'npm start-storybook' with smoke test output for all geoprocessing functions
+    * Add your new <${compName} /> component to your reports by adding it to Viability.tsx or Representation.tsx
+    * Run 'npm test' to run smoke tests against your new function
+    * View your report using 'npm start-storybook' with smoke test output
   `);
   }
 }
@@ -286,6 +238,7 @@ export { createReport };
 interface ReportOptions {
   type: string;
   stat?: string;
+  sumProperty?: string;
   title: string;
   executionMode: ExecutionMode;
   description: string;
