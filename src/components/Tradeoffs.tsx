@@ -105,11 +105,11 @@ export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
           const scatterBenthicFisheries = {
             x: {
               value: 100 - benthicFisheriesTradeoffs.x,
-              label: t("Fishery Value") + " (%)",
+              label: t("Fishery Value Accessible") + " (%)",
             },
             y: {
               value: benthicFisheriesTradeoffs.y,
-              label: t("Key Benthic Habitat") + " (%)",
+              label: t("Key Benthic Habitat Protected") + " (%)",
             },
           };
 
