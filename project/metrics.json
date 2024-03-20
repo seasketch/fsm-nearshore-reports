@@ -253,5 +253,179 @@
         "datasourceId": "benthic"
       }
     ]
+  },
+  {
+    "metricId": "ousOverallDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "ousPeopleCount_all",
+        "display": "Total",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "ousSectorDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Fisheries",
+        "display": "Fisheries",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Aquaculture",
+        "display": "Aquaculture",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Community Recreational Use",
+        "display": "Community Recreational Use",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Cultural Use",
+        "display": "Cultural Use",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Research / Data Collection",
+        "display": "Research / Data Collection",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Tourism",
+        "display": "Tourism",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Transportation",
+        "display": "Transportation",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Maritime Activity",
+        "display": "Maritime Activity",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Construction and Infrastructure",
+        "display": "Construction and Infrastructure",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "ousMunicipalityDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Lelu",
+        "display": "Lelu",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Malem",
+        "display": "Malem",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Tafunsak",
+        "display": "Tafunsak",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Utwe",
+        "display": "Utwe",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Walung",
+        "display": "Walung",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "unknown-municipality",
+        "display": "Unknown",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "ousGearDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Bottom Fishing",
+        "display": "Bottom Fishing",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Cast Net",
+        "display": "Cast Net",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Casting",
+        "display": "Casting",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Gathering / Reef Gleaning",
+        "display": "Gathering / Reef Gleaning",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Other(Torch fishing)",
+        "display": "Other(Torch fishing)",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Spear/Harpoon",
+        "display": "Spear/Harpoon",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Trap / Fish Fence / Gill Net",
+        "display": "Trap / Fish Fence / Gill Net",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Trolling",
+        "display": "Trolling",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Vertical Longline",
+        "display": "Vertical Longline",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      }
+    ]
   }
 ]
