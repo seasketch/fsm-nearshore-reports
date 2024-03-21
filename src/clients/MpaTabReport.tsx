@@ -6,8 +6,6 @@ import {
   LayerToggle,
   ToolbarCard,
   useSketchProperties,
-  Card,
-  SketchAttributesCard,
 } from "@seasketch/geoprocessing/client-ui";
 import ViabilityPage from "../components/ViabilityPage";
 import RepresentationPage from "../components/RepresentationPage";
@@ -15,9 +13,8 @@ import TradeoffsPage from "../components/TradeoffsPage";
 import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync";
 import project from "../../project";
-import { Printer } from "@styled-icons/bootstrap";
 import { useReactToPrint } from "react-to-print";
-import { SketchProperties } from "@seasketch/geoprocessing/client-core";
+import { PrintButton, PrintPopup, SketchAttributes } from "../util/Print";
 
 const MpaTabReport = () => {
   const { t } = useTranslation();
@@ -55,18 +52,20 @@ const MpaTabReport = () => {
   const printRef = useRef(null);
   const [isPrinting, setIsPrinting] = useState(false);
   const [attributes] = useSketchProperties();
+  // Original animation durations saved during printing
   const originalAnimationDurations: string[] = [
     ...document.querySelectorAll(".chart, .animated-scatter"),
   ].map((el) => (el as HTMLElement).style.animationDuration);
 
   useEffect(() => {
+    // When printing, animations are disabled and the page is printed
     if (isPrinting) {
       [...document.querySelectorAll(".chart, .animated-scatter")].forEach(
         (el) => ((el as HTMLElement).style.animationDuration = "0s")
       );
       handlePrint();
     }
-
+    // Return animation duration to normal after printing
     return () => {
       [...document.querySelectorAll(".chart, .animated-scatter")].forEach(
         (el, index) =>
@@ -76,6 +75,7 @@ const MpaTabReport = () => {
     };
   }, [isPrinting]);
 
+  // Print function
   const handlePrint = useReactToPrint({
     content: () => printRef.current,
     documentTitle: attributes.name,
@@ -91,43 +91,14 @@ const MpaTabReport = () => {
       </ToolbarCard>
 
       {/* Saving to PDF/Printing */}
-      <Printer
-        size={18}
-        color="#999"
-        title="Print/Save to PDF"
-        style={{
-          float: "right",
-          position: "relative",
-          margin: "5px",
-          cursor: "pointer",
-        }}
-        onMouseEnter={(e) => (e.currentTarget.style.color = "#666")}
-        onMouseLeave={(e) => (e.currentTarget.style.color = "#999")}
+      <div
         onClick={() => {
           setIsPrinting(true);
         }}
-      />
-
-      {isPrinting && (
-        <div
-          style={{
-            position: "fixed",
-            top: 0,
-            left: 0,
-            width: "100%",
-            height: "100%",
-            backgroundColor: "rgba(255, 255, 255, 0.9)",
-            zIndex: 9999,
-            display: "flex",
-            justifyContent: "center",
-            alignItems: "center",
-          }}
-        >
-          <Card>
-            <div>Printing...</div>
-          </Card>
-        </div>
-      )}
+      >
+        <PrintButton />
+      </div>
+      {isPrinting && <PrintPopup />}
 
       {/* Segment control / tabs */}
       <div style={{ marginTop: 5 }}>
@@ -139,11 +110,7 @@ const MpaTabReport = () => {
       </div>
 
       {/* Reports */}
-      <div
-        ref={printRef}
-        style={{ backgroundColor: isPrinting ? "#FFF" : "inherit" }}
-      >
-        {isPrinting && <style>{getPageMargins()}</style>}
+      <div ref={printRef} color={isPrinting ? "#FFF" : "inherit"}>
         {isPrinting && <SketchAttributes {...attributes} />}
         <ReportPage hidden={!isPrinting && tab !== viabilityId}>
           <ViabilityPage geographyId={geographyId} printing={isPrinting} />
@@ -156,38 +123,6 @@ const MpaTabReport = () => {
         </ReportPage>
       </div>
     </>
-  );
-};
-
-const getPageMargins = () => {
-  return `@page { margin: .1mm !important; }`;
-};
-
-/**
- * Sketch attributes for printing
- */
-const SketchAttributes: React.FunctionComponent<SketchProperties> = (
-  attributes
-) => {
-  const { t } = useTranslation();
-  return (
-    <Card>
-      <h1 style={{ fontWeight: "normal", color: "#777" }}>{attributes.name}</h1>
-      <p>
-        {t("Sketch ID")}: {attributes.id}
-      </p>
-      <p>
-        {t("Sketch created")}: {new Date(attributes.createdAt).toLocaleString()}
-      </p>
-      <p>
-        {t("Sketch last updated")}:{" "}
-        {new Date(attributes.updatedAt).toLocaleString()}
-      </p>
-      <p>
-        {t("Document created")}: {new Date().toLocaleString()}
-      </p>
-      <SketchAttributesCard />
-    </Card>
   );
 };
 
