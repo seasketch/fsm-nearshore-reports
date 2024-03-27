@@ -4,7 +4,6 @@ import { SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
 import { OUSCard } from "./OUSCard";
 import { GroupCard } from "./Group";
 import { ReportProps } from "../util/ReportProp";
-import { OusDemographics } from "./OusDemographic";
 
 const ReportPage: React.FunctionComponent<ReportProps> = (props) => {
   return (
@@ -14,10 +13,6 @@ const ReportPage: React.FunctionComponent<ReportProps> = (props) => {
       {props.geographyId === "kosrae" ? (
         <>
           <OUSCard geographyId={props.geographyId} printing={props.printing} />
-          <OusDemographics
-            geographyId={props.geographyId}
-            printing={props.printing}
-          />
         </>
       ) : (
         <></>
