@@ -4,6 +4,7 @@ import {
   Collapse,
   ReportError,
   LayerToggle,
+  InfoStatus,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -115,6 +116,14 @@ export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
 
           return (
             <ReportError>
+              <InfoStatus
+                msg={
+                  <>
+                    This report is serving as a <b>demo</b> of potential
+                    tradeoff analyses SeaSketch could support.
+                  </>
+                }
+              />
               <p>
                 {t("This plan designates")}{" "}
                 <b>

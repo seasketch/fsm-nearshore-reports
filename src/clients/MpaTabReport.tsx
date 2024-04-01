@@ -110,7 +110,10 @@ const MpaTabReport = () => {
       </div>
 
       {/* Reports */}
-      <div ref={printRef} color={isPrinting ? "#FFF" : "inherit"}>
+      <div
+        ref={printRef}
+        style={{ backgroundColor: isPrinting ? "#FFF" : "inherit" }}
+      >
         {isPrinting && <SketchAttributes {...attributes} />}
         <ReportPage hidden={!isPrinting && tab !== viabilityId}>
           <ViabilityPage geographyId={geographyId} printing={isPrinting} />
