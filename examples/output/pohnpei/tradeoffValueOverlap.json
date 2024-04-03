@@ -38,7 +38,7 @@
       "metricId": "tradeoffValueOverlap",
       "classId": "fisheries_tradeoff",
       "sketchId": "24608",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"

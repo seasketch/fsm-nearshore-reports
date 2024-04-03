@@ -85,7 +85,7 @@
       "metricId": "tradeoffValueOverlap",
       "classId": "fisheries_tradeoff",
       "sketchId": "25164",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 8768.888685,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
@@ -107,7 +107,7 @@
       "metricId": "tradeoffValueOverlap",
       "classId": "fisheries_tradeoff",
       "sketchId": "25165",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 317.423315,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
@@ -129,7 +129,7 @@
       "metricId": "tradeoffValueOverlap",
       "classId": "fisheries_tradeoff",
       "sketchId": "25166",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 9086.312,
       "extra": {
         "sketchName": "tradeofftest",

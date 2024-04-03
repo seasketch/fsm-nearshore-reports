@@ -5,7 +5,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "25164",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 814.132258,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
@@ -27,7 +27,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "25165",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
@@ -49,7 +49,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "25166",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 814.132258,
       "extra": {
         "sketchName": "tradeofftest",
@@ -85,7 +85,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_community_recreational_use",
       "sketchId": "25164",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 10600.69695,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
@@ -107,7 +107,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_community_recreational_use",
       "sketchId": "25165",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
@@ -129,7 +129,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_community_recreational_use",
       "sketchId": "25166",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 10600.69695,
       "extra": {
         "sketchName": "tradeofftest",
@@ -165,7 +165,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_construction_infrastructure",
       "sketchId": "25164",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 100.835566,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
@@ -187,7 +187,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_construction_infrastructure",
       "sketchId": "25165",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
@@ -209,7 +209,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_construction_infrastructure",
       "sketchId": "25166",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 100.835566,
       "extra": {
         "sketchName": "tradeofftest",
@@ -245,7 +245,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_cultural_use",
       "sketchId": "25164",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 6797.866378,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
@@ -267,7 +267,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_cultural_use",
       "sketchId": "25165",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 711.253165,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
@@ -289,7 +289,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_cultural_use",
       "sketchId": "25166",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 7509.119543,
       "extra": {
         "sketchName": "tradeofftest",
@@ -325,7 +325,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_fisheries",
       "sketchId": "25164",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 8768.888685,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
@@ -347,7 +347,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_fisheries",
       "sketchId": "25165",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 317.423315,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
@@ -369,7 +369,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_fisheries",
       "sketchId": "25166",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 9086.312,
       "extra": {
         "sketchName": "tradeofftest",
@@ -405,7 +405,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_maritime_activity",
       "sketchId": "25164",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 1220.905346,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
@@ -427,7 +427,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_maritime_activity",
       "sketchId": "25165",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 45.809159,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
@@ -449,7 +449,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_maritime_activity",
       "sketchId": "25166",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 1266.714505,
       "extra": {
         "sketchName": "tradeofftest",
@@ -485,7 +485,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_research",
       "sketchId": "25164",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 74.447991,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
@@ -507,7 +507,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_research",
       "sketchId": "25165",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 3.196242,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
@@ -529,7 +529,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_research",
       "sketchId": "25166",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 77.644233,
       "extra": {
         "sketchName": "tradeofftest",
@@ -565,7 +565,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_tourism",
       "sketchId": "25164",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 5.355647,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
@@ -587,7 +587,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_tourism",
       "sketchId": "25165",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
@@ -609,7 +609,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_tourism",
       "sketchId": "25166",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 5.355647,
       "extra": {
         "sketchName": "tradeofftest",
@@ -645,7 +645,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_transportation",
       "sketchId": "25164",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 42.217486,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
@@ -667,7 +667,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_transportation",
       "sketchId": "25165",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0.534451,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
@@ -689,7 +689,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_transportation",
       "sketchId": "25166",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 42.751937,
       "extra": {
         "sketchName": "tradeofftest",

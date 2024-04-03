@@ -38,7 +38,7 @@
       "metricId": "tradeoffValueOverlap",
       "classId": "fisheries_tradeoff",
       "sketchId": "24597",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 109732.800102,
       "extra": {
         "sketchName": "test"

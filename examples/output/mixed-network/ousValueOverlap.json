@@ -5,7 +5,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "24665",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "mixed-network",
@@ -41,7 +41,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "24666",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "mpa"
@@ -63,7 +63,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "24667",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "aquaculture-site"
@@ -85,7 +85,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_community_recreational_use",
       "sketchId": "24665",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 9790.49153,
       "extra": {
         "sketchName": "mixed-network",
@@ -121,7 +121,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_community_recreational_use",
       "sketchId": "24666",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 5008.63351,
       "extra": {
         "sketchName": "mpa"
@@ -143,7 +143,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_community_recreational_use",
       "sketchId": "24667",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 4781.85802,
       "extra": {
         "sketchName": "aquaculture-site"
@@ -165,7 +165,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_construction_infrastructure",
       "sketchId": "24665",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "mixed-network",
@@ -201,7 +201,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_construction_infrastructure",
       "sketchId": "24666",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "mpa"
@@ -223,7 +223,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_construction_infrastructure",
       "sketchId": "24667",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "aquaculture-site"
@@ -245,7 +245,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_cultural_use",
       "sketchId": "24665",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 8488.585602,
       "extra": {
         "sketchName": "mixed-network",
@@ -281,7 +281,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_cultural_use",
       "sketchId": "24666",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 8488.585602,
       "extra": {
         "sketchName": "mpa"
@@ -303,7 +303,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_cultural_use",
       "sketchId": "24667",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "aquaculture-site"
@@ -325,7 +325,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_fisheries",
       "sketchId": "24665",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 8744.969754,
       "extra": {
         "sketchName": "mixed-network",
@@ -361,7 +361,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_fisheries",
       "sketchId": "24666",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 6611.475595,
       "extra": {
         "sketchName": "mpa"
@@ -383,7 +383,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_fisheries",
       "sketchId": "24667",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 2133.494159,
       "extra": {
         "sketchName": "aquaculture-site"
@@ -405,7 +405,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_maritime_activity",
       "sketchId": "24665",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 3712.402228,
       "extra": {
         "sketchName": "mixed-network",
@@ -441,7 +441,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_maritime_activity",
       "sketchId": "24666",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 28.679042,
       "extra": {
         "sketchName": "mpa"
@@ -463,7 +463,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_maritime_activity",
       "sketchId": "24667",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 3683.723186,
       "extra": {
         "sketchName": "aquaculture-site"
@@ -485,7 +485,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_research",
       "sketchId": "24665",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 47.125861,
       "extra": {
         "sketchName": "mixed-network",
@@ -521,7 +521,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_research",
       "sketchId": "24666",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 46.690586,
       "extra": {
         "sketchName": "mpa"
@@ -543,7 +543,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_research",
       "sketchId": "24667",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0.435276,
       "extra": {
         "sketchName": "aquaculture-site"
@@ -565,7 +565,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_tourism",
       "sketchId": "24665",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "mixed-network",
@@ -601,7 +601,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_tourism",
       "sketchId": "24666",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "mpa"
@@ -623,7 +623,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_tourism",
       "sketchId": "24667",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "aquaculture-site"
@@ -645,7 +645,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_transportation",
       "sketchId": "24665",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 2.633962,
       "extra": {
         "sketchName": "mixed-network",
@@ -681,7 +681,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_transportation",
       "sketchId": "24666",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 2.604141,
       "extra": {
         "sketchName": "mpa"
@@ -703,7 +703,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_transportation",
       "sketchId": "24667",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0.029822,
       "extra": {
         "sketchName": "aquaculture-site"

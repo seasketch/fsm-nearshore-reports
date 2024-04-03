@@ -9,14 +9,18 @@ import {
   toNullSketch,
   rekeyMetrics,
   getFirstFromParam,
+  getFlatGeobufPath,
+  genFeatureCollection,
 } from "@seasketch/geoprocessing";
 import {
+  OusFeature,
   OusFeatureCollection,
   overlapOusDemographic,
 } from "../util/overlapOusDemographic";
 import project from "../../project";
-import shapes from "../../data/bin/ous_demographics.json";
 import { clipToGeography } from "../util/clipToGeography";
+import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
+import { Metric, sortMetrics } from "@seasketch/geoprocessing/client-core";
 
 /** Calculate sketch area overlap inside and outside of multiple planning area boundaries */
 export async function ousDemographicOverlap(
@@ -37,15 +41,24 @@ export async function ousDemographicOverlap(
     tolerance: 0.00001,
   });
 
+  const sh = await fgbFetchAll<OusFeature>(
+    getFlatGeobufPath(project.dataBucketUrl(), "ous_demographics")
+  );
+
   const metrics = (
-    await overlapOusDemographic(shapes as OusFeatureCollection, clippedSketch)
-  ).metrics.map((metric) => ({
-    ...metric,
-    geographyId: curGeography.geographyId,
-  }));
+    await overlapOusDemographic(
+      genFeatureCollection(sh) as OusFeatureCollection,
+      clippedSketch
+    )
+  ).metrics.map(
+    (metric): Metric => ({
+      ...metric,
+      geographyId: curGeography.geographyId,
+    })
+  );
 
   return {
-    metrics: rekeyMetrics(metrics),
+    metrics: sortMetrics(rekeyMetrics(metrics)),
     sketch: toNullSketch(sketch, true),
   };
 }

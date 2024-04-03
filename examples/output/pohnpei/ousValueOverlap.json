@@ -5,7 +5,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "24608",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -38,7 +38,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_community_recreational_use",
       "sketchId": "24608",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -71,7 +71,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_construction_infrastructure",
       "sketchId": "24608",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -104,7 +104,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_cultural_use",
       "sketchId": "24608",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -137,7 +137,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_fisheries",
       "sketchId": "24608",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -170,7 +170,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_maritime_activity",
       "sketchId": "24608",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -203,7 +203,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_research",
       "sketchId": "24608",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -236,7 +236,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_tourism",
       "sketchId": "24608",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -269,7 +269,7 @@
       "metricId": "ousValueOverlap",
       "classId": "ous_transportation",
       "sketchId": "24608",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"

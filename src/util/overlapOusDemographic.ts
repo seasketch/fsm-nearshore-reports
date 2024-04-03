@@ -67,9 +67,6 @@ export async function overlapOusDemographic(
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>
 ) {
-  // Performance testing
-  let start = performance.now();
-
   // Sort by respondent_id
   const sortedShapes = shapes.features.sort(
     (a, b) => a.properties.resp_id - b.properties.resp_id
@@ -130,15 +127,6 @@ export async function overlapOusDemographic(
   workers.forEach(async (worker) => {
     await Thread.terminate(worker);
   });
-
-  // Performance testing
-  let end = performance.now();
-  console.log(
-    "Sketch",
-    sketch?.properties.name,
-    "runtime is",
-    (end - start) / 1000
-  );
 
   // Combine metrics from worker threads
   const firstResult: OusReportResult = JSON.parse(

@@ -85,7 +85,7 @@
       "metricId": "tradeoffValueOverlap",
       "classId": "fisheries_tradeoff",
       "sketchId": "24665",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 8744.969754,
       "extra": {
         "sketchName": "mixed-network",
@@ -121,7 +121,7 @@
       "metricId": "tradeoffValueOverlap",
       "classId": "fisheries_tradeoff",
       "sketchId": "24666",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 6611.475595,
       "extra": {
         "sketchName": "mpa"
@@ -143,7 +143,7 @@
       "metricId": "tradeoffValueOverlap",
       "classId": "fisheries_tradeoff",
       "sketchId": "24667",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 2133.494159,
       "extra": {
         "sketchName": "aquaculture-site"
