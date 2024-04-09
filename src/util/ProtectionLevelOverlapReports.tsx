@@ -6,6 +6,7 @@ import {
   Table,
   GroupCircleRow,
   ObjectiveStatus,
+  Tooltip,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -40,7 +41,6 @@ import { InfoCircleFill } from "@styled-icons/bootstrap";
 import project from "../../project";
 import { AreaSketchTableStyled, PercentSketchTableStyled } from "./TableStyles";
 import { flattenByGroup } from "./flattenByGroup";
-import { Tooltip } from "./Tooltip";
 
 export interface ClassTableGroupedProps {
   showDetailedObjectives?: boolean;

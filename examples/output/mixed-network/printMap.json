@@ -1,0 +1,206 @@
+{
+  "type": "FeatureCollection",
+  "id": 24665,
+  "properties": {
+    "6293": "mixed-network",
+    "id": "24665",
+    "name": "mixed-network",
+    "postId": null,
+    "userId": "531",
+    "authors": null,
+    "userSlug": "Abby",
+    "createdAt": "2024-01-22T19:34:06.684054+00:00",
+    "updatedAt": "2024-01-22T19:34:47.762303+00:00",
+    "collectionId": null,
+    "isCollection": true,
+    "sharedInForum": false,
+    "sketchClassId": "746",
+    "userAttributes": [
+      {
+        "label": "Description",
+        "value": null,
+        "exportId": "descriptionconsider_adding_a_ra",
+        "fieldType": "TextArea",
+        "valueLabel": null,
+        "formElementId": 6294,
+        "alternateLanguages": {}
+      },
+      {
+        "label": "Author(s)",
+        "value": null,
+        "exportId": "authors",
+        "fieldType": "ShortText",
+        "valueLabel": null,
+        "formElementId": 6295,
+        "alternateLanguages": {}
+      }
+    ],
+    "descriptionconsider_adding_a_ra": null
+  },
+  "features": [
+    {
+      "type": "Feature",
+      "id": 24667,
+      "bbox": [
+        162.93085,
+        5.2671413,
+        162.94473,
+        5.2717376
+      ],
+      "properties": {
+        "6333": "aquaculture-site",
+        "id": "24667",
+        "name": "aquaculture-site",
+        "postId": null,
+        "userId": "531",
+        "authors": null,
+        "userSlug": "Abby",
+        "createdAt": "2024-01-22T19:34:45.136882+00:00",
+        "updatedAt": "2024-01-22T19:34:47.762303+00:00",
+        "description": null,
+        "collectionId": "24665",
+        "isCollection": false,
+        "sharedInForum": false,
+        "sketchClassId": "752",
+        "userAttributes": [
+          {
+            "label": "Description",
+            "value": null,
+            "exportId": "description",
+            "fieldType": "TextArea",
+            "valueLabel": null,
+            "formElementId": 6335,
+            "alternateLanguages": {}
+          },
+          {
+            "label": "Author(s)",
+            "value": null,
+            "exportId": "authors",
+            "fieldType": "ShortText",
+            "valueLabel": null,
+            "formElementId": 6336,
+            "alternateLanguages": {}
+          }
+        ]
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              162.9308545,
+              5.2716254
+            ],
+            [
+              162.9410988,
+              5.2671763
+            ],
+            [
+              162.9438559,
+              5.2678965
+            ],
+            [
+              162.942927302,
+              5.270977546
+            ],
+            [
+              162.9308545,
+              5.2716254
+            ]
+          ],
+          [
+            [
+              162.9388219,
+              5.2685657
+            ],
+            [
+              162.9398262,
+              5.2692736
+            ],
+            [
+              162.9395639,
+              5.2684042
+            ],
+            [
+              162.9388219,
+              5.2685657
+            ]
+          ]
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": 24666,
+      "bbox": [
+        162.9683,
+        5.3656883,
+        162.99742,
+        5.416262
+      ],
+      "properties": {
+        "6289": "mpa",
+        "id": "24666",
+        "name": "mpa",
+        "postId": null,
+        "userId": "531",
+        "authors": null,
+        "userSlug": "Abby",
+        "createdAt": "2024-01-22T19:34:26.038043+00:00",
+        "updatedAt": "2024-01-22T19:34:28.590769+00:00",
+        "collectionId": "24665",
+        "isCollection": false,
+        "sharedInForum": false,
+        "sketchClassId": "745",
+        "userAttributes": [
+          {
+            "label": "Description",
+            "value": null,
+            "exportId": "descriptionconsider_adding_a_ra",
+            "fieldType": "TextArea",
+            "valueLabel": null,
+            "formElementId": 6291,
+            "alternateLanguages": {}
+          },
+          {
+            "label": "Author(s)",
+            "value": null,
+            "exportId": "authors",
+            "fieldType": "ShortText",
+            "valueLabel": null,
+            "formElementId": 6292,
+            "alternateLanguages": {}
+          }
+        ],
+        "descriptionconsider_adding_a_ra": null
+      },
+      "geometry": {
+        "type": "Polygon",
+        "coordinates": [
+          [
+            [
+              162.968300094,
+              5.416262167
+            ],
+            [
+              162.981087063,
+              5.365764703
+            ],
+            [
+              162.990439878,
+              5.369143899
+            ],
+            [
+              162.997420869,
+              5.415341824
+            ],
+            [
+              162.968300094,
+              5.416262167
+            ]
+          ]
+        ]
+      }
+    }
+  ]
+}

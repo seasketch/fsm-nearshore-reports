@@ -15,6 +15,7 @@ import { Translator } from "../components/TranslatorAsync";
 import project from "../../project";
 import { useReactToPrint } from "react-to-print";
 import { PrintButton, PrintPopup, SketchAttributes } from "../util/Print";
+import { PrintMap } from "../components/PrintMap";
 
 const MpaTabReport = () => {
   const { t } = useTranslation();
@@ -114,7 +115,10 @@ const MpaTabReport = () => {
         ref={printRef}
         style={{ backgroundColor: isPrinting ? "#FFF" : "inherit" }}
       >
-        {isPrinting && <SketchAttributes {...attributes} />}
+        {/* style={{ display: isPrinting ? "block" : "none" }} */}
+        <div>
+          <SketchAttributes {...attributes} /> <PrintMap />
+        </div>
         <ReportPage hidden={!isPrinting && tab !== viabilityId}>
           <ViabilityPage geographyId={geographyId} printing={isPrinting} />
         </ReportPage>
