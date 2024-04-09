@@ -296,7 +296,7 @@
       },
       {
         "classId": "Research / Data Collection",
-        "display": "Research / Data Collection",
+        "display": "Research & Data Collection",
         "datasourceId": "ous_demographics.fgb",
         "layerId": ""
       },
@@ -320,7 +320,7 @@
       },
       {
         "classId": "Construction and Infrastructure",
-        "display": "Construction and Infrastructure",
+        "display": "Construction & Infrastructure",
         "datasourceId": "ous_demographics.fgb",
         "layerId": ""
       }
@@ -392,25 +392,25 @@
       },
       {
         "classId": "Gathering / Reef Gleaning",
-        "display": "Gathering / Reef Gleaning",
+        "display": "Gathering & Reef Gleaning",
         "datasourceId": "ous_demographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Other(Torch fishing)",
-        "display": "Other(Torch fishing)",
+        "display": "Other (Torch Fishing)",
         "datasourceId": "ous_demographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Spear/Harpoon",
-        "display": "Spear/Harpoon",
+        "display": "Spear & Harpoon",
         "datasourceId": "ous_demographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Trap / Fish Fence / Gill Net",
-        "display": "Trap / Fish Fence / Gill Net",
+        "display": "Trap, Fish Fence, & Gill Net",
         "datasourceId": "ous_demographics.fgb",
         "layerId": ""
       },

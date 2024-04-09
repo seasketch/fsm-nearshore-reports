@@ -226,7 +226,7 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
                       showTitle: true,
                     },
                     width: 20,
-                    colStyle: { textAlign: "right" },
+                    colStyle: { textAlign: "center" },
                   },
                   {
                     columnLabel: peopleUsingOceanLabel,
@@ -237,7 +237,7 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
                       showTitle: true,
                     },
                     width: 20,
-                    colStyle: { textAlign: "right" },
+                    colStyle: { textAlign: "center" },
                   },
                   {
                     columnLabel: peopleUsingOceanPercLabel,
@@ -278,7 +278,7 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
                     {
                       columnLabel: gearTypeLabel,
                       type: "class",
-                      width: 30,
+                      width: 28,
                       colStyle: { textAlign: "left" },
                     },
                     {
@@ -290,7 +290,7 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
                         showTitle: true,
                       },
                       width: 20,
-                      colStyle: { textAlign: "right" },
+                      colStyle: { textAlign: "center" },
                     },
                     {
                       columnLabel: peopleUsingOceanLabel,
@@ -300,8 +300,8 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
                       chartOptions: {
                         showTitle: true,
                       },
-                      width: 20,
-                      colStyle: { textAlign: "right" },
+                      width: 22,
+                      colStyle: { textAlign: "center" },
                     },
                     {
                       columnLabel: peopleUsingOceanPercLabel,
@@ -348,7 +348,7 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
                         showTitle: true,
                       },
                       width: 25,
-                      colStyle: { textAlign: "right" },
+                      colStyle: { textAlign: "center" },
                     },
                     {
                       columnLabel: peopleUsingOceanLabel,
@@ -359,7 +359,7 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
                         showTitle: true,
                       },
                       width: 25,
-                      colStyle: { textAlign: "right" },
+                      colStyle: { textAlign: "center" },
                     },
                     {
                       columnLabel: peopleUsingOceanPercLabel,
