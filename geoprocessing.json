@@ -26,6 +26,7 @@
     "src/functions/ousValueOverlap.ts",
     "src/functions/habitatAreaOverlap.ts",
     "src/functions/tradeoffValueOverlap.ts",
-    "src/functions/ousDemographicOverlap.ts"
+    "src/functions/ousDemographicOverlap.ts",
+    "src/functions/printMap.ts"
   ]
 }

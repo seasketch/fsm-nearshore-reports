@@ -427,5 +427,16 @@
         "layerId": ""
       }
     ]
+  },
+  {
+    "metricId": "printMap",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "classId": "land",
+        "display": "Land",
+        "datasourceId": "kosrae"
+      }
+    ]
   }
 ]
