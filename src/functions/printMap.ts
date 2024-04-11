@@ -1,9 +1,6 @@
 import {
-  Feature,
   GeoprocessingHandler,
-  Polygon,
   genFeatureCollection,
-  isVectorDatasource,
 } from "@seasketch/geoprocessing";
 import simplify from "@turf/simplify";
 import project from "../../project";
@@ -12,43 +9,27 @@ import { isPolygonFeatureArray } from "@seasketch/geoprocessing/client-core";
 import bbox from "@turf/bbox";
 
 export async function printMap(sketch: any) {
-  const mg = project.getMetricGroup("printMap");
+  const land = project.getVectorDatasourceById(
+    project.getGeographyById(undefined, {
+      fallbackGroup: "default-boundary",
+    }).datasourceId
+  );
 
   // Get bounding box of sketch
   const sketchBox = sketch.bbox || bbox(sketch);
 
-  const polysByBoundary = (
-    await Promise.all(
-      mg.classes.map(async (curClass) => {
-        if (!curClass.datasourceId) {
-          throw new Error(`Missing datasourceId ${curClass.classId}`);
-        }
-        const ds = project.getDatasourceById(curClass.datasourceId);
-        if (!isVectorDatasource(ds)) {
-          throw new Error(`Expected vector datasource for ${ds.datasourceId}`);
-        }
-
-        // Fetch datasource features overlapping with sketch remainder
-        const url = project.getDatasourceUrl(ds);
-        const polys = await getFeatures(ds, url, {
-          bbox: sketchBox,
-        });
-        if (!isPolygonFeatureArray(polys)) {
-          throw new Error("Expected array of Polygon features");
-        }
-        return polys;
-      })
-    )
-  ).reduce<Record<string, Feature<Polygon>[]>>((acc, polys, classIndex) => {
-    return {
-      ...acc,
-      [mg.classes[classIndex].classId]: polys,
-    };
-  }, {});
+  // Fetch land features
+  const url = project.getDatasourceUrl(land);
+  const landPolys = await getFeatures(land, url, {
+    bbox: sketchBox,
+  });
+  if (!isPolygonFeatureArray(landPolys)) {
+    throw new Error("Expected array of Polygon features");
+  }
 
   return {
     sketch: simplify(sketch, { tolerance: 0.001 }),
-    land: simplify(genFeatureCollection(polysByBoundary["land"]), {
+    land: simplify(genFeatureCollection(landPolys), {
       tolerance: 0.001,
     }),
   };
