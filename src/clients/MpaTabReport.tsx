@@ -15,6 +15,7 @@ import { Translator } from "../components/TranslatorAsync";
 import project from "../../project";
 import { useReactToPrint } from "react-to-print";
 import { PrintButton, PrintPopup, SketchAttributes } from "../util/Print";
+import { Footer } from "../util/Footer";
 
 const MpaTabReport = () => {
   const { t } = useTranslation();
@@ -126,6 +127,7 @@ const MpaTabReport = () => {
         <ReportPage hidden={!isPrinting && tab !== tradeoffsId}>
           <TradeoffsPage geographyId={geographyId} printing={isPrinting} />
         </ReportPage>
+        <Footer />
       </div>
     </>
   );
