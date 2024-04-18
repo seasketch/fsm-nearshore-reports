@@ -2,9 +2,7 @@
   {
     "datasourceId": "global-clipping-osm-land",
     "geo_type": "vector",
-    "formats": [
-      "subdivided"
-    ],
+    "formats": ["subdivided"],
     "precalc": false,
     "idProperty": "gid",
     "nameProperty": "gid",
@@ -14,9 +12,7 @@
   {
     "datasourceId": "global-clipping-eez-land-union",
     "geo_type": "vector",
-    "formats": [
-      "subdivided"
-    ],
+    "formats": ["subdivided"],
     "precalc": false,
     "idProperty": "UNION",
     "nameProperty": "UNION",
@@ -26,10 +22,7 @@
   {
     "datasourceId": "global-eez-mr-v12",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": false,
     "metadata": {
       "name": "World EEZ v11",
@@ -43,14 +36,10 @@
     "nameProperty": "GEONAME",
     "propertyFilter": {
       "property": "GEONAME",
-      "values": [
-        "Micronesian Exclusive Economic Zone"
-      ]
+      "values": ["Micronesian Exclusive Economic Zone"]
     },
     "bboxFilter": [
-      135.31555560000015,
-      -1.171388888586307,
-      165.67611110000007,
+      135.31555560000015, -1.171388888586307, 165.67611110000007,
       13.44070556000014
     ],
     "classKeys": [],
@@ -59,10 +48,7 @@
   {
     "datasourceId": "world",
     "geo_type": "vector",
-    "formats": [
-      "json",
-      "fgb"
-    ],
+    "formats": ["json", "fgb"],
     "precalc": false,
     "metadata": {
       "name": "World Outline Polygon",
@@ -79,9 +65,7 @@
   {
     "datasourceId": "bo-present-surface-ph",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": false,
     "metadata": {
       "name": "BioOracle Present Day Surface pH",
@@ -93,17 +77,15 @@
     },
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -3.3999999521443642e+38,
+    "noDataValue": -3.3999999521443642e38,
     "created": "2023-12-11T11:55:31.053Z",
     "lastUpdated": "2023-12-11T12:52:22.966Z",
-    "src": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/bo-present-surface-ph.tif"
+    "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/bo-present-surface-ph.tif"
   },
   {
     "datasourceId": "bo-present-surface-temp-max",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": false,
     "metadata": {
       "name": "BioOracle Present Day Surface Temperature Maximum",
@@ -115,15 +97,13 @@
     },
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -1.7e+308,
+    "noDataValue": -1.7e308,
     "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/bo-present-surface-temp-max.tif"
   },
   {
     "datasourceId": "bo-present-surface-temp-min",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": false,
     "metadata": {
       "name": "BioOracle Present Day Surface Temperature Minimum",
@@ -135,15 +115,13 @@
     },
     "measurementType": "quantitative",
     "band": 1,
-    "noDataValue": -1.7e+308,
+    "noDataValue": -1.7e308,
     "url": "https://gp-global-datasources-datasets.s3.us-west-1.amazonaws.com/bo-present-surface-temp-min.tif"
   },
   {
     "datasourceId": "meow-ecos",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "metadata": {
       "name": "Marine Ecoregions of the World",
@@ -162,10 +140,7 @@
   {
     "datasourceId": "nearshore",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "nearshore_mr_osm",
     "classKeys": [],
@@ -178,10 +153,7 @@
   {
     "datasourceId": "chuuk",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "chuuk_nearshore_mr_osm",
     "classKeys": [],
@@ -194,10 +166,7 @@
   {
     "datasourceId": "kosrae",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "kosrae_nearshore_mr_osm",
     "classKeys": [],
@@ -210,10 +179,7 @@
   {
     "datasourceId": "pohnpei",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "pohnpei_nearshore_mr_osm",
     "classKeys": [],
@@ -226,10 +192,7 @@
   {
     "datasourceId": "yap",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "yap_nearshore_mr_osm",
     "classKeys": [],
@@ -242,9 +205,7 @@
   {
     "datasourceId": "ous_aquaculture",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -256,9 +217,7 @@
   {
     "datasourceId": "ous_community_recreational_use",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -270,9 +229,7 @@
   {
     "datasourceId": "ous_construction_infrastructure",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -284,9 +241,7 @@
   {
     "datasourceId": "ous_cultural_use",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -298,9 +253,7 @@
   {
     "datasourceId": "ous_fisheries",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -312,9 +265,7 @@
   {
     "datasourceId": "ous_maritime_activity",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -326,9 +277,7 @@
   {
     "datasourceId": "ous_research",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -340,9 +289,7 @@
   {
     "datasourceId": "ous_tourism",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -354,9 +301,7 @@
   {
     "datasourceId": "ous_transportation",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -368,37 +313,14 @@
   {
     "datasourceId": "benthic",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "benthic_map",
-    "classKeys": [
-      "class"
-    ],
+    "classKeys": ["class"],
     "created": "2024-01-24T20:56:16.691Z",
     "lastUpdated": "2024-01-24T20:56:16.691Z",
     "src": "data/src/Data_Products/Allen_Coral_Atlas/Benthic-Map/benthic_map.fgb",
-    "propertiesToKeep": [
-      "class"
-    ],
+    "propertiesToKeep": ["class"],
     "explodeMulti": true
-  },
-  {
-    "src": "data/src/Data_Products/Allen_Coral_Atlas/Benthic-Map/split_benthic_map/coralalgae.fgb",
-    "layerName": "classId_1",
-    "geo_type": "vector",
-    "datasourceId": "coral_algae",
-    "formats": [
-      "fgb",
-      "json"
-    ],
-    "classKeys": [],
-    "created": "2024-01-24T23:02:30.416Z",
-    "lastUpdated": "2024-01-24T23:02:30.416Z",
-    "propertiesToKeep": [],
-    "explodeMulti": true,
-    "precalc": true
   }
 ]

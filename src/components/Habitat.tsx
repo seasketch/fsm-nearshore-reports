@@ -16,7 +16,6 @@ import {
   groupedSketchReport,
 } from "../util/ProtectionLevelOverlapReports";
 import { ReportProps } from "../util/ReportProp";
-import { fetchLastModifiedHeader } from "../util/Footer";
 
 export const Habitat: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection }] = useSketchProperties();

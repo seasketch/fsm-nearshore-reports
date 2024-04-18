@@ -15,6 +15,7 @@ import { Translator } from "../components/TranslatorAsync";
 import project from "../../project";
 import { useReactToPrint } from "react-to-print";
 import { PrintButton, PrintPopup, SketchAttributes } from "../util/Print";
+import { Settings } from "../util/Settings";
 import { Footer } from "../util/Footer";
 
 const MpaTabReport = () => {
@@ -91,14 +92,6 @@ const MpaTabReport = () => {
         <></>
       </ToolbarCard>
 
-      {/* Saving to PDF/Printing */}
-      <div
-        onClick={() => {
-          setIsPrinting(true);
-        }}
-      >
-        <PrintButton />
-      </div>
       {isPrinting && <PrintPopup />}
 
       {/* Segment control / tabs */}
@@ -127,14 +120,24 @@ const MpaTabReport = () => {
         <ReportPage hidden={!isPrinting && tab !== tradeoffsId}>
           <TradeoffsPage geographyId={geographyId} printing={isPrinting} />
         </ReportPage>
-        <Footer />
       </div>
+
+      {/* Footer */}
+      <Footer>
+        <Settings />
+        <div
+          onClick={() => {
+            setIsPrinting(true);
+          }}
+        >
+          <PrintButton />
+        </div>
+      </Footer>
     </>
   );
 };
 
 export default function () {
-  // Translator must be in parent FunctionComponent in order for ReportClient to use useTranslate hook
   return (
     <Translator>
       <MpaTabReport />
