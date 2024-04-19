@@ -6,10 +6,6 @@ import {
   SimpleButtonStyled,
 } from "@seasketch/geoprocessing/client-ui";
 import project from "../../project";
-import {
-  isInternalRasterDatasource,
-  isInternalVectorDatasource,
-} from "@seasketch/geoprocessing";
 import { Datasource } from "@seasketch/geoprocessing/client-core";
 
 const DropdownItemStyled = styled(SimpleButtonStyled)`
@@ -64,13 +60,9 @@ async function fetchDatasourcesLastModified() {
   await Promise.all(
     datasources.map(async (ds: Datasource) => {
       try {
-        if (isInternalRasterDatasource(ds) || isInternalVectorDatasource(ds)) {
-          const url = project.getDatasourceUrl(ds);
-          const lastModified = await fetchLastModifiedHeader(url);
-          modDates[ds.datasourceId] = lastModified
-            ? lastModified
-            : "NA - Likely global datasource";
-        } else modDates[ds.datasourceId] = "External datasource";
+        const url = project.getDatasourceUrl(ds);
+        const lastModified = await fetchLastModifiedHeader(url);
+        modDates[ds.datasourceId] = lastModified ? lastModified : "NA";
       } catch (error) {
         console.log(`Error fetching ${ds.datasourceId} modification date`);
       }

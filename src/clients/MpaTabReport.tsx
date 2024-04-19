@@ -94,6 +94,14 @@ const MpaTabReport = () => {
 
       {isPrinting && <PrintPopup />}
 
+      <div
+        onClick={() => {
+          setIsPrinting(true);
+        }}
+      >
+        <PrintButton />
+      </div>
+
       {/* Segment control / tabs */}
       <div style={{ marginTop: 5 }}>
         <SegmentControl
@@ -125,13 +133,6 @@ const MpaTabReport = () => {
       {/* Footer */}
       <Footer>
         <Settings />
-        <div
-          onClick={() => {
-            setIsPrinting(true);
-          }}
-        >
-          <PrintButton />
-        </div>
       </Footer>
     </>
   );

@@ -9,6 +9,9 @@ import styled from "styled-components";
 const Printer = styled(BasePrinter)`
   cursor: pointer;
   color: #999;
+  float: right;
+  position: relative;
+  margin: 5px;
 
   &:hover {
     color: #666;
