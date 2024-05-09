@@ -6,7 +6,7 @@
       "classId": "Coral/Algae",
       "sketchId": "25164",
       "groupId": null,
-      "value": 38587.718664,
+      "value": 38501.515664,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -17,7 +17,7 @@
       "classId": "Coral/Algae",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 38587.718664,
+      "value": 38501.515664,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -28,7 +28,7 @@
       "classId": "Coral/Algae",
       "sketchId": "25165",
       "groupId": null,
-      "value": 35050.591342,
+      "value": 34972.290105,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -39,7 +39,7 @@
       "classId": "Coral/Algae",
       "sketchId": "25165",
       "groupId": "mpa",
-      "value": 35050.591342,
+      "value": 34972.290105,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -50,7 +50,7 @@
       "classId": "Coral/Algae",
       "sketchId": "25166",
       "groupId": null,
-      "value": 73638.310006,
+      "value": 73473.805769,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -62,7 +62,7 @@
       "classId": "Coral/Algae",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 73638.310006,
+      "value": 73473.805769,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -166,7 +166,7 @@
       "classId": "Rock",
       "sketchId": "25164",
       "groupId": null,
-      "value": 335264.812224,
+      "value": 334515.847694,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -177,7 +177,7 @@
       "classId": "Rock",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 335264.812224,
+      "value": 334515.847694,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -210,7 +210,7 @@
       "classId": "Rock",
       "sketchId": "25166",
       "groupId": null,
-      "value": 335264.812224,
+      "value": 334515.847694,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -222,7 +222,7 @@
       "classId": "Rock",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 335264.812224,
+      "value": 334515.847694,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -246,7 +246,7 @@
       "classId": "Rubble",
       "sketchId": "25164",
       "groupId": null,
-      "value": 65864.710451,
+      "value": 65717.57204,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -257,7 +257,7 @@
       "classId": "Rubble",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 65864.710451,
+      "value": 65717.57204,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -290,7 +290,7 @@
       "classId": "Rubble",
       "sketchId": "25166",
       "groupId": null,
-      "value": 65864.710451,
+      "value": 65717.57204,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -302,7 +302,7 @@
       "classId": "Rubble",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 65864.710451,
+      "value": 65717.57204,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -326,7 +326,7 @@
       "classId": "Sand",
       "sketchId": "25164",
       "groupId": null,
-      "value": 4971.329878,
+      "value": 4960.22418,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -337,7 +337,7 @@
       "classId": "Sand",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 4971.329878,
+      "value": 4960.22418,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -370,7 +370,7 @@
       "classId": "Sand",
       "sketchId": "25166",
       "groupId": null,
-      "value": 4971.329878,
+      "value": 4960.22418,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -382,7 +382,7 @@
       "classId": "Sand",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 4971.329878,
+      "value": 4960.22418,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -406,7 +406,7 @@
       "classId": "Seagrass",
       "sketchId": "25164",
       "groupId": null,
-      "value": 638388.102087,
+      "value": 636961.975549,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -417,7 +417,7 @@
       "classId": "Seagrass",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 638388.102087,
+      "value": 636961.975549,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -428,7 +428,7 @@
       "classId": "Seagrass",
       "sketchId": "25165",
       "groupId": null,
-      "value": 2279.578611,
+      "value": 2274.486148,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -439,7 +439,7 @@
       "classId": "Seagrass",
       "sketchId": "25165",
       "groupId": "mpa",
-      "value": 2279.578611,
+      "value": 2274.486148,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -450,7 +450,7 @@
       "classId": "Seagrass",
       "sketchId": "25166",
       "groupId": null,
-      "value": 640667.680697,
+      "value": 639236.461697,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -462,7 +462,7 @@
       "classId": "Seagrass",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 640667.680697,
+      "value": 639236.461697,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true

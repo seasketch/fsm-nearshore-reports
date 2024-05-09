@@ -6,7 +6,7 @@
       "classId": "benthic_tradeoff",
       "sketchId": "24597",
       "groupId": null,
-      "value": 649694.71221,
+      "value": 648243.327281,
       "extra": {
         "sketchName": "test"
       }
@@ -17,7 +17,7 @@
       "classId": "benthic_tradeoff",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 649694.71221,
+      "value": 648243.327281,
       "extra": {
         "sketchName": "test"
       }
@@ -72,7 +72,7 @@
       "classId": "nearshore",
       "sketchId": "24597",
       "groupId": null,
-      "value": 84073725.985804,
+      "value": 83885909.559741,
       "extra": {
         "sketchName": "test"
       }
@@ -83,7 +83,7 @@
       "classId": "nearshore",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 84073725.985804,
+      "value": 83885909.559741,
       "extra": {
         "sketchName": "test"
       }
