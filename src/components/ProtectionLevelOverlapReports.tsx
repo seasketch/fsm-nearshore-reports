@@ -35,12 +35,18 @@ import {
   groupDisplayMapPl,
   groups,
   groupsDisplay,
-} from "./getGroup";
-import { HorizontalStackedBar, RowConfig } from "./HorizontalStackedBar";
+} from "../util/getGroup.js";
 import { InfoCircleFill } from "@styled-icons/bootstrap";
-import project from "../../project";
-import { AreaSketchTableStyled, PercentSketchTableStyled } from "./TableStyles";
-import { flattenByGroup } from "./flattenByGroup";
+import {
+  HorizontalStackedBar,
+  RowConfig,
+} from "./util/HorizontalStackedBar.js";
+import {
+  AreaSketchTableStyled,
+  PercentSketchTableStyled,
+} from "./TableStyles.js";
+import { flattenByGroup } from "../util/flattenByGroup.js";
+import project from "../../project/projectClient.js";
 
 export interface ClassTableGroupedProps {
   showDetailedObjectives?: boolean;
@@ -304,14 +310,15 @@ export interface CollectionObjectiveStatusProps {
  * Presents objectives for single sketch
  * @param CollectionObjectiveStatusProps containing objective, objective
  */
-export const CollectionObjectiveStatus: React.FunctionComponent<CollectionObjectiveStatusProps> =
-  ({ objective, objectiveMet, t }) => {
-    const msg = Object.keys(collectionMsgs).includes(objective.objectiveId)
-      ? collectionMsgs[objective.objectiveId](objective, objectiveMet, t)
-      : collectionMsgs["default"](objective, objectiveMet, t);
+export const CollectionObjectiveStatus: React.FunctionComponent<
+  CollectionObjectiveStatusProps
+> = ({ objective, objectiveMet, t }) => {
+  const msg = Object.keys(collectionMsgs).includes(objective.objectiveId)
+    ? collectionMsgs[objective.objectiveId](objective, objectiveMet, t)
+    : collectionMsgs["default"](objective, objectiveMet, t);
 
-    return <ObjectiveStatus status={objectiveMet} msg={msg} />;
-  };
+  return <ObjectiveStatus status={objectiveMet} msg={msg} />;
+};
 
 /**
  * Renders messages beased on objective and if objective is met for sketch collections
@@ -729,7 +736,7 @@ export const genAreaSketchTable = (
       Header: "Zone",
       accessor: (row) => sketchesById[row.sketchId].properties.name,
     },
-    ...classColumns,
+    ...(classColumns as Column<any>[]),
   ];
 
   if (printing) {

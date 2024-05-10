@@ -1,6 +1,6 @@
 import React from "react";
 import { scaleLinear, ScaleLinear } from "d3-scale";
-import styled, { keyframes } from "styled-components";
+import { styled, keyframes } from "styled-components";
 
 export type ScatterplotProps = {
   // Array of tradeoff points from Crow analysis

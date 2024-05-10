@@ -3,7 +3,6 @@ import {
   Collapse,
   ResultsCard,
   KeySection,
-  InfoStatus,
   ClassTable,
 } from "@seasketch/geoprocessing/client-ui";
 import {
@@ -13,16 +12,14 @@ import {
   percentWithEdge,
 } from "@seasketch/geoprocessing/client-core";
 import totals from "../../data/bin/ousDemographicPrecalcTotals.json";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
-import { ReportProps } from "../util/ReportProp";
+import { ReportProps } from "../util/ReportProp.js";
 const precalcTotals = totals as ReportResultBase;
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const OusDemographics: React.FunctionComponent<ReportProps> = (
-  props
-) => {
+export const OusDemographic: React.FunctionComponent<ReportProps> = (props) => {
   const { t } = useTranslation();
 
   const overallMetricGroup = project.getMetricGroup(

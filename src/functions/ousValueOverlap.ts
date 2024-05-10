@@ -8,7 +8,7 @@ import {
   splitSketchAntimeridian,
   overlapRasterGroupMetrics,
 } from "@seasketch/geoprocessing";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 import {
   DefaultExtraParams,
   Georaster,
@@ -20,10 +20,10 @@ import {
   sortMetrics,
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
-import { clipToGeography } from "../util/clipToGeography";
+import { clipToGeography } from "../util/clipToGeography.js";
 import bbox from "@turf/bbox";
 import { loadCog } from "@seasketch/geoprocessing/dataproviders";
-import { getGroup, groups } from "../util/getGroup";
+import { getGroup, groups } from "../util/getGroup.js";
 
 const mg = project.getMetricGroup("ousValueOverlap");
 

@@ -11,8 +11,8 @@ import {
   getUserAttribute,
 } from "@seasketch/geoprocessing/client-core";
 import { GeoprocessingHandler } from "@seasketch/geoprocessing";
-import project from "../../project";
-import { sketchClassIdToGroup } from "../util/getGroup";
+import project from "../../project/projectClient.js";
+import { sketchClassIdToGroup } from "../util/getGroup.js";
 
 export async function groupCountOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>

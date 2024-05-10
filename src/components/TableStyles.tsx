@@ -1,5 +1,5 @@
 import { ReportTableStyled } from "@seasketch/geoprocessing/client-ui";
-import styled from "styled-components";
+import { styled } from "styled-components";
 
 interface SketchTableProps {
   printing: boolean;

@@ -1,10 +1,10 @@
 import React from "react";
-import { SizeCard } from "./SizeCard";
+import { SizeCard } from "./SizeCard.js";
 import { SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
-import { OUSCard } from "./OUSCard";
-import { GroupCard } from "./Group";
-import { ReportProps } from "../util/ReportProp";
-import { OusDemographics } from "./OusDemographic";
+import { OUSCard } from "./OUSCard.js";
+import { GroupCard } from "./Group.js";
+import { ReportProps } from "../util/ReportProp.js";
+import { OusDemographic } from "./OusDemographic.js";
 
 const ReportPage: React.FunctionComponent<ReportProps> = (props) => {
   return (
@@ -14,7 +14,7 @@ const ReportPage: React.FunctionComponent<ReportProps> = (props) => {
       {props.geographyId === "kosrae" ? (
         <>
           <OUSCard geographyId={props.geographyId} printing={props.printing} />
-          <OusDemographics
+          <OusDemographic
             geographyId={props.geographyId}
             printing={props.printing}
           />

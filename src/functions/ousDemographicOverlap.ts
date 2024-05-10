@@ -16,9 +16,9 @@ import {
   OusFeature,
   OusFeatureCollection,
   overlapOusDemographic,
-} from "../util/overlapOusDemographic";
-import project from "../../project";
-import { clipToGeography } from "../util/clipToGeography";
+} from "../util/overlapOusDemographic.js";
+import project from "../../project/projectClient.js";
+import { clipToGeography } from "../util/clipToGeography.js";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
 import { Metric, sortMetrics } from "@seasketch/geoprocessing/client-core";
 

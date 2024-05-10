@@ -1,6 +1,5 @@
-const { performance } = require("perf_hooks");
 import { spawn, Thread, Worker, FunctionThread } from "threads";
-import { OverlapOusDemographicWorker } from "./overlapOusDemographicWorker";
+import { OverlapOusDemographicWorker } from "./overlapOusDemographicWorker.js";
 import {
   Feature,
   Polygon,

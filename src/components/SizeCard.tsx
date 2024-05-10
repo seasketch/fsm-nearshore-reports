@@ -18,17 +18,17 @@ import {
   KeySection,
   LayerToggle,
 } from "@seasketch/geoprocessing/client-ui";
-import styled from "styled-components";
-import project from "../../project";
-import Translator from "../components/TranslatorAsync";
+import { styled } from "styled-components";
+import project from "../../project/projectClient.js";
+import Translator from "../components/TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 import {
   genAreaGroupLevelTable,
   genAreaSketchTable,
   groupedCollectionReport,
   groupedSketchReport,
-} from "../util/ProtectionLevelOverlapReports";
-import { ReportProps } from "../util/ReportProp";
+} from "./ProtectionLevelOverlapReports.js";
+import { ReportProps } from "../util/ReportProp.js";
 
 export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection }] = useSketchProperties();

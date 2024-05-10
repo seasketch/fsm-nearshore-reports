@@ -19,15 +19,15 @@ import {
   Metric,
   toNullSketchArray,
 } from "@seasketch/geoprocessing/client-core";
-import styled from "styled-components";
+import { styled } from "styled-components";
 import { Trans, useTranslation } from "react-i18next";
-import { ReportProps } from "../util/ReportProp";
+import { ReportProps } from "../util/ReportProp.js";
 import {
   groupColorMap,
   groupDisplayMapPl,
   groupDisplayMapSg,
   sketchClassIdToGroup,
-} from "../util/getGroup";
+} from "../util/getGroup.js";
 
 // Table styling for Show by Zone table
 export const SmallReportTableStyled = styled(ReportTableStyled)`

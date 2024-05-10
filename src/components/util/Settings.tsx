@@ -1,11 +1,11 @@
 import React, { useState, useEffect } from "react";
 import { Gear as BaseGear, CloudArrowUpFill } from "@styled-icons/bootstrap";
-import styled from "styled-components";
+import { styled } from "styled-components";
 import {
   Dropdown,
   SimpleButtonStyled,
 } from "@seasketch/geoprocessing/client-ui";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 import { Datasource } from "@seasketch/geoprocessing/client-core";
 
 const DropdownItemStyled = styled(SimpleButtonStyled)`

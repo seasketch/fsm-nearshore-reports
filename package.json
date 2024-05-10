@@ -50,6 +50,7 @@
     "@turf/boolean-valid": "7.0.0-alpha.113",
     "@turf/combine": "7.0.0-alpha.113",
     "@turf/flatten": "7.0.0-alpha.113",
+    "@turf/helpers": "7.0.0-alpha.113",
     "@turf/invariant": "7.0.0-alpha.113",
     "@turf/kinks": "7.0.0-alpha.113",
     "@turf/simplify": "7.0.0-alpha.113",
@@ -61,12 +62,14 @@
     "pascalcase": "^1.0.0",
     "react-i18next": "^12.2.0",
     "react-to-print": "^2.15.1",
+    "styled-components": "^6.1.8",
+    "threads": "^1.7.0",
     "union-subdivided-polygons": "^0.9.1"
   },
   "devDependencies": {
     "@babel/cli": "^7.24.1",
     "@babel/plugin-syntax-import-attributes": "^7.24.1",
-    "@seasketch/geoprocessing": "6.1.3-experimental-esm-vite-build.65",
+    "@seasketch/geoprocessing": "6.1.3-experimental-esm-vite-build.68",
     "@turf/boolean-disjoint": "7.0.0-alpha.113",
     "@turf/boolean-valid": "7.0.0-alpha.113",
     "@types/request": "^2.48.8",

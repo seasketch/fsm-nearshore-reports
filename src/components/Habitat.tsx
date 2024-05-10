@@ -6,16 +6,16 @@ import {
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import { ReportResult } from "@seasketch/geoprocessing/client-core";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
-import Translator from "./TranslatorAsync";
+import Translator from "./TranslatorAsync.js";
 import {
   genAreaGroupLevelTable,
   genAreaSketchTable,
   groupedCollectionReport,
   groupedSketchReport,
-} from "../util/ProtectionLevelOverlapReports";
-import { ReportProps } from "../util/ReportProp";
+} from "./ProtectionLevelOverlapReports.js";
+import { ReportProps } from "../util/ReportProp.js";
 
 export const Habitat: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection }] = useSketchProperties();

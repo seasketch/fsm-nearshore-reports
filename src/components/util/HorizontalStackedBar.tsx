@@ -6,7 +6,7 @@ import {
   LayerToggle,
 } from "@seasketch/geoprocessing/client-ui";
 import React from "react";
-import styled from "styled-components";
+import { styled } from "styled-components";
 // CHANGE: Import CheckCircleFill
 import { CheckCircleFill } from "@styled-icons/bootstrap";
 
@@ -315,172 +315,170 @@ export interface HorizontalStackedBarProps {
  * CHANGE: Add showLayerToggles = false default. Add layer toggles
  * CHANGE: Add small check mark when target reached with showTargetPass option
  */
-export const HorizontalStackedBar: React.FunctionComponent<HorizontalStackedBarProps> =
-  ({
-    rows,
-    rowConfigs,
-    max = 100,
-    barHeight,
-    titleWidth,
-    showLegend = true,
-    showTitle = true,
-    showTotalLabel = true,
-    showTargetLabel = true,
-    showLayerToggles = false,
-    showTargetPass = false,
-    targetLabelPosition = "top",
-    targetLabelStyle = "normal",
-    target,
-    blockGroupNames,
-    valueFormatter,
-    targetValueFormatter,
-    targetReachedColor,
-    ...rest
-  }) => {
-    const numBlockGroups = rows[0].length;
-    const blockGroupStyles =
-      rest.blockGroupStyles && rest.blockGroupStyles.length >= numBlockGroups
-        ? rest.blockGroupStyles
-        : [
-            { backgroundColor: "blue" },
-            { backgroundColor: "green" },
-            { backgroundColor: "gray" },
-          ];
-    const rowTotals = rows.reduce<number[]>((rowSumsSoFar, row) => {
-      return [...rowSumsSoFar, sumRow(row)];
-    }, []);
+export const HorizontalStackedBar: React.FunctionComponent<
+  HorizontalStackedBarProps
+> = ({
+  rows,
+  rowConfigs,
+  max = 100,
+  barHeight,
+  titleWidth,
+  showLegend = true,
+  showTitle = true,
+  showTotalLabel = true,
+  showTargetLabel = true,
+  showLayerToggles = false,
+  showTargetPass = false,
+  targetLabelPosition = "top",
+  targetLabelStyle = "normal",
+  target,
+  blockGroupNames,
+  valueFormatter,
+  targetValueFormatter,
+  targetReachedColor,
+  ...rest
+}) => {
+  const numBlockGroups = rows[0].length;
+  const blockGroupStyles =
+    rest.blockGroupStyles && rest.blockGroupStyles.length >= numBlockGroups
+      ? rest.blockGroupStyles
+      : [
+          { backgroundColor: "blue" },
+          { backgroundColor: "green" },
+          { backgroundColor: "gray" },
+        ];
+  const rowTotals = rows.reduce<number[]>((rowSumsSoFar, row) => {
+    return [...rowSumsSoFar, sumRow(row)];
+  }, []);
 
-    const rowRems = rowTotals.map((rowTotal) => {
-      const rem = max - rowTotal;
-      if (rem < -0.001)
-        console.warn(
-          `Row sum of ${rowTotal} is greater than max: ${max}. Check your input data`
-        );
-    });
+  const rowRems = rowTotals.map((rowTotal) => {
+    const rem = max - rowTotal;
+    if (rem < -0.001)
+      console.warn(
+        `Row sum of ${rowTotal} is greater than max: ${max}. Check your input data`
+      );
+  });
 
-    return (
-      <StyledHorizontalStackedBar
-        rowTotals={rowTotals}
-        target={target}
-        barHeight={barHeight}
-        showTitle={showTitle}
-        titleWidth={titleWidth}
-        blockGroupColors={blockGroupStyles
-          .map((style) => style.backgroundColor)
-          .slice(0, numBlockGroups)}
-        targetLabelPosition={targetLabelPosition}
-        targetLabelStyle={targetLabelStyle}
-      >
-        <>
-          <div className="graphic">
-            {rows.map((row, rowNumber) => {
-              const titleProp = rowConfigs[rowNumber].title;
-              const titleValue = (() => {
-                if (typeof titleProp === "function") {
-                  return titleProp;
-                } else {
-                  return () => titleProp;
-                }
-              })();
+  return (
+    <StyledHorizontalStackedBar
+      rowTotals={rowTotals}
+      target={target}
+      barHeight={barHeight}
+      showTitle={showTitle}
+      titleWidth={titleWidth}
+      blockGroupColors={blockGroupStyles
+        .map((style) => style.backgroundColor)
+        .slice(0, numBlockGroups)}
+      targetLabelPosition={targetLabelPosition}
+      targetLabelStyle={targetLabelStyle}
+    >
+      <>
+        <div className="graphic">
+          {rows.map((row, rowNumber) => {
+            const titleProp = rowConfigs[rowNumber].title;
+            const titleValue = (() => {
+              if (typeof titleProp === "function") {
+                return titleProp;
+              } else {
+                return () => titleProp;
+              }
+            })();
 
-              const layerId = rowConfigs[rowNumber].layerId;
-              const curTarget = (() => {
-                if (Array.isArray(target)) {
-                  // Multi-objective
-                  return target[rowNumber];
-                } else {
-                  // Single objective or no objective
-                  return target;
-                }
-              })();
-              const targetReached =
-                curTarget && rowTotals[rowNumber] >= curTarget;
+            const layerId = rowConfigs[rowNumber].layerId;
+            const curTarget = (() => {
+              if (Array.isArray(target)) {
+                // Multi-objective
+                return target[rowNumber];
+              } else {
+                // Single objective or no objective
+                return target;
+              }
+            })();
+            const targetReached =
+              curTarget && rowTotals[rowNumber] >= curTarget;
 
-              return (
-                <div
-                  key={`row-${rowNumber}`}
-                  className={`row row-${rowNumber}`}
-                >
-                  {showTitle && (
-                    <div className="title">
-                      {showTargetPass && targetReached && (
-                        <CheckCircleFill
-                          size={15}
-                          style={{ color: "#78c679", paddingRight: 5 }}
-                        />
-                      )}
-                      {titleValue(rowTotals[rowNumber])}
-                    </div>
-                  )}
-                  <div className="chart">
-                    {row.map((blockGroup, blockGroupNumber) =>
-                      blockGroup.map((blockValue, blockNumber) => (
-                        <span
-                          key={`${blockGroupNumber}${blockNumber}`}
-                          title={`${
-                            valueFormatter
-                              ? valueFormatter(blockValue)
-                              : blockValue
-                          }`}
-                          style={{
-                            width: `${blockValue}%`,
-                            ...blockGroupStyles[blockGroupNumber],
-                            ...(targetReached && targetReachedColor
-                              ? {
-                                  backgroundColor: targetReachedColor,
-                                }
-                              : {}),
-                          }}
-                          className={`block-group-${blockGroupNumber} block-${blockNumber} block`}
-                        ></span>
-                      ))
+            return (
+              <div key={`row-${rowNumber}`} className={`row row-${rowNumber}`}>
+                {showTitle && (
+                  <div className="title">
+                    {showTargetPass && targetReached && (
+                      <CheckCircleFill
+                        size={15}
+                        style={{ color: "#78c679", paddingRight: 5 }}
+                      />
                     )}
-                    <div className="zero-marker" />
-                    {curTarget && (
-                      <>
-                        <div className="marker" />
-                        {showTargetLabel && rowNumber === 0 && (
-                          <div className="marker-label">
-                            {targetValueFormatter
-                              ? targetValueFormatter(curTarget)
-                              : "Target"}
-                          </div>
-                        )}
-                      </>
-                    )}
-                    {showTotalLabel && (
-                      <div className="total-label">
-                        {valueFormatter
-                          ? valueFormatter(rowTotals[rowNumber])
-                          : rowTotals[rowNumber]}
-                      </div>
-                    )}
+                    {titleValue(rowTotals[rowNumber])}
                   </div>
-                  {showLayerToggles && layerId && (
-                    <div className="layer-toggle">
-                      <LayerToggle simple layerId={layerId} />
+                )}
+                <div className="chart">
+                  {row.map((blockGroup, blockGroupNumber) =>
+                    blockGroup.map((blockValue, blockNumber) => (
+                      <span
+                        key={`${blockGroupNumber}${blockNumber}`}
+                        title={`${
+                          valueFormatter
+                            ? valueFormatter(blockValue)
+                            : blockValue
+                        }`}
+                        style={{
+                          width: `${blockValue}%`,
+                          ...blockGroupStyles[blockGroupNumber],
+                          ...(targetReached && targetReachedColor
+                            ? {
+                                backgroundColor: targetReachedColor,
+                              }
+                            : {}),
+                        }}
+                        className={`block-group-${blockGroupNumber} block-${blockNumber} block`}
+                      ></span>
+                    ))
+                  )}
+                  <div className="zero-marker" />
+                  {curTarget && (
+                    <>
+                      <div className="marker" />
+                      {showTargetLabel && rowNumber === 0 && (
+                        <div className="marker-label">
+                          {targetValueFormatter
+                            ? targetValueFormatter(curTarget)
+                            : "Target"}
+                        </div>
+                      )}
+                    </>
+                  )}
+                  {showTotalLabel && (
+                    <div className="total-label">
+                      {valueFormatter
+                        ? valueFormatter(rowTotals[rowNumber])
+                        : rowTotals[rowNumber]}
                     </div>
                   )}
                 </div>
-              );
-            })}
-          </div>
+                {showLayerToggles && layerId && (
+                  <div className="layer-toggle">
+                    <LayerToggle simple layerId={layerId} />
+                  </div>
+                )}
+              </div>
+            );
+          })}
+        </div>
 
-          {showLegend && (
-            <div className="x-axis">
-              <ul className="legend">
-                {blockGroupNames
-                  .slice(0, numBlockGroups)
-                  .map((blockGroupName, blockGroupNameIndex) => (
-                    <li key={blockGroupNameIndex}>{blockGroupName}</li>
-                  ))}
-              </ul>
-            </div>
-          )}
-        </>
-      </StyledHorizontalStackedBar>
-    );
-  };
+        {showLegend && (
+          <div className="x-axis">
+            <ul className="legend">
+              {blockGroupNames
+                .slice(0, numBlockGroups)
+                .map((blockGroupName, blockGroupNameIndex) => (
+                  <li key={blockGroupNameIndex}>{blockGroupName}</li>
+                ))}
+            </ul>
+          </div>
+        )}
+      </>
+    </StyledHorizontalStackedBar>
+  );
+};
 
 /** Sum row values */
 // DID NOT CHANGE - was not exported from library
