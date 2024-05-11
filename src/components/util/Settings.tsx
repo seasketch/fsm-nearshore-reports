@@ -5,7 +5,7 @@ import {
   Dropdown,
   SimpleButtonStyled,
 } from "@seasketch/geoprocessing/client-ui";
-import project from "../../project/projectClient.js";
+import project from "../../../project/projectClient.js";
 import { Datasource } from "@seasketch/geoprocessing/client-core";
 
 const DropdownItemStyled = styled(SimpleButtonStyled)`

@@ -24,7 +24,7 @@ import { Scatterplot } from "./util/Scatterplot.js";
 import {
   isRasterDatasource,
   isVectorDatasource,
-} from "@seasketch/geoprocessing";
+} from "@seasketch/geoprocessing/client-core";
 import { ReportProps } from "../util/ReportProp.js";
 
 export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {

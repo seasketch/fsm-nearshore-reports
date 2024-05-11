@@ -29,6 +29,7 @@ import {
   groupedSketchReport,
 } from "./ProtectionLevelOverlapReports.js";
 import { ReportProps } from "../util/ReportProp.js";
+import watersImgUrl from "../assets/img/territorial_waters.png";
 
 export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection }] = useSketchProperties();
@@ -159,10 +160,7 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
                 {!props.printing && (
                   <Collapse title={t("Learn more")}>
                     <p>
-                      <img
-                        src={require("../assets/img/territorial_waters.png")}
-                        style={{ maxWidth: "100%" }}
-                      />
+                      {<img src={watersImgUrl} style={{ maxWidth: "100%" }} />}
                       <a
                         target="_blank"
                         href="https://en.wikipedia.org/wiki/Territorial_waters"

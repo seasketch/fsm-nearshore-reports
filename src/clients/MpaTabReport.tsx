@@ -22,7 +22,7 @@ import {
 import { Settings } from "../components/util/Settings.js";
 import { Footer } from "../components/util/Footer.js";
 
-const MpaTabReport = () => {
+export const MpaTabReport = () => {
   const { t } = useTranslation();
   const viabilityId = "viability";
   const representationId = "representation";

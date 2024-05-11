@@ -2,7 +2,10 @@ import React, { useRef } from "react";
 import { select, geoIdentity, geoPath } from "d3";
 import { ResultsCard } from "@seasketch/geoprocessing/client-ui";
 import { useTranslation } from "react-i18next";
-import { FeatureCollection, SketchCollection } from "@seasketch/geoprocessing";
+import {
+  FeatureCollection,
+  SketchCollection,
+} from "@seasketch/geoprocessing/client-core";
 
 export const PrintMap: React.FunctionComponent = () => {
   const { t } = useTranslation();
