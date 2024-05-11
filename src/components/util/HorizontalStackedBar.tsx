@@ -18,14 +18,14 @@ const defaults = {
 
 // CHANGE target from number to (number | undefined)[]
 export interface StyledHorizontalStackedBarProps {
-  rowTotals: number[];
-  blockGroupColors: (string | undefined)[];
-  showTitle: boolean;
-  target?: number | (number | undefined)[];
-  barHeight?: number;
-  titleWidth?: number;
-  targetLabelPosition?: "top" | "bottom";
-  targetLabelStyle?: "normal" | "tight";
+  $rowTotals: number[];
+  $blockGroupColors: (string | undefined)[];
+  $showTitle: boolean;
+  $target?: number | (number | undefined)[];
+  $barHeight?: number;
+  $titleWidth?: number;
+  $targetLabelPosition?: "top" | "bottom";
+  $targetLabelStyle?: "normal" | "tight";
 }
 
 // CHANGE - added 0.25em padding-rop to .row
@@ -63,7 +63,7 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
   .title {
     font-size: 0.9em;
     width: ${(props) =>
-      props.titleWidth ? props.titleWidth : defaults.titleWidth}%;
+      props.$titleWidth ? props.$titleWidth : defaults.titleWidth}%;
     padding-right: 5px;
     text-align: right;
     color: #666;
@@ -78,9 +78,9 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
     }
     to {
       width: ${(props) =>
-        props.showTitle
-          ? props.titleWidth
-            ? props.titleWidth
+        props.$showTitle
+          ? props.$titleWidth
+            ? props.$titleWidth
             : defaults.titleWidth
           : 92}%;
     }
@@ -92,9 +92,9 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
       }
       to {
         width: ${(props) =>
-          props.showTitle
-            ? props.titleWidth
-              ? props.titleWidth
+          props.$showTitle
+            ? props.$titleWidth
+              ? props.$titleWidth
               : defaults.titleWidth
             : 92}%;
       }
@@ -120,7 +120,7 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
     display: flex;
     align-items: center;
     justify-content: center;
-    height: ${(props) => props.barHeight || defaults.barHeight}px;
+    height: ${(props) => props.$barHeight || defaults.barHeight}px;
     color: #333;
     font-size: 0.75em;
     float: left;
@@ -128,7 +128,9 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
     position: relative;
     overflow: hidden;
     opacity: 1;
-    transition: opacity, 0.3s ease;
+    transition:
+      opacity,
+      0.3s ease;
     cursor: pointer;
   }
 
@@ -163,10 +165,10 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
   .zero-marker {
     position: absolute;
     left: -1.5px;
-    height: ${(props) => (props.barHeight || defaults.barHeight) * 1.5}px;
+    height: ${(props) => (props.$barHeight || defaults.barHeight) * 1.5}px;
     width: 1.5px;
     background-color: #aaa;
-    top: -${(props) => (props.barHeight || defaults.barHeight) * 0.25}px;
+    top: -${(props) => (props.$barHeight || defaults.barHeight) * 0.25}px;
   }
 
   .layer-toggle {
@@ -174,7 +176,7 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
   }
 
   ${(props) =>
-    props.rowTotals.map(
+    props.$rowTotals.map(
       (total, index) =>
         `
         .row-${index} .total-label {
@@ -185,7 +187,7 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
           text-shadow: 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF, 0 0 2px #FFF;
           font-weight: bold;
           color: #666;
-          height: ${props.barHeight || defaults.barHeight}px;
+          height: ${props.$barHeight || defaults.barHeight}px;
           display: flex;
           align-items: center;
         }
@@ -194,16 +196,16 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
 
   // CHANGE: Adds handling for multi-objective report
   ${(props) =>
-    props.target &&
-    (Array.isArray(props.target)
-      ? props.target.map((target) =>
+    props.$target &&
+    (Array.isArray(props.$target)
+      ? props.$target.map((target) =>
           target
             ? `
           .marker-label {
             position: absolute;
-            ${props.targetLabelPosition || "top"}: ${
-                props.targetLabelStyle === "normal" ? "-15" : "-12"
-              }px;
+            ${props.$targetLabelPosition || "top"}: ${
+              props.$targetLabelStyle === "normal" ? "-15" : "-12"
+            }px;
             left: ${target ? target : 0}%;
             width: 100px;
             text-align: left;
@@ -214,7 +216,7 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
           .marker {
             position: absolute;
             left: ${target}%;
-            height: ${(props.barHeight || defaults.barHeight) + 4}px;
+            height: ${(props.$barHeight || defaults.barHeight) + 4}px;
             width: 3px;
             background-color: #000;
             opacity: 0.35;
@@ -227,10 +229,10 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
       : `
     .marker-label {
       position: absolute;
-      ${props.targetLabelPosition || "top"}: ${
-          props.targetLabelStyle === "normal" ? "-15" : "-12"
-        }px;
-      left: ${props.target ? props.target : 0}%;
+      ${props.$targetLabelPosition || "top"}: ${
+        props.$targetLabelStyle === "normal" ? "-15" : "-12"
+      }px;
+      left: ${props.$target ? props.$target : 0}%;
       width: 100px;
       text-align: left;
       font-size: 0.7em;
@@ -239,8 +241,8 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
   
     .marker {
       position: absolute;
-      left: ${props.target}%;
-      height: ${(props.barHeight || defaults.barHeight) + 4}px;
+      left: ${props.$target}%;
+      height: ${(props.$barHeight || defaults.barHeight) + 4}px;
       width: 3px;
       background-color: #000;
       opacity: 0.35;
@@ -250,7 +252,7 @@ const StyledHorizontalStackedBar = styled.div<StyledHorizontalStackedBarProps>`
 `)}
 
   ${(props) =>
-    props.blockGroupColors.map(
+    props.$blockGroupColors.map(
       (blockGroupColor, index) =>
         `
       .legend li:nth-of-type(${index + 1}):before {
@@ -361,16 +363,16 @@ export const HorizontalStackedBar: React.FunctionComponent<
 
   return (
     <StyledHorizontalStackedBar
-      rowTotals={rowTotals}
-      target={target}
-      barHeight={barHeight}
-      showTitle={showTitle}
-      titleWidth={titleWidth}
-      blockGroupColors={blockGroupStyles
+      $rowTotals={rowTotals}
+      $target={target}
+      $barHeight={barHeight}
+      $showTitle={showTitle}
+      $titleWidth={titleWidth}
+      $blockGroupColors={blockGroupStyles
         .map((style) => style.backgroundColor)
         .slice(0, numBlockGroups)}
-      targetLabelPosition={targetLabelPosition}
-      targetLabelStyle={targetLabelStyle}
+      $targetLabelPosition={targetLabelPosition}
+      $targetLabelStyle={targetLabelStyle}
     >
       <>
         <div className="graphic">
