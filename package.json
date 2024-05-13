@@ -68,7 +68,7 @@
   "devDependencies": {
     "@babel/cli": "^7.24.1",
     "@babel/plugin-syntax-import-attributes": "^7.24.1",
-    "@seasketch/geoprocessing": "6.1.3-experimental-esm-vite-build.74",
+    "@seasketch/geoprocessing": "6.1.3-experimental-esm-vite-build.75",
     "@storybook/addon-essentials": "^8.0.10",
     "@storybook/addon-interactions": "^8.0.10",
     "@storybook/addon-links": "^8.0.10",
