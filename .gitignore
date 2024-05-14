@@ -10,5 +10,4 @@ data/src
 data/dist/**
 !data/dist/README.md
 .story-cache
-.story-cache
 *storybook.log
