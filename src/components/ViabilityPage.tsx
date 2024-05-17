@@ -5,10 +5,12 @@ import { OUSCard } from "./OUSCard.js";
 import { GroupCard } from "./Group.js";
 import { ReportProps } from "../util/ReportProp.js";
 import { OusDemographic } from "./OusDemographic.js";
+import { SimpleSync } from "./SimpleSync.js";
 
 const ReportPage: React.FunctionComponent<ReportProps> = (props) => {
   return (
     <>
+      <SimpleSync geographyId={props.geographyId} />
       <GroupCard geographyId={props.geographyId} printing={props.printing} />
       <SizeCard geographyId={props.geographyId} printing={props.printing} />
       {props.geographyId === "kosrae" ? (

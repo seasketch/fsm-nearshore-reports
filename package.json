@@ -1,5 +1,5 @@
 {
-  "name": "fsm-nearshore-reports-worker",
+  "name": "fsm-nearshore-worker",
   "version": "6.1.2",
   "description": "FSM nearshore reports",
   "private": false,
