@@ -10,8 +10,8 @@ import {
   GeoprocessingTask,
   GeoprocessingTaskStatus,
   GeoprocessingRequestParams,
+  genTaskCacheKey,
 } from "@seasketch/geoprocessing";
-import { genTaskCacheKey } from "@seasketch/geoprocessing/client-ui";
 import { OusDemographicExtraParams } from "../functions/ousDemographicOverlapWorker.js";
 import awsSdk from "aws-sdk";
 

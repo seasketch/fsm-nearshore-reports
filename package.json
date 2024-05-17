@@ -1,5 +1,5 @@
 {
-  "name": "fsm-nearshore-reports",
+  "name": "fsm-nearshore-reports-worker",
   "version": "6.1.2",
   "description": "FSM nearshore reports",
   "private": false,
@@ -68,7 +68,7 @@
   "devDependencies": {
     "@babel/cli": "^7.24.1",
     "@babel/plugin-syntax-import-attributes": "^7.24.1",
-    "@seasketch/geoprocessing": "7.0.0-beta.0",
+    "@seasketch/geoprocessing": "7.0.0-experimental-gp-handler-debug.8",
     "@storybook/addon-essentials": "^8.0.10",
     "@storybook/addon-interactions": "^8.0.10",
     "@storybook/addon-links": "^8.0.10",
