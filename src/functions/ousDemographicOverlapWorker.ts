@@ -36,8 +36,6 @@ export interface OusDemographicExtraParams extends DefaultExtraParams {
   endIndex?: number;
 }
 
-export type foo = Record<"startIndex" | "endIndex", number>;
-
 // This function is designed to be a building block for other geoprocessing functions
 // It is not intended to be called directly by the client
 // Rather a parent geoprocessing function should invoke the worker function's lambda using the aws-sdk Lambda.invoke API
