@@ -30,7 +30,6 @@
     "src/functions/printMap.ts",
     "src/functions/ousDemographicOverlapWorker.ts",
     "src/functions/simpleSum.ts",
-    "src/functions/simpleSumWorker.ts",
-    "src/functions/simpleSync.ts"
+    "src/functions/simpleSumWorker.ts"
   ]
 }
