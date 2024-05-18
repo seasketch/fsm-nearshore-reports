@@ -11,6 +11,8 @@ import {
   getFirstFromParam,
   getFlatGeobufPath,
   genFeatureCollection,
+  Metric,
+  sortMetrics,
 } from "@seasketch/geoprocessing";
 import {
   OusFeature,
@@ -20,7 +22,6 @@ import {
 import project from "../../project/projectClient.js";
 import { clipToGeography } from "../util/clipToGeography.js";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
-import { Metric, sortMetrics } from "@seasketch/geoprocessing/client-core";
 
 /** Calculate sketch area overlap inside and outside of multiple planning area boundaries */
 export async function ousDemographicOverlap(

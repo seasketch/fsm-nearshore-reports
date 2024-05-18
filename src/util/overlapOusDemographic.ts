@@ -1,5 +1,3 @@
-import { spawn, Thread, Worker, FunctionThread } from "threads";
-import { OverlapOusDemographicWorker } from "./overlapOusDemographicWorker.js";
 import {
   Feature,
   Polygon,
@@ -9,7 +7,15 @@ import {
   Nullable,
   Sketch,
   SketchCollection,
+  GeoprocessingTask,
+  GeoprocessingTaskStatus,
+  GeoprocessingRequestParams,
+  genTaskCacheKey,
 } from "@seasketch/geoprocessing";
+import { OusDemographicExtraParams } from "../functions/ousDemographicOverlapWorker.js";
+import awsSdk from "aws-sdk";
+
+const Lambda = new awsSdk.Lambda();
 
 export interface OusFeatureProperties {
   resp_id: number;
@@ -62,7 +68,7 @@ export async function overlapOusDemographic(
   /** ous shape polygons */
   shapes: OusFeatureCollection,
   /** optionally calculate stats for OUS shapes that overlap with sketch  */
-  sketch?:
+  sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>
 ) {
@@ -71,21 +77,22 @@ export async function overlapOusDemographic(
     (a, b) => a.properties.resp_id - b.properties.resp_id
   );
 
-  // Divide shapes into 6 groups (# lambda cores) to be run in
-  // worker threads while being respondent-safe
-  const workerShapes: OusFeatureCollection[] = [];
+  // Calculate start and end index for each lambda to
+  // process shapes in parallel
+  const numWorkers = 10;
+  const workerParams: OusDemographicExtraParams[] = [];
   let sIndex = 0; // Starting shapes index for worker
   let eIndex = 0; // Ending shapes index for worker
   for (
-    let index = Math.ceil(sortedShapes.length / 6);
-    index <= Math.ceil(sortedShapes.length / 6) * 6;
-    index += Math.ceil(sortedShapes.length / 6)
+    let index = Math.ceil(sortedShapes.length / numWorkers);
+    index <= Math.ceil(sortedShapes.length / numWorkers) * numWorkers;
+    index += Math.ceil(sortedShapes.length / numWorkers)
   ) {
-    if (index === Math.ceil(sortedShapes.length / 6) * 6) {
+    if (index === Math.ceil(sortedShapes.length / numWorkers) * numWorkers) {
       // If last worker group
-      workerShapes.push({
-        ...shapes,
-        features: sortedShapes.slice(sIndex),
+      workerParams.push({
+        startIndex: sIndex,
+        endIndex: sortedShapes.length - 1,
       });
     } else {
       // All others cases
@@ -97,44 +104,96 @@ export async function overlapOusDemographic(
         // Don't split a respondent's shapes into multiple workers or they are double-counted
         eIndex++;
       }
-      workerShapes.push({
-        ...shapes,
-        features: sortedShapes.slice(sIndex, eIndex),
+      workerParams.push({
+        startIndex: sIndex,
+        endIndex: eIndex,
       });
       sIndex = eIndex;
     }
   }
 
-  // Used to terminate workers after return
-  const workers: FunctionThread[] = [];
-
   // Start workers
-  const promises: Promise<OusReportResult>[] = workerShapes.map(
-    async (shapes) => {
-      const worker = await spawn<OverlapOusDemographicWorker>(
-        new Worker("./overlapOusDemographicWorker")
-      );
-      workers.push(worker);
-      return worker(shapes, sketch);
-    }
-  );
+  const promises = workerParams.map(async (workerParamObject) => {
+    // const worker = await spawn<OverlapOusDemographicWorker>(
+    //   new Worker("./overlapOusDemographicWorker")
+    // );
 
-  // Await results
-  const results: OusReportResult[] = await Promise.all(promises);
+    // Call worker lambda
 
-  // Terminate workers
-  workers.forEach(async (worker) => {
-    await Thread.terminate(worker);
+    // id is cache key
+    const id = genTaskCacheKey(
+      sketch.properties,
+      workerParamObject as GeoprocessingRequestParams
+    );
+    // What should service be?
+    const service = "WHAT_SHOULD_THIS_BE";
+    const location = `/${service}/tasks/${id}`;
+    const task: GeoprocessingTask = {
+      id, // cache key
+      service,
+      wss: "",
+      location,
+      startedAt: new Date().toISOString(),
+      logUriTemplate: `${location}/logs{?limit,nextToken}`,
+      geometryUri: `${location}/geometry`,
+      status: GeoprocessingTaskStatus.Pending,
+      estimate: 2,
+    };
+
+    // What should event look like?
+    const event = "WHAT_SHOULD_THIS_BE";
+    const payload = JSON.stringify(event);
+
+    return Lambda.invoke({
+      FunctionName:
+        "gp-fsm-nearshore-reports-sync-ousDemographicOverlapWorker-run",
+      ClientContext: JSON.stringify(task),
+      InvocationType: "RequestResponse", // synchronous, returns response
+      Payload: payload,
+    }).promise();
   });
 
-  // Combine metrics from worker threads
+  // Add ability to be notified of failed tasks to bail out early
+
+  // Wait for sync lambdas to all finish
+  const lambdaResults = await Promise.all(promises);
+  console.log("lambdaResults", JSON.stringify(lambdaResults));
+
+  // Combine results
   const firstResult: OusReportResult = JSON.parse(
-    JSON.stringify(results.shift()) // pops first result to use as base
+    JSON.stringify(lambdaResults.shift()) // pops first result to use as base
   );
 
-  const finalResult = results.reduce((finalResult, result) => {
-    // stats
+  const finalResult = lambdaResults.reduce((finalResult, lambdaResult) => {
+    // Check result status code for error
 
+    // stats
+    // MAKE UP RESULT UNTIL WE CAN GET FROM LAMBDA
+    const result: OusReportResult = {
+      stats: {
+        respondents: 1,
+        people: 1,
+        bySector: {
+          sectorOne: {
+            respondents: 1,
+            people: 1,
+          },
+        },
+        byMunicipality: {
+          muniOne: {
+            respondents: 1,
+            people: 1,
+          },
+        },
+        byGear: {
+          gearOne: {
+            respondents: 1,
+            people: 1,
+          },
+        },
+      },
+      metrics: [],
+    };
     finalResult.stats.respondents += result.stats.respondents;
     finalResult.stats.people += result.stats.people;
 
