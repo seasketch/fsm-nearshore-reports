@@ -6,11 +6,13 @@ import { GroupCard } from "./Group.js";
 import { ReportProps } from "../util/ReportProp.js";
 import { OusDemographic } from "./OusDemographic.js";
 import { SimpleSync } from "./SimpleSync.js";
+import { SimpleSum } from "./SimpleSum.js";
 
 const ReportPage: React.FunctionComponent<ReportProps> = (props) => {
   return (
     <>
       <SimpleSync geographyId={props.geographyId} />
+      <SimpleSum geographyId={props.geographyId} />
       <GroupCard geographyId={props.geographyId} printing={props.printing} />
       <SizeCard geographyId={props.geographyId} printing={props.printing} />
       {props.geographyId === "kosrae" ? (

@@ -7,24 +7,24 @@ import {
   writeResultOutput,
 } from "@seasketch/geoprocessing/scripts/testing";
 import { describe, test, expect } from "vitest";
-import { simpleSync } from "./simpleSync.js";
+import { simpleSumWorker } from "./simpleSumWorker.js";
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {
-    expect(typeof simpleSync).toBe("function");
+    expect(typeof simpleSumWorker).toBe("function");
   });
-  test("simpleSync - tests run against all examples", async () => {
+  test("simpleSumWorker - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await simpleSync(
+      const result = await simpleSumWorker(
         example,
         {
-          geographyIds: ["geog1", "geog2"],
+          workerId: 4,
         },
         { geometryUri: "https://sketch.m" }
       );
       expect(result).toBeTruthy();
-      writeResultOutput(result, "simpleSync", example.properties.name);
+      writeResultOutput(result, "simpleSumWorker", example.properties.name);
     }
   }, 60000);
 });

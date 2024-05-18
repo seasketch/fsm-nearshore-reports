@@ -6,33 +6,27 @@ import {
   GeoprocessingHandler,
   DefaultExtraParams,
   GeoprocessingRequestModel,
+  JSONValue,
 } from "@seasketch/geoprocessing";
 
 export interface SimpleResults {
-  result: {
-    extraParams: DefaultExtraParams;
-    request: GeoprocessingRequestModel<Polygon | MultiPolygon> | undefined;
-  };
+  sum: number;
 }
 
-export async function simpleSync(
+export async function simpleSumWorker(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams: DefaultExtraParams = {},
+  extraParams: Record<string, JSONValue> = { workerId: 0 },
   request?: GeoprocessingRequestModel<Polygon | MultiPolygon>
 ): Promise<SimpleResults> {
-  console.log("request", JSON.stringify(request));
   return {
-    result: {
-      extraParams,
-      request,
-    },
+    sum: extraParams.workerId as number,
   };
 }
 
-export default new GeoprocessingHandler(simpleSync, {
-  title: "simpleSync",
+export default new GeoprocessingHandler(simpleSumWorker, {
+  title: "simpleSumWorker",
   description: "Returns the extraParams it is passed",
   timeout: 60, // seconds
   memory: 1024, // megabytes

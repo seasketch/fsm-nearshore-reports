@@ -68,7 +68,7 @@
   "devDependencies": {
     "@babel/cli": "^7.24.1",
     "@babel/plugin-syntax-import-attributes": "^7.24.1",
-    "@seasketch/geoprocessing": "7.0.0-experimental-gp-handler-debug.8",
+    "@seasketch/geoprocessing": "7.0.0-experimental-gp-handler-debug.12",
     "@storybook/addon-essentials": "^8.0.10",
     "@storybook/addon-interactions": "^8.0.10",
     "@storybook/addon-links": "^8.0.10",
@@ -79,6 +79,7 @@
     "@turf/boolean-disjoint": "7.0.0-alpha.113",
     "@turf/boolean-valid": "7.0.0-alpha.113",
     "@types/request": "^2.48.8",
+    "aws-sdk-mock": "^6.0.1",
     "babel-plugin-i18next-extract": "0.10.0",
     "globby": "^14.0.1",
     "prop-types": "^15.8.1",

@@ -1,8 +1,13 @@
 {
   "result": {
-    "geographyIds": [
-      "geog1",
-      "geog2"
-    ]
+    "extraParams": {
+      "geographyIds": [
+        "geog1",
+        "geog2"
+      ]
+    },
+    "request": {
+      "geometryUri": "https://sketch.m"
+    }
   }
 }

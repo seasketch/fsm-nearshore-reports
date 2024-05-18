@@ -9,9 +9,9 @@ import { GeogProp, ReportResult } from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";
 
 /**
- * SimpleSync component
+ * SimpleSum component
  */
-export const SimpleSync: React.FunctionComponent<GeogProp> = (props) => {
+export const SimpleSum: React.FunctionComponent<GeogProp> = (props) => {
   const { t } = useTranslation();
   const [{ isCollection }] = useSketchProperties();
   const curGeography = project.getGeographyById(props.geographyId, {
@@ -20,19 +20,17 @@ export const SimpleSync: React.FunctionComponent<GeogProp> = (props) => {
 
   return (
     <ResultsCard
-      title={t("SimpleSync")}
-      functionName="simpleSync"
-      extraParams={{
-        geographyIds: ["geog1", "geog2"],
-      }}
+      title={t("SimpleSum")}
+      functionName="simpleSum"
+      extraParams={{ geographyIds: [curGeography.geographyId] }}
     >
       {(data: ReportResult) => {
-        const dataStr = JSON.stringify(data);
+        const paramStr = JSON.stringify(data.metrics, null, 2);
         return (
           <ReportError>
             <p>
               Result:
-              {dataStr}
+              {paramStr}
             </p>
           </ReportError>
         );
