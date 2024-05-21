@@ -14,6 +14,8 @@ import {
   genTaskCacheKey,
   GeoprocessingRequestModel,
 } from "@seasketch/geoprocessing";
+import geobuf from "geobuf";
+import Pbf from "pbf";
 
 import project from "../../project/projectClient.js";
 import awsSdk from "aws-sdk";
@@ -25,20 +27,47 @@ export async function simpleSum(
   extraParams: DefaultExtraParams = {},
   request?: GeoprocessingRequestModel<Polygon | MultiPolygon>
 ): Promise<ReportResult> {
+  if (!request) {
+    throw new Error("No request parameters provided to function");
+  }
+
   const numWorkers = 10;
   const workerIds = Array.from({ length: numWorkers }, (_, i) => i);
 
   const promises = workerIds.map(async (workerId) => {
     const cacheKey = genTaskCacheKey(sketch.properties, { workerId: workerId });
 
-    const event = {
-      queryStringParameters: {
-        geometryUri: request!.geometryUri,
-        extraParams: { workerId: workerId },
+    const workerRequest: GeoprocessingRequestModel = (() => {
+      let newRequest: GeoprocessingRequestModel = {
         cacheKey,
-      },
-    };
-    const payload = JSON.stringify(event, null, 2);
+        extraParams: { workerId: workerId },
+        geometryUri: request.geometryUri,
+      };
+
+      const sketchBuffer = geobuf.encode(sketch, new Pbf());
+      var sketch64 = Buffer.from(sketchBuffer).toString("base64");
+
+      const requestSizeBytes = JSON.stringify(newRequest).length * 2;
+      const sketchSizeBytes = JSON.stringify(sketch).length * 2;
+      const sketch64SizeBytes = JSON.stringify(sketch64).length * 2;
+
+      const MAX_SIZE_BYTES = 6_000_000; // 6MB max payload size
+
+      // If the request size is more than allowed, pass the geometryUri instead of the geometry
+      console.log(
+        "requestSize",
+        requestSizeBytes + sketchSizeBytes,
+        "requestGeobufSize",
+        requestSizeBytes + sketch64SizeBytes,
+        MAX_SIZE_BYTES
+      );
+      if (requestSizeBytes + sketch64SizeBytes < MAX_SIZE_BYTES) {
+        newRequest.geometryGeobuf = sketch64;
+      }
+      return newRequest;
+    })();
+    // console.log("workerRequest", workerRequest);
+    const payload = JSON.stringify(workerRequest, null, 2);
 
     const Lambda = new awsSdk.Lambda();
     return Lambda.invoke({
@@ -52,7 +81,7 @@ export async function simpleSum(
   const sum = workerPayloads.reduce<number>((acc, payload) => {
     const payloadObj = JSON.parse((payload as unknown as any).Payload);
     const body = JSON.parse(payloadObj.body);
-    console.log("body", JSON.stringify(body, null, 2));
+    // console.log("body", JSON.stringify(body, null, 2));
     return (acc + body.data.sum) as number;
   }, 0);
 

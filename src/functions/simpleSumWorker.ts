@@ -4,13 +4,18 @@ import {
   Polygon,
   MultiPolygon,
   GeoprocessingHandler,
-  DefaultExtraParams,
   GeoprocessingRequestModel,
   JSONValue,
 } from "@seasketch/geoprocessing";
 
 export interface SimpleResults {
   sum: number;
+}
+
+function sleep(ms: number) {
+  return new Promise((resolve) => {
+    setTimeout(resolve, ms);
+  });
 }
 
 export async function simpleSumWorker(
@@ -20,6 +25,7 @@ export async function simpleSumWorker(
   extraParams: Record<string, JSONValue> = { workerId: 0 },
   request?: GeoprocessingRequestModel<Polygon | MultiPolygon>
 ): Promise<SimpleResults> {
+  await sleep(1000);
   return {
     sum: extraParams.workerId as number,
   };
@@ -27,7 +33,7 @@ export async function simpleSumWorker(
 
 export default new GeoprocessingHandler(simpleSumWorker, {
   title: "simpleSumWorker",
-  description: "Returns the extraParams it is passed",
+  description: "Returns the workerId it is passed as the sum value",
   timeout: 60, // seconds
   memory: 1024, // megabytes
   executionMode: "sync",
