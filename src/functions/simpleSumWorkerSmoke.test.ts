@@ -16,13 +16,9 @@ describe("Basic smoke tests", () => {
   test("simpleSumWorker - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await simpleSumWorker(
-        example,
-        {
-          workerId: 4,
-        },
-        { geometryUri: "https://sketch.m" }
-      );
+      const result = await simpleSumWorker(example, {
+        workerId: 1,
+      });
       expect(result).toBeTruthy();
       writeResultOutput(result, "simpleSumWorker", example.properties.name);
     }
