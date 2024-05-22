@@ -89,6 +89,7 @@ const sketchReport = (metrics: Metric[], t: any, printing: boolean = false) => {
         <MpaClassPanel
           value={metrics[0].value}
           size={18}
+          /* i18next-extract-disable-next-line */
           displayName={t(groupDisplayMapSg[metrics[0].groupId || "none"])}
           displayValue={false}
           group={metrics[0].groupId as string | undefined}
@@ -126,6 +127,7 @@ const sketchCollectionReport = (
         <MpaClassPanel
           value={row.value}
           size={18}
+          /* i18next-extract-disable-next-line */
           displayName={t(groupDisplayMapPl[row.groupId || "none"])}
           group={row.groupId as string | undefined}
           groupColorMap={groupColorMap}
@@ -169,11 +171,13 @@ const genMpaSketchTable = (sketches: NullSketch[], t: any) => {
           groupColorMap={groupColorMap}
           group={sketchClassIdToGroup[row.properties.sketchClassId]}
         >
-          {t(
-            groupDisplayMapSg[
-              sketchClassIdToGroup[row.properties.sketchClassId]
-            ]
-          )}
+          {
+            /* i18next-extract-disable-line */ t(
+              groupDisplayMapSg[
+                sketchClassIdToGroup[row.properties.sketchClassId]
+              ]
+            )
+          }
         </GroupPill>
       ),
     },

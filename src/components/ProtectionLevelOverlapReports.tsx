@@ -191,6 +191,7 @@ export const genClassTableGrouped = (
   };
   // Coloring and styling for horizontal bars
   const groupColors = Object.values(groupColorMap);
+  /* i18next-extract-disable-next-line */
   const blockGroupNames = groupsDisplay.map((level) => t(level));
   const blockGroupStyles = groupColors.map((curBlue) => ({
     backgroundColor: curBlue,
@@ -328,15 +329,29 @@ export const collectionMsgs: Record<string, any> = {
     if (objectiveMet === OBJECTIVE_YES) {
       return (
         <>
-          {t("This plan meets the objective of protecting")}{" "}
-          <b>{percentWithEdge(objective.target)}</b> {t(objective.shortDesc)}
+          {
+            /* i18next-extract-disable-next-line */
+            t("This plan meets the objective of protecting")
+          }{" "}
+          <b>{percentWithEdge(objective.target)}</b>{" "}
+          {
+            /* i18next-extract-disable-next-line */
+            t(objective.shortDesc)
+          }
         </>
       );
     } else if (objectiveMet === OBJECTIVE_NO) {
       return (
         <>
-          {t("This plan does not meet the objective of protecting")}{" "}
-          <b>{percentWithEdge(objective.target)}</b> {t(objective.shortDesc)}
+          {
+            /* i18next-extract-disable-next-line */
+            t("This plan does not meet the objective of protecting")
+          }{" "}
+          <b>{percentWithEdge(objective.target)}</b>{" "}
+          {
+            /* i18next-extract-disable-next-line */
+            t(objective.shortDesc)
+          }
         </>
       );
     }
@@ -443,7 +458,10 @@ export const genPercGroupLevelTable = (
           group={row.groupId.toString()}
           groupColorMap={groupColorMap}
           circleText={`${row.numSketches}`}
-          rowText={t(groupDisplayMapPl[row.groupId])}
+          rowText={
+            /* i18next-extract-disable-next-line */
+            t(groupDisplayMapPl[row.groupId])
+          }
         />
       ),
     },
@@ -544,7 +562,10 @@ export const genAreaGroupLevelTable = (
           group={row.groupId.toString()}
           groupColorMap={groupColorMap}
           circleText={`${row.numSketches}`}
-          rowText={t(groupDisplayMapPl[row.groupId])}
+          rowText={
+            /* i18next-extract-disable-next-line */
+            t(groupDisplayMapPl[row.groupId])
+          }
         />
       ),
     },
