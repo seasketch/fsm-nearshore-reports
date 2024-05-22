@@ -11,11 +11,10 @@ import {
   GeoprocessingTaskStatus,
   GeoprocessingRequestParams,
   genTaskCacheKey,
+  GeoprocessingRequestModel,
 } from "@seasketch/geoprocessing";
 import { OusDemographicExtraParams } from "../functions/ousDemographicOverlapWorker.js";
 import awsSdk from "aws-sdk";
-
-const Lambda = new awsSdk.Lambda();
 
 export interface OusFeatureProperties {
   resp_id: number;
@@ -70,8 +69,13 @@ export async function overlapOusDemographic(
   /** optionally calculate stats for OUS shapes that overlap with sketch  */
   sketch:
     | Sketch<Polygon | MultiPolygon>
-    | SketchCollection<Polygon | MultiPolygon>
+    | SketchCollection<Polygon | MultiPolygon>,
+  request?: GeoprocessingRequestModel<Polygon | MultiPolygon>
 ) {
+  if (!request) {
+    throw new Error("No request parameters provided to function");
+  }
+
   // Sort by respondent_id
   const sortedShapes = shapes.features.sort(
     (a, b) => a.properties.resp_id - b.properties.resp_id
@@ -114,22 +118,25 @@ export async function overlapOusDemographic(
 
   // Start workers
   const promises = workerParams.map(async (workerParamObject) => {
-    // const worker = await spawn<OverlapOusDemographicWorker>(
-    //   new Worker("./overlapOusDemographicWorker")
-    // );
+    const cacheId = `${workerParamObject.startIndex}-${workerParamObject.endIndex}`;
+    const cacheKey = genTaskCacheKey(sketch.properties, {
+      cacheId: cacheId,
+    } as GeoprocessingRequestParams);
 
-    // Call worker lambda
+    const event = {
+      queryStringParameters: {
+        geometryUri: request!.geometryUri,
+        extraParams: workerParamObject,
+        cacheKey,
+      },
+    };
+    const payload = JSON.stringify(event, null, 2);
 
-    // id is cache key
-    const id = genTaskCacheKey(
-      sketch.properties,
-      workerParamObject as GeoprocessingRequestParams
-    );
     // What should service be?
-    const service = "WHAT_SHOULD_THIS_BE";
-    const location = `/${service}/tasks/${id}`;
+    const service = "us-west-1";
+    const location = `/${service}/tasks/${cacheKey}`;
     const task: GeoprocessingTask = {
-      id, // cache key
+      id: cacheKey,
       service,
       wss: "",
       location,
@@ -140,60 +147,38 @@ export async function overlapOusDemographic(
       estimate: 2,
     };
 
-    // What should event look like?
-    const event = "WHAT_SHOULD_THIS_BE";
-    const payload = JSON.stringify(event);
-
+    const Lambda = new awsSdk.Lambda();
     return Lambda.invoke({
       FunctionName:
-        "gp-fsm-nearshore-reports-sync-ousDemographicOverlapWorker-run",
-      ClientContext: JSON.stringify(task),
+        "gp-fsm-nearshore-worker-sync-ousDemographicOverlapChild",
+      ClientContext: Buffer.from(JSON.stringify(task)).toString('base64'),
       InvocationType: "RequestResponse", // synchronous, returns response
       Payload: payload,
     }).promise();
   });
 
-  // Add ability to be notified of failed tasks to bail out early
-
   // Wait for sync lambdas to all finish
   const lambdaResults = await Promise.all(promises);
-  console.log("lambdaResults", JSON.stringify(lambdaResults));
 
-  // Combine results
-  const firstResult: OusReportResult = JSON.parse(
-    JSON.stringify(lambdaResults.shift()) // pops first result to use as base
-  );
+  // Result template
+  const finalResult: OusReportResult = {
+    stats: {
+      respondents: 0,
+      people: 0,
+      bySector: {},
+      byMunicipality: {},
+      byGear: {},
+    },
+    metrics: [],
+  };
 
-  const finalResult = lambdaResults.reduce((finalResult, lambdaResult) => {
+  lambdaResults.reduce((finalResult, lambdaResult) => {
     // Check result status code for error
-
+    if((lambdaResult as any).StatusCode !== 200) 
+      throw Error(`OUS Demographic report error: ${(lambdaResult as any).Payload}`)
+    const result: OusReportResult = JSON.parse(JSON.parse((lambdaResult as any).Payload).body).data;
+    
     // stats
-    // MAKE UP RESULT UNTIL WE CAN GET FROM LAMBDA
-    const result: OusReportResult = {
-      stats: {
-        respondents: 1,
-        people: 1,
-        bySector: {
-          sectorOne: {
-            respondents: 1,
-            people: 1,
-          },
-        },
-        byMunicipality: {
-          muniOne: {
-            respondents: 1,
-            people: 1,
-          },
-        },
-        byGear: {
-          gearOne: {
-            respondents: 1,
-            people: 1,
-          },
-        },
-      },
-      metrics: [],
-    };
     finalResult.stats.respondents += result.stats.respondents;
     finalResult.stats.people += result.stats.people;
 
@@ -243,7 +228,6 @@ export async function overlapOusDemographic(
     }
 
     // metrics
-
     result.metrics.forEach((metric) => {
       const index = finalResult.metrics.findIndex(
         (finalMetric) =>
@@ -259,7 +243,7 @@ export async function overlapOusDemographic(
     });
 
     return finalResult;
-  }, firstResult);
+  }, finalResult);
 
   return finalResult;
 }

@@ -13,6 +13,7 @@ import {
   genFeatureCollection,
   Metric,
   sortMetrics,
+  GeoprocessingRequestModel,
 } from "@seasketch/geoprocessing";
 import {
   OusFeature,
@@ -28,7 +29,8 @@ export async function ousDemographicOverlap(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams: DefaultExtraParams = {}
+  extraParams: DefaultExtraParams = {},
+  request?: GeoprocessingRequestModel<Polygon | MultiPolygon>
 ): Promise<ReportResult> {
   // Use caller-provided geographyId if provided
   const geographyId = getFirstFromParam("geographyIds", extraParams);
@@ -49,7 +51,8 @@ export async function ousDemographicOverlap(
   const metrics = (
     await overlapOusDemographic(
       genFeatureCollection(sh) as OusFeatureCollection,
-      clippedSketch
+      clippedSketch,
+      request
     )
   ).metrics.map(
     (metric): Metric => ({

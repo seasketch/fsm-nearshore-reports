@@ -12,10 +12,6 @@ import {
   createMetric,
   Metric,
   toSketchArray,
-  ReportResult,
-  sortMetrics,
-  toNullSketch,
-  rekeyMetrics,
 } from "@seasketch/geoprocessing";
 import project from "../../project/projectClient.js";
 import { clipToGeography } from "../util/clipToGeography.js";
@@ -45,49 +41,31 @@ async function ousDemographicOverlapChild(
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
   extraParams: OusDemographicExtraParams = { startIndex: 0 }
-): Promise<ReportResult> {
-  // Use caller-provided geographyId if provided
-  const geographyId = getFirstFromParam("geographyIds", extraParams);
-
-  // Get geography features, falling back to geography assigned to default-boundary group
-  const curGeography = project.getGeographyById(geographyId, {
-    fallbackGroup: "default-boundary",
-  });
-
-  // Support sketches crossing antimeridian
-  const splitSketch = splitSketchAntimeridian(sketch);
-  // Clip to portion of sketch within current geography
-  const clippedSketch = await clipToGeography(splitSketch, curGeography);
-
+) {
   const sh = await fgbFetchAll<OusFeature>(
     getFlatGeobufPath(project.dataBucketUrl(), "ous_demographics")
+  );
+  const sortedShapes = sh.sort(
+    (a, b) => a.properties.resp_id - b.properties.resp_id
   );
 
   const sIndex = extraParams.startIndex;
   const eIndex = extraParams.endIndex || sh.length - 1;
-  const shapes = sh.slice(sIndex, eIndex);
+  const shapes = sortedShapes.slice(sIndex, eIndex);
 
-  const metrics = (
+  const result = (
     await overlapOusDemographicWorker(
       featureCollection(shapes) as OusFeatureCollection,
       sketch
     )
-  ).metrics.map(
-    (metric): Metric => ({
-      ...metric,
-      geographyId: curGeography.geographyId,
-    })
   );
 
-  return {
-    metrics: sortMetrics(rekeyMetrics(metrics)),
-    sketch: toNullSketch(sketch, true),
-  };
+  return result;
 }
 
 /**
   Calculates demographics of ocean use within a sketch. This function is specific to the 
-  OUS Demographics Survey conducted in the Azores. Each shape in 'shapes' contains the
+  OUS Demographics Survey conducted in Kosrae. Each shape in 'shapes' contains the
   following information:
   - Respondent ID - unique, anonymous Id used to identify a respondent
   - Municipality - one assigned municipality value per respondent
@@ -144,7 +122,7 @@ async function overlapOusDemographicWorker(
       }
 
       const isOverlapping = combinedSketch
-        ? !!intersect(shape, combinedSketch)
+        ? !!intersect(featureCollection([shape, combinedSketch]))
         : false; // booleanOverlap seemed to miss some so using intersect
       if (sketch && !isOverlapping) return statsSoFar;
 
