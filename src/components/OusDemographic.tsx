@@ -62,6 +62,8 @@ export const OusDemographic: React.FunctionComponent<ReportProps> = (props) => {
               m.metricId &&
               m.metricId === "ousPeopleCount"
           );
+          console.log(data.metrics);
+          console.log(data.sketch);
 
           const singlePeopleTotalCountMetrics = precalcTotals.metrics.filter(
             (m) => m.metricId === "ousPeopleCount"

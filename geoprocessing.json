@@ -24,6 +24,7 @@
     "src/functions/groupCountOverlap.ts",
     "src/functions/boundaryAreaOverlap.ts",
     "src/functions/ousValueOverlap.ts",
+    "src/functions/ousValueOverlapWorker.ts",
     "src/functions/habitatAreaOverlap.ts",
     "src/functions/tradeoffValueOverlap.ts",
     "src/functions/ousDemographicOverlap.ts",
