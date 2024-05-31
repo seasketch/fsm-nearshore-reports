@@ -3,10 +3,18 @@
     {
       "geographyId": "kosrae",
       "metricId": "ousPeopleCount",
+      "classId": "Bottom Fishing",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 97
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
       "classId": "Cast Net",
       "sketchId": "24665",
       "groupId": null,
-      "value": 20
+      "value": 33
     },
     {
       "geographyId": "kosrae",
@@ -14,7 +22,7 @@
       "classId": "Casting",
       "sketchId": "24665",
       "groupId": null,
-      "value": 50
+      "value": 57
     },
     {
       "geographyId": "kosrae",
@@ -22,12 +30,20 @@
       "classId": "Community Recreational Use",
       "sketchId": "24665",
       "groupId": null,
-      "value": 70
+      "value": 124
     },
     {
       "geographyId": "kosrae",
       "metricId": "ousPeopleCount",
-      "classId": "Fisheries",
+      "classId": "Construction and Infrastructure",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Cultural Use",
       "sketchId": "24665",
       "groupId": null,
       "value": 90
@@ -35,10 +51,98 @@
     {
       "geographyId": "kosrae",
       "metricId": "ousPeopleCount",
+      "classId": "Fisheries",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 287
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Gathering / Reef Gleaning",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 26
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Lelu",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 89
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Malem",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 47
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Maritime Activity",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 90
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Other(Torch fishing)",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 6
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
       "classId": "ousPeopleCount_all",
       "sketchId": "24665",
       "groupId": null,
-      "value": 110
+      "value": 441
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Research / Data Collection",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 4
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Spear/Harpoon",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 12
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Tafunsak",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 138
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Tourism",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 2
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Transportation",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 11
     },
     {
       "geographyId": "kosrae",
@@ -46,7 +150,7 @@
       "classId": "Trap / Fish Fence / Gill Net",
       "sketchId": "24665",
       "groupId": null,
-      "value": 10
+      "value": 45
     },
     {
       "geographyId": "kosrae",
@@ -54,7 +158,7 @@
       "classId": "Trolling",
       "sketchId": "24665",
       "groupId": null,
-      "value": 60
+      "value": 54
     },
     {
       "geographyId": "kosrae",
@@ -62,7 +166,15 @@
       "classId": "unknown-gear",
       "sketchId": "24665",
       "groupId": null,
-      "value": 70
+      "value": 237
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "unknown-municipality",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 33
     },
     {
       "geographyId": "kosrae",
@@ -70,7 +182,31 @@
       "classId": "Utwe",
       "sketchId": "24665",
       "groupId": null,
-      "value": 110
+      "value": 93
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Vertical Longline",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 16
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Walung",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 41
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Bottom Fishing",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 20
     },
     {
       "geographyId": "kosrae",
@@ -78,7 +214,7 @@
       "classId": "Cast Net",
       "sketchId": "24665",
       "groupId": null,
-      "value": 10
+      "value": 5
     },
     {
       "geographyId": "kosrae",
@@ -86,7 +222,7 @@
       "classId": "Casting",
       "sketchId": "24665",
       "groupId": null,
-      "value": 10
+      "value": 11
     },
     {
       "geographyId": "kosrae",
@@ -99,23 +235,31 @@
     {
       "geographyId": "kosrae",
       "metricId": "ousRespondentCount",
+      "classId": "Construction and Infrastructure",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Cultural Use",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 16
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
       "classId": "Fisheries",
       "sketchId": "24665",
       "groupId": null,
-      "value": 40
+      "value": 67
     },
     {
       "geographyId": "kosrae",
       "metricId": "ousRespondentCount",
-      "classId": "ousRespondentCount_all",
-      "sketchId": "24665",
-      "groupId": null,
-      "value": 50
-    },
-    {
-      "geographyId": "kosrae",
-      "metricId": "ousRespondentCount",
-      "classId": "Trap / Fish Fence / Gill Net",
+      "classId": "Gathering / Reef Gleaning",
       "sketchId": "24665",
       "groupId": null,
       "value": 10
@@ -123,10 +267,98 @@
     {
       "geographyId": "kosrae",
       "metricId": "ousRespondentCount",
+      "classId": "Lelu",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 18
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Malem",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 4
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Maritime Activity",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 5
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Other(Torch fishing)",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "ousRespondentCount_all",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 83
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Research / Data Collection",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 4
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Spear/Harpoon",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 2
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Tafunsak",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 29
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Tourism",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 1
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Transportation",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 11
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Trap / Fish Fence / Gill Net",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 13
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
       "classId": "Trolling",
       "sketchId": "24665",
       "groupId": null,
-      "value": 20
+      "value": 11
     },
     {
       "geographyId": "kosrae",
@@ -134,7 +366,15 @@
       "classId": "unknown-gear",
       "sketchId": "24665",
       "groupId": null,
-      "value": 20
+      "value": 45
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "unknown-municipality",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 4
     },
     {
       "geographyId": "kosrae",
@@ -142,7 +382,23 @@
       "classId": "Utwe",
       "sketchId": "24665",
       "groupId": null,
-      "value": 50
+      "value": 20
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Vertical Longline",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 3
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Walung",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 8
     }
   ],
   "sketch": {
