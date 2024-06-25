@@ -11,23 +11,26 @@ import {
   getFirstFromParam,
   getFlatGeobufPath,
   genFeatureCollection,
+  Metric,
+  sortMetrics,
+  GeoprocessingRequestModel,
 } from "@seasketch/geoprocessing";
 import {
   OusFeature,
   OusFeatureCollection,
   overlapOusDemographic,
-} from "../util/overlapOusDemographic";
-import project from "../../project";
-import { clipToGeography } from "../util/clipToGeography";
+} from "../util/overlapOusDemographic.js";
+import project from "../../project/projectClient.js";
+import { clipToGeography } from "../util/clipToGeography.js";
 import { fgbFetchAll } from "@seasketch/geoprocessing/dataproviders";
-import { Metric, sortMetrics } from "@seasketch/geoprocessing/client-core";
 
 /** Calculate sketch area overlap inside and outside of multiple planning area boundaries */
 export async function ousDemographicOverlap(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams: DefaultExtraParams = {}
+  extraParams: DefaultExtraParams = {},
+  request?: GeoprocessingRequestModel<Polygon | MultiPolygon>
 ): Promise<ReportResult> {
   // Use caller-provided geographyId if provided
   const geographyId = getFirstFromParam("geographyIds", extraParams);
@@ -48,7 +51,8 @@ export async function ousDemographicOverlap(
   const metrics = (
     await overlapOusDemographic(
       genFeatureCollection(sh) as OusFeatureCollection,
-      clippedSketch
+      clippedSketch,
+      request
     )
   ).metrics.map(
     (metric): Metric => ({

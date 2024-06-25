@@ -1,0 +1,170 @@
+{
+  "stats": {
+    "respondents": 5,
+    "people": 22,
+    "bySector": {
+      "Fisheries": {
+        "respondents": 5,
+        "people": 14
+      },
+      "Community Recreational Use": {
+        "respondents": 1,
+        "people": 9
+      }
+    },
+    "byMunicipality": {
+      "Utwe": {
+        "respondents": 5,
+        "people": 22
+      }
+    },
+    "byGear": {
+      "Bottom Fishing": {
+        "respondents": 2,
+        "people": 3
+      },
+      "Trolling": {
+        "respondents": 3,
+        "people": 11
+      },
+      "unknown-gear": {
+        "respondents": 1,
+        "people": 9
+      },
+      "Spear/Harpoon": {
+        "respondents": 1,
+        "people": 5
+      }
+    }
+  },
+  "metrics": [
+    {
+      "metricId": "ousPeopleCount",
+      "value": 22,
+      "classId": "ousPeopleCount_all",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "value": 5,
+      "classId": "ousRespondentCount_all",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "value": 14,
+      "classId": "Fisheries",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "value": 5,
+      "classId": "Fisheries",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "value": 9,
+      "classId": "Community Recreational Use",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "value": 1,
+      "classId": "Community Recreational Use",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "value": 22,
+      "classId": "Utwe",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "value": 5,
+      "classId": "Utwe",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "value": 3,
+      "classId": "Bottom Fishing",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "value": 2,
+      "classId": "Bottom Fishing",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "value": 11,
+      "classId": "Trolling",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "value": 3,
+      "classId": "Trolling",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "value": 9,
+      "classId": "unknown-gear",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "value": 1,
+      "classId": "unknown-gear",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousPeopleCount",
+      "value": 5,
+      "classId": "Spear/Harpoon",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "value": 1,
+      "classId": "Spear/Harpoon",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "25166"
+    }
+  ]
+}

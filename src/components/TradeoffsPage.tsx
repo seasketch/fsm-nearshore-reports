@@ -1,6 +1,6 @@
 import React from "react";
-import { Tradeoffs } from "./Tradeoffs";
-import { ReportProps } from "../util/ReportProp";
+import { Tradeoffs } from "./Tradeoffs.js";
+import { ReportProps } from "../util/ReportProp.js";
 
 const ReportPage: React.FunctionComponent<ReportProps> = (props) => {
   return (

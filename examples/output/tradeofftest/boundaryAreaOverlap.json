@@ -6,7 +6,7 @@
       "classId": "nearshore",
       "sketchId": "25164",
       "groupId": null,
-      "value": 5030505.710621,
+      "value": 5019267.816824,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -17,7 +17,7 @@
       "classId": "nearshore",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 5030505.710621,
+      "value": 5019267.816824,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -28,7 +28,7 @@
       "classId": "nearshore",
       "sketchId": "25165",
       "groupId": null,
-      "value": 1231537.434778,
+      "value": 1228786.242812,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -39,7 +39,7 @@
       "classId": "nearshore",
       "sketchId": "25165",
       "groupId": "mpa",
-      "value": 1231537.434778,
+      "value": 1228786.242812,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -50,7 +50,7 @@
       "classId": "nearshore",
       "sketchId": "25166",
       "groupId": null,
-      "value": 6262043.145399,
+      "value": 6248054.059636,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -62,7 +62,7 @@
       "classId": "nearshore",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 6261855.195244771,
+      "value": 6247866.529347124,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true

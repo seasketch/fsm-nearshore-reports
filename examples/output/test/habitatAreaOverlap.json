@@ -6,7 +6,7 @@
       "classId": "Coral/Algae",
       "sketchId": "24597",
       "groupId": null,
-      "value": 99491.617891,
+      "value": 99269.358679,
       "extra": {
         "sketchName": "test"
       }
@@ -17,7 +17,7 @@
       "classId": "Coral/Algae",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 99491.617891,
+      "value": 99269.358679,
       "extra": {
         "sketchName": "test"
       }
@@ -72,7 +72,7 @@
       "classId": "Rock",
       "sketchId": "24597",
       "groupId": null,
-      "value": 31194.807747,
+      "value": 31125.120133,
       "extra": {
         "sketchName": "test"
       }
@@ -83,7 +83,7 @@
       "classId": "Rock",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 31194.807747,
+      "value": 31125.120133,
       "extra": {
         "sketchName": "test"
       }
@@ -105,7 +105,7 @@
       "classId": "Rubble",
       "sketchId": "24597",
       "groupId": null,
-      "value": 11956.325203,
+      "value": 11929.615381,
       "extra": {
         "sketchName": "test"
       }
@@ -116,7 +116,7 @@
       "classId": "Rubble",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 11956.325203,
+      "value": 11929.615381,
       "extra": {
         "sketchName": "test"
       }
@@ -171,7 +171,7 @@
       "classId": "Seagrass",
       "sketchId": "24597",
       "groupId": null,
-      "value": 507051.961369,
+      "value": 505919.233088,
       "extra": {
         "sketchName": "test"
       }
@@ -182,7 +182,7 @@
       "classId": "Seagrass",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 507051.961369,
+      "value": 505919.233088,
       "extra": {
         "sketchName": "test"
       }

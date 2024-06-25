@@ -1,6 +1,3 @@
-const { performance } = require("perf_hooks");
-import { spawn, Thread, Worker, FunctionThread } from "threads";
-import { OverlapOusDemographicWorker } from "./overlapOusDemographicWorker";
 import {
   Feature,
   Polygon,
@@ -10,7 +7,22 @@ import {
   Nullable,
   Sketch,
   SketchCollection,
+  GeoprocessingTask,
+  GeoprocessingTaskStatus,
+  GeoprocessingRequestParams,
+  genTaskCacheKey,
+  GeoprocessingRequestModel,
 } from "@seasketch/geoprocessing";
+import {
+  OusDemographicExtraParams,
+  ousDemographicOverlapChild,
+} from "../functions/ousDemographicOverlapWorker.js";
+import awsSdk from "aws-sdk";
+import {
+  parseLambdaOUSResponse,
+  parseLambdaResponse,
+  runLambdaWorker,
+} from "./lambdaHelpers.js";
 
 export interface OusFeatureProperties {
   resp_id: number;
@@ -63,30 +75,36 @@ export async function overlapOusDemographic(
   /** ous shape polygons */
   shapes: OusFeatureCollection,
   /** optionally calculate stats for OUS shapes that overlap with sketch  */
-  sketch?:
+  sketch:
     | Sketch<Polygon | MultiPolygon>
-    | SketchCollection<Polygon | MultiPolygon>
+    | SketchCollection<Polygon | MultiPolygon>,
+  request?: GeoprocessingRequestModel<Polygon | MultiPolygon>
 ) {
+  if (!request) {
+    throw new Error("No request parameters provided to function");
+  }
+
   // Sort by respondent_id
   const sortedShapes = shapes.features.sort(
     (a, b) => a.properties.resp_id - b.properties.resp_id
   );
 
-  // Divide shapes into 6 groups (# lambda cores) to be run in
-  // worker threads while being respondent-safe
-  const workerShapes: OusFeatureCollection[] = [];
+  // Calculate start and end index for each lambda to
+  // process shapes in parallel
+  const numWorkers = 10;
+  const workerParams: OusDemographicExtraParams[] = [];
   let sIndex = 0; // Starting shapes index for worker
   let eIndex = 0; // Ending shapes index for worker
   for (
-    let index = Math.ceil(sortedShapes.length / 6);
-    index <= Math.ceil(sortedShapes.length / 6) * 6;
-    index += Math.ceil(sortedShapes.length / 6)
+    let index = Math.ceil(sortedShapes.length / numWorkers);
+    index <= Math.ceil(sortedShapes.length / numWorkers) * numWorkers;
+    index += Math.ceil(sortedShapes.length / numWorkers)
   ) {
-    if (index === Math.ceil(sortedShapes.length / 6) * 6) {
+    if (index === Math.ceil(sortedShapes.length / numWorkers) * numWorkers) {
       // If last worker group
-      workerShapes.push({
-        ...shapes,
-        features: sortedShapes.slice(sIndex),
+      workerParams.push({
+        startIndex: sIndex,
+        endIndex: sortedShapes.length - 1,
       });
     } else {
       // All others cases
@@ -98,44 +116,48 @@ export async function overlapOusDemographic(
         // Don't split a respondent's shapes into multiple workers or they are double-counted
         eIndex++;
       }
-      workerShapes.push({
-        ...shapes,
-        features: sortedShapes.slice(sIndex, eIndex),
+      workerParams.push({
+        startIndex: sIndex,
+        endIndex: eIndex,
       });
       sIndex = eIndex;
     }
   }
 
-  // Used to terminate workers after return
-  const workers: FunctionThread[] = [];
-
-  // Start workers
-  const promises: Promise<OusReportResult>[] = workerShapes.map(
-    async (shapes) => {
-      const worker = await spawn<OverlapOusDemographicWorker>(
-        new Worker("./overlapOusDemographicWorker")
-      );
-      workers.push(worker);
-      return worker(shapes, sketch);
-    }
+  const lambdaResults = await Promise.all(
+    workerParams.map(async (workerParamObject) => {
+      return process.env.NODE_ENV === "test"
+        ? ousDemographicOverlapChild(sketch, workerParamObject)
+        : runLambdaWorker(
+            sketch,
+            workerParamObject,
+            "ousDemographicOverlapChild",
+            request
+          );
+    })
   );
 
-  // Await results
-  const results: OusReportResult[] = await Promise.all(promises);
+  // Result template
+  const finalResult: OusReportResult = {
+    stats: {
+      respondents: 0,
+      people: 0,
+      bySector: {},
+      byMunicipality: {},
+      byGear: {},
+    },
+    metrics: [],
+  };
 
-  // Terminate workers
-  workers.forEach(async (worker) => {
-    await Thread.terminate(worker);
-  });
+  lambdaResults.reduce<OusReportResult>((finalResult, lambdaResult) => {
+    const result: OusReportResult =
+      process.env.NODE_ENV === "test"
+        ? (lambdaResult as OusReportResult)
+        : parseLambdaOUSResponse(
+            lambdaResult as awsSdk.Lambda.InvocationResponse
+          );
 
-  // Combine metrics from worker threads
-  const firstResult: OusReportResult = JSON.parse(
-    JSON.stringify(results.shift()) // pops first result to use as base
-  );
-
-  const finalResult = results.reduce((finalResult, result) => {
     // stats
-
     finalResult.stats.respondents += result.stats.respondents;
     finalResult.stats.people += result.stats.people;
 
@@ -185,7 +207,6 @@ export async function overlapOusDemographic(
     }
 
     // metrics
-
     result.metrics.forEach((metric) => {
       const index = finalResult.metrics.findIndex(
         (finalMetric) =>
@@ -201,7 +222,7 @@ export async function overlapOusDemographic(
     });
 
     return finalResult;
-  }, firstResult);
+  }, finalResult);
 
   return finalResult;
 }

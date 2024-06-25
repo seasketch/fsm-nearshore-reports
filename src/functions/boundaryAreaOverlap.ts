@@ -19,9 +19,9 @@ import {
 } from "@seasketch/geoprocessing";
 import { getFeatures } from "@seasketch/geoprocessing/dataproviders";
 import bbox from "@turf/bbox";
-import project from "../../project";
-import { clipToGeography } from "../util/clipToGeography";
-import { getGroup, groups } from "../util/getGroup";
+import project from "../../project/projectClient.js";
+import { clipToGeography } from "../util/clipToGeography.js";
+import { getGroup, groups } from "../util/getGroup.js";
 import { firstMatchingMetric } from "@seasketch/geoprocessing/client-core";
 
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
@@ -77,7 +77,8 @@ export async function boundaryAreaOverlap(
     };
   }, {});
 
-  const metrics: Metric[] = ( // calculate area overlap metrics for each class
+  const metrics: Metric[] = // calculate area overlap metrics for each class
+  (
     await Promise.all(
       metricGroup.classes.map(async (curClass) => {
         const overlapResult = await overlapFeatures(

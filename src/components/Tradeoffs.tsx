@@ -18,14 +18,14 @@ import {
   flattenByGroupAllClass,
   MetricGroup,
 } from "@seasketch/geoprocessing/client-core";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
-import { Scatterplot } from "../util/Scatterplot";
+import { Scatterplot } from "./util/Scatterplot.js";
 import {
   isRasterDatasource,
   isVectorDatasource,
-} from "@seasketch/geoprocessing";
-import { ReportProps } from "../util/ReportProp";
+} from "@seasketch/geoprocessing/client-core";
+import { ReportProps } from "../util/ReportProp.js";
 
 export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
   const { t } = useTranslation();

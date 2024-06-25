@@ -1,0 +1,82 @@
+[
+  {
+    "metricId": "ousValueOverlap",
+    "value": 814.132258,
+    "classId": "ous_aquaculture",
+    "groupId": "band-0",
+    "geographyId": "kosrae",
+    "sketchId": "25164",
+    "extra": {
+      "sketchName": "mpa1_tradeofftest"
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 0,
+    "classId": "ous_aquaculture",
+    "groupId": "band-0",
+    "geographyId": "kosrae",
+    "sketchId": "25165",
+    "extra": {
+      "sketchName": "mpa2_tradeofftest"
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 814.132258,
+    "classId": "ous_aquaculture",
+    "groupId": "band-0",
+    "geographyId": "kosrae",
+    "sketchId": "25166",
+    "extra": {
+      "sketchName": "tradeofftest",
+      "isCollection": true
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 814.132258,
+    "classId": "ous_aquaculture",
+    "groupId": "mpa",
+    "geographyId": "kosrae",
+    "sketchId": "25164",
+    "extra": {
+      "sketchName": "mpa1_tradeofftest"
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 0,
+    "classId": "ous_aquaculture",
+    "groupId": "mpa",
+    "geographyId": "kosrae",
+    "sketchId": "25165",
+    "extra": {
+      "sketchName": "mpa2_tradeofftest"
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 814.132258,
+    "classId": "ous_aquaculture",
+    "groupId": "mpa",
+    "geographyId": null,
+    "sketchId": "25166",
+    "extra": {
+      "sketchName": "tradeofftest",
+      "isCollection": true
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 0,
+    "classId": "ous_aquaculture",
+    "groupId": "aquaculture",
+    "geographyId": null,
+    "sketchId": "25166",
+    "extra": {
+      "sketchName": "tradeofftest",
+      "isCollection": true
+    }
+  }
+]

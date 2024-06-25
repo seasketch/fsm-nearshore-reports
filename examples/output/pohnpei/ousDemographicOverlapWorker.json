@@ -1,0 +1,27 @@
+{
+  "stats": {
+    "respondents": 0,
+    "people": 0,
+    "bySector": {},
+    "byMunicipality": {},
+    "byGear": {}
+  },
+  "metrics": [
+    {
+      "metricId": "ousPeopleCount",
+      "value": 0,
+      "classId": "ousPeopleCount_all",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "24608"
+    },
+    {
+      "metricId": "ousRespondentCount",
+      "value": 0,
+      "classId": "ousRespondentCount_all",
+      "groupId": null,
+      "geographyId": null,
+      "sketchId": "24608"
+    }
+  ]
+}

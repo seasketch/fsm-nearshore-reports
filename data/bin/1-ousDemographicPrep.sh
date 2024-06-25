@@ -19,7 +19,7 @@ rm ../dist/ous_demographics.json
 rm ../dist/ous_demographics.fgb
 
 # Sort by respondent_id (for faster processing at runtime)
-npx ts-node ousDemographicSort.ts
+npx tsx ousDemographicSort.ts
 
 # Create json file for direct import by precalc
 cp ../src/Analytics/ous_demographics_sorted.geojson ../dist/ous_demographics.json
