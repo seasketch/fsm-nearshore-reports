@@ -14,7 +14,7 @@ const PROJECT_PATH: string = process.env.PROJECT_PATH;
 
 const sketchDir = path.join(PROJECT_PATH, "examples", "sketches");
 if (!fs.existsSync(sketchDir)) {
-  throw new Error(`Example sketch path ${sketchDir} does not exist.`);
+  throw new Error(`Example sketch path ${sketchDir} does not exist`);
 }
 
 const outputDir = path.join(PROJECT_PATH, "examples", "output");
@@ -152,12 +152,7 @@ for (const storyConfig of storyConfigs) {
         createReportDecorator,
         sampleSketchReportContextValue,
       } from "@seasketch/geoprocessing/client-ui";
-      import Translator from "${path.join(
-        PROJECT_PATH,
-        "src",
-        "components",
-        "TranslatorAsync.js"
-      )}";
+      import Translator from "${path.join(PROJECT_PATH, "src", "components", "TranslatorAsync.js")}";
 
       const contextValue = sampleSketchReportContextValue({
         exampleOutputs: ${JSON.stringify(exampleOutputs, null, 2)},
