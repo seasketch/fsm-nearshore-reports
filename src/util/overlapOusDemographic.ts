@@ -13,8 +13,16 @@ import {
   genTaskCacheKey,
   GeoprocessingRequestModel,
 } from "@seasketch/geoprocessing";
-import { OusDemographicExtraParams } from "../functions/ousDemographicOverlapWorker.js";
+import {
+  OusDemographicExtraParams,
+  ousDemographicOverlapChild,
+} from "../functions/ousDemographicOverlapWorker.js";
 import awsSdk from "aws-sdk";
+import {
+  parseLambdaOUSResponse,
+  parseLambdaResponse,
+  runLambdaWorker,
+} from "./lambdaHelpers.js";
 
 export interface OusFeatureProperties {
   resp_id: number;
@@ -116,49 +124,18 @@ export async function overlapOusDemographic(
     }
   }
 
-  // Start workers
-  const promises = workerParams.map(async (workerParamObject) => {
-    const cacheId = `${workerParamObject.startIndex}-${workerParamObject.endIndex}`;
-    const cacheKey = genTaskCacheKey(sketch.properties, {
-      cacheId: cacheId,
-    } as GeoprocessingRequestParams);
-
-    const event = {
-      queryStringParameters: {
-        geometryUri: request!.geometryUri,
-        extraParams: workerParamObject,
-        cacheKey,
-      },
-    };
-    const payload = JSON.stringify(event, null, 2);
-
-    // What should service be?
-    const service = "us-west-1";
-    const location = `/${service}/tasks/${cacheKey}`;
-    const task: GeoprocessingTask = {
-      id: cacheKey,
-      service,
-      wss: "",
-      location,
-      startedAt: new Date().toISOString(),
-      logUriTemplate: `${location}/logs{?limit,nextToken}`,
-      geometryUri: `${location}/geometry`,
-      status: GeoprocessingTaskStatus.Pending,
-      estimate: 2,
-    };
-
-    const Lambda = new awsSdk.Lambda();
-    return Lambda.invoke({
-      FunctionName:
-        "gp-fsm-nearshore-worker-sync-ousDemographicOverlapChild",
-      ClientContext: Buffer.from(JSON.stringify(task)).toString('base64'),
-      InvocationType: "RequestResponse", // synchronous, returns response
-      Payload: payload,
-    }).promise();
-  });
-
-  // Wait for sync lambdas to all finish
-  const lambdaResults = await Promise.all(promises);
+  const lambdaResults = await Promise.all(
+    workerParams.map(async (workerParamObject) => {
+      return process.env.NODE_ENV === "test"
+        ? ousDemographicOverlapChild(sketch, workerParamObject)
+        : runLambdaWorker(
+            sketch,
+            workerParamObject,
+            "ousDemographicOverlapChild",
+            request
+          );
+    })
+  );
 
   // Result template
   const finalResult: OusReportResult = {
@@ -172,12 +149,14 @@ export async function overlapOusDemographic(
     metrics: [],
   };
 
-  lambdaResults.reduce((finalResult, lambdaResult) => {
-    // Check result status code for error
-    if((lambdaResult as any).StatusCode !== 200) 
-      throw Error(`OUS Demographic report error: ${(lambdaResult as any).Payload}`)
-    const result: OusReportResult = JSON.parse(JSON.parse((lambdaResult as any).Payload).body).data;
-    
+  lambdaResults.reduce<OusReportResult>((finalResult, lambdaResult) => {
+    const result: OusReportResult =
+      process.env.NODE_ENV === "test"
+        ? (lambdaResult as OusReportResult)
+        : parseLambdaOUSResponse(
+            lambdaResult as awsSdk.Lambda.InvocationResponse
+          );
+
     // stats
     finalResult.stats.respondents += result.stats.respondents;
     finalResult.stats.people += result.stats.people;

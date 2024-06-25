@@ -36,7 +36,7 @@ export interface OusDemographicExtraParams extends DefaultExtraParams {
 // It is not intended to be called directly by the client
 // Rather a parent geoprocessing function should invoke the worker function's lambda using the aws-sdk Lambda.invoke API
 
-async function ousDemographicOverlapChild(
+export async function ousDemographicOverlapChild(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
@@ -53,11 +53,9 @@ async function ousDemographicOverlapChild(
   const eIndex = extraParams.endIndex || sh.length - 1;
   const shapes = sortedShapes.slice(sIndex, eIndex);
 
-  const result = (
-    await overlapOusDemographicWorker(
-      featureCollection(shapes) as OusFeatureCollection,
-      sketch
-    )
+  const result = await overlapOusDemographicWorker(
+    featureCollection(shapes) as OusFeatureCollection,
+    sketch
   );
 
   return result;

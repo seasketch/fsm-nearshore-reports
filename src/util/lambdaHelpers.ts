@@ -15,6 +15,7 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import awsSdk from "aws-sdk";
 import gp from "../../project/geoprocessing.json";
+import { OusReportResult } from "./overlapOusDemographic.js";
 
 /**
  * Runs a function on a specified lambda worker
@@ -36,7 +37,7 @@ export async function runLambdaWorker(
   const cacheKey = genTaskCacheKey(sketch.properties, {
     cacheId: `${JSON.stringify(parameters)}`,
   } as GeoprocessingRequestParams);
-  console.log("cacheKey", cacheKey);
+
   // Create payload including geometry and parameters for function
   const payload = JSON.stringify(
     {
@@ -81,7 +82,18 @@ export async function runLambdaWorker(
 export function parseLambdaResponse(
   lambdaResult: awsSdk.Lambda.InvocationResponse
 ): Metric[] {
-  console.log("parsing");
+  if (lambdaResult.StatusCode !== 200)
+    throw Error(`Report error: ${lambdaResult.Payload}`);
+
+  return JSON.parse(JSON.parse(lambdaResult.Payload as string).body).data;
+}
+
+/**
+ * Parses lambda worker response
+ */
+export function parseLambdaOUSResponse(
+  lambdaResult: awsSdk.Lambda.InvocationResponse
+): OusReportResult {
   if (lambdaResult.StatusCode !== 200)
     throw Error(`Report error: ${lambdaResult.Payload}`);
 
