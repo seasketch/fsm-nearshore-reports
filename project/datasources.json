@@ -376,11 +376,101 @@
       "class"
     ],
     "created": "2024-01-24T20:56:16.691Z",
-    "lastUpdated": "2024-05-09T16:14:10.619Z",
+    "lastUpdated": "2024-07-24T21:14:25.237Z",
     "src": "data/src/Data_Products/Allen_Coral_Atlas/Benthic-Map/benthic_map.fgb",
     "propertiesToKeep": [
       "class"
     ],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "coral_algae",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "coralalgae",
+    "classKeys": [],
+    "created": "2024-07-24T21:01:04.762Z",
+    "lastUpdated": "2024-07-24T21:01:04.762Z",
+    "src": "data/src/Data_Received/Allen Coral Atlas/benthic/coralalgae.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "microalgal_mats",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "microalgalmats",
+    "classKeys": [],
+    "created": "2024-07-24T21:01:20.907Z",
+    "lastUpdated": "2024-07-24T21:01:20.907Z",
+    "src": "data/src/Data_Received/Allen Coral Atlas/benthic/microalgalmats.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "rock",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "rock",
+    "classKeys": [],
+    "created": "2024-07-24T21:01:36.147Z",
+    "lastUpdated": "2024-07-24T21:01:36.147Z",
+    "src": "data/src/Data_Received/Allen Coral Atlas/benthic/rock.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "rubble",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "rubble",
+    "classKeys": [],
+    "created": "2024-07-24T21:01:51.180Z",
+    "lastUpdated": "2024-07-24T21:01:51.180Z",
+    "src": "data/src/Data_Received/Allen Coral Atlas/benthic/rubble.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "sand",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "sand",
+    "classKeys": [],
+    "created": "2024-07-24T21:02:04.394Z",
+    "lastUpdated": "2024-07-24T21:02:04.394Z",
+    "src": "data/src/Data_Received/Allen Coral Atlas/benthic/sand.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "seagrass",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": false,
+    "layerName": "seagrass",
+    "classKeys": [],
+    "created": "2024-07-24T21:02:17.625Z",
+    "lastUpdated": "2024-07-24T21:02:17.625Z",
+    "src": "data/src/Data_Received/Allen Coral Atlas/benthic/seagrass.fgb",
+    "propertiesToKeep": [],
     "explodeMulti": true
   }
 ]
