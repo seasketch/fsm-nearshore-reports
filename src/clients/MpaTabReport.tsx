@@ -7,18 +7,22 @@ import {
   ToolbarCard,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
-import ViabilityPage from "../components/ViabilityPage";
-import RepresentationPage from "../components/RepresentationPage";
-import TradeoffsPage from "../components/TradeoffsPage";
+import ViabilityPage from "../components/ViabilityPage.js";
+import RepresentationPage from "../components/RepresentationPage.js";
+import TradeoffsPage from "../components/TradeoffsPage.js";
 import { useTranslation } from "react-i18next";
-import { Translator } from "../components/TranslatorAsync";
-import project from "../../project";
+import { Translator } from "../components/TranslatorAsync.js";
+import project from "../../project/projectClient.js";
 import { useReactToPrint } from "react-to-print";
-import { PrintButton, PrintPopup, SketchAttributes } from "../util/Print";
-import { Settings } from "../util/Settings";
-import { Footer } from "../util/Footer";
+import {
+  PrintButton,
+  PrintPopup,
+  SketchAttributes,
+} from "../components/util/Print.js";
+import { Settings } from "../components/util/Settings.js";
+import { Footer } from "../components/util/Footer.js";
 
-const MpaTabReport = () => {
+export const MpaTabReport = () => {
   const { t } = useTranslation();
   const viabilityId = "viability";
   const representationId = "representation";

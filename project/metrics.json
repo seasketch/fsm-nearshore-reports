@@ -91,41 +91,36 @@
     "layerId": "kBre13eD_",
     "classes": [
       {
-        "classKey": "class",
-        "classId": "Coral/Algae",
+        "classId": "coral_algae",
         "display": "Coral/Algae",
-        "datasourceId": "benthic"
+        "datasourceId": "coral_algae"
       },
       {
-        "classKey": "class",
-        "classId": "Microalgal Mats",
+        "classId": "microalgal_mats",
         "display": "Microalgal Mats",
-        "datasourceId": "benthic"
+        "datasourceId": "microalgal_mats"
       },
       {
-        "classKey": "class",
-        "classId": "Rock",
+        "classId": "rock",
         "display": "Rock",
-        "datasourceId": "benthic"
+        "datasourceId": "rock"
       },
       {
-        "classKey": "class",
-        "classId": "Rubble",
+        "classId": "rubble",
         "display": "Rubble",
-        "datasourceId": "benthic"
+        "datasourceId": "rubble"
       },
       {
-        "classKey": "class",
-        "classId": "Sand",
+        "classId": "sand",
         "display": "Sand",
-        "datasourceId": "benthic"
+        "datasourceId": "sand"
       },
       {
-        "classKey": "class",
-        "classId": "Seagrass",
+        "classId": "seagrass",
         "display": "Seagrass",
-        "datasourceId": "benthic"
+        "datasourceId": "seagrass"
       }
+
     ]
   },
   {

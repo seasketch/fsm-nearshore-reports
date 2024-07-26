@@ -13,7 +13,7 @@ import {
   getCogFilename,
   rasterMetrics,
 } from "@seasketch/geoprocessing";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 import {
   DefaultExtraParams,
   Georaster,
@@ -25,10 +25,10 @@ import {
   sortMetrics,
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
-import { clipToGeography } from "../util/clipToGeography";
-import bbox from "@turf/bbox";
 import { fgbFetchAll, loadCog } from "@seasketch/geoprocessing/dataproviders";
-import { getGroup, groups } from "../util/getGroup";
+import { clipToGeography } from "../util/clipToGeography.js";
+import bbox from "@turf/bbox";
+import { getGroup, groups } from "../util/getGroup.js";
 
 const mg = project.getMetricGroup("tradeoffValueOverlap");
 // This is a weird report currently, with a metric group containing rasters and vectors

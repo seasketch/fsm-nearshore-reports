@@ -3,10 +3,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Coral/Algae",
+      "classId": "coral_algae",
       "sketchId": "25164",
       "groupId": null,
-      "value": 38587.718664,
+      "value": 293174.65703,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -14,10 +14,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Coral/Algae",
+      "classId": "coral_algae",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 38587.718664,
+      "value": 293174.65703,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -25,10 +25,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Coral/Algae",
+      "classId": "coral_algae",
       "sketchId": "25165",
       "groupId": null,
-      "value": 35050.591342,
+      "value": 163643.172316,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -36,10 +36,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Coral/Algae",
+      "classId": "coral_algae",
       "sketchId": "25165",
       "groupId": "mpa",
-      "value": 35050.591342,
+      "value": 163643.172316,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -47,10 +47,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Coral/Algae",
+      "classId": "coral_algae",
       "sketchId": "25166",
       "groupId": null,
-      "value": 73638.310006,
+      "value": 456817.829346,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -59,10 +59,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Coral/Algae",
+      "classId": "coral_algae",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 73638.310006,
+      "value": 456817.829346,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -71,7 +71,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Coral/Algae",
+      "classId": "coral_algae",
       "sketchId": "25166",
       "groupId": "aquaculture",
       "value": 0,
@@ -83,7 +83,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Microalgal Mats",
+      "classId": "microalgal_mats",
       "sketchId": "25164",
       "groupId": null,
       "value": 0,
@@ -94,7 +94,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Microalgal Mats",
+      "classId": "microalgal_mats",
       "sketchId": "25164",
       "groupId": "mpa",
       "value": 0,
@@ -105,7 +105,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Microalgal Mats",
+      "classId": "microalgal_mats",
       "sketchId": "25165",
       "groupId": null,
       "value": 0,
@@ -116,7 +116,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Microalgal Mats",
+      "classId": "microalgal_mats",
       "sketchId": "25165",
       "groupId": "mpa",
       "value": 0,
@@ -127,7 +127,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Microalgal Mats",
+      "classId": "microalgal_mats",
       "sketchId": "25166",
       "groupId": null,
       "value": 0,
@@ -139,7 +139,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Microalgal Mats",
+      "classId": "microalgal_mats",
       "sketchId": "25166",
       "groupId": "mpa",
       "value": 0,
@@ -151,7 +151,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Microalgal Mats",
+      "classId": "microalgal_mats",
       "sketchId": "25166",
       "groupId": "aquaculture",
       "value": 0,
@@ -163,10 +163,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rock",
+      "classId": "rock",
       "sketchId": "25164",
       "groupId": null,
-      "value": 335264.812224,
+      "value": 1539411.678947,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -174,10 +174,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rock",
+      "classId": "rock",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 335264.812224,
+      "value": 1539411.678947,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -185,10 +185,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rock",
+      "classId": "rock",
       "sketchId": "25165",
       "groupId": null,
-      "value": 0,
+      "value": 40610.255025,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -196,10 +196,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rock",
+      "classId": "rock",
       "sketchId": "25165",
       "groupId": "mpa",
-      "value": 0,
+      "value": 40610.255025,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -207,10 +207,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rock",
+      "classId": "rock",
       "sketchId": "25166",
       "groupId": null,
-      "value": 335264.812224,
+      "value": 1580021.933973,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -219,10 +219,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rock",
+      "classId": "rock",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 335264.812224,
+      "value": 1580021.933973,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -231,7 +231,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rock",
+      "classId": "rock",
       "sketchId": "25166",
       "groupId": "aquaculture",
       "value": 0,
@@ -243,10 +243,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rubble",
+      "classId": "rubble",
       "sketchId": "25164",
       "groupId": null,
-      "value": 65864.710451,
+      "value": 710866.739315,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -254,10 +254,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rubble",
+      "classId": "rubble",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 65864.710451,
+      "value": 710866.739315,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -265,7 +265,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rubble",
+      "classId": "rubble",
       "sketchId": "25165",
       "groupId": null,
       "value": 0,
@@ -276,7 +276,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rubble",
+      "classId": "rubble",
       "sketchId": "25165",
       "groupId": "mpa",
       "value": 0,
@@ -287,10 +287,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rubble",
+      "classId": "rubble",
       "sketchId": "25166",
       "groupId": null,
-      "value": 65864.710451,
+      "value": 710866.739315,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -299,10 +299,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rubble",
+      "classId": "rubble",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 65864.710451,
+      "value": 710866.739315,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -311,7 +311,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rubble",
+      "classId": "rubble",
       "sketchId": "25166",
       "groupId": "aquaculture",
       "value": 0,
@@ -323,10 +323,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Sand",
+      "classId": "sand",
       "sketchId": "25164",
       "groupId": null,
-      "value": 4971.329878,
+      "value": 10377.325166,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -334,10 +334,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Sand",
+      "classId": "sand",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 4971.329878,
+      "value": 10377.325166,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -345,7 +345,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Sand",
+      "classId": "sand",
       "sketchId": "25165",
       "groupId": null,
       "value": 0,
@@ -356,7 +356,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Sand",
+      "classId": "sand",
       "sketchId": "25165",
       "groupId": "mpa",
       "value": 0,
@@ -367,10 +367,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Sand",
+      "classId": "sand",
       "sketchId": "25166",
       "groupId": null,
-      "value": 4971.329878,
+      "value": 10377.325166,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -379,10 +379,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Sand",
+      "classId": "sand",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 4971.329878,
+      "value": 10377.325166,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -391,7 +391,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Sand",
+      "classId": "sand",
       "sketchId": "25166",
       "groupId": "aquaculture",
       "value": 0,
@@ -403,10 +403,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Seagrass",
+      "classId": "seagrass",
       "sketchId": "25164",
       "groupId": null,
-      "value": 638388.102087,
+      "value": 809467.23492,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -414,10 +414,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Seagrass",
+      "classId": "seagrass",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 638388.102087,
+      "value": 809467.23492,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -425,10 +425,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Seagrass",
+      "classId": "seagrass",
       "sketchId": "25165",
       "groupId": null,
-      "value": 2279.578611,
+      "value": 2274.486148,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -436,10 +436,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Seagrass",
+      "classId": "seagrass",
       "sketchId": "25165",
       "groupId": "mpa",
-      "value": 2279.578611,
+      "value": 2274.486148,
       "extra": {
         "sketchName": "mpa2_tradeofftest"
       }
@@ -447,10 +447,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Seagrass",
+      "classId": "seagrass",
       "sketchId": "25166",
       "groupId": null,
-      "value": 640667.680697,
+      "value": 811741.721068,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -459,10 +459,10 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Seagrass",
+      "classId": "seagrass",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 640667.680697,
+      "value": 811741.721068,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -471,7 +471,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Seagrass",
+      "classId": "seagrass",
       "sketchId": "25166",
       "groupId": "aquaculture",
       "value": 0,

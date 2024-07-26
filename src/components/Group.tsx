@@ -19,15 +19,15 @@ import {
   Metric,
   toNullSketchArray,
 } from "@seasketch/geoprocessing/client-core";
-import styled from "styled-components";
+import { styled } from "styled-components";
 import { Trans, useTranslation } from "react-i18next";
-import { ReportProps } from "../util/ReportProp";
+import { ReportProps } from "../util/ReportProp.js";
 import {
   groupColorMap,
   groupDisplayMapPl,
   groupDisplayMapSg,
   sketchClassIdToGroup,
-} from "../util/getGroup";
+} from "../util/getGroup.js";
 
 // Table styling for Show by Zone table
 export const SmallReportTableStyled = styled(ReportTableStyled)`
@@ -89,6 +89,7 @@ const sketchReport = (metrics: Metric[], t: any, printing: boolean = false) => {
         <MpaClassPanel
           value={metrics[0].value}
           size={18}
+          /* i18next-extract-disable-next-line */
           displayName={t(groupDisplayMapSg[metrics[0].groupId || "none"])}
           displayValue={false}
           group={metrics[0].groupId as string | undefined}
@@ -126,6 +127,7 @@ const sketchCollectionReport = (
         <MpaClassPanel
           value={row.value}
           size={18}
+          /* i18next-extract-disable-next-line */
           displayName={t(groupDisplayMapPl[row.groupId || "none"])}
           group={row.groupId as string | undefined}
           groupColorMap={groupColorMap}
@@ -169,11 +171,13 @@ const genMpaSketchTable = (sketches: NullSketch[], t: any) => {
           groupColorMap={groupColorMap}
           group={sketchClassIdToGroup[row.properties.sketchClassId]}
         >
-          {t(
-            groupDisplayMapSg[
-              sketchClassIdToGroup[row.properties.sketchClassId]
-            ]
-          )}
+          {
+            /* i18next-extract-disable-line */ t(
+              groupDisplayMapSg[
+                sketchClassIdToGroup[row.properties.sketchClassId]
+              ]
+            )
+          }
         </GroupPill>
       ),
     },

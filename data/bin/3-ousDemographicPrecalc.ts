@@ -2,7 +2,7 @@ import fs from "fs-extra";
 import {
   overlapOusDemographic,
   OusFeatureCollection,
-} from "../../src/util/overlapOusDemographic";
+} from "../../src/util/overlapOusDemographic.js";
 import {
   ReportResultBase,
   rekeyMetrics,

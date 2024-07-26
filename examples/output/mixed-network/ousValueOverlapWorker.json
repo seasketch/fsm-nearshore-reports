@@ -1,0 +1,82 @@
+[
+  {
+    "metricId": "ousValueOverlap",
+    "value": 0,
+    "classId": "ous_aquaculture",
+    "groupId": "band-0",
+    "geographyId": "kosrae",
+    "sketchId": "24667",
+    "extra": {
+      "sketchName": "aquaculture-site"
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 0,
+    "classId": "ous_aquaculture",
+    "groupId": "band-0",
+    "geographyId": "kosrae",
+    "sketchId": "24666",
+    "extra": {
+      "sketchName": "mpa"
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 0,
+    "classId": "ous_aquaculture",
+    "groupId": "band-0",
+    "geographyId": "kosrae",
+    "sketchId": "24665",
+    "extra": {
+      "sketchName": "mixed-network",
+      "isCollection": true
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 0,
+    "classId": "ous_aquaculture",
+    "groupId": "mpa",
+    "geographyId": "kosrae",
+    "sketchId": "24666",
+    "extra": {
+      "sketchName": "mpa"
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 0,
+    "classId": "ous_aquaculture",
+    "groupId": "mpa",
+    "geographyId": null,
+    "sketchId": "24665",
+    "extra": {
+      "sketchName": "mixed-network",
+      "isCollection": true
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 0,
+    "classId": "ous_aquaculture",
+    "groupId": "aquaculture",
+    "geographyId": "kosrae",
+    "sketchId": "24667",
+    "extra": {
+      "sketchName": "aquaculture-site"
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 0,
+    "classId": "ous_aquaculture",
+    "groupId": "aquaculture",
+    "geographyId": null,
+    "sketchId": "24665",
+    "extra": {
+      "sketchName": "mixed-network",
+      "isCollection": true
+    }
+  }
+]

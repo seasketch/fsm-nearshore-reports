@@ -1,0 +1,34 @@
+{
+  "author": "Abby Vath Meyer <avmey@ucsb.edu>",
+  "organization": "SeaSketch",
+  "region": "us-west-1",
+  "clients": [
+    {
+      "name": "MpaTabReport",
+      "description": "Report suite for MPA planning within EEZ with tab navigation",
+      "source": "src/clients/MpaTabReport.tsx"
+    },
+    {
+      "name": "SizeReport",
+      "description": "Sketch size and % overlap with planning boundaries",
+      "source": "src/clients/SizeReport.tsx"
+    }
+  ],
+  "preprocessingFunctions": [
+    "src/functions/clipToOceanEez.ts",
+    "src/functions/clipToLand.ts",
+    "src/functions/clipToOcean.ts",
+    "src/functions/clipToOceanNearshore.ts"
+  ],
+  "geoprocessingFunctions": [
+    "src/functions/groupCountOverlap.ts",
+    "src/functions/boundaryAreaOverlap.ts",
+    "src/functions/ousValueOverlap.ts",
+    "src/functions/ousValueOverlapWorker.ts",
+    "src/functions/habitatAreaOverlap.ts",
+    "src/functions/tradeoffValueOverlap.ts",
+    "src/functions/ousDemographicOverlap.ts",
+    "src/functions/printMap.ts",
+    "src/functions/ousDemographicOverlapWorker.ts"
+  ]
+}

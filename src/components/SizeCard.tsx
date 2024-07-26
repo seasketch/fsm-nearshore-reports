@@ -18,17 +18,18 @@ import {
   KeySection,
   LayerToggle,
 } from "@seasketch/geoprocessing/client-ui";
-import styled from "styled-components";
-import project from "../../project";
-import Translator from "../components/TranslatorAsync";
+import { styled } from "styled-components";
+import project from "../../project/projectClient.js";
+import Translator from "../components/TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 import {
   genAreaGroupLevelTable,
   genAreaSketchTable,
   groupedCollectionReport,
   groupedSketchReport,
-} from "../util/ProtectionLevelOverlapReports";
-import { ReportProps } from "../util/ReportProp";
+} from "./ProtectionLevelOverlapReports.js";
+import { ReportProps } from "../util/ReportProp.js";
+import watersImgUrl from "../assets/img/territorial_waters.png";
 
 export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection }] = useSketchProperties();
@@ -159,10 +160,7 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
                 {!props.printing && (
                   <Collapse title={t("Learn more")}>
                     <p>
-                      <img
-                        src={require("../assets/img/territorial_waters.png")}
-                        style={{ maxWidth: "100%" }}
-                      />
+                      {<img src={watersImgUrl} style={{ maxWidth: "100%" }} />}
                       <a
                         target="_blank"
                         href="https://en.wikipedia.org/wiki/Territorial_waters"

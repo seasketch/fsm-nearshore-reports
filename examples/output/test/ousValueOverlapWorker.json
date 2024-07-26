@@ -1,0 +1,35 @@
+[
+  {
+    "metricId": "ousValueOverlap",
+    "value": 222136.984586,
+    "classId": "ous_aquaculture",
+    "groupId": "band-0",
+    "geographyId": "kosrae",
+    "sketchId": "24597",
+    "extra": {
+      "sketchName": "test"
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 222136.984586,
+    "classId": "ous_aquaculture",
+    "groupId": "mpa",
+    "geographyId": "kosrae",
+    "sketchId": "24597",
+    "extra": {
+      "sketchName": "test"
+    }
+  },
+  {
+    "metricId": "ousValueOverlap",
+    "value": 0,
+    "classId": "ous_aquaculture",
+    "groupId": "aquaculture",
+    "geographyId": null,
+    "sketchId": "24597",
+    "extra": {
+      "sketchName": "test"
+    }
+  }
+]
