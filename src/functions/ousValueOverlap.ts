@@ -8,7 +8,7 @@ import {
   splitSketchAntimeridian,
   overlapRasterGroupMetrics,
 } from "@seasketch/geoprocessing";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 import {
   DefaultExtraParams,
   Georaster,
@@ -20,10 +20,10 @@ import {
   sortMetrics,
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
-import { clipToGeography } from "../util/clipToGeography";
-import bbox from "@turf/bbox";
+import { clipToGeography } from "../util/clipToGeography.js";
+import { bbox } from "@turf/turf";
 import { loadCog } from "@seasketch/geoprocessing/dataproviders";
-import { getGroup, groups } from "../util/getGroup";
+import { getGroup, groups } from "../util/getGroup.js";
 
 const mg = project.getMetricGroup("ousValueOverlap");
 
@@ -31,7 +31,7 @@ export async function ousValueOverlap(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams: DefaultExtraParams = {}
+  extraParams: DefaultExtraParams = {},
 ): Promise<ReportResult> {
   // Use caller-provided geographyId if provided
   const geographyId = getFirstFromParam("geographyIds", extraParams);
@@ -47,9 +47,6 @@ export async function ousValueOverlap(
   // Clip to portion of sketch within current geography
   const clippedSketch = await clipToGeography(splitSketch, curGeography);
 
-  // Get bounding box of sketch remainder
-  const sketchBox = clippedSketch.bbox || bbox(clippedSketch);
-
   const featuresByClass: Record<string, Georaster> = {};
 
   const metrics: Metric[] = (
@@ -59,7 +56,7 @@ export async function ousValueOverlap(
         if (!curClass.datasourceId)
           throw new Error(`Expected datasourceId for ${curClass}`);
         const url = `${project.dataBucketUrl()}${getCogFilename(
-          project.getInternalRasterDatasourceById(curClass.datasourceId)
+          project.getInternalRasterDatasourceById(curClass.datasourceId),
         )}`;
         const raster = await loadCog(url);
         featuresByClass[curClass.classId] = raster;
@@ -73,14 +70,14 @@ export async function ousValueOverlap(
             ...metrics,
             classId: curClass.classId,
             geographyId: curGeography.geographyId,
-          })
+          }),
         );
-      })
+      }),
     )
   ).reduce(
     // merge
     (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
-    []
+    [],
   );
 
   // Generate area metrics grouped by zone type, with area overlap within zones removed

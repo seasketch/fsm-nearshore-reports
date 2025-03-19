@@ -1,6 +1,6 @@
 import React from "react";
 import { scaleLinear, ScaleLinear } from "d3-scale";
-import styled, { keyframes } from "styled-components";
+import { styled, keyframes } from "styled-components";
 
 export type ScatterplotProps = {
   // Array of tradeoff points from Crow analysis
@@ -38,7 +38,11 @@ const AnimatedCircle = styled.circle<React.SVGProps<SVGCircleElement>>`
 // Animated text beneath circle
 const AnimatedText = styled.text<React.SVGProps<SVGTextElement>>`
   animation: ${fadeInAndMove} 0.5s ease;
-  text-shadow: white 0 0 55px, white 0 0 5px, white 0 0 5px, white 0 0 5px;
+  text-shadow:
+    white 0 0 55px,
+    white 0 0 5px,
+    white 0 0 5px,
+    white 0 0 5px;
 `;
 
 export const Scatterplot = ({

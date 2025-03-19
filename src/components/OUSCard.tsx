@@ -5,19 +5,19 @@ import {
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import { ReportResult } from "@seasketch/geoprocessing/client-core";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
-import Translator from "./TranslatorAsync";
+import Translator from "./TranslatorAsync.js";
 import {
   genPercGroupLevelTable,
   genSketchTable,
   groupedCollectionReport,
   groupedSketchReport,
-} from "../util/ProtectionLevelOverlapReports";
-import { ReportProps } from "../util/ReportProp";
+} from "../util/ProtectionLevelOverlapReports.js";
+import { ReportProps } from "../util/ReportProp.js";
 
 export const OUSCard: React.FunctionComponent<ReportProps> = (props) => {
-  const [{ isCollection }] = useSketchProperties();
+  const [{ isCollection, childProperties }] = useSketchProperties();
   const { t } = useTranslation();
   const mg = project.getMetricGroup("ousValueOverlap", t);
   const curGeography = project.getGeographyById(props.geographyId, {
@@ -26,7 +26,7 @@ export const OUSCard: React.FunctionComponent<ReportProps> = (props) => {
   const precalcMetrics = project.getPrecalcMetrics(
     mg,
     "sum",
-    curGeography.geographyId
+    curGeography.geographyId,
   );
 
   return (
@@ -67,7 +67,7 @@ export const OUSCard: React.FunctionComponent<ReportProps> = (props) => {
                       precalcMetrics,
                       mg,
                       t,
-                      props.printing
+                      props.printing,
                     )}
                   </Collapse>
                   <Collapse
@@ -75,7 +75,13 @@ export const OUSCard: React.FunctionComponent<ReportProps> = (props) => {
                     collapsed={!props.printing}
                     key={String(props.printing) + "Zone"}
                   >
-                    {genSketchTable(data, precalcMetrics, mg, props.printing)}
+                    {genSketchTable(
+                      data,
+                      mg,
+                      precalcMetrics,
+                      childProperties || [],
+                      props.printing,
+                    )}
                   </Collapse>
                 </>
               )}

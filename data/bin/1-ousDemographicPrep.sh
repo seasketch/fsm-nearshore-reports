@@ -6,7 +6,7 @@
 # 2. Run this script to publish fgb to aws:
 #    ./2-ousDemographicPublish.sh
 # 3. Run this script to precalculate demographics data overlap:
-#    npx ts-node 3-ousDemographicPrecalc.ts
+#    npx tsx 3-ousDemographicPrecalc.ts
 
 # Delete old merged geojson since ogr2ogr can't overwrite it
 rm ../src/Data_Products/data_packages/kosrae_data_package/ous_demographics.geojson
@@ -19,7 +19,7 @@ rm ../dist/ous_demographics.json
 rm ../dist/ous_demographics.fgb
 
 # Sort by respondent_id (for faster processing at runtime)
-npx ts-node ousDemographicSort.ts
+npx tsx ousDemographicSort.ts
 
 # Create json file for direct import by precalc
 cp ../src/Analytics/ous_demographics_sorted.geojson ../dist/ous_demographics.json

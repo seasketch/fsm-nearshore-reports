@@ -17,15 +17,13 @@ import {
   GroupMetricAgg,
   flattenByGroupAllClass,
   MetricGroup,
-} from "@seasketch/geoprocessing/client-core";
-import project from "../../project";
-import { Trans, useTranslation } from "react-i18next";
-import { Scatterplot } from "../util/Scatterplot";
-import {
   isRasterDatasource,
   isVectorDatasource,
-} from "@seasketch/geoprocessing";
-import { ReportProps } from "../util/ReportProp";
+} from "@seasketch/geoprocessing/client-core";
+import project from "../../project/projectClient.js";
+import { Trans, useTranslation } from "react-i18next";
+import { Scatterplot } from "../util/Scatterplot.js";
+import { ReportProps } from "../util/ReportProp.js";
 
 export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
   const { t } = useTranslation();
@@ -45,13 +43,13 @@ export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
         ? project.getPrecalcMetrics(
             { ...mg, classes: [curClass] },
             "sum",
-            curGeography.geographyId
+            curGeography.geographyId,
           )
         : project.getPrecalcMetrics(
             { ...mg, classes: [curClass] },
             "area",
-            curGeography.geographyId
-          )
+            curGeography.geographyId,
+          ),
     );
   }, []);
 
@@ -67,30 +65,30 @@ export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
           const areaMetric = firstMatchingMetric(
             data.metrics,
             (m) =>
-              m.sketchId === data.sketch.properties.id &&
+              m.sketchId === data.sketch!.properties.id &&
               m.groupId === "mpa" &&
-              m.classId === "nearshore"
+              m.classId === "nearshore",
           );
           const totalAreaMetric = firstMatchingMetric(
             precalcMetrics,
-            (m) => m.groupId === null && m.classId === "nearshore"
+            (m) => m.groupId === null && m.classId === "nearshore",
           );
           const areaDisplay = roundDecimal(
-            squareMeterToKilometer(areaMetric.value)
+            squareMeterToKilometer(areaMetric.value),
           );
           const areaUnitDisplay = t("km²");
           const percDisplay = percentWithEdge(
-            areaMetric.value / totalAreaMetric.value
+            areaMetric.value / totalAreaMetric.value,
           );
 
           // Calculate tradeoff values for benthic/fisheries tradeoff
           const acceptedGroups = ["mpa"];
           const tradeoffClasses: { x: any; y: any } = {
             x: mg.classes.find(
-              (curClass) => curClass.classId === "fisheries_tradeoff"
+              (curClass) => curClass.classId === "fisheries_tradeoff",
             ),
             y: mg.classes.find(
-              (curClass) => curClass.classId === "benthic_tradeoff"
+              (curClass) => curClass.classId === "benthic_tradeoff",
             ),
           };
           const valueFormatter = (val: number) => val * 100;
@@ -100,7 +98,7 @@ export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
             mg,
             tradeoffClasses,
             valueFormatter,
-            acceptedGroups
+            acceptedGroups,
           );
           // Switch fisheries value to value EXCLUDED from plan
           const scatterBenthicFisheries = {
@@ -133,7 +131,7 @@ export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
                 {t("'s territorial sea in Marine Protected Areas, protecting ")}
                 <b>{percentWithEdge(benthicFisheriesTradeoffs.y / 100)}</b>
                 {t(
-                  " of key benthic habitats while maintaining access to areas containing "
+                  " of key benthic habitats while maintaining access to areas containing ",
                 )}
                 <b>{percentWithEdge(1 - benthicFisheriesTradeoffs.x / 100)}</b>
                 {t(" of fishery value.")}
@@ -152,7 +150,7 @@ export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
               <Scatterplot
                 data={scatterdata}
                 tradeoff={scatterBenthicFisheries}
-                sketchName={data.sketch.properties.name}
+                sketchName={data.sketch!.properties.name}
               />
 
               {!props.printing && (
@@ -202,12 +200,12 @@ function getTradeoffs(
   metricGroup: MetricGroup,
   tradeoffClasses: { x: any; y: any },
   valueFormatter?: (value: number) => number,
-  acceptedGroups?: string[]
+  acceptedGroups?: string[],
 ): { x: number; y: number } {
   // Filter to metrics which have groupIds and narrow by acceptedGroups
   const levelMetrics: Metric[] = acceptedGroups
     ? data.metrics.filter(
-        (m) => m.groupId && acceptedGroups.includes(m.groupId)
+        (m) => m.groupId && acceptedGroups.includes(m.groupId),
       )
     : data.metrics.filter((m) => m.groupId);
 
@@ -217,14 +215,14 @@ function getTradeoffs(
       const groupLevelAggs: GroupMetricAgg[] = flattenByGroupAllClass(
         data.sketch,
         levelMetrics,
-        precalcMetrics
+        precalcMetrics,
       );
 
       // Filter down grouped metrics to ones that count for each class
       return metricGroup.classes.reduce<Record<string, number>>(
         (acc, curClass) => {
           const values = groupLevelAggs.map(
-            (group) => group[curClass.classId] as number
+            (group) => group[curClass.classId] as number,
           );
 
           return {
@@ -232,7 +230,7 @@ function getTradeoffs(
             [curClass.classId]: values.reduce((sum, cur) => sum + cur, 0),
           };
         },
-        {}
+        {},
       );
     } else {
       // Sketch
@@ -243,21 +241,21 @@ function getTradeoffs(
             ...acc,
             [curClass.classId]: firstMatchingMetric(
               precalcMetrics,
-              (m) => m.groupId === null && m.classId === curClass.classId
+              (m) => m.groupId === null && m.classId === curClass.classId,
             ).value,
           };
         },
-        {}
+        {},
       );
 
       // Filter down grouped metrics to ones that count for each class
       return metricGroup.classes.reduce<Record<string, number>>(
         (acc, curClass) => {
           const classMetrics = levelMetrics.filter(
-            (m) => m.classId === curClass.classId
+            (m) => m.classId === curClass.classId,
           );
           const values = classMetrics.map(
-            (group) => group.value / totalAreas[curClass.classId]
+            (group) => group.value / totalAreas[curClass.classId],
           );
 
           return {
@@ -265,7 +263,7 @@ function getTradeoffs(
             [curClass.classId]: values.reduce((sum, cur) => sum + cur, 0),
           };
         },
-        {}
+        {},
       );
     }
   })();

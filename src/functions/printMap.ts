@@ -1,18 +1,17 @@
 import {
   GeoprocessingHandler,
   genFeatureCollection,
+  getFeaturesForSketchBBoxes,
 } from "@seasketch/geoprocessing";
-import simplify from "@turf/simplify";
-import project from "../../project";
-import { getFeatures } from "@seasketch/geoprocessing/dataproviders";
+import { simplify, bbox } from "@turf/turf";
+import project from "../../project/projectClient.js";
 import { isPolygonFeatureArray } from "@seasketch/geoprocessing/client-core";
-import bbox from "@turf/bbox";
 
 export async function printMap(sketch: any) {
   const land = project.getVectorDatasourceById(
     project.getGeographyById(undefined, {
       fallbackGroup: "default-boundary",
-    }).datasourceId
+    }).datasourceId,
   );
 
   // Get bounding box of sketch
@@ -20,9 +19,8 @@ export async function printMap(sketch: any) {
 
   // Fetch land features
   const url = project.getDatasourceUrl(land);
-  const landPolys = await getFeatures(land, url, {
-    bbox: sketchBox,
-  });
+  const landPolys = await getFeaturesForSketchBBoxes(sketch, url);
+
   if (!isPolygonFeatureArray(landPolys)) {
     throw new Error("Expected array of Polygon features");
   }

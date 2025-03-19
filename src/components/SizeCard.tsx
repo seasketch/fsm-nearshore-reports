@@ -18,20 +18,20 @@ import {
   KeySection,
   LayerToggle,
 } from "@seasketch/geoprocessing/client-ui";
-import styled from "styled-components";
-import project from "../../project";
-import Translator from "../components/TranslatorAsync";
+import { styled } from "styled-components";
+import project from "../../project/projectClient.js";
+import Translator from "../components/TranslatorAsync.js";
 import { Trans, useTranslation } from "react-i18next";
 import {
   genAreaGroupLevelTable,
   genAreaSketchTable,
   groupedCollectionReport,
   groupedSketchReport,
-} from "../util/ProtectionLevelOverlapReports";
-import { ReportProps } from "../util/ReportProp";
+} from "../util/ProtectionLevelOverlapReports.js";
+import { ReportProps } from "../util/ReportProp.js";
 
 export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
-  const [{ isCollection }] = useSketchProperties();
+  const [{ isCollection, childProperties }] = useSketchProperties();
   const { t } = useTranslation();
 
   const curGeography = project.getGeographyById(props.geographyId, {
@@ -41,7 +41,7 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
   const precalcMetrics = project.getPrecalcMetrics(
     mg,
     "area",
-    curGeography.geographyId
+    curGeography.geographyId,
   );
   const notFoundString = t("Results not found");
 
@@ -60,21 +60,21 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
           const areaMetric = firstMatchingMetric(
             data.metrics,
             (m) =>
-              m.sketchId === data.sketch.properties.id && m.groupId === null
+              m.sketchId === data.sketch!.properties.id && m.groupId === null,
           );
 
           // Grab overall size precalc metric
           const totalAreaMetric = firstMatchingMetric(
             precalcMetrics,
-            (m) => m.groupId === null
+            (m) => m.groupId === null,
           );
 
           // Format area metrics for key section display
           const areaDisplay = roundLower(
-            squareMeterToKilometer(areaMetric.value)
+            squareMeterToKilometer(areaMetric.value),
           );
           const percDisplay = percentWithEdge(
-            areaMetric.value / totalAreaMetric.value
+            areaMetric.value / totalAreaMetric.value,
           );
           const areaUnitDisplay = t("km²");
           const mapLabel = t("Show Map Layer");
@@ -97,10 +97,10 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
               >
                 <p>
                   {curGeography.display}'s{" "}
-                  <Trans i18nKey="SizeCard - introduction">
-                    territorial sea extends from the shoreline out to 12
-                    nautical miles. This report summarizes coastal plan overlap
-                    with the territorial sea.
+                  <Trans i18nKey="SizeCard intro">
+                    state waters extend from the shoreline out to 12 nautical
+                    miles. This report summarizes this coastal plan's overlap
+                    with state waters.
                   </Trans>
                 </p>
 
@@ -111,7 +111,7 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
                   </b>
                   {", "}
                   {t("which is")} <b>{percDisplay}</b> {t("of ")}{" "}
-                  {curGeography.display}'s {t("territorial sea")}.
+                  {curGeography.display}'s {t("state waters")}.
                 </KeySection>
 
                 <LayerToggle label={mapLabel} layerId={mg.classes[0].layerId} />
@@ -137,7 +137,7 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
                         precalcMetrics,
                         mg,
                         t,
-                        props.printing
+                        props.printing,
                       )}
                     </Collapse>
                     <Collapse
@@ -150,7 +150,8 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
                         precalcMetrics,
                         mg,
                         t,
-                        props.printing
+                        childProperties || [],
+                        props.printing,
                       )}
                     </Collapse>
                   </>
@@ -160,8 +161,12 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
                   <Collapse title={t("Learn more")}>
                     <p>
                       <img
-                        src={require("../assets/img/territorial_waters.png")}
+                        src={new URL(
+                          "../assets/img/territorial_waters.png",
+                          import.meta.url,
+                        ).toString()}
                         style={{ maxWidth: "100%" }}
+                        alt={t("Territorial Waters")}
                       />
                       <a
                         target="_blank"

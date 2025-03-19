@@ -1,12 +1,12 @@
 import { ReportTableStyled } from "@seasketch/geoprocessing/client-ui";
-import styled from "styled-components";
+import { styled } from "styled-components";
 
 interface SketchTableProps {
   printing: boolean;
 }
 
 export const PercentSketchTableStyled = styled(
-  ReportTableStyled
+  ReportTableStyled,
 )<SketchTableProps>`
   & {
     width: 100%;
@@ -40,7 +40,7 @@ export const PercentSketchTableStyled = styled(
 `;
 
 export const AreaSketchTableStyled = styled(
-  ReportTableStyled
+  ReportTableStyled,
 )<SketchTableProps>`
   & {
     width: 100%;

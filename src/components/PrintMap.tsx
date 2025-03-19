@@ -24,7 +24,7 @@ export const PrintMap: React.FunctionComponent = () => {
       .data(
         props.land.geometry
           ? [props.land.geometry]
-          : (props.land as FeatureCollection).features || []
+          : (props.land as FeatureCollection).features || [],
       )
       .join("path")
       .attr("class", "land")
@@ -37,7 +37,7 @@ export const PrintMap: React.FunctionComponent = () => {
       .data(
         props.sketch.geometry
           ? [props.sketch.geometry]
-          : (props.sketch as SketchCollection).features || []
+          : (props.sketch as SketchCollection).features || [],
       )
       .join("path")
       .attr("class", "sketch")

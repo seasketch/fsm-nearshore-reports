@@ -8,16 +8,15 @@ import {
   ReportResult,
   createMetric,
   getSketchFeatures,
-  getUserAttribute,
 } from "@seasketch/geoprocessing/client-core";
 import { GeoprocessingHandler } from "@seasketch/geoprocessing";
-import project from "../../project";
-import { sketchClassIdToGroup } from "../util/getGroup";
+import projectClient from "../../project/projectClient.js";
+import { sketchClassIdToGroup } from "../util/getGroup.js";
 
 export async function groupCountOverlap(
-  sketch: Sketch<Polygon> | SketchCollection<Polygon>
+  sketch: Sketch<Polygon> | SketchCollection<Polygon>,
 ): Promise<ReportResult> {
-  const mg = project.getMetricGroup("groupCountOverlap");
+  const mg = projectClient.getMetricGroup("groupCountOverlap");
   const sketchFeatures = getSketchFeatures(sketch);
 
   const groups = sketchFeatures.reduce<Record<string, number>>(
@@ -27,7 +26,7 @@ export async function groupCountOverlap(
       groupsAcc[group] = 1 + (groupsAcc[group] || 0);
       return groupsAcc;
     },
-    {}
+    {},
   );
 
   const metrics = Object.keys(groups).map((group) => {

@@ -7,7 +7,6 @@ import {
   ReportResult,
   SketchCollection,
   toNullSketch,
-  overlapFeatures,
   rekeyMetrics,
   sortMetrics,
   isPolygonFeatureArray,
@@ -16,19 +15,20 @@ import {
   splitSketchAntimeridian,
   isVectorDatasource,
   overlapAreaGroupMetrics,
+  getFeaturesForSketchBBoxes,
+  MultiPolygon,
+  overlapPolygonArea,
 } from "@seasketch/geoprocessing";
-import { getFeatures } from "@seasketch/geoprocessing/dataproviders";
-import bbox from "@turf/bbox";
-import project from "../../project";
-import { clipToGeography } from "../util/clipToGeography";
-import { getGroup, groups } from "../util/getGroup";
+import project from "../../project/projectClient.js";
+import { clipToGeography } from "../util/clipToGeography.js";
+import { getGroup, groups } from "../util/getGroup.js";
 import { firstMatchingMetric } from "@seasketch/geoprocessing/client-core";
 
 const metricGroup = project.getMetricGroup("boundaryAreaOverlap");
 
 export async function boundaryAreaOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
-  extraParams: DefaultExtraParams = {}
+  extraParams: DefaultExtraParams = {},
 ): Promise<ReportResult> {
   // Use caller-provided geographyId if provided
   const geographyId = getFirstFromParam("geographyIds", extraParams);
@@ -44,9 +44,6 @@ export async function boundaryAreaOverlap(
   // Clip to portion of sketch within current geography
   const clippedSketch = await clipToGeography(splitSketch, curGeography);
 
-  // Get bounding box of sketch remainder
-  const sketchBox = clippedSketch.bbox || bbox(clippedSketch);
-
   // Fetch boundary features indexed by classId
   const polysByBoundary = (
     await Promise.all(
@@ -55,20 +52,20 @@ export async function boundaryAreaOverlap(
           throw new Error(`Missing datasourceId ${curClass.classId}`);
         }
         const ds = project.getDatasourceById(curClass.datasourceId);
-        if (!isVectorDatasource(ds)) {
-          throw new Error(`Expected vector datasource for ${ds.datasourceId}`);
-        }
+        if (!isVectorDatasource(ds))
+          throw new Error(`Expected vector datasource ${ds.datasourceId}`);
 
         // Fetch datasource features overlapping with sketch remainder
         const url = project.getDatasourceUrl(ds);
-        const polys = await getFeatures(ds, url, {
-          bbox: sketchBox,
-        });
+        const polys = await getFeaturesForSketchBBoxes<Polygon | MultiPolygon>(
+          clippedSketch,
+          url,
+        );
         if (!isPolygonFeatureArray(polys)) {
           throw new Error("Expected array of Polygon features");
         }
         return polys;
-      })
+      }),
     )
   ).reduce<Record<string, Feature<Polygon>[]>>((acc, polys, classIndex) => {
     return {
@@ -77,28 +74,29 @@ export async function boundaryAreaOverlap(
     };
   }, {});
 
-  const metrics: Metric[] = ( // calculate area overlap metrics for each class
-    await Promise.all(
-      metricGroup.classes.map(async (curClass) => {
-        const overlapResult = await overlapFeatures(
-          metricGroup.metricId,
-          polysByBoundary[curClass.classId],
-          clippedSketch
-        );
-        return overlapResult.map(
-          (metric): Metric => ({
-            ...metric,
-            classId: curClass.classId,
-            geographyId: curGeography.geographyId,
-          })
-        );
-      })
-    )
-  ).reduce(
-    // merge
-    (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
-    []
-  );
+  const metrics: Metric[] = // calculate area overlap metrics for each class
+    (
+      await Promise.all(
+        metricGroup.classes.map(async (curClass) => {
+          const overlapResult = await overlapPolygonArea(
+            metricGroup.metricId,
+            polysByBoundary[curClass.classId],
+            clippedSketch,
+          );
+          return overlapResult.map(
+            (metric): Metric => ({
+              ...metric,
+              classId: curClass.classId,
+              geographyId: curGeography.geographyId,
+            }),
+          );
+        }),
+      )
+    ).reduce(
+      // merge
+      (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
+      [],
+    );
 
   // Generate area metrics grouped by zone type, with area overlap within zones removed
   // Each sketch gets one group metric for its zone type, while collection generates one for each zone type
@@ -109,7 +107,7 @@ export async function boundaryAreaOverlap(
 
   const totalArea = firstMatchingMetric(
     project.getPrecalcMetrics(metricGroup, "area", curGeography.geographyId),
-    (m) => m.groupId === null
+    (m) => m.groupId === null,
   ).value;
 
   const levelMetrics = await overlapAreaGroupMetrics({

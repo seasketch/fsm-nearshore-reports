@@ -3,43 +3,38 @@ import {
   Collapse,
   ResultsCard,
   KeySection,
-  InfoStatus,
   ClassTable,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
-  ReportResultBase,
   toPercentMetric,
   percentWithEdge,
 } from "@seasketch/geoprocessing/client-core";
-import totals from "../../data/bin/ousDemographicPrecalcTotals.json";
-import project from "../../project";
+import precalcTotals from "../../data/bin/ousDemographicPrecalcTotals.json" with { type: "json" };
+import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
-import { ReportProps } from "../util/ReportProp";
-const precalcTotals = totals as ReportResultBase;
+import { ReportProps } from "../util/ReportProp.js";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const OusDemographics: React.FunctionComponent<ReportProps> = (
-  props
-) => {
+export const OusDemographic: React.FunctionComponent<ReportProps> = (props) => {
   const { t } = useTranslation();
 
   const overallMetricGroup = project.getMetricGroup(
     "ousOverallDemographicOverlap",
-    t
+    t,
   );
   const sectorMetricGroup = project.getMetricGroup(
     "ousSectorDemographicOverlap",
-    t
+    t,
   );
   const municipalityMetricGroup = project.getMetricGroup(
     "ousMunicipalityDemographicOverlap",
-    t
+    t,
   );
   const gearMetricGroup = project.getMetricGroup(
     "ousGearDemographicOverlap",
-    t
+    t,
   );
 
   const METRIC_ID = "ousPeopleCount";
@@ -55,49 +50,52 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
       <ResultsCard
         title={t("Ocean Use Demographics")}
         functionName="ousDemographicOverlap"
-        extraParams={{ geographyIds: [curGeography.geographyId] }}
+        extraParams={{
+          geographyIds: [curGeography.geographyId],
+          overlapSketch: true,
+        }}
       >
         {(data: ReportResult) => {
           // Filter down to people count metrics for top-level sketch
           const singlePeopleCountMetrics = data.metrics.filter(
             (m) =>
-              m.sketchId === data.sketch.properties.id &&
+              m.sketchId === data.sketch!.properties.id &&
               m.metricId &&
-              m.metricId === "ousPeopleCount"
+              m.metricId === "ousPeopleCount",
           );
 
-          const singlePeopleTotalCountMetrics = precalcTotals.metrics.filter(
-            (m) => m.metricId === "ousPeopleCount"
+          const singlePeopleTotalCountMetrics = precalcTotals.filter(
+            (m) => m.metricId === "ousPeopleCount",
           );
 
-          const singlePeopleTotalCountMetric = precalcTotals.metrics.find(
-            (m) => m.classId === "ousPeopleCount_all"
+          const singlePeopleTotalCountMetric = precalcTotals.find(
+            (m) => m.classId === "ousPeopleCount_all",
           );
           if (!singlePeopleTotalCountMetric)
             throw new Error("Expected to find total people count metric");
           const singlePeopletotalCountFormatted = Number.format(
-            singlePeopleTotalCountMetric.value as number
+            singlePeopleTotalCountMetric.value as number,
           );
 
           const singlePeopleCountMetric = singlePeopleCountMetrics.find(
-            (m) => m.classId === "ousPeopleCount_all"
+            (m) => m.classId === "ousPeopleCount_all",
           );
           if (!singlePeopleCountMetric)
             throw new Error("Expected to find sketch people count metric");
           const singlePeopleCountFormatted = Number.format(
-            singlePeopleCountMetric.value as number
+            singlePeopleCountMetric.value as number,
           );
 
           const singlePeopleCountPercMetric = toPercentMetric(
             [singlePeopleCountMetric],
-            singlePeopleTotalCountMetrics
+            singlePeopleTotalCountMetrics,
           )[0];
           if (!singlePeopleCountPercMetric)
             throw new Error(
-              "Expected to find sketch people count total metric"
+              "Expected to find sketch people count total metric",
             );
           const singlePeopleCountPercFormatted = percentWithEdge(
-            singlePeopleCountPercMetric.value
+            singlePeopleCountPercMetric.value,
           );
 
           const singleFullMetrics = [
@@ -105,12 +103,12 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
             ...toPercentMetric(
               singlePeopleCountMetrics,
               singlePeopleTotalCountMetrics,
-              { metricIdOverride: PERC_METRIC_ID }
+              { metricIdOverride: PERC_METRIC_ID },
             ),
           ];
 
           const sectorClassIds = sectorMetricGroup.classes.map(
-            (curClass) => curClass.classId
+            (curClass) => curClass.classId,
           );
           const sectorTotalMetrics = singlePeopleTotalCountMetrics
             .filter((m) => m.classId && sectorClassIds.includes(m.classId))
@@ -119,32 +117,32 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
             .filter((m) => m.classId && sectorClassIds.includes(m.classId))
             .concat(sectorTotalMetrics);
           const numSectors = sectorMetrics.filter(
-            (m) => m.metricId === "ousPeopleCount"
+            (m) => m.metricId === "ousPeopleCount",
           ).length;
           const numSectorsFormatted = Number.format(numSectors);
 
           const municipalityClassIds = municipalityMetricGroup.classes.map(
-            (curClass) => curClass.classId
+            (curClass) => curClass.classId,
           );
           const municipalityTotalMetrics = singlePeopleTotalCountMetrics
             .filter(
-              (m) => m.classId && municipalityClassIds.includes(m.classId)
+              (m) => m.classId && municipalityClassIds.includes(m.classId),
             )
             .map((m) => ({ ...m, metricId: TOTAL_METRIC_ID }));
           const municipalityMetrics = singleFullMetrics
             .filter(
-              (m) => m.classId && municipalityClassIds.includes(m.classId)
+              (m) => m.classId && municipalityClassIds.includes(m.classId),
             )
             .concat(municipalityTotalMetrics);
           const numMunicipalities = municipalityMetrics.filter(
             (m) =>
               m.metricId === "ousPeopleCount" &&
-              m.classId !== "unknown-municipality"
+              m.classId !== "unknown-municipality",
           ).length;
           const numMunicipalitiesFormatted = Number.format(numMunicipalities);
 
           const gearClassIds = gearMetricGroup.classes.map(
-            (curClass) => curClass.classId
+            (curClass) => curClass.classId,
           );
           const gearTotalMetrics = singlePeopleTotalCountMetrics
             .filter((m) => m.classId && gearClassIds.includes(m.classId))
@@ -153,7 +151,7 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
             .filter((m) => m.classId && gearClassIds.includes(m.classId))
             .concat(gearTotalMetrics);
           const numGears = gearMetrics.filter(
-            (m) => m.metricId === "ousPeopleCount"
+            (m) => m.metricId === "ousPeopleCount",
           ).length;
           const numGearsFormatted = Number.format(numGears);
 
@@ -163,7 +161,7 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
           const totalPeopleLabel = t("Total People Represented In Survey");
           const peopleUsingOceanLabel = t("People Using Ocean Within Plan");
           const peopleUsingOceanPercLabel = t(
-            "% People Using Ocean Within Plan"
+            "% People Using Ocean Within Plan",
           );
 
           return (
@@ -183,7 +181,7 @@ export const OusDemographics: React.FunctionComponent<ReportProps> = (
                 {t(" of the ")}
                 <b>{singlePeopletotalCountFormatted}</b>
                 {t(
-                  " people represented by this survey use the ocean within this plan. This is "
+                  " people represented by this survey use the ocean within this plan. This is ",
                 )}
                 <b>{singlePeopleCountPercFormatted}</b>
                 {t(" of the total people represented. They come from ")}

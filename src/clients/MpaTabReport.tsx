@@ -7,18 +7,18 @@ import {
   ToolbarCard,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
-import ViabilityPage from "../components/ViabilityPage";
-import RepresentationPage from "../components/RepresentationPage";
-import TradeoffsPage from "../components/TradeoffsPage";
+import ViabilityPage from "../components/ViabilityPage.js";
+import RepresentationPage from "../components/RepresentationPage.js";
+import TradeoffsPage from "../components/TradeoffsPage.js";
 import { useTranslation } from "react-i18next";
-import { Translator } from "../components/TranslatorAsync";
-import project from "../../project";
+import { Translator } from "../components/TranslatorAsync.js";
+import project from "../../project/projectClient.js";
 import { useReactToPrint } from "react-to-print";
-import { PrintButton, PrintPopup, SketchAttributes } from "../util/Print";
-import { Settings } from "../util/Settings";
-import { Footer } from "../util/Footer";
+import { PrintButton, PrintPopup, SketchAttributes } from "../util/Print.js";
+import { Settings } from "../util/Settings.js";
+import { Footer } from "../util/Footer.js";
 
-const MpaTabReport = () => {
+const BaseReport = () => {
   const { t } = useTranslation();
   const viabilityId = "viability";
   const representationId = "representation";
@@ -63,7 +63,7 @@ const MpaTabReport = () => {
     // When printing, animations are disabled and the page is printed
     if (isPrinting) {
       [...document.querySelectorAll(".chart, .animated-scatter")].forEach(
-        (el) => ((el as HTMLElement).style.animationDuration = "0s")
+        (el) => ((el as HTMLElement).style.animationDuration = "0s"),
       );
       handlePrint();
     }
@@ -72,7 +72,7 @@ const MpaTabReport = () => {
       [...document.querySelectorAll(".chart, .animated-scatter")].forEach(
         (el, index) =>
           ((el as HTMLElement).style.animationDuration =
-            originalAnimationDurations[index])
+            originalAnimationDurations[index]),
       );
     };
   }, [isPrinting]);
@@ -138,10 +138,14 @@ const MpaTabReport = () => {
   );
 };
 
-export default function () {
+// Named export loaded by storybook
+export const MpaTabReport = () => {
   return (
     <Translator>
-      <MpaTabReport />
+      <BaseReport />
     </Translator>
   );
-}
+};
+
+// Default export lazy-loaded by production ReportApp
+export default MpaTabReport;

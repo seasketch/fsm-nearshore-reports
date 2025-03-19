@@ -56,7 +56,7 @@ export const mediumProtectionLevels = [
  * @returns <string, string> mapping of sketchId to zone type
  */
 export function getGroup(
-  sketch: Sketch | SketchCollection | NullSketchCollection | NullSketch
+  sketch: Sketch | SketchCollection | NullSketchCollection | NullSketch,
 ): Record<string, string> {
   const sketchFeatures = getSketchFeatures(sketch);
   const groups = sketchFeatures.reduce<Record<string, string>>(
@@ -66,7 +66,7 @@ export function getGroup(
       groupsAcc[sketch.properties.id] = group ? group : "unknown";
       return groupsAcc;
     },
-    {}
+    {},
   );
 
   return groups;

@@ -1,28 +1,27 @@
-/**
- * @jest-environment node
- * @group smoke
- */
-import { ousDemographicOverlap } from "./ousDemographicOverlap";
 import {
   getExamplePolygonSketchAll,
   writeResultOutput,
 } from "@seasketch/geoprocessing/scripts/testing";
+import { describe, test, expect } from "vitest";
+import { ousDemographicOverlap } from "./ousDemographicOverlap.js";
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {
     expect(typeof ousDemographicOverlap).toBe("function");
   });
-  test("ousDemographicOverlapSmoke - tests run against all examples", async () => {
-    // data fetch fails if run all sketches, too many requests?
+  test("ousDemographicOverlap - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await ousDemographicOverlap(example);
+      const result = await ousDemographicOverlap(example, {
+        geographyIds: [],
+        overlapSketch: true,
+      });
       expect(result).toBeTruthy();
       writeResultOutput(
         result,
         "ousDemographicOverlap",
-        example.properties.name
+        example.properties.name,
       );
     }
-  }, 500000);
+  }, 500_000);
 });

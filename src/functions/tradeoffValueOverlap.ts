@@ -7,13 +7,14 @@ import {
   Feature,
   isInternalVectorDatasource,
   getFlatGeobufFilename,
-  overlapFeatures,
   overlapFeaturesGroupMetrics,
   overlapRasterGroupMetrics,
   getCogFilename,
   rasterMetrics,
+  getFeaturesForSketchBBoxes,
+  overlapPolygonArea,
 } from "@seasketch/geoprocessing";
-import project from "../../project";
+import project from "../../project/projectClient.js";
 import {
   DefaultExtraParams,
   Georaster,
@@ -25,26 +26,25 @@ import {
   sortMetrics,
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
-import { clipToGeography } from "../util/clipToGeography";
-import bbox from "@turf/bbox";
-import { fgbFetchAll, loadCog } from "@seasketch/geoprocessing/dataproviders";
-import { getGroup, groups } from "../util/getGroup";
+import { clipToGeography } from "../util/clipToGeography.js";
+import { loadCog } from "@seasketch/geoprocessing/dataproviders";
+import { getGroup, groups } from "../util/getGroup.js";
 
 const mg = project.getMetricGroup("tradeoffValueOverlap");
 // This is a weird report currently, with a metric group containing rasters and vectors
 const rasterClasses = mg.classes.filter(
-  (curClass) => curClass.classId === "fisheries_tradeoff"
+  (curClass) => curClass.classId === "fisheries_tradeoff",
 );
 const vectorClasses = mg.classes.filter(
   (curClass) =>
-    curClass.classId === "benthic_tradeoff" || curClass.classId === "nearshore"
+    curClass.classId === "benthic_tradeoff" || curClass.classId === "nearshore",
 );
 
 export async function tradeoffValueOverlap(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams: DefaultExtraParams = {}
+  extraParams: DefaultExtraParams = {},
 ): Promise<ReportResult> {
   // Use caller-provided geographyId if provided
   const geographyId = getFirstFromParam("geographyIds", extraParams);
@@ -59,9 +59,6 @@ export async function tradeoffValueOverlap(
 
   // Clip to portion of sketch within current geography
   const clippedSketch = await clipToGeography(splitSketch, curGeography);
-
-  // Get bounding box of sketch remainder
-  const sketchBox = clippedSketch.bbox || bbox(clippedSketch);
 
   let cachedFeatures: Record<string, Feature<Polygon>[]> = {};
   const featuresByClass: Record<string, Feature<Polygon>[]> = {};
@@ -80,7 +77,7 @@ export async function tradeoffValueOverlap(
           // Fetch features overlapping with sketch, pull from cache if already fetched
           const dsFeatures =
             cachedFeatures[curClass.datasourceId] ||
-            (await fgbFetchAll<Feature<Polygon>>(url, sketchBox));
+            (await getFeaturesForSketchBBoxes<Polygon>(clippedSketch, url));
           cachedFeatures[curClass.datasourceId] = dsFeatures;
 
           // If this is a sub-class, filter by class name, exclude null geometry too
@@ -99,7 +96,7 @@ export async function tradeoffValueOverlap(
           return finalFeatures;
         }
         return [];
-      })
+      }),
     )
   ).reduce<Record<string, Feature<Polygon>[]>>((acc, polys, classIndex) => {
     return {
@@ -111,23 +108,23 @@ export async function tradeoffValueOverlap(
   const vectorMetrics: Metric[] = (
     await Promise.all(
       vectorClasses.map(async (curClass) => {
-        const overlapResult = await overlapFeatures(
+        const overlapResult = await overlapPolygonArea(
           mg.metricId,
           polysByBoundary[curClass.classId],
-          clippedSketch
+          clippedSketch,
         );
         return overlapResult.map(
           (metric): Metric => ({
             ...metric,
             classId: curClass.classId,
-          })
+          }),
         );
-      })
+      }),
     )
   ).reduce(
     // merge
     (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
-    []
+    [],
   );
 
   const raster_metrics: Metric[] = (
@@ -137,7 +134,7 @@ export async function tradeoffValueOverlap(
         if (!curClass.datasourceId)
           throw new Error(`Expected datasourceId for ${curClass}`);
         const url = `${project.dataBucketUrl()}${getCogFilename(
-          project.getInternalRasterDatasourceById(curClass.datasourceId)
+          project.getInternalRasterDatasourceById(curClass.datasourceId),
         )}`;
         const raster = await loadCog(url);
         rasterByClass[curClass.classId] = raster;
@@ -151,14 +148,14 @@ export async function tradeoffValueOverlap(
             ...metrics,
             classId: curClass.classId,
             geographyId: curGeography.geographyId,
-          })
+          }),
         );
-      })
+      }),
     )
   ).reduce(
     // merge
     (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
-    []
+    [],
   );
 
   // Generate area metrics grouped by zone type, with area overlap within zones removed
@@ -193,7 +190,7 @@ export async function tradeoffValueOverlap(
         ...raster_metrics,
         ...groupVectorMetrics,
         ...groupRasterMetrics,
-      ])
+      ]),
     ),
     sketch: toNullSketch(sketch, true),
   };

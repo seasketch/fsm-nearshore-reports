@@ -7,22 +7,24 @@ import {
   Geography,
   Feature,
   isSketchCollection,
+  genSketchCollection,
 } from "@seasketch/geoprocessing/client-core";
-import { getFeatures } from "@seasketch/geoprocessing/dataproviders";
-import { featureCollection } from "@turf/helpers";
-import bbox from "@turf/bbox";
-import project from "../../project";
+import { bbox, featureCollection, simplify } from "@turf/turf";
+import project from "../../project/projectClient.js";
 import {
   clipMultiMerge,
   zeroSketchArray,
   zeroPolygon,
+  getDatasourceFeatures,
 } from "@seasketch/geoprocessing";
-import simplify from "@turf/simplify";
 
 /**
- * Clips sketch to geography
+ * Returns intersection of sketch with geography features.
+ * If sketch does not overlap with geography returns sketch with zero polygon
+ * geometry (null island).  This to ensure that the sketch is still valid and
+ * effectively a no-op in follow-on spatial operations.
  * @param sketch Sketch or SketchCollection
- * @param geography geography to clip sketch to
+ * @param geography geography to clip sketch to, geography features are fetched
  * @param options optionally simplify sketch
  * @param simplifyOptions.tolerance tolerance in meters
  * @param simplifyOptions.highQuality highQuality simplification
@@ -32,7 +34,7 @@ import simplify from "@turf/simplify";
 export async function clipToGeography<G extends Polygon | MultiPolygon>(
   sketch: Sketch<G> | SketchCollection<G>,
   geography: Geography,
-  options?: { tolerance?: number; highQuality?: boolean }
+  options?: { tolerance?: number; highQuality?: boolean },
 ): Promise<Sketch<G> | SketchCollection<G>> {
   if (!geography) {
     if (options) return simplify(sketch, options);
@@ -40,67 +42,75 @@ export async function clipToGeography<G extends Polygon | MultiPolygon>(
   }
 
   const box = sketch.bbox || bbox(sketch);
-  // ToDo: need to support external geography too, can we borrow logic from precalc
   const ds = project.getVectorDatasourceById(geography.datasourceId);
-  // ToDo - accept array of geographies and union all their features, then intersect with sketch
-  const geogFeatures = await getFeatures<Feature<Polygon | MultiPolygon>>(
+  const geogFeatures = await getDatasourceFeatures<Polygon | MultiPolygon>(
     ds,
     project.getDatasourceUrl(ds),
     {
       bbox: box,
-    }
+    },
   );
 
   let finalSketches: Sketch<G>[] = [];
 
-  if (!geogFeatures[0]) {
-    console.log(
-      sketch.properties.name,
-      "has no overlap with geography",
-      geography.geographyId
-    );
+  if (geogFeatures[0]) {
+    const sketches = toSketchArray(sketch);
+    for (const sketch of sketches) {
+      const intersection = clipMultiMerge(
+        sketch,
+        featureCollection(geogFeatures),
+        "intersection",
+      ) as Feature<G>;
+      if (!intersection && process.env.NODE_ENV !== "test") {
+        console.log(
+          `Sketch ${sketch.id} does not intersect with geography ${geography.geographyId}`,
+        );
+      }
+      if (intersection) {
+        if (options) {
+          sketch.geometry = simplify(intersection.geometry, options);
+          sketch.bbox = bbox(intersection);
+        } else {
+          sketch.geometry = intersection.geometry;
+          sketch.bbox = bbox(intersection);
+        }
+      } else {
+        sketch.geometry = zeroPolygon() as G;
+        sketch.bbox = [0, 0, 0, 0];
+      }
+      finalSketches.push(sketch);
+    }
+  } else {
+    if (process.env.NODE_ENV !== "test") {
+      console.log(
+        sketch.properties.name,
+        "has no overlap with geography",
+        geography.geographyId,
+      );
+    }
 
     finalSketches = zeroSketchArray(toSketchArray(sketch));
 
     if (isSketchCollection(sketch)) {
       return {
         properties: sketch.properties,
-        bbox: box,
+        bbox: [0, 0, 0, 0],
         type: "FeatureCollection",
         features: finalSketches,
       };
     } else {
-      return finalSketches[0];
+      return { ...finalSketches[0], bbox: [0, 0, 0, 0] };
     }
-  } else {
-    const sketches = toSketchArray(sketch);
-    sketches.forEach((sketch) => {
-      const intersection = clipMultiMerge(
-        sketch,
-        featureCollection(geogFeatures),
-        "intersection"
-      ) as Feature<G>;
-      if (!intersection)
-        console.log(
-          `Sketch ${sketch.id} does not intersect with geography ${geography.geographyId}`
-        );
-      if (intersection) {
-        if (options) {
-          sketch.geometry = simplify(intersection.geometry, options);
-        } else {
-          sketch.geometry = intersection.geometry;
-        }
-      } else {
-        sketch.geometry = zeroPolygon() as G;
-      }
-      finalSketches.push(sketch);
-    });
   }
 
   if (isSketchCollection(sketch)) {
     return {
       properties: sketch.properties,
-      bbox: box,
+      bbox: bbox(
+        genSketchCollection(
+          finalSketches.filter((sk) => !sk.bbox!.every((coord) => coord === 0)), // filter out zero sketches
+        ),
+      ),
       type: "FeatureCollection",
       features: finalSketches,
     };

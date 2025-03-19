@@ -10,7 +10,6 @@ import {
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
-  toNullSketchArray,
   flattenBySketchAllClass,
   metricsWithSketchId,
   Metric,
@@ -25,22 +24,25 @@ import {
   OBJECTIVE_NO,
   Objective,
   ObjectiveAnswer,
-  keyBy,
   nestMetrics,
   squareMeterToKilometer,
   roundDecimal,
+  SketchProperties,
 } from "@seasketch/geoprocessing/client-core";
 import {
   groupColorMap,
   groupDisplayMapPl,
   groups,
   groupsDisplay,
-} from "./getGroup";
-import { HorizontalStackedBar, RowConfig } from "./HorizontalStackedBar";
+} from "./getGroup.js";
+import { HorizontalStackedBar, RowConfig } from "./HorizontalStackedBar.js";
 import { InfoCircleFill } from "@styled-icons/bootstrap";
-import project from "../../project";
-import { AreaSketchTableStyled, PercentSketchTableStyled } from "./TableStyles";
-import { flattenByGroup } from "./flattenByGroup";
+import project from "../../project/projectClient.js";
+import {
+  AreaSketchTableStyled,
+  PercentSketchTableStyled,
+} from "./TableStyles.js";
+import { flattenByGroup } from "./flattenByGroup.js";
 
 export interface ClassTableGroupedProps {
   showDetailedObjectives?: boolean;
@@ -63,7 +65,7 @@ export const groupedSketchReport = (
   precalcMetrics: Metric[],
   metricGroup: MetricGroup,
   t: any,
-  options?: ClassTableGroupedProps
+  options?: ClassTableGroupedProps,
 ) => {
   // Get total precalc areas
   const totalAreas = metricGroup.classes.reduce<Record<string, number>>(
@@ -72,23 +74,23 @@ export const groupedSketchReport = (
         ...acc,
         [curClass.classId]: firstMatchingMetric(
           precalcMetrics,
-          (m) => m.groupId === null && m.classId === curClass.classId
+          (m) => m.groupId === null && m.classId === curClass.classId,
         ).value,
       };
     },
-    {}
+    {},
   );
 
   // Filter down to metrics which have groupIds
   const levelMetrics = data.metrics.filter(
-    (m) => m.groupId && groups.includes(m.groupId)
+    (m) => m.groupId && groups.includes(m.groupId),
   );
 
   // Filter down grouped metrics to ones that count for each class
   const totalsByClass = metricGroup.classes.reduce<Record<string, number[]>>(
     (acc, curClass) => {
       const classMetrics = levelMetrics.filter(
-        (m) => m.classId === curClass.classId
+        (m) => m.classId === curClass.classId,
       );
       const objective = curClass.objectiveId;
       const values = objective
@@ -102,12 +104,12 @@ export const groupedSketchReport = (
             })
             .map((yesAgg) => yesAgg.value / totalAreas[curClass.classId])
         : classMetrics.map(
-            (group) => group.value / totalAreas[curClass.classId]
+            (group) => group.value / totalAreas[curClass.classId],
           );
 
       return { ...acc, [curClass.classId]: values };
     },
-    {}
+    {},
   );
 
   return genClassTableGrouped(metricGroup, totalsByClass, t, options);
@@ -125,19 +127,19 @@ export const groupedCollectionReport = (
   precalcMetrics: Metric[],
   metricGroup: MetricGroup,
   t: any,
-  options?: ClassTableGroupedProps
+  options?: ClassTableGroupedProps,
 ) => {
   if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
 
   // Filter down to metrics which have groupIds
   const levelMetrics = data.metrics.filter(
-    (m) => m.groupId && groups.includes(m.groupId)
+    (m) => m.groupId && groups.includes(m.groupId),
   );
 
   const groupLevelAggs: GroupMetricAgg[] = flattenByGroupAllClass(
     data.sketch,
     levelMetrics,
-    precalcMetrics
+    precalcMetrics,
   );
 
   // Filter down grouped metrics to ones that count for each class
@@ -158,7 +160,7 @@ export const groupedCollectionReport = (
 
       return { ...acc, [curClass.classId]: values };
     },
-    {}
+    {},
   );
 
   return <>{genClassTableGrouped(metricGroup, totalsByClass, t, options)}</>;
@@ -174,7 +176,7 @@ export const genClassTableGrouped = (
   metricGroup: MetricGroup,
   totalsByClass: Record<string, number[]>,
   t: any,
-  options?: ClassTableGroupedProps
+  options?: ClassTableGroupedProps,
 ) => {
   const finalOptions = {
     showDetailedObjectives: true,
@@ -221,12 +223,12 @@ export const genClassTableGrouped = (
 
   const config = {
     rows: metricGroup.classes.map((curClass) =>
-      totalsByClass[curClass.classId].map((value) => [value * 100])
+      totalsByClass[curClass.classId].map((value) => [value * 100]),
     ),
     target: metricGroup.classes.map((curClass) =>
       curClass.objectiveId
         ? project.getObjectiveById(curClass.objectiveId).target * 100
-        : undefined
+        : undefined,
     ),
     rowConfigs: rowConfig,
     max: 100,
@@ -244,7 +246,7 @@ export const genClassTableGrouped = (
             // Get total percentage within sketch
             const percSum = totalsByClass[curClass.classId].reduce(
               (sum, value) => sum + value,
-              0
+              0,
             );
 
             // Checks if the objective is met
@@ -262,7 +264,7 @@ export const genClassTableGrouped = (
                       ? collectionMsgs[objective.objectiveId](
                           objective,
                           isMet,
-                          t
+                          t,
                         )
                       : collectionMsgs["default"](objective, isMet, t)
                   }
@@ -304,14 +306,15 @@ export interface CollectionObjectiveStatusProps {
  * Presents objectives for single sketch
  * @param CollectionObjectiveStatusProps containing objective, objective
  */
-export const CollectionObjectiveStatus: React.FunctionComponent<CollectionObjectiveStatusProps> =
-  ({ objective, objectiveMet, t }) => {
-    const msg = Object.keys(collectionMsgs).includes(objective.objectiveId)
-      ? collectionMsgs[objective.objectiveId](objective, objectiveMet, t)
-      : collectionMsgs["default"](objective, objectiveMet, t);
+export const CollectionObjectiveStatus: React.FunctionComponent<
+  CollectionObjectiveStatusProps
+> = ({ objective, objectiveMet, t }) => {
+  const msg = Object.keys(collectionMsgs).includes(objective.objectiveId)
+    ? collectionMsgs[objective.objectiveId](objective, objectiveMet, t)
+    : collectionMsgs["default"](objective, objectiveMet, t);
 
-    return <ObjectiveStatus status={objectiveMet} msg={msg} />;
-  };
+  return <ObjectiveStatus status={objectiveMet} msg={msg} />;
+};
 
 /**
  * Renders messages beased on objective and if objective is met for sketch collections
@@ -337,7 +340,7 @@ export const collectionMsgs: Record<string, any> = {
   ocean_space_protected: (
     objective: Objective,
     objectiveMet: ObjectiveAnswer,
-    t: any
+    t: any,
   ) => {
     if (objectiveMet === OBJECTIVE_YES) {
       return (
@@ -360,7 +363,7 @@ export const collectionMsgs: Record<string, any> = {
   ocean_space_highly_protected: (
     objective: Objective,
     objectiveMet: ObjectiveAnswer,
-    t: any
+    t: any,
   ) => {
     if (objectiveMet === OBJECTIVE_YES) {
       return (
@@ -394,19 +397,19 @@ export const genPercGroupLevelTable = (
   precalcMetrics: Metric[],
   metricGroup: MetricGroup,
   t: any,
-  printing: boolean = false
+  printing: boolean = false,
 ) => {
   if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
 
   // Filter down to metrics which have groupIds
   const levelMetrics = data.metrics.filter(
-    (m) => m.groupId && groups.includes(m.groupId)
+    (m) => m.groupId && groups.includes(m.groupId),
   );
 
   const levelAggs: GroupMetricAgg[] = flattenByGroup(
     data.sketch,
     levelMetrics,
-    precalcMetrics
+    precalcMetrics,
   );
 
   const classColumns: Column<Record<string, string | number>>[] =
@@ -421,7 +424,7 @@ export const genPercGroupLevelTable = (
             {percentWithEdge(
               isNaN(row[curClass.classId + "Perc"] as number)
                 ? 0
-                : (row[curClass.classId + "Perc"] as number)
+                : (row[curClass.classId + "Perc"] as number),
             )}
           </GroupPill>
         );
@@ -465,19 +468,19 @@ export const genAreaGroupLevelTable = (
   precalcMetrics: Metric[],
   metricGroup: MetricGroup,
   t: any,
-  printing: boolean = false
+  printing: boolean = false,
 ) => {
   if (!isSketchCollection(data.sketch)) throw new Error("NullSketch");
 
   // Filter down to metrics which have groupIds
   const levelMetrics = data.metrics.filter(
-    (m) => m.groupId && groups.includes(m.groupId)
+    (m) => m.groupId && groups.includes(m.groupId),
   );
 
   const levelAggs: GroupMetricAgg[] = flattenByGroup(
     data.sketch,
     levelMetrics,
-    precalcMetrics
+    precalcMetrics,
   );
 
   const classColumns: Column<Record<string, string | number>>[] =
@@ -520,7 +523,7 @@ export const genAreaGroupLevelTable = (
                 {percentWithEdge(
                   isNaN(row[curClass.classId + "Perc"] as number)
                     ? 0
-                    : (row[curClass.classId + "Perc"] as number)
+                    : (row[curClass.classId + "Perc"] as number),
                 )}
               </GroupPill>
             ),
@@ -565,7 +568,7 @@ export const genAreaGroupLevelTable = (
             data={levelAggs.sort((a, b) => a.groupId.localeCompare(b.groupId))}
             manualPagination={printing}
           />
-        </AreaSketchTableStyled>
+        </AreaSketchTableStyled>,
       );
     }
 
@@ -587,32 +590,34 @@ export const genAreaGroupLevelTable = (
 /**
  * Creates "Show by Zone" report, with only percentages
  * @param data data returned from lambda
- * @param precalcMetrics metrics from precalc.json
  * @param metricGroup metric group to get stats for
+ * @param precalcMetrics metrics from precalc.json
+ * @param childProperties properties of child sketches
  * @param t TFunction
  */
 export const genSketchTable = (
   data: ReportResult,
-  precalcMetrics: Metric[],
   metricGroup: MetricGroup,
-  printing: boolean = false
+  precalcMetrics: Metric[],
+  childProperties: SketchProperties[],
+  printing: boolean = false,
 ) => {
+  const childSketchIds = childProperties
+    ? childProperties.map((skp) => skp.id)
+    : [];
   // Build agg metric objects for each child sketch in collection with percValue for each class
-  const childSketches = toNullSketchArray(data.sketch);
-  const childSketchIds = childSketches.map((sk) => sk.properties.id);
   const childSketchMetrics = toPercentMetric(
     metricsWithSketchId(
       data.metrics.filter((m) => m.metricId === metricGroup.metricId),
-      childSketchIds
+      childSketchIds,
     ),
-    precalcMetrics
+    precalcMetrics,
   );
   const sketchRows = flattenBySketchAllClass(
     childSketchMetrics,
     metricGroup.classes,
-    childSketches
+    childProperties,
   );
-
   const zoneLabel = "Zone";
 
   const classColumns: Column<Record<string, string | number>>[] =
@@ -622,7 +627,7 @@ export const genSketchTable = (
         percentWithEdge(
           isNaN(row[curClass.classId] as number)
             ? 0
-            : (row[curClass.classId] as number)
+            : (row[curClass.classId] as number),
         ),
     }));
 
@@ -640,8 +645,9 @@ export const genSketchTable = (
         className="styled"
         columns={columns}
         data={sketchRows.sort((a, b) =>
-          (a.sketchName as string).localeCompare(b.sketchName as string)
+          (a.sketchName as string).localeCompare(b.sketchName as string),
         )}
+        manualPagination={printing}
       />
     </PercentSketchTableStyled>
   );
@@ -659,13 +665,15 @@ export const genAreaSketchTable = (
   precalcMetrics: Metric[],
   mg: MetricGroup,
   t: any,
-  printing: boolean = false
+  childProperties: SketchProperties[],
+  printing: boolean = false,
 ) => {
-  const sketches = toNullSketchArray(data.sketch);
-  const sketchesById = keyBy(sketches, (sk) => sk.properties.id);
-  const sketchIds = sketches.map((sk) => sk.properties.id);
+  const childSketchIds = childProperties
+    ? childProperties.map((skp) => skp.id)
+    : [];
+
   const sketchMetrics = data.metrics.filter(
-    (m) => m.sketchId && sketchIds.includes(m.sketchId)
+    (m) => m.sketchId && childSketchIds.includes(m.sketchId),
   );
   const finalMetrics = [
     ...sketchMetrics,
@@ -721,15 +729,16 @@ export const genAreaSketchTable = (
           },
         ],
       };
-    }
+    },
   );
 
   const columns: Column<any>[] = [
     {
       Header: "Zone",
-      accessor: (row) => sketchesById[row.sketchId].properties.name,
+      accessor: (row) =>
+        childProperties.find((csk) => csk.id === row.sketchId)!.name,
     },
-    ...classColumns,
+    ...(classColumns as Column<any>[]),
   ];
 
   if (printing) {
@@ -753,7 +762,7 @@ export const genAreaSketchTable = (
             data={rows}
             manualPagination={printing}
           />
-        </AreaSketchTableStyled>
+        </AreaSketchTableStyled>,
       );
     }
 

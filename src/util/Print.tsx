@@ -3,8 +3,8 @@ import { SketchProperties } from "@seasketch/geoprocessing/client-core";
 import { Card, SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
 import { useTranslation } from "react-i18next";
 import { Printer as BasePrinter } from "@styled-icons/bootstrap";
-import { PrintMap } from "../components/PrintMap";
-import styled from "styled-components";
+import { PrintMap } from "../components/PrintMap.js";
+import { styled } from "styled-components";
 
 const Printer = styled(BasePrinter)`
   cursor: pointer;
@@ -47,7 +47,7 @@ export const PrintPopup: React.FunctionComponent = () => (
  * Sketch attributes for printing
  */
 export const SketchAttributes: React.FunctionComponent<SketchProperties> = (
-  attributes
+  attributes,
 ) => {
   const { t } = useTranslation();
   const { name, id, createdAt, updatedAt } = attributes;

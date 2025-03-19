@@ -1,10 +1,10 @@
 /**
- * @jest-environment node
- * @group smoke
+ * @vitest-environment node
  */
-import handler, { clipToNearshore } from "./clipToOceanNearshore";
+import handler, { clipToOceanNearshore } from "./clipToOceanNearshore.js";
 import { polygonPreprocessorSmokeTest } from "@seasketch/geoprocessing/scripts/testing";
 
-polygonPreprocessorSmokeTest(clipToNearshore, handler.options.title, {
+polygonPreprocessorSmokeTest(clipToOceanNearshore, handler.options.title, {
   timeout: 20000,
+  debug: true,
 });
