@@ -19,7 +19,7 @@
     "classes": [
       {
         "classId": "nearshore",
-        "display": "Territorial Sea",
+        "display": "State Waters",
         "datasourceId": "nearshore",
         "layerId": "f2Z9cV8d9"
       }
