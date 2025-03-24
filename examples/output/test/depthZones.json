@@ -1,0 +1,282 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 40509029.751714,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 40509029.751714,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 5204104.224113,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 5204104.224113,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 2255199.396549,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 2255199.396549,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 5932320.540637,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 5932320.540637,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 15308911.900593,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 15308911.900593,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 10184737.870145,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 10184737.870145,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 24597,
+    "bbox": [
+      163.0139,
+      5.2779717,
+      163.10576,
+      5.3990927
+    ],
+    "type": "Feature",
+    "properties": {
+      "6289": "test",
+      "id": "24597",
+      "name": "test",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-01-18T21:24:53.060168+00:00",
+      "updatedAt": "2024-01-18T21:24:53.060168+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "745",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6292,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    },
+    "geometry": null
+  }
+}

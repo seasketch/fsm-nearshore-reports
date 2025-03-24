@@ -25,9 +25,9 @@ import {
 import { clipToGeography } from "../util/clipToGeography.js";
 import { getGroup, groups } from "../util/getGroup.js";
 
-const mg = project.getMetricGroup("habitatAreaOverlap");
+const mg = project.getMetricGroup("reefGeomorphic");
 
-export async function habitatAreaOverlap(
+export async function reefGeomorphic(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
@@ -135,8 +135,8 @@ export async function habitatAreaOverlap(
   };
 }
 
-export default new GeoprocessingHandler(habitatAreaOverlap, {
-  title: "habitatAreaOverlap",
+export default new GeoprocessingHandler(reefGeomorphic, {
+  title: "reefGeomorphic",
   description: "key benthic habitat metrics",
   timeout: 900, // seconds
   executionMode: "async",

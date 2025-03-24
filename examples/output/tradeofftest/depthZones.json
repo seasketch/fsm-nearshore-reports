@@ -1,0 +1,700 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "25164",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "25164",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "25165",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "25165",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "25166",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "25166",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "25164",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "25164",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "25165",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "25165",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "25166",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "25166",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "25164",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "25164",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "25165",
+      "groupId": null,
+      "value": 556574.426957,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "25165",
+      "groupId": "mpa",
+      "value": 556574.426957,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 556574.426957,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "25166",
+      "groupId": "mpa",
+      "value": 556574.426957,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "25166",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "25164",
+      "groupId": null,
+      "value": 583763.575244,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "25164",
+      "groupId": "mpa",
+      "value": 583763.575244,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "25165",
+      "groupId": null,
+      "value": 107896.617351,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "25165",
+      "groupId": "mpa",
+      "value": 107896.617351,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 691660.192595,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "25166",
+      "groupId": "mpa",
+      "value": 691660.192595,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "25166",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "25164",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "25164",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "25165",
+      "groupId": null,
+      "value": 474.352601,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "25165",
+      "groupId": "mpa",
+      "value": 474.352601,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 474.352601,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "25166",
+      "groupId": "mpa",
+      "value": 474.352601,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "25166",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "25164",
+      "groupId": null,
+      "value": 995188.034414,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "25164",
+      "groupId": "mpa",
+      "value": 995188.034414,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "25165",
+      "groupId": null,
+      "value": 329863.811818,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "25165",
+      "groupId": "mpa",
+      "value": 329863.811818,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 1325051.846232,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "25166",
+      "groupId": "mpa",
+      "value": 1325051.846232,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "25166",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "25164",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "25164",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "25165",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "25165",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "25166",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "25166",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    }
+  ],
+  "sketch": {
+    "id": 25166,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 25164,
+        "bbox": [
+          162.89255,
+          5.299203,
+          162.94028,
+          5.3289547
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "mpa1_tradeofftest",
+          "id": "25164",
+          "name": "mpa1_tradeofftest",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2024-02-08T18:43:05.815649+00:00",
+          "updatedAt": "2024-02-08T18:43:32.548116+00:00",
+          "collectionId": "25166",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 25165,
+        "bbox": [
+          162.89998,
+          5.2656755,
+          162.912,
+          5.283677
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "mpa2_tradeofftest",
+          "id": "25165",
+          "name": "mpa2_tradeofftest",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2024-02-08T18:43:21.035183+00:00",
+          "updatedAt": "2024-02-08T18:43:30.703963+00:00",
+          "collectionId": "25166",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "6293": "tradeofftest",
+      "id": "25166",
+      "name": "tradeofftest",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-02-08T18:43:27.930885+00:00",
+      "updatedAt": "2024-02-08T18:43:32.548116+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "746",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6294,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6295,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    }
+  }
+}

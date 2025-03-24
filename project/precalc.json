@@ -74,6 +74,262 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "habitatZones-Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Lower bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Other reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Shallow reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "habitatZones-Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "kosrae-total",
     "sketchId": null,
     "groupId": null,
@@ -254,6 +510,262 @@
     "sketchId": null,
     "groupId": null,
     "value": 9552
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Lower bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Other reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Shallow reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "habitatZones-Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
   },
   {
     "geographyId": "chuuk",
@@ -578,6 +1090,262 @@
   {
     "geographyId": "kosrae",
     "metricId": "area",
+    "classId": "habitatZones-Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 674945726.0303992
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 30021.638406954055
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7947.273611663857
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 170948.63371055725
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27475.827378427173
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1545850.461576678
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 885452.880256637
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1587.7612652760342
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1486049.2008170707
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 210676.25601717035
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 48461.91361615478
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 190793.43242301166
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Lower bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1700543147.1753163
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 35357913.93538557
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Other reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 8898433.29569766
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5764091.01269377
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 20003.636118851107
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 46278231.595522314
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2106248.2649085806
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 600155.1649881221
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 18436.17082204483
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 28203.635368637813
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7145.120630817053
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14846.330157261282
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 75437.95900635452
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3706100.064841906
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7747.234176688666
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Shallow reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 49249869.47624539
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 290790.08078780357
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2591426.415086594
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2636673574.766653
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "habitatZones-Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 101564356.88941598
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
     "classId": "kosrae-total",
     "sketchId": null,
     "groupId": null,
@@ -750,6 +1518,262 @@
     "sketchId": null,
     "groupId": null,
     "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 57
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 15
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 409
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 11
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 762
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 178
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 414
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 345
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 51
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 27
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Lower bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Other reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1521
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 187
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 544
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 376
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 28
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 21
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 31
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 131
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 425
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Shallow reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 144
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 298
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 616
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6610
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "habitatZones-Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
   },
   {
     "geographyId": "kosrae",
@@ -1074,6 +2098,262 @@
   {
     "geographyId": "pohnpei",
     "metricId": "area",
+    "classId": "habitatZones-Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Lower bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Other reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Shallow reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "habitatZones-Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
     "classId": "kosrae-total",
     "sketchId": null,
     "groupId": null,
@@ -1243,6 +2523,262 @@
     "geographyId": "pohnpei",
     "metricId": "count",
     "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Lower bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Other reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Shallow reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "habitatZones-Upper bathyal",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -1570,6 +3106,262 @@
   {
     "geographyId": "yap",
     "metricId": "area",
+    "classId": "habitatZones-Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Coral/Algae - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Lower bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Other reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Seagrass - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Shallow reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "habitatZones-Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
     "classId": "kosrae-total",
     "sketchId": null,
     "groupId": null,
@@ -1739,6 +3531,262 @@
     "geographyId": "yap",
     "metricId": "count",
     "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Coral/Algae - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Lower bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Other reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Outer Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Plateau",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Reef Crest",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Deep Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Inner Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Seagrass - Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Shallow Lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Shallow reef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Sheltered Reef Slope",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Terrestrial Reef Flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "habitatZones-Upper bathyal",
     "sketchId": null,
     "groupId": null,
     "value": 0

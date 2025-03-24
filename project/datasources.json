@@ -382,5 +382,24 @@
       "class"
     ],
     "explodeMulti": true
+  },
+  {
+    "src": "data/src/Data_Received/EmLab/HabitatZones/habitat_zones.geojson",
+    "layerName": "habitat_zones",
+    "geo_type": "vector",
+    "datasourceId": "habitatZones",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [
+      "zone"
+    ],
+    "created": "2025-03-20T22:12:09.796Z",
+    "lastUpdated": "2025-03-20T22:12:09.796Z",
+    "propertiesToKeep": [
+      "zone"
+    ],
+    "explodeMulti": true,
+    "precalc": true
   }
 ]

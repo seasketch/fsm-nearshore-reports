@@ -14,7 +14,10 @@
     "src/functions/groupCountOverlap.ts",
     "src/functions/boundaryAreaOverlap.ts",
     "src/functions/ousValueOverlap.ts",
-    "src/functions/habitatAreaOverlap.ts",
+    "src/functions/coralAlgae.ts",
+    "src/functions/seagrass.ts",
+    "src/functions/reefGeomorphic.ts",
+    "src/functions/depthZones.ts",
     "src/functions/tradeoffValueOverlap.ts",
     "src/functions/ousDemographicOverlap.ts",
     "src/functions/printMap.ts"

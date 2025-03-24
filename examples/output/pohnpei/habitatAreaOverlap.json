@@ -3,7 +3,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Coral/Algae",
+      "classId": "Abyssal",
       "sketchId": "24608",
       "groupId": null,
       "value": 0,
@@ -14,7 +14,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Coral/Algae",
+      "classId": "Abyssal",
       "sketchId": "24608",
       "groupId": "mpa",
       "value": 0,
@@ -25,7 +25,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Coral/Algae",
+      "classId": "Abyssal",
       "sketchId": "24608",
       "groupId": "aquaculture",
       "value": 0,
@@ -36,7 +36,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Microalgal Mats",
+      "classId": "Coral/Algae - Deep Lagoon",
       "sketchId": "24608",
       "groupId": null,
       "value": 0,
@@ -47,7 +47,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Microalgal Mats",
+      "classId": "Coral/Algae - Deep Lagoon",
       "sketchId": "24608",
       "groupId": "mpa",
       "value": 0,
@@ -58,7 +58,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Microalgal Mats",
+      "classId": "Coral/Algae - Deep Lagoon",
       "sketchId": "24608",
       "groupId": "aquaculture",
       "value": 0,
@@ -69,7 +69,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rock",
+      "classId": "Coral/Algae - Inner Reef Flat",
       "sketchId": "24608",
       "groupId": null,
       "value": 0,
@@ -80,7 +80,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rock",
+      "classId": "Coral/Algae - Inner Reef Flat",
       "sketchId": "24608",
       "groupId": "mpa",
       "value": 0,
@@ -91,7 +91,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rock",
+      "classId": "Coral/Algae - Inner Reef Flat",
       "sketchId": "24608",
       "groupId": "aquaculture",
       "value": 0,
@@ -102,7 +102,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rubble",
+      "classId": "Coral/Algae - Outer Reef Flat",
       "sketchId": "24608",
       "groupId": null,
       "value": 0,
@@ -113,7 +113,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rubble",
+      "classId": "Coral/Algae - Outer Reef Flat",
       "sketchId": "24608",
       "groupId": "mpa",
       "value": 0,
@@ -124,7 +124,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Rubble",
+      "classId": "Coral/Algae - Outer Reef Flat",
       "sketchId": "24608",
       "groupId": "aquaculture",
       "value": 0,
@@ -135,7 +135,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Sand",
+      "classId": "Coral/Algae - Plateau",
       "sketchId": "24608",
       "groupId": null,
       "value": 0,
@@ -146,7 +146,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Sand",
+      "classId": "Coral/Algae - Plateau",
       "sketchId": "24608",
       "groupId": "mpa",
       "value": 0,
@@ -157,7 +157,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Sand",
+      "classId": "Coral/Algae - Plateau",
       "sketchId": "24608",
       "groupId": "aquaculture",
       "value": 0,
@@ -168,7 +168,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Seagrass",
+      "classId": "Coral/Algae - Reef Crest",
       "sketchId": "24608",
       "groupId": null,
       "value": 0,
@@ -179,7 +179,7 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Seagrass",
+      "classId": "Coral/Algae - Reef Crest",
       "sketchId": "24608",
       "groupId": "mpa",
       "value": 0,
@@ -190,7 +190,832 @@
     {
       "geographyId": null,
       "metricId": "habitatAreaOverlap",
-      "classId": "Seagrass",
+      "classId": "Coral/Algae - Reef Crest",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Reef Slope",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Reef Slope",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Reef Slope",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Coral/Algae - Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Deep Lagoon",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Deep Lagoon",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Deep Lagoon",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Inner Reef Flat",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Inner Reef Flat",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Inner Reef Flat",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Lower bathyal",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Lower bathyal",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Lower bathyal",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Mesophotic",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Mesophotic",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Mesophotic",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Other reef",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Other reef",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Other reef",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Outer Reef Flat",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Outer Reef Flat",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Outer Reef Flat",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Plateau",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Plateau",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Plateau",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Rariphotic",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Rariphotic",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Rariphotic",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Reef Crest",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Reef Crest",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Reef Crest",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Reef Slope",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Reef Slope",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Reef Slope",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Deep Lagoon",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Deep Lagoon",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Deep Lagoon",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Inner Reef Flat",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Inner Reef Flat",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Inner Reef Flat",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Reef Slope",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Reef Slope",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Reef Slope",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Seagrass - Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Shallow reef",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Shallow reef",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Shallow reef",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Upper bathyal",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Upper bathyal",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "habitatAreaOverlap",
+      "classId": "Upper bathyal",
       "sketchId": "24608",
       "groupId": "aquaculture",
       "value": 0,

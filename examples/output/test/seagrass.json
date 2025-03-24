@@ -1,0 +1,249 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Deep Lagoon",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 11576.076006,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Deep Lagoon",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 11576.076006,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Deep Lagoon",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Inner Reef Flat",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 25125.854961,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Inner Reef Flat",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 25125.854961,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Inner Reef Flat",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Reef Slope",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 3845.718691,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Reef Slope",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 3845.718691,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Reef Slope",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Shallow Lagoon",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 14846.330157,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Shallow Lagoon",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 14846.330157,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Shallow Lagoon",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Sheltered Reef Slope",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Sheltered Reef Slope",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Sheltered Reef Slope",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Terrestrial Reef Flat",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 1124302.228048,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Terrestrial Reef Flat",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 1124302.228048,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Terrestrial Reef Flat",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 24597,
+    "bbox": [
+      163.0139,
+      5.2779717,
+      163.10576,
+      5.3990927
+    ],
+    "type": "Feature",
+    "properties": {
+      "6289": "test",
+      "id": "24597",
+      "name": "test",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-01-18T21:24:53.060168+00:00",
+      "updatedAt": "2024-01-18T21:24:53.060168+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "745",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6292,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    },
+    "geometry": null
+  }
+}
