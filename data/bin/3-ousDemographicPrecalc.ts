@@ -2,11 +2,8 @@ import fs from "fs-extra";
 import { ousDemographicOverlap } from "../../src/functions/ousDemographicOverlap.js";
 import {
   rekeyMetrics,
-  DataClass,
   genSketchCollection,
 } from "@seasketch/geoprocessing";
-
-const filename = "ous_demographics.fgb";
 
 const DEST_PATH = "ousDemographicPrecalcTotals.json";
 

@@ -4,6 +4,7 @@ import {
   ResultsCard,
   KeySection,
   ClassTable,
+  ReportChartFigure,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -14,8 +15,39 @@ import precalcTotals from "../../data/bin/ousDemographicPrecalcTotals.json" with
 import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
 import { ReportProps } from "../util/ReportProp.js";
+import { pie, arc } from "d3-shape";
+import { scaleOrdinal } from "d3-scale";
+import { styled, keyframes, css } from "styled-components";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
+
+const fadeInAnimation = keyframes`
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+`;
+
+const AnimatedText = styled.text`
+  opacity: 0;
+  animation: ${css`
+    ${fadeInAnimation} 0.5s ease-out forwards
+  `};
+  animation-delay: 0.7s;
+`;
+
+const fadeIn = keyframes`
+  from { opacity: 0; }
+  to { opacity: 1; }
+`;
+
+const FadeInPath = styled.path<{ delay: number }>`
+  opacity: 0;
+  animation: ${fadeIn} 1s ease-in-out forwards;
+  animation-delay: ${(props) => props.delay}s;
+`;
 
 export const OusDemographic: React.FunctionComponent<ReportProps> = (props) => {
   const { t } = useTranslation();
@@ -34,6 +66,10 @@ export const OusDemographic: React.FunctionComponent<ReportProps> = (props) => {
   );
   const gearMetricGroup = project.getMetricGroup(
     "ousGearDemographicOverlap",
+    t,
+  );
+  const genderMetricGroup = project.getMetricGroup(
+    "ousGenderDemographicOverlap",
     t,
   );
 
@@ -155,13 +191,30 @@ export const OusDemographic: React.FunctionComponent<ReportProps> = (props) => {
           ).length;
           const numGearsFormatted = Number.format(numGears);
 
+          const genderClassIds = genderMetricGroup.classes.map(
+            (curClass) => curClass.classId,
+          );
+          const genderTotalMetrics = singlePeopleTotalCountMetrics
+            .filter((m) => m.classId && genderClassIds.includes(m.classId))
+            .map((m) => ({ ...m, metricId: TOTAL_METRIC_ID }));
+          const genderMetrics = singleFullMetrics
+            .filter((m) => m.classId && genderClassIds.includes(m.classId))
+            .concat(genderTotalMetrics);
+
           const sectorLabel = t("Sector");
           const gearTypeLabel = t("Gear Type");
           const municipalityLabel = t("Municipality");
           const totalPeopleLabel = t("Total People Represented In Survey");
+          const totalRespondentsLabel = t("Total Respondents");
           const peopleUsingOceanLabel = t("People Using Ocean Within Plan");
+          const respondentsUsingOceanLabel = t(
+            "Respondents Using Ocean Within Plan",
+          );
           const peopleUsingOceanPercLabel = t(
             "% People Using Ocean Within Plan",
+          );
+          const respondentsUsingOceanPercLabel = t(
+            "% Respondents Using Ocean Within Plan",
           );
 
           return (
@@ -361,6 +414,186 @@ export const OusDemographic: React.FunctionComponent<ReportProps> = (props) => {
                     },
                     {
                       columnLabel: peopleUsingOceanPercLabel,
+                      type: "metricChart",
+                      metricId: PERC_METRIC_ID,
+                      valueFormatter: "percent",
+                      chartOptions: {
+                        showTitle: true,
+                      },
+                      width: 30,
+                    },
+                  ]}
+                />
+              </Collapse>
+
+              <Collapse title={t("Show by Gender")}>
+                <ReportChartFigure>
+                  {(() => {
+                    const totalUsers = genderMetrics
+                      .filter((m) => m.metricId === METRIC_ID)
+                      .reduce((sum, m) => sum + (m.value as number), 0);
+
+                    const genderData = genderMetrics
+                      .filter((m) => m.metricId === METRIC_ID)
+                      .map((m) => ({
+                        label:
+                          m.classId === "unknown-gender"
+                            ? "Unspecified"
+                            : m.classId,
+                        value: (m.value as number) / totalUsers,
+                      }));
+
+                    const color = scaleOrdinal<string>()
+                      .domain(["Female", "Male", "Unspecified"])
+                      .range(["#00A5E1", "#0073BC", "#1B427C"]);
+
+                    const pieGenerator = pie<(typeof genderData)[0]>()
+                      .value((d) => d.value)
+                      .sort(null);
+
+                    const arcGenerator = arc<
+                      d3.PieArcDatum<(typeof genderData)[0]>
+                    >()
+                      .innerRadius(0)
+                      .outerRadius(150);
+
+                    return (
+                      <div
+                        key={String(props.printing)}
+                        style={{
+                          display: "flex",
+                          alignItems: "center",
+                          width: "100%",
+                          maxWidth: 600,
+                          margin: "0 auto",
+                        }}
+                      >
+                        <svg
+                          viewBox="0 0 400 320"
+                          width={400}
+                          height={320}
+                          style={{
+                            width: "60%",
+                            height: "auto",
+                            minWidth: 250,
+                          }}
+                        >
+                          <g transform="translate(200, 160)">
+                            {pieGenerator(genderData).map((d, i) => {
+                              const [x, y] = arcGenerator.centroid
+                                ? arcGenerator.centroid(d)
+                                : [0, 0];
+                              return (
+                                <g key={d.data.label}>
+                                  <FadeInPath
+                                    d={arcGenerator(d) ?? ""}
+                                    fill={color(d.data.label!) ?? "#999"}
+                                    stroke="#fff"
+                                    strokeWidth="3"
+                                    delay={i * 0.1}
+                                  />
+                                  <AnimatedText
+                                    x={x}
+                                    y={y}
+                                    textAnchor="middle"
+                                    dominantBaseline="middle"
+                                    fill="#fff"
+                                    fontSize="20"
+                                    fontWeight="bold"
+                                    style={{ pointerEvents: "none" }}
+                                  >
+                                    {percentWithEdge(d.data.value)}
+                                  </AnimatedText>
+                                </g>
+                              );
+                            })}
+                          </g>
+                        </svg>
+                        {/* Legend */}
+                        <div
+                          style={{
+                            display: "flex",
+                            flexDirection: "column",
+                            gap: "1rem",
+                            marginLeft: "2rem",
+                          }}
+                        >
+                          {genderData.map((d) => (
+                            <div
+                              key={d.label}
+                              style={{
+                                display: "flex",
+                                alignItems: "center",
+                                gap: "0.5rem",
+                              }}
+                            >
+                              <div
+                                style={{
+                                  width: 20,
+                                  height: 20,
+                                  borderRadius: 4,
+                                  background: color(d.label!) ?? "#999",
+                                  border: "1px solid #ccc",
+                                }}
+                              />
+                              <span
+                                style={{
+                                  fontSize: 14,
+                                  color: "#222",
+                                  fontWeight: 500,
+                                }}
+                              >
+                                {d.label}
+                              </span>
+                            </div>
+                          ))}
+                        </div>
+                      </div>
+                    );
+                  })()}
+                </ReportChartFigure>
+                <p>
+                  <Trans i18nKey="OUS Demographics - gender">
+                    The table below shows the number of people that were
+                    represented that use the ocean within this nearshore plan{" "}
+                    <b>by gender</b>. Note that gender was only collected for
+                    the survey respondent, not for each person represented.
+                  </Trans>
+                </p>
+                <ClassTable
+                  rows={genderMetrics}
+                  metricGroup={genderMetricGroup}
+                  columnConfig={[
+                    {
+                      columnLabel: t("Gender"),
+                      type: "class",
+                      width: 20,
+                      colStyle: { textAlign: "left" },
+                    },
+                    {
+                      columnLabel: totalRespondentsLabel,
+                      type: "metricValue",
+                      metricId: TOTAL_METRIC_ID,
+                      valueFormatter: (value) => Number.format(value as number),
+                      chartOptions: {
+                        showTitle: true,
+                      },
+                      width: 25,
+                      colStyle: { textAlign: "center" },
+                    },
+                    {
+                      columnLabel: respondentsUsingOceanLabel,
+                      type: "metricValue",
+                      metricId: METRIC_ID,
+                      valueFormatter: (value) => Number.format(value as number),
+                      chartOptions: {
+                        showTitle: true,
+                      },
+                      width: 25,
+                      colStyle: { textAlign: "center" },
+                    },
+                    {
+                      columnLabel: respondentsUsingOceanPercLabel,
                       type: "metricChart",
                       metricId: PERC_METRIC_ID,
                       valueFormatter: "percent",

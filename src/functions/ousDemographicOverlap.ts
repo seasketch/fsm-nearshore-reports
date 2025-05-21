@@ -29,6 +29,7 @@ export interface OusFeatureProperties {
   municipality?: Nullable<string>;
   sector?: Nullable<string>;
   gear?: Nullable<string>;
+  gender?: Nullable<string>;
   number_of_ppl: string | number;
 }
 
@@ -49,6 +50,7 @@ export interface OusStats extends BaseCountStats {
   bySector: ClassCountStats;
   byMunicipality: ClassCountStats;
   byGear: ClassCountStats;
+  byGender: ClassCountStats;
 }
 
 export type OusReportResult = {
@@ -137,6 +139,9 @@ export async function ousDemographicOverlap(
       if (!isOverlapping) return statsSoFar;
 
       const resp_id = shape.properties.resp_id;
+      const gender = shape.properties.gender
+        ? `${shape.properties.gender}`
+        : "unknown-gender";
       const respMunicipality = shape.properties.municipality
         ? `${shape.properties.municipality}`
         : "unknown-municipality";
@@ -170,6 +175,16 @@ export async function ousDemographicOverlap(
         // Add respondent to total respondents
         newStats.respondents = newStats.respondents + 1;
         newStats.people = newStats.people + curPeople;
+
+        // Add new respondent to gender stats
+        newStats.byGender[gender] = {
+          respondents: newStats.byGender[gender]
+            ? newStats.byGender[gender].respondents + 1
+            : 1,
+          people: newStats.byGender[gender]
+            ? newStats.byGender[gender].people + 1
+            : 1, // People = respondents here
+        };
 
         // Add new respondent to municipality stats
         newStats.byMunicipality[respMunicipality] = {
@@ -239,6 +254,7 @@ export async function ousDemographicOverlap(
     {
       respondents: 0,
       people: 0,
+      byGender: {},
       bySector: {},
       byMunicipality: {},
       byGear: {},
@@ -262,6 +278,7 @@ export async function ousDemographicOverlap(
   ];
 
   const sectorMetrics = genOusClassMetrics(countStats.bySector, sketch);
+  const genderMetrics = genOusClassMetrics(countStats.byGender, sketch);
   const municipalityMetrics = genOusClassMetrics(
     countStats.byMunicipality,
     sketch,
@@ -275,6 +292,7 @@ export async function ousDemographicOverlap(
       ...sectorMetrics,
       ...municipalityMetrics,
       ...gearMetrics,
+      ...genderMetrics,
     ],
   };
 

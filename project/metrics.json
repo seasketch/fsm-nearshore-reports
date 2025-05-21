@@ -598,5 +598,29 @@
         "layerId": ""
       }
     ]
+  },
+  {
+    "metricId": "ousGenderDemographicOverlap",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Male",
+        "display": "Male",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Female",
+        "display": "Female",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "unknown-gender",
+        "display": "Unspecified",
+        "datasourceId": "ous_demographics.fgb",
+        "layerId": ""
+      }
+    ]
   }
 ]

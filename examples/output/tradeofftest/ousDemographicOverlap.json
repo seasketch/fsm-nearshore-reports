@@ -51,6 +51,14 @@
     {
       "geographyId": "kosrae",
       "metricId": "ousPeopleCount",
+      "classId": "Female",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 23
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
       "classId": "Fisheries",
       "sketchId": "25166",
       "groupId": null,
@@ -71,6 +79,14 @@
       "sketchId": "25166",
       "groupId": null,
       "value": 152
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Male",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 65
     },
     {
       "geographyId": "kosrae",
@@ -171,6 +187,14 @@
     {
       "geographyId": "kosrae",
       "metricId": "ousPeopleCount",
+      "classId": "unknown-gender",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 18
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
       "classId": "unknown-municipality",
       "sketchId": "25166",
       "groupId": null,
@@ -251,6 +275,14 @@
     {
       "geographyId": "kosrae",
       "metricId": "ousRespondentCount",
+      "classId": "Female",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 23
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
       "classId": "Fisheries",
       "sketchId": "25166",
       "groupId": null,
@@ -271,6 +303,14 @@
       "sketchId": "25166",
       "groupId": null,
       "value": 29
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Male",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 65
     },
     {
       "geographyId": "kosrae",
@@ -367,6 +407,14 @@
       "sketchId": "25166",
       "groupId": null,
       "value": 76
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "unknown-gender",
+      "sketchId": "25166",
+      "groupId": null,
+      "value": 18
     },
     {
       "geographyId": "kosrae",
