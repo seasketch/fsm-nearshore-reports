@@ -1,0 +1,974 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "120978",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "120978",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "120979",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "120979",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "120980",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "120980",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "120980",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "120980",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "120980",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "120980",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "120978",
+      "groupId": null,
+      "value": 8859125.643238,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "120978",
+      "groupId": "mpa",
+      "value": 8859125.643238,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "120979",
+      "groupId": null,
+      "value": 39362145.541491,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "120979",
+      "groupId": "tourism",
+      "value": 39362145.541491,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "120980",
+      "groupId": null,
+      "value": 48221271.184729,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "120980",
+      "groupId": "mpa",
+      "value": 8859125.643238,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "120980",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "120980",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "120980",
+      "groupId": "tourism",
+      "value": 39362145.541491,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "120980",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "120978",
+      "groupId": null,
+      "value": 4255283.326696,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "120978",
+      "groupId": "mpa",
+      "value": 4255283.326696,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "120979",
+      "groupId": null,
+      "value": 6669188.396277,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "120979",
+      "groupId": "tourism",
+      "value": 6669188.396277,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "120980",
+      "groupId": null,
+      "value": 10924471.722973,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "120980",
+      "groupId": "mpa",
+      "value": 4255283.326696,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "120980",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "120980",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "120980",
+      "groupId": "tourism",
+      "value": 6669188.396277,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "120980",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "120978",
+      "groupId": null,
+      "value": 67890.090707,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "120978",
+      "groupId": "mpa",
+      "value": 67890.090707,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "120979",
+      "groupId": null,
+      "value": 1138144.197209,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "120979",
+      "groupId": "tourism",
+      "value": 1138144.197209,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "120980",
+      "groupId": null,
+      "value": 1206034.287916,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "120980",
+      "groupId": "mpa",
+      "value": 67890.090707,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "120980",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "120980",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "120980",
+      "groupId": "tourism",
+      "value": 1138144.197209,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "120980",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "120978",
+      "groupId": null,
+      "value": 4348801.908471,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "120978",
+      "groupId": "mpa",
+      "value": 4348801.908471,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "120979",
+      "groupId": null,
+      "value": 7888337.098052,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "120979",
+      "groupId": "tourism",
+      "value": 7888337.098052,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "120980",
+      "groupId": null,
+      "value": 12237139.006524,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "120980",
+      "groupId": "mpa",
+      "value": 4348801.908471,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "120980",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "120980",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "120980",
+      "groupId": "tourism",
+      "value": 7888337.098052,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "120980",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "120978",
+      "groupId": null,
+      "value": 3433055.900433,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "120978",
+      "groupId": "mpa",
+      "value": 3433055.900433,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "120979",
+      "groupId": null,
+      "value": 12582248.905565,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "120979",
+      "groupId": "tourism",
+      "value": 12582248.905565,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "120980",
+      "groupId": null,
+      "value": 16015304.805998,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "120980",
+      "groupId": "mpa",
+      "value": 3433055.900433,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "120980",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "120980",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "120980",
+      "groupId": "tourism",
+      "value": 12582248.905565,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "120980",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "120978",
+      "groupId": null,
+      "value": 10186431.164854,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "120978",
+      "groupId": "mpa",
+      "value": 10186431.164854,
+      "extra": {
+        "sketchName": "bigmpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "120979",
+      "groupId": null,
+      "value": 14750140.517024,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "120979",
+      "groupId": "tourism",
+      "value": 14750140.517024,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "120980",
+      "groupId": null,
+      "value": 24936571.681878,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "120980",
+      "groupId": "mpa",
+      "value": 10186431.164854,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "120980",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "120980",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "120980",
+      "groupId": "tourism",
+      "value": 14750140.517024,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "120980",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "collectio",
+        "isCollection": true
+      }
+    }
+  ],
+  "sketch": {
+    "id": 120980,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 120979,
+        "bbox": [
+          163.0273,
+          5.2359385,
+          163.13708,
+          5.3348637
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "bigtourism",
+          "12419": "TOURISM",
+          "id": "120979",
+          "name": "bigtourism",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2025-09-16T21:57:24.178448+00:00",
+          "updatedAt": "2025-09-16T21:57:35.810941+00:00",
+          "zone_type": "TOURISM",
+          "collectionId": "120980",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "TOURISM",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Tourism",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 120978,
+        "bbox": [
+          162.91711,
+          5.3317847,
+          162.98051,
+          5.4164553
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "bigmpa",
+          "12419": "MPA",
+          "id": "120978",
+          "name": "bigmpa",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2025-09-16T21:57:12.12737+00:00",
+          "updatedAt": "2025-09-16T21:57:36.494736+00:00",
+          "zone_type": "MPA",
+          "collectionId": "120980",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "6293": "collectio",
+      "id": "120980",
+      "name": "collectio",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2025-09-16T21:57:33.130591+00:00",
+      "updatedAt": "2025-09-16T21:57:36.494736+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "746",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6294,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6295,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    }
+  }
+}

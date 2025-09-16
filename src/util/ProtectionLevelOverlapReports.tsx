@@ -32,6 +32,7 @@ import {
 import {
   groupColorMap,
   groupDisplayMapPl,
+  groupDisplayMapSg,
   groups,
   groupsDisplay,
 } from "./getGroup.js";
@@ -93,19 +94,28 @@ export const groupedSketchReport = (
         (m) => m.classId === curClass.classId,
       );
       const objective = curClass.objectiveId;
-      const values = objective
-        ? classMetrics
-            .filter((levelAgg) => {
-              const level = levelAgg.groupId;
-              return (
-                project.getObjectiveById(objective).countsToward[level!] ===
-                OBJECTIVE_YES
-              );
-            })
-            .map((yesAgg) => yesAgg.value / totalAreas[curClass.classId])
-        : classMetrics.map(
-            (group) => group.value / totalAreas[curClass.classId],
-          );
+      // Create a map of groupId to value for easier lookup
+      const groupValueMap = classMetrics.reduce<Record<string, number>>(
+        (acc, metric) => {
+          acc[metric.groupId!] = metric.value / totalAreas[curClass.classId];
+          return acc;
+        },
+        {},
+      );
+
+      // Apply objective filtering if needed
+      const filteredGroups = objective
+        ? groups.filter(
+            (groupId) =>
+              project.getObjectiveById(objective).countsToward[groupId] ===
+              OBJECTIVE_YES,
+          )
+        : groups;
+
+      // Create values array in the correct group order
+      const values = filteredGroups.map(
+        (groupId) => groupValueMap[groupId] || 0,
+      );
 
       return { ...acc, [curClass.classId]: values };
     },
@@ -146,17 +156,29 @@ export const groupedCollectionReport = (
   const totalsByClass = metricGroup.classes.reduce<Record<string, number[]>>(
     (acc, curClass) => {
       const objective = curClass.objectiveId;
-      const values = objective
-        ? groupLevelAggs
-            .filter((levelAgg) => {
-              const level = levelAgg.groupId;
-              return (
-                project.getObjectiveById(objective).countsToward[level!] ===
-                OBJECTIVE_YES
-              );
-            })
-            .map((yesAgg) => yesAgg[curClass.classId] as number)
-        : groupLevelAggs.map((group) => group[curClass.classId] as number);
+
+      // Create a map of groupId to value for easier lookup
+      const groupValueMap = groupLevelAggs.reduce<Record<string, number>>(
+        (acc, groupAgg) => {
+          acc[groupAgg.groupId] = groupAgg[curClass.classId] as number;
+          return acc;
+        },
+        {},
+      );
+
+      // Apply objective filtering if needed
+      const filteredGroups = objective
+        ? groups.filter(
+            (groupId) =>
+              project.getObjectiveById(objective).countsToward[groupId] ===
+              OBJECTIVE_YES,
+          )
+        : groups;
+
+      // Create values array in the correct group order
+      const values = filteredGroups.map(
+        (groupId) => groupValueMap[groupId] || 0,
+      );
 
       return { ...acc, [curClass.classId]: values };
     },

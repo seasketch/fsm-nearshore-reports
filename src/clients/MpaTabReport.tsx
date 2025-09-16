@@ -9,7 +9,6 @@ import {
 } from "@seasketch/geoprocessing/client-ui";
 import ViabilityPage from "../components/ViabilityPage.js";
 import RepresentationPage from "../components/RepresentationPage.js";
-import TradeoffsPage from "../components/TradeoffsPage.js";
 import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync.js";
 import project from "../../project/projectClient.js";
