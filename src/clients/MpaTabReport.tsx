@@ -22,11 +22,9 @@ const BaseReport = () => {
   const { t } = useTranslation();
   const viabilityId = "viability";
   const representationId = "representation";
-  const tradeoffsId = "tradeoffs";
   const segments = [
     { id: viabilityId, label: t("Viability") },
     { id: representationId, label: t("Representation") },
-    { id: tradeoffsId, label: t("Tradeoffs") },
   ];
   const [tab, setTab] = useState<string>(viabilityId);
 
@@ -124,9 +122,6 @@ const BaseReport = () => {
         </ReportPage>
         <ReportPage hidden={!isPrinting && tab !== representationId}>
           <RepresentationPage geographyId={geographyId} printing={isPrinting} />
-        </ReportPage>
-        <ReportPage hidden={!isPrinting && tab !== tradeoffsId}>
-          <TradeoffsPage geographyId={geographyId} printing={isPrinting} />
         </ReportPage>
       </div>
 
