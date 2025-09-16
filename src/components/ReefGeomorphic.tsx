@@ -20,7 +20,7 @@ import { ReportProps } from "../util/ReportProp.js";
 export const ReefGeomorphic: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection, childProperties }] = useSketchProperties();
   const { t } = useTranslation();
-  const mg = project.getMetricGroup("reefGeomorphic", t);
+  const mg = project.getMetricGroup("reef_geomorph", t);
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
@@ -45,13 +45,11 @@ export const ReefGeomorphic: React.FunctionComponent<ReportProps> = (props) => {
                 <p>
                   <Trans i18nKey="Reef Geomorphic Zones Card 1">
                     This report summarizes the percentage of reef geomorphic
-                    zones within
+                    features within
                   </Trans>{" "}
                   {curGeography.display}
                   <Trans i18nKey="Reef Geomorphic Zones Card 2">
-                    's state waters that overlap with this plan. Plans should
-                    consider protection of reef geomorphic zones for
-                    conservation.
+                    's state waters that overlap with this plan.
                   </Trans>
                 </p>
 
@@ -97,15 +95,21 @@ export const ReefGeomorphic: React.FunctionComponent<ReportProps> = (props) => {
                   <Collapse title={t("Learn more")}>
                     <Trans i18nKey="Habitat Zones - learn more">
                       <p>
-                        ℹ️ Overview: Habitat zones were created using Allen
-                        Coral Atlas data (https://www.allencoralatlas.org/),
-                        reef monitoring site data from Dr Houk at University of
-                        Guam, and depth classes created from global bathymetry
-                        data from GEBCO (https://www.gebco.net/). Details of the
-                        process are available in a separate report. Contact:
-                        Jason Flower; jflower@ucsb.edu
+                        ℹ️ Overview: This data is a modified versions of the
+                        Millenium Coral Reef (MCR) data. Areas of reef mapped as
+                        ‘reef extent’ by the Allen Coral Atlas and the Island
+                        Atlas, were added to the original MCR data to ensure
+                        full coverage of reef areas. These additional areas were
+                        classified based on the class of the nearest raster cell
+                        from the original MCR data. For the classification
+                        process, all data was rasterized to ~5 x 5m resolution,
+                        and then vectorized once complete. Some areas that ended
+                        up mis-classified were subsequently reclassified, and
+                        the single polygon classified as “Enclosed lagoon or
+                        basin” was reclassified to “Enclosed lagoon” as
+                        inspection of satellite imagery suggests all these areas
+                        are similar (areas enclosed by reef).
                       </p>
-                      <p>🎯 Planning Objective: TBD.</p>
                       <p>
                         📈 Report: The percentage of each feature type within
                         this plan is calculated by finding the overlap of each

@@ -17,10 +17,10 @@ import {
 } from "../util/ProtectionLevelOverlapReports.js";
 import { ReportProps } from "../util/ReportProp.js";
 
-export const CoralAlgae: React.FunctionComponent<ReportProps> = (props) => {
+export const BenthicHabitat: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection, childProperties }] = useSketchProperties();
   const { t } = useTranslation();
-  const mg = project.getMetricGroup("coralAlgae", t);
+  const mg = project.getMetricGroup("habitat_aca", t);
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
@@ -33,8 +33,8 @@ export const CoralAlgae: React.FunctionComponent<ReportProps> = (props) => {
   return (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
-        title={t("Coral/Algae Habitat")}
-        functionName="coralAlgae"
+        title={t("Benthic Habitat - Allen Coral Atlas")}
+        functionName="habitatAca"
         extraParams={{ geographyIds: [curGeography.geographyId] }}
         useChildCard
       >
@@ -43,17 +43,15 @@ export const CoralAlgae: React.FunctionComponent<ReportProps> = (props) => {
 
           return (
             <>
-              <Card title={t("Coral/Algae Habitat")}>
+              <Card title={t("Benthic Habitat - Allen Coral Atlas")}>
                 <p>
                   <Trans i18nKey="Habitat Card 1">
-                    This report summarizes the percentage of coral and algae
-                    habitat area within
+                    This report summarizes the percentage of benthic habitat
+                    area within
                   </Trans>{" "}
                   {curGeography.display}
                   <Trans i18nKey="Habitat Card 2">
-                    's state waters that overlap with this plan. Plans should
-                    consider protection of coral and algae habitat for
-                    conservation.
+                    's state waters that overlap with this plan.
                   </Trans>
                 </p>
 
@@ -99,15 +97,10 @@ export const CoralAlgae: React.FunctionComponent<ReportProps> = (props) => {
                   <Collapse title={t("Learn more")}>
                     <Trans i18nKey="Habitat Zones - learn more">
                       <p>
-                        ℹ️ Overview: Habitat zones were created using Allen
-                        Coral Atlas data (https://www.allencoralatlas.org/),
-                        reef monitoring site data from Dr Houk at University of
-                        Guam, and depth classes created from global bathymetry
-                        data from GEBCO (https://www.gebco.net/). Details of the
-                        process are available in a separate report. Contact:
-                        Jason Flower; jflower@ucsb.edu
+                        ℹ️ Overview: Allen Coral Atlas benthic habitat data
+                        which includes 5 classes: Coral/ algae, seagrass, rock,
+                        sand and rubble. Contact: Jason Flower; jflower@ucsb.edu
                       </p>
-                      <p>🎯 Planning Objective: TBD.</p>
                       <p>
                         📈 Report: The percentage of each feature type within
                         this plan is calculated by finding the overlap of each

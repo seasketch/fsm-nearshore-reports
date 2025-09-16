@@ -25,9 +25,9 @@ import {
 import { clipToGeography } from "../util/clipToGeography.js";
 import { getGroup, groups } from "../util/getGroup.js";
 
-const mg = project.getMetricGroup("seagrass");
+const mg = project.getMetricGroup("habitat_aca");
 
-export async function seagrass(
+export async function habitatAca(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
@@ -135,9 +135,9 @@ export async function seagrass(
   };
 }
 
-export default new GeoprocessingHandler(seagrass, {
-  title: "seagrass",
-  description: "key benthic habitat metrics",
+export default new GeoprocessingHandler(habitatAca, {
+  title: "habitatAca",
+  description: "key benthic habitat aca metrics",
   timeout: 900, // seconds
   executionMode: "async",
   // Specify any Sketch Class form attributes that are required

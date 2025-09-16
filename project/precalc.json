@@ -74,6 +74,62 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "depth_zones-0 - 30m: Altiphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "depth_zones-130 - 320m: Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "depth_zones-30 - 130m: Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "depth_zones-320 - 800m: Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "depth_zones-3500 - 6500m: Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "depth_zones-800 - 3500m: Lower bathyal ",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "habitatZones-Abyssal",
     "sketchId": null,
     "groupId": null,
@@ -434,6 +490,78 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "reef_geomorph-Aquatic land features",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "reef_geomorph-Channel",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "reef_geomorph-Deep lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "reef_geomorph-Diffuse fringing",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "reef_geomorph-Enclosed lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "reef_geomorph-Forereef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "reef_geomorph-Pass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "reef_geomorph-Reef flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "reef_geomorph-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -510,6 +638,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 9552
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "depth_zones-0 - 30m: Altiphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "depth_zones-130 - 320m: Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "depth_zones-30 - 130m: Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "depth_zones-320 - 800m: Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "depth_zones-3500 - 6500m: Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "depth_zones-800 - 3500m: Lower bathyal ",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
   },
   {
     "geographyId": "chuuk",
@@ -874,6 +1058,78 @@
   {
     "geographyId": "chuuk",
     "metricId": "count",
+    "classId": "reef_geomorph-Aquatic land features",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "reef_geomorph-Channel",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "reef_geomorph-Deep lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "reef_geomorph-Diffuse fringing",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "reef_geomorph-Enclosed lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "reef_geomorph-Forereef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "reef_geomorph-Pass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "reef_geomorph-Reef flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "reef_geomorph-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -1086,6 +1342,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "depth_zones-0 - 30m: Altiphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 77976900.70614891
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "depth_zones-130 - 320m: Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 46278231.595522314
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "depth_zones-30 - 130m: Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 35365519.167003214
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "depth_zones-320 - 800m: Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 101564356.88941598
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "depth_zones-3500 - 6500m: Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 674945726.0303992
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "depth_zones-800 - 3500m: Lower bathyal ",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1700543147.1753163
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2636673881.563806
   },
   {
     "geographyId": "kosrae",
@@ -1450,6 +1762,78 @@
   {
     "geographyId": "kosrae",
     "metricId": "area",
+    "classId": "reef_geomorph-Aquatic land features",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1092754.3981528901
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "reef_geomorph-Channel",
+    "sketchId": null,
+    "groupId": null,
+    "value": 146110.5107059741
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "reef_geomorph-Deep lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2032016.6598278272
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "reef_geomorph-Diffuse fringing",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3680950.8983838176
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "reef_geomorph-Enclosed lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 219563.93343336845
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "reef_geomorph-Forereef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 11636926.155928135
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "reef_geomorph-Pass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 782058.1601010166
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "reef_geomorph-Reef flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 12519316.122199995
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "reef_geomorph-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 32109696.83873301
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -1518,6 +1902,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "depth_zones-0 - 30m: Altiphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "depth_zones-130 - 320m: Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "depth_zones-30 - 130m: Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "depth_zones-320 - 800m: Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "depth_zones-3500 - 6500m: Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "depth_zones-800 - 3500m: Lower bathyal ",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6
   },
   {
     "geographyId": "kosrae",
@@ -1882,6 +2322,78 @@
   {
     "geographyId": "kosrae",
     "metricId": "count",
+    "classId": "reef_geomorph-Aquatic land features",
+    "sketchId": null,
+    "groupId": null,
+    "value": 10
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "reef_geomorph-Channel",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "reef_geomorph-Deep lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "reef_geomorph-Diffuse fringing",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "reef_geomorph-Enclosed lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "reef_geomorph-Forereef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 17
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "reef_geomorph-Pass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "reef_geomorph-Reef flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 29
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "reef_geomorph-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 76
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -2091,6 +2603,62 @@
     "geographyId": "pohnpei",
     "metricId": "area",
     "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "depth_zones-0 - 30m: Altiphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "depth_zones-130 - 320m: Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "depth_zones-30 - 130m: Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "depth_zones-320 - 800m: Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "depth_zones-3500 - 6500m: Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "depth_zones-800 - 3500m: Lower bathyal ",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "depth_zones-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -2458,6 +3026,78 @@
   {
     "geographyId": "pohnpei",
     "metricId": "area",
+    "classId": "reef_geomorph-Aquatic land features",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "reef_geomorph-Channel",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "reef_geomorph-Deep lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "reef_geomorph-Diffuse fringing",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "reef_geomorph-Enclosed lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "reef_geomorph-Forereef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "reef_geomorph-Pass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "reef_geomorph-Reef flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "reef_geomorph-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -2523,6 +3163,62 @@
     "geographyId": "pohnpei",
     "metricId": "count",
     "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "depth_zones-0 - 30m: Altiphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "depth_zones-130 - 320m: Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "depth_zones-30 - 130m: Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "depth_zones-320 - 800m: Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "depth_zones-3500 - 6500m: Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "depth_zones-800 - 3500m: Lower bathyal ",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "depth_zones-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -2890,6 +3586,78 @@
   {
     "geographyId": "pohnpei",
     "metricId": "count",
+    "classId": "reef_geomorph-Aquatic land features",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "reef_geomorph-Channel",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "reef_geomorph-Deep lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "reef_geomorph-Diffuse fringing",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "reef_geomorph-Enclosed lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "reef_geomorph-Forereef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "reef_geomorph-Pass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "reef_geomorph-Reef flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "reef_geomorph-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -3099,6 +3867,62 @@
     "geographyId": "yap",
     "metricId": "area",
     "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "depth_zones-0 - 30m: Altiphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "depth_zones-130 - 320m: Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "depth_zones-30 - 130m: Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "depth_zones-320 - 800m: Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "depth_zones-3500 - 6500m: Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "depth_zones-800 - 3500m: Lower bathyal ",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "depth_zones-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -3466,6 +4290,78 @@
   {
     "geographyId": "yap",
     "metricId": "area",
+    "classId": "reef_geomorph-Aquatic land features",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "reef_geomorph-Channel",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "reef_geomorph-Deep lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "reef_geomorph-Diffuse fringing",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "reef_geomorph-Enclosed lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "reef_geomorph-Forereef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "reef_geomorph-Pass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "reef_geomorph-Reef flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "reef_geomorph-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -3531,6 +4427,62 @@
     "geographyId": "yap",
     "metricId": "count",
     "classId": "chuuk-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "depth_zones-0 - 30m: Altiphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "depth_zones-130 - 320m: Rariphotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "depth_zones-30 - 130m: Mesophotic",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "depth_zones-320 - 800m: Upper bathyal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "depth_zones-3500 - 6500m: Abyssal",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "depth_zones-800 - 3500m: Lower bathyal ",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "depth_zones-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -3891,6 +4843,78 @@
     "geographyId": "yap",
     "metricId": "count",
     "classId": "pohnpei-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "reef_geomorph-Aquatic land features",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "reef_geomorph-Channel",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "reef_geomorph-Deep lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "reef_geomorph-Diffuse fringing",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "reef_geomorph-Enclosed lagoon",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "reef_geomorph-Forereef",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "reef_geomorph-Pass",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "reef_geomorph-Reef flat",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "reef_geomorph-total",
     "sketchId": null,
     "groupId": null,
     "value": 0

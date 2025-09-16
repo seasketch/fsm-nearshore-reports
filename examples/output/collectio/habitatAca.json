@@ -2,55 +2,55 @@
   "metrics": [
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Deep Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Coral/Algae",
       "sketchId": "120978",
       "groupId": null,
-      "value": 0,
+      "value": 12892.230836,
       "extra": {
         "sketchName": "bigmpa"
       }
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Deep Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Coral/Algae",
       "sketchId": "120978",
       "groupId": "mpa",
-      "value": 0,
+      "value": 12892.230836,
       "extra": {
         "sketchName": "bigmpa"
       }
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Deep Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Coral/Algae",
       "sketchId": "120979",
       "groupId": null,
-      "value": 0,
+      "value": 30607.135488,
       "extra": {
         "sketchName": "bigtourism"
       }
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Deep Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Coral/Algae",
       "sketchId": "120979",
       "groupId": "tourism",
-      "value": 0,
+      "value": 30607.135488,
       "extra": {
         "sketchName": "bigtourism"
       }
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Deep Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Coral/Algae",
       "sketchId": "120980",
       "groupId": null,
-      "value": 0,
+      "value": 43499.366324,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -58,11 +58,11 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Deep Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Coral/Algae",
       "sketchId": "120980",
       "groupId": "mpa",
-      "value": 0,
+      "value": 12892.230836,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -70,8 +70,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Deep Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Coral/Algae",
       "sketchId": "120980",
       "groupId": "aquaculture",
       "value": 0,
@@ -82,8 +82,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Deep Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Coral/Algae",
       "sketchId": "120980",
       "groupId": "energy",
       "value": 0,
@@ -94,11 +94,11 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Deep Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Coral/Algae",
       "sketchId": "120980",
       "groupId": "tourism",
-      "value": 0,
+      "value": 30607.135488,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -106,8 +106,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Deep Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Coral/Algae",
       "sketchId": "120980",
       "groupId": "other",
       "value": 0,
@@ -118,8 +118,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Inner Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Microalgal Mats",
       "sketchId": "120978",
       "groupId": null,
       "value": 0,
@@ -129,8 +129,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Inner Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Microalgal Mats",
       "sketchId": "120978",
       "groupId": "mpa",
       "value": 0,
@@ -140,8 +140,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Inner Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Microalgal Mats",
       "sketchId": "120979",
       "groupId": null,
       "value": 0,
@@ -151,8 +151,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Inner Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Microalgal Mats",
       "sketchId": "120979",
       "groupId": "tourism",
       "value": 0,
@@ -162,8 +162,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Inner Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Microalgal Mats",
       "sketchId": "120980",
       "groupId": null,
       "value": 0,
@@ -174,8 +174,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Inner Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Microalgal Mats",
       "sketchId": "120980",
       "groupId": "mpa",
       "value": 0,
@@ -186,8 +186,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Inner Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Microalgal Mats",
       "sketchId": "120980",
       "groupId": "aquaculture",
       "value": 0,
@@ -198,8 +198,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Inner Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Microalgal Mats",
       "sketchId": "120980",
       "groupId": "energy",
       "value": 0,
@@ -210,8 +210,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Inner Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Microalgal Mats",
       "sketchId": "120980",
       "groupId": "tourism",
       "value": 0,
@@ -222,8 +222,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Inner Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Microalgal Mats",
       "sketchId": "120980",
       "groupId": "other",
       "value": 0,
@@ -234,8 +234,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Rock",
       "sketchId": "120978",
       "groupId": null,
       "value": 0,
@@ -245,8 +245,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Rock",
       "sketchId": "120978",
       "groupId": "mpa",
       "value": 0,
@@ -256,33 +256,33 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Rock",
       "sketchId": "120979",
       "groupId": null,
-      "value": 173.401651,
+      "value": 4962.774658,
       "extra": {
         "sketchName": "bigtourism"
       }
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Rock",
       "sketchId": "120979",
       "groupId": "tourism",
-      "value": 173.401651,
+      "value": 4962.774658,
       "extra": {
         "sketchName": "bigtourism"
       }
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Rock",
       "sketchId": "120980",
       "groupId": null,
-      "value": 173.401651,
+      "value": 4962.774658,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -290,8 +290,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Rock",
       "sketchId": "120980",
       "groupId": "mpa",
       "value": 0,
@@ -302,8 +302,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Rock",
       "sketchId": "120980",
       "groupId": "aquaculture",
       "value": 0,
@@ -314,8 +314,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Rock",
       "sketchId": "120980",
       "groupId": "energy",
       "value": 0,
@@ -326,11 +326,11 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Rock",
       "sketchId": "120980",
       "groupId": "tourism",
-      "value": 173.401651,
+      "value": 4962.774658,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -338,8 +338,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Rock",
       "sketchId": "120980",
       "groupId": "other",
       "value": 0,
@@ -350,8 +350,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Shallow Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Rubble",
       "sketchId": "120978",
       "groupId": null,
       "value": 0,
@@ -361,8 +361,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Shallow Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Rubble",
       "sketchId": "120978",
       "groupId": "mpa",
       "value": 0,
@@ -372,33 +372,33 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Shallow Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Rubble",
       "sketchId": "120979",
       "groupId": null,
-      "value": 0,
+      "value": 419.580293,
       "extra": {
         "sketchName": "bigtourism"
       }
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Shallow Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Rubble",
       "sketchId": "120979",
       "groupId": "tourism",
-      "value": 0,
+      "value": 419.580293,
       "extra": {
         "sketchName": "bigtourism"
       }
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Shallow Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Rubble",
       "sketchId": "120980",
       "groupId": null,
-      "value": 0,
+      "value": 419.580293,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -406,8 +406,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Shallow Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Rubble",
       "sketchId": "120980",
       "groupId": "mpa",
       "value": 0,
@@ -418,8 +418,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Shallow Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Rubble",
       "sketchId": "120980",
       "groupId": "aquaculture",
       "value": 0,
@@ -430,8 +430,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Shallow Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Rubble",
       "sketchId": "120980",
       "groupId": "energy",
       "value": 0,
@@ -442,11 +442,11 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Shallow Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Rubble",
       "sketchId": "120980",
       "groupId": "tourism",
-      "value": 0,
+      "value": 419.580293,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -454,8 +454,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Shallow Lagoon",
+      "metricId": "habitat_aca",
+      "classId": "Rubble",
       "sketchId": "120980",
       "groupId": "other",
       "value": 0,
@@ -466,8 +466,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Sheltered Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Sand",
       "sketchId": "120978",
       "groupId": null,
       "value": 0,
@@ -477,8 +477,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Sheltered Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Sand",
       "sketchId": "120978",
       "groupId": "mpa",
       "value": 0,
@@ -488,8 +488,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Sheltered Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Sand",
       "sketchId": "120979",
       "groupId": null,
       "value": 0,
@@ -499,8 +499,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Sheltered Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Sand",
       "sketchId": "120979",
       "groupId": "tourism",
       "value": 0,
@@ -510,8 +510,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Sheltered Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Sand",
       "sketchId": "120980",
       "groupId": null,
       "value": 0,
@@ -522,8 +522,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Sheltered Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Sand",
       "sketchId": "120980",
       "groupId": "mpa",
       "value": 0,
@@ -534,8 +534,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Sheltered Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Sand",
       "sketchId": "120980",
       "groupId": "aquaculture",
       "value": 0,
@@ -546,8 +546,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Sheltered Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Sand",
       "sketchId": "120980",
       "groupId": "energy",
       "value": 0,
@@ -558,8 +558,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Sheltered Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Sand",
       "sketchId": "120980",
       "groupId": "tourism",
       "value": 0,
@@ -570,8 +570,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Sheltered Reef Slope",
+      "metricId": "habitat_aca",
+      "classId": "Sand",
       "sketchId": "120980",
       "groupId": "other",
       "value": 0,
@@ -582,8 +582,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Terrestrial Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Seagrass",
       "sketchId": "120978",
       "groupId": null,
       "value": 0,
@@ -593,8 +593,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Terrestrial Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Seagrass",
       "sketchId": "120978",
       "groupId": "mpa",
       "value": 0,
@@ -604,33 +604,33 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Terrestrial Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Seagrass",
       "sketchId": "120979",
       "groupId": null,
-      "value": 113445.535272,
+      "value": 13510.683307,
       "extra": {
         "sketchName": "bigtourism"
       }
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Terrestrial Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Seagrass",
       "sketchId": "120979",
       "groupId": "tourism",
-      "value": 113445.535272,
+      "value": 13510.683307,
       "extra": {
         "sketchName": "bigtourism"
       }
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Terrestrial Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Seagrass",
       "sketchId": "120980",
       "groupId": null,
-      "value": 113445.535272,
+      "value": 13510.683307,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -638,8 +638,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Terrestrial Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Seagrass",
       "sketchId": "120980",
       "groupId": "mpa",
       "value": 0,
@@ -650,8 +650,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Terrestrial Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Seagrass",
       "sketchId": "120980",
       "groupId": "aquaculture",
       "value": 0,
@@ -662,8 +662,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Terrestrial Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Seagrass",
       "sketchId": "120980",
       "groupId": "energy",
       "value": 0,
@@ -674,11 +674,11 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Terrestrial Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Seagrass",
       "sketchId": "120980",
       "groupId": "tourism",
-      "value": 113445.535272,
+      "value": 13510.683307,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -686,8 +686,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "seagrass",
-      "classId": "Seagrass - Terrestrial Reef Flat",
+      "metricId": "habitat_aca",
+      "classId": "Seagrass",
       "sketchId": "120980",
       "groupId": "other",
       "value": 0,

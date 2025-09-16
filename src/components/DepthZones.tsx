@@ -94,15 +94,30 @@ export const DepthZones: React.FunctionComponent<ReportProps> = (props) => {
                   <Collapse title={t("Learn more")}>
                     <Trans i18nKey="Habitat Zones - learn more">
                       <p>
-                        ℹ️ Overview: Habitat zones were created using Allen
-                        Coral Atlas data (https://www.allencoralatlas.org/),
-                        reef monitoring site data from Dr Houk at University of
-                        Guam, and depth classes created from global bathymetry
-                        data from GEBCO (https://www.gebco.net/). Details of the
-                        process are available in a separate report. Contact:
-                        Jason Flower; jflower@ucsb.edu
+                        ℹ️ Overview: GEBCO ([General Bathymetric Chart of the
+                        Oceans](https://www.gebco.net)) 2024 bathymetry data was
+                        zoned using the following delineations: * 0 - 30m:
+                        Altiphotic zone * 30 - 130m: Mesophotic zone * 130 -
+                        320m: Rariphotic zone * 320 - 800m: Upper bathyal * 800
+                        - 3500m: Lower bathyal * 3500 - 6500m: Abyssal This
+                        mesophotic and rariphotic classification comes from work
+                        done in Hawai'i, examining community structure and
+                        species distribution with depth (Weijerman et al. 2019].
+                        Studies in other areas (e.g. Caribbean [Baldwin et al.
+                        2018]), have found similar depth breaks, but we chose
+                        the Weijerman et al. zonation since it is geographically
+                        the closest study to Kosrae. Although Weijerman et al.
+                        further subdivide the mesophotic and rariphotic, such
+                        fine scale division would likely be inaccurate without
+                        local bathymetry and reef survey data. Since no term for
+                        the shallow reef zone (0 - 30m) is commonly used, I
+                        borrow the "Altiphotic zone" term (*altus* = high)
+                        suggested by Baldwin et al. 2018. For the seafloor
+                        beyond the 320m depth limit of the rariphotic, out to
+                        the 12nm limit, which is the edge of our planning area,
+                        the depth zonations from Watling et al. 2013 were used,
+                        which are derived from several prior studies.
                       </p>
-                      <p>🎯 Planning Objective: TBD.</p>
                       <p>
                         📈 Report: The percentage of each feature type within
                         this plan is calculated by finding the overlap of each

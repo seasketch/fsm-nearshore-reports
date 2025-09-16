@@ -2,6 +2,7 @@
   {
     "metricId": "groupCountOverlap",
     "type": "countOverlap",
+    "datasourceId": "null",
     "classes": [
       {
         "classId": "mpa",
@@ -86,304 +87,7 @@
     ]
   },
   {
-    "metricId": "coralAlgae",
-    "type": "areaOverlap",
-    "layerId": "CKJwVY_fh",
-    "classes": [
-      {
-        "classKey": "zone",
-        "classId": "Coral/Algae - Deep Lagoon",
-        "display": "Deep Lagoon",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Coral/Algae - Sheltered Reef Slope",
-        "display": "Sheltered Reef Slope",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Coral/Algae - Outer Reef Flat",
-        "display": "Outer Reef Flat",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Coral/Algae - Reef Crest",
-        "display": "Reef Crest",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Coral/Algae - Reef Slope",
-        "display": "Reef Slope",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Coral/Algae - Terrestrial Reef Flat",
-        "display": "Terrestrial Reef Flat",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Coral/Algae - Shallow Lagoon",
-        "display": "Shallow Lagoon",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Coral/Algae - Inner Reef Flat",
-        "display": "Inner Reef Flat",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Coral/Algae - Plateau",
-        "display": "Plateau",
-        "datasourceId": "habitatZones"
-      }
-    ]
-  },
-  {
-    "metricId": "seagrass",
-    "type": "areaOverlap",
-    "layerId": "CKJwVY_fh",
-    "classes": [
-      {
-        "classKey": "zone",
-        "classId": "Seagrass - Deep Lagoon",
-        "display": "Deep Lagoon",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Seagrass - Sheltered Reef Slope",
-        "display": "Sheltered Reef Slope",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Seagrass - Reef Slope",
-        "display": "Reef Slope",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Seagrass - Terrestrial Reef Flat",
-        "display": "Terrestrial Reef Flat",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Seagrass - Shallow Lagoon",
-        "display": "Shallow Lagoon",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Seagrass - Inner Reef Flat",
-        "display": "Inner Reef Flat",
-        "datasourceId": "habitatZones"
-      }
-    ]
-  },
-  {
-    "metricId": "reefGeomorphic",
-    "type": "areaOverlap",
-    "layerId": "CKJwVY_fh",
-    "classes": [
-      {
-        "classKey": "zone",
-        "classId": "Deep Lagoon",
-        "display": "Deep Lagoon",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Inner Reef Flat",
-        "display": "Inner Reef Flat",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Outer Reef Flat",
-        "display": "Outer Reef Flat",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Plateau",
-        "display": "Plateau",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Reef Crest",
-        "display": "Reef Crest",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Reef Slope",
-        "display": "Reef Slope",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Shallow Lagoon",
-        "display": "Shallow Lagoon",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Sheltered Reef Slope",
-        "display": "Sheltered Reef Slope",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Terrestrial Reef Flat",
-        "display": "Terrestrial Reef Flat",
-        "datasourceId": "habitatZones"
-      }
-    ]
-  },
-  {
-    "metricId": "depthZones",
-    "type": "areaOverlap",
-    "layerId": "CKJwVY_fh",
-    "classes": [
-      {
-        "classKey": "zone",
-        "classId": "Other reef",
-        "display": "Other reef",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Shallow reef",
-        "display": "Shallow reef",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Mesophotic",
-        "display": "Mesophotic",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Rariphotic",
-        "display": "Rariphotic",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Upper bathyal",
-        "display": "Upper bathyal",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Lower bathyal",
-        "display": "Lower bathyal",
-        "datasourceId": "habitatZones"
-      },
-      {
-        "classKey": "zone",
-        "classId": "Abyssal",
-        "display": "Abyssal",
-        "datasourceId": "habitatZones"
-      }
-    ]
-  },
-  {
-    "metricId": "tradeoffValueOverlap",
-    "type": "valueOverlap",
-    "classes": [
-      {
-        "classId": "nearshore",
-        "display": "Nearshore",
-        "datasourceId": "nearshore"
-      },
-      {
-        "classId": "benthic_tradeoff",
-        "display": "Key Benthic Habitat",
-        "datasourceId": "benthic",
-        "layerId": "kBre13eD_"
-      },
-      {
-        "classId": "fisheries_tradeoff",
-        "display": "Fisheries",
-        "datasourceId": "ous_fisheries",
-        "layerId": "8p_ow_c5I"
-      }
-    ]
-  },
-  {
-    "metricId": "ous",
-    "type": "valueOverlap",
-    "classes": [
-      {
-        "classId": "ous_aquaculture",
-        "display": "Aquaculture",
-        "datasourceId": "ous_aquaculture",
-        "layerId": "t_GGIk3CD"
-      },
-      {
-        "classId": "ous_community_recreational_use",
-        "display": "Community/Recreational",
-        "datasourceId": "ous_community_recreational_use",
-        "layerId": "1HN8AsnYC"
-      },
-      {
-        "classId": "ous_construction_infrastructure",
-        "display": "Construction/Infrastructure",
-        "datasourceId": "ous_construction_infrastructure",
-        "layerId": "Bqy5Bd1gF"
-      },
-      {
-        "classId": "ous_cultural_use",
-        "display": "Cultural Use",
-        "datasourceId": "ous_cultural_use",
-        "layerId": "2S3RgfSVg"
-      },
-      {
-        "classId": "ous_fisheries",
-        "display": "Fisheries",
-        "datasourceId": "ous_fisheries",
-        "layerId": "8p_ow_c5I"
-      },
-      {
-        "classId": "ous_maritime_activity",
-        "display": "Maritime Activity",
-        "datasourceId": "ous_maritime_activity",
-        "layerId": "Z2Mc5AAUB"
-      },
-      {
-        "classId": "ous_research",
-        "display": "Research",
-        "datasourceId": "ous_research",
-        "layerId": "CnKHPiBXy"
-      },
-      {
-        "classId": "ous_tourism",
-        "display": "Tourism",
-        "datasourceId": "ous_tourism",
-        "layerId": "B1MC9XtEH"
-      },
-      {
-        "classId": "ous_transportation",
-        "display": "Transportation",
-        "datasourceId": "ous_transportation",
-        "layerId": "WqhqAjWkl"
-      }
-    ]
-  },
-  {
-    "metricId": "habitatTest",
+    "metricId": "habitat_aca",
     "type": "areaOverlap",
     "layerId": "kBre13eD_",
     "classes": [
@@ -422,6 +126,104 @@
         "classId": "Seagrass",
         "display": "Seagrass",
         "datasourceId": "benthic"
+      }
+    ]
+  },
+  {
+    "metricId": "reef_geomorph",
+    "type": "areaOverlap",
+    "layerId": "I0praEyZT",
+    "classes": [
+      {
+        "classKey": "class",
+        "classId": "Aquatic land features",
+        "display": "Aquatic land features",
+        "datasourceId": "reef_geomorph"
+      },
+      {
+        "classKey": "class",
+        "classId": "Channel",
+        "display": "Channel",
+        "datasourceId": "reef_geomorph"
+      },
+      {
+        "classKey": "class",
+        "classId": "Deep lagoon",
+        "display": "Deep lagoon",
+        "datasourceId": "reef_geomorph"
+      },
+      {
+        "classKey": "class",
+        "classId": "Diffuse fringing",
+        "display": "Diffuse fringing",
+        "datasourceId": "reef_geomorph"
+      },
+      {
+        "classKey": "class",
+        "classId": "Enclosed lagoon",
+        "display": "Enclosed lagoon",
+        "datasourceId": "reef_geomorph"
+      },
+      {
+        "classKey": "class",
+        "classId": "Forereef",
+        "display": "Forereef",
+        "datasourceId": "reef_geomorph"
+      },
+      {
+        "classKey": "class",
+        "classId": "Pass",
+        "display": "Pass",
+        "datasourceId": "reef_geomorph"
+      },
+      {
+        "classKey": "class",
+        "classId": "Reef flat",
+        "display": "Reef flat",
+        "datasourceId": "reef_geomorph"
+      }
+    ]
+  },
+  {
+    "metricId": "depthZones",
+    "type": "areaOverlap",
+    "layerId": "SsQpOr_St",
+    "classes": [
+      {
+        "classKey": "zone",
+        "classId": "0 - 30m: Altiphotic",
+        "display": "0 - 30m: Altiphotic",
+        "datasourceId": "depth_zones"
+      },
+      {
+        "classKey": "zone",
+        "classId": "30 - 130m: Mesophotic",
+        "display": "30 - 130m: Mesophotic",
+        "datasourceId": "depth_zones"
+      },
+      {
+        "classKey": "zone",
+        "classId": "130 - 320m: Rariphotic",
+        "display": "130 - 320m: Rariphotic",
+        "datasourceId": "depth_zones"
+      },
+      {
+        "classKey": "zone",
+        "classId": "320 - 800m: Upper bathyal",
+        "display": "320 - 800m: Upper bathyal",
+        "datasourceId": "depth_zones"
+      },
+      {
+        "classKey": "zone",
+        "classId": "800 - 3500m: Lower bathyal ",
+        "display": "800 - 3500m: Lower bathyal ",
+        "datasourceId": "depth_zones"
+      },
+      {
+        "classKey": "zone",
+        "classId": "3500 - 6500m: Abyssal",
+        "display": "3500 - 6500m: Abyssal",
+        "datasourceId": "depth_zones"
       }
     ]
   },

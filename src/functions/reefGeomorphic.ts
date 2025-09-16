@@ -25,7 +25,7 @@ import {
 import { clipToGeography } from "../util/clipToGeography.js";
 import { getGroup, groups } from "../util/getGroup.js";
 
-const mg = project.getMetricGroup("reefGeomorphic");
+const mg = project.getMetricGroup("reef_geomorph");
 
 export async function reefGeomorphic(
   sketch:
