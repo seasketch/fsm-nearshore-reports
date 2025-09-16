@@ -36,6 +36,39 @@
     {
       "geographyId": null,
       "metricId": "reefGeomorphic",
+      "classId": "Deep Lagoon",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Deep Lagoon",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Deep Lagoon",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
       "classId": "Inner Reef Flat",
       "sketchId": "24597",
       "groupId": null,
@@ -61,6 +94,39 @@
       "classId": "Inner Reef Flat",
       "sketchId": "24597",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Inner Reef Flat",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Inner Reef Flat",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Inner Reef Flat",
+      "sketchId": "24597",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "test"
@@ -102,6 +168,39 @@
     {
       "geographyId": null,
       "metricId": "reefGeomorphic",
+      "classId": "Outer Reef Flat",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Outer Reef Flat",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Outer Reef Flat",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
       "classId": "Plateau",
       "sketchId": "24597",
       "groupId": null,
@@ -127,6 +226,39 @@
       "classId": "Plateau",
       "sketchId": "24597",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Plateau",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Plateau",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Plateau",
+      "sketchId": "24597",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "test"
@@ -168,6 +300,39 @@
     {
       "geographyId": null,
       "metricId": "reefGeomorphic",
+      "classId": "Reef Crest",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Reef Crest",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Reef Crest",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
       "classId": "Reef Slope",
       "sketchId": "24597",
       "groupId": null,
@@ -201,6 +366,39 @@
     {
       "geographyId": null,
       "metricId": "reefGeomorphic",
+      "classId": "Reef Slope",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Reef Slope",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Reef Slope",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
       "classId": "Shallow Lagoon",
       "sketchId": "24597",
       "groupId": null,
@@ -226,6 +424,39 @@
       "classId": "Shallow Lagoon",
       "sketchId": "24597",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Shallow Lagoon",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Shallow Lagoon",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Shallow Lagoon",
+      "sketchId": "24597",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "test"
@@ -267,6 +498,39 @@
     {
       "geographyId": null,
       "metricId": "reefGeomorphic",
+      "classId": "Sheltered Reef Slope",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Sheltered Reef Slope",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Sheltered Reef Slope",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
       "classId": "Terrestrial Reef Flat",
       "sketchId": "24597",
       "groupId": null,
@@ -292,6 +556,39 @@
       "classId": "Terrestrial Reef Flat",
       "sketchId": "24597",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Terrestrial Reef Flat",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Terrestrial Reef Flat",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefGeomorphic",
+      "classId": "Terrestrial Reef Flat",
+      "sketchId": "24597",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "test"

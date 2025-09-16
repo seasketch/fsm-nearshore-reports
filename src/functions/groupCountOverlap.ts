@@ -11,18 +11,18 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 import { GeoprocessingHandler } from "@seasketch/geoprocessing";
 import projectClient from "../../project/projectClient.js";
-import { sketchClassIdToGroup } from "../util/getGroup.js";
+import { getGroup } from "../util/getGroup.js";
 
 export async function groupCountOverlap(
   sketch: Sketch<Polygon> | SketchCollection<Polygon>,
 ): Promise<ReportResult> {
   const mg = projectClient.getMetricGroup("groupCountOverlap");
   const sketchFeatures = getSketchFeatures(sketch);
+  const sketchIdToGroup = getGroup(sketch);
 
   const groups = sketchFeatures.reduce<Record<string, number>>(
     (groupsAcc, sketch) => {
-      const sketchClassId = sketch.properties.sketchClassId;
-      const group = sketchClassIdToGroup[sketchClassId];
+      const group = sketchIdToGroup[sketch.properties.id];
       groupsAcc[group] = 1 + (groupsAcc[group] || 0);
       return groupsAcc;
     },

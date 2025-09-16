@@ -37,6 +37,42 @@
       }
     },
     {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
       "geographyId": "kosrae",
       "metricId": "boundaryAreaOverlap",
       "classId": "nearshore",

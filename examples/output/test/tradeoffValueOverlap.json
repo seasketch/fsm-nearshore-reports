@@ -34,6 +34,39 @@
       }
     },
     {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "benthic_tradeoff",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "benthic_tradeoff",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "benthic_tradeoff",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
       "geographyId": "kosrae",
       "metricId": "tradeoffValueOverlap",
       "classId": "fisheries_tradeoff",
@@ -69,6 +102,39 @@
     {
       "geographyId": null,
       "metricId": "tradeoffValueOverlap",
+      "classId": "fisheries_tradeoff",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "fisheries_tradeoff",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "fisheries_tradeoff",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
       "classId": "nearshore",
       "sketchId": "24597",
       "groupId": null,
@@ -94,6 +160,39 @@
       "classId": "nearshore",
       "sketchId": "24597",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "nearshore",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "nearshore",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "nearshore",
+      "sketchId": "24597",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "test"

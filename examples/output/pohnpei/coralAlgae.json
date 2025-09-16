@@ -36,6 +36,39 @@
     {
       "geographyId": null,
       "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Deep Lagoon",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Deep Lagoon",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Deep Lagoon",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
       "classId": "Coral/Algae - Inner Reef Flat",
       "sketchId": "24608",
       "groupId": null,
@@ -61,6 +94,39 @@
       "classId": "Coral/Algae - Inner Reef Flat",
       "sketchId": "24608",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Inner Reef Flat",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Inner Reef Flat",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Inner Reef Flat",
+      "sketchId": "24608",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -102,6 +168,39 @@
     {
       "geographyId": null,
       "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Outer Reef Flat",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Outer Reef Flat",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Outer Reef Flat",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
       "classId": "Coral/Algae - Plateau",
       "sketchId": "24608",
       "groupId": null,
@@ -127,6 +226,39 @@
       "classId": "Coral/Algae - Plateau",
       "sketchId": "24608",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Plateau",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Plateau",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Plateau",
+      "sketchId": "24608",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -168,6 +300,39 @@
     {
       "geographyId": null,
       "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Crest",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Crest",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Crest",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
       "classId": "Coral/Algae - Reef Slope",
       "sketchId": "24608",
       "groupId": null,
@@ -193,6 +358,39 @@
       "classId": "Coral/Algae - Reef Slope",
       "sketchId": "24608",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Slope",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Slope",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Slope",
+      "sketchId": "24608",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -234,6 +432,39 @@
     {
       "geographyId": null,
       "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Shallow Lagoon",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
       "classId": "Coral/Algae - Sheltered Reef Slope",
       "sketchId": "24608",
       "groupId": null,
@@ -267,6 +498,39 @@
     {
       "geographyId": null,
       "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Sheltered Reef Slope",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
       "classId": "Coral/Algae - Terrestrial Reef Flat",
       "sketchId": "24608",
       "groupId": null,
@@ -292,6 +556,39 @@
       "classId": "Coral/Algae - Terrestrial Reef Flat",
       "sketchId": "24608",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Terrestrial Reef Flat",
+      "sketchId": "24608",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"

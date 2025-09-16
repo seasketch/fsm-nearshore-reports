@@ -34,6 +34,39 @@
       }
     },
     {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_aquaculture",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_aquaculture",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_aquaculture",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
       "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
       "classId": "ous_community_recreational_use",
@@ -61,6 +94,39 @@
       "classId": "ous_community_recreational_use",
       "sketchId": "24608",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24608",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -100,6 +166,39 @@
       }
     },
     {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
       "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
       "classId": "ous_cultural_use",
@@ -127,6 +226,39 @@
       "classId": "ous_cultural_use",
       "sketchId": "24608",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_cultural_use",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_cultural_use",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_cultural_use",
+      "sketchId": "24608",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -166,6 +298,39 @@
       }
     },
     {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_fisheries",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_fisheries",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_fisheries",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
       "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
       "classId": "ous_maritime_activity",
@@ -193,6 +358,39 @@
       "classId": "ous_maritime_activity",
       "sketchId": "24608",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24608",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"
@@ -232,6 +430,39 @@
       }
     },
     {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_research",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_research",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_research",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
       "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
       "classId": "ous_tourism",
@@ -265,6 +496,39 @@
       }
     },
     {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_tourism",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_tourism",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_tourism",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
       "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
       "classId": "ous_transportation",
@@ -292,6 +556,39 @@
       "classId": "ous_transportation",
       "sketchId": "24608",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_transportation",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_transportation",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "ousValueOverlap",
+      "classId": "ous_transportation",
+      "sketchId": "24608",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "pohnpei"

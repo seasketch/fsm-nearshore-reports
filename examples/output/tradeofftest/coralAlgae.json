@@ -83,6 +83,42 @@
     {
       "geographyId": null,
       "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Deep Lagoon",
+      "sketchId": "25166",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Deep Lagoon",
+      "sketchId": "25166",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Deep Lagoon",
+      "sketchId": "25166",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
       "classId": "Coral/Algae - Inner Reef Flat",
       "sketchId": "25164",
       "groupId": null,
@@ -163,6 +199,42 @@
     {
       "geographyId": null,
       "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Inner Reef Flat",
+      "sketchId": "25166",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Inner Reef Flat",
+      "sketchId": "25166",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Inner Reef Flat",
+      "sketchId": "25166",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
       "classId": "Coral/Algae - Outer Reef Flat",
       "sketchId": "25164",
       "groupId": null,
@@ -243,6 +315,42 @@
     {
       "geographyId": null,
       "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Outer Reef Flat",
+      "sketchId": "25166",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Outer Reef Flat",
+      "sketchId": "25166",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Outer Reef Flat",
+      "sketchId": "25166",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
       "classId": "Coral/Algae - Plateau",
       "sketchId": "25164",
       "groupId": null,
@@ -314,6 +422,42 @@
       "classId": "Coral/Algae - Plateau",
       "sketchId": "25166",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Plateau",
+      "sketchId": "25166",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Plateau",
+      "sketchId": "25166",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Plateau",
+      "sketchId": "25166",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "tradeofftest",
@@ -403,6 +547,42 @@
     {
       "geographyId": null,
       "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Crest",
+      "sketchId": "25166",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Crest",
+      "sketchId": "25166",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Crest",
+      "sketchId": "25166",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
       "classId": "Coral/Algae - Reef Slope",
       "sketchId": "25164",
       "groupId": null,
@@ -483,6 +663,42 @@
     {
       "geographyId": null,
       "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Slope",
+      "sketchId": "25166",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Slope",
+      "sketchId": "25166",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Reef Slope",
+      "sketchId": "25166",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
       "classId": "Coral/Algae - Shallow Lagoon",
       "sketchId": "25164",
       "groupId": null,
@@ -554,6 +770,42 @@
       "classId": "Coral/Algae - Shallow Lagoon",
       "sketchId": "25166",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Shallow Lagoon",
+      "sketchId": "25166",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Shallow Lagoon",
+      "sketchId": "25166",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Shallow Lagoon",
+      "sketchId": "25166",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "tradeofftest",
@@ -643,6 +895,42 @@
     {
       "geographyId": null,
       "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Sheltered Reef Slope",
+      "sketchId": "25166",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Sheltered Reef Slope",
+      "sketchId": "25166",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Sheltered Reef Slope",
+      "sketchId": "25166",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
       "classId": "Coral/Algae - Terrestrial Reef Flat",
       "sketchId": "25164",
       "groupId": null,
@@ -714,6 +1002,42 @@
       "classId": "Coral/Algae - Terrestrial Reef Flat",
       "sketchId": "25166",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Terrestrial Reef Flat",
+      "sketchId": "25166",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Terrestrial Reef Flat",
+      "sketchId": "25166",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralAlgae",
+      "classId": "Coral/Algae - Terrestrial Reef Flat",
+      "sketchId": "25166",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "tradeofftest",

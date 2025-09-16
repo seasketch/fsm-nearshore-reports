@@ -36,6 +36,39 @@
     {
       "geographyId": null,
       "metricId": "seagrass",
+      "classId": "Seagrass - Deep Lagoon",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Deep Lagoon",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Deep Lagoon",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
       "classId": "Seagrass - Inner Reef Flat",
       "sketchId": "24597",
       "groupId": null,
@@ -61,6 +94,39 @@
       "classId": "Seagrass - Inner Reef Flat",
       "sketchId": "24597",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Inner Reef Flat",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Inner Reef Flat",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Inner Reef Flat",
+      "sketchId": "24597",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "test"
@@ -102,6 +168,39 @@
     {
       "geographyId": null,
       "metricId": "seagrass",
+      "classId": "Seagrass - Reef Slope",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Reef Slope",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Reef Slope",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
       "classId": "Seagrass - Shallow Lagoon",
       "sketchId": "24597",
       "groupId": null,
@@ -135,6 +234,39 @@
     {
       "geographyId": null,
       "metricId": "seagrass",
+      "classId": "Seagrass - Shallow Lagoon",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Shallow Lagoon",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Shallow Lagoon",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
       "classId": "Seagrass - Sheltered Reef Slope",
       "sketchId": "24597",
       "groupId": null,
@@ -168,6 +300,39 @@
     {
       "geographyId": null,
       "metricId": "seagrass",
+      "classId": "Seagrass - Sheltered Reef Slope",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Sheltered Reef Slope",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Sheltered Reef Slope",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
       "classId": "Seagrass - Terrestrial Reef Flat",
       "sketchId": "24597",
       "groupId": null,
@@ -193,6 +358,39 @@
       "classId": "Seagrass - Terrestrial Reef Flat",
       "sketchId": "24597",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Terrestrial Reef Flat",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Terrestrial Reef Flat",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "seagrass",
+      "classId": "Seagrass - Terrestrial Reef Flat",
+      "sketchId": "24597",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "test"

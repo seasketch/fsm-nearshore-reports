@@ -1,27 +1,21 @@
 {
   "sketch": {
-    "type": "Feature",
-    "id": 24597,
-    "bbox": [
-      163.0139,
-      5.2779717,
-      163.10576,
-      5.3990927
-    ],
+    "type": "FeatureCollection",
+    "id": 120972,
     "properties": {
-      "6289": "test",
-      "id": "24597",
-      "name": "test",
+      "6293": "network-new",
+      "id": "120972",
+      "name": "network-new",
       "postId": null,
       "userId": "531",
       "authors": null,
       "userSlug": "Abby",
-      "createdAt": "2024-01-18T21:24:53.060168+00:00",
-      "updatedAt": "2024-01-18T21:24:53.060168+00:00",
+      "createdAt": "2025-09-16T21:33:45.295005+00:00",
+      "updatedAt": "2025-09-16T21:37:49.421593+00:00",
       "collectionId": null,
-      "isCollection": false,
+      "isCollection": true,
       "sharedInForum": false,
-      "sketchClassId": "745",
+      "sketchClassId": "746",
       "userAttributes": [
         {
           "label": "Description",
@@ -29,7 +23,7 @@
           "exportId": "descriptionconsider_adding_a_ra",
           "fieldType": "TextArea",
           "valueLabel": null,
-          "formElementId": 6291,
+          "formElementId": 6294,
           "alternateLanguages": {}
         },
         {
@@ -38,259 +32,460 @@
           "exportId": "authors",
           "fieldType": "ShortText",
           "valueLabel": null,
-          "formElementId": 6292,
+          "formElementId": 6295,
           "alternateLanguages": {}
         }
       ],
       "descriptionconsider_adding_a_ra": null
     },
-    "geometry": {
-      "type": "Polygon",
-      "coordinates": [
-        [
-          [
-            163.013895,
-            5.33064
-          ],
-          [
-            163.016345,
-            5.327984
-          ],
-          [
-            163.016459,
-            5.322748
-          ],
-          [
-            163.022071,
-            5.318499
-          ],
-          [
-            163.02437,
-            5.318314
-          ],
-          [
-            163.02619,
-            5.320703
-          ],
-          [
-            163.02999,
-            5.321714
-          ],
-          [
-            163.035581,
-            5.316958
-          ],
-          [
-            163.029414,
-            5.290731
-          ],
-          [
-            163.026596,
-            5.28763
-          ],
-          [
-            163.022841,
-            5.278483
-          ],
-          [
-            163.105764796,
-            5.287307048
-          ],
-          [
-            163.078590344,
-            5.399092568
-          ],
-          [
-            163.0216818,
-            5.358882452
-          ],
-          [
-            163.02296,
-            5.347978
-          ],
-          [
-            163.020278,
-            5.345009
-          ],
-          [
-            163.020362,
-            5.338539
-          ],
-          [
-            163.021776,
-            5.335125
-          ],
-          [
-            163.033352,
-            5.333353
-          ],
-          [
-            163.032707,
-            5.327896
-          ],
-          [
-            163.029426,
-            5.327449
-          ],
-          [
-            163.019937,
-            5.332057
-          ],
-          [
-            163.021032,
-            5.33639
-          ],
-          [
-            163.016802,
-            5.335255
-          ],
-          [
-            163.020343,
-            5.337784
-          ],
-          [
-            163.018295,
-            5.341797
-          ],
-          [
-            163.01957,
-            5.35138
-          ],
-          [
-            163.019462,
-            5.347145
-          ],
-          [
-            163.017415,
-            5.345062
-          ],
-          [
-            163.017768,
-            5.339705
-          ],
-          [
-            163.015255,
-            5.337582
-          ],
-          [
-            163.015325,
-            5.33145
-          ],
-          [
-            163.013895,
-            5.33064
-          ]
+    "features": [
+      {
+        "type": "Feature",
+        "id": 120976,
+        "bbox": [
+          162.94832,
+          5.3518043,
+          162.96487,
+          5.3664484
         ],
-        [
-          [
-            163.018263,
-            5.33954
+        "properties": {
+          "6289": "other",
+          "12419": "OTHER",
+          "id": "120976",
+          "name": "other",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2025-09-16T21:37:30.336151+00:00",
+          "updatedAt": "2025-09-16T21:37:33.503149+00:00",
+          "zone_type": "OTHER",
+          "collectionId": "120972",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "OTHER",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Other",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
           ],
-          [
-            163.019053,
-            5.339562
-          ],
-          [
-            163.018714,
-            5.340183
-          ],
-          [
-            163.018263,
-            5.33954
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                162.948314752,
+                5.35419507
+              ],
+              [
+                162.951316538,
+                5.351804115
+              ],
+              [
+                162.9508746,
+                5.3527888
+              ],
+              [
+                162.9642378,
+                5.3619427
+              ],
+              [
+                162.9630235,
+                5.366448569
+              ],
+              [
+                162.948314752,
+                5.35419507
+              ]
+            ]
           ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 120975,
+        "bbox": [
+          162.88768,
+          5.3016505,
+          162.90945,
+          5.3171344
         ],
-        [
-          [
-            163.019518,
-            5.34838
+        "properties": {
+          "6289": "energy",
+          "12419": "ENERGY",
+          "id": "120975",
+          "name": "energy",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2025-09-16T21:37:15.339608+00:00",
+          "updatedAt": "2025-09-16T21:37:19.157915+00:00",
+          "zone_type": "ENERGY",
+          "collectionId": "120972",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "ENERGY",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Renewable Energy",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
           ],
-          [
-            163.019532,
-            5.347971
-          ],
-          [
-            163.019818,
-            5.348572
-          ],
-          [
-            163.019518,
-            5.34838
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                162.887678688,
+                5.307868653
+              ],
+              [
+                162.902611537,
+                5.30165075
+              ],
+              [
+                162.909447128,
+                5.307138128
+              ],
+              [
+                162.904188508,
+                5.317134216
+              ],
+              [
+                162.887678688,
+                5.307868653
+              ]
+            ]
           ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 120973,
+        "bbox": [
+          162.96793,
+          5.3656883,
+          162.9977,
+          5.4163523
         ],
-        [
-          [
-            163.01961,
-            5.335409
+        "properties": {
+          "6289": "mpa",
+          "12419": "MPA",
+          "id": "120973",
+          "name": "mpa",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2025-09-16T21:34:05.590463+00:00",
+          "updatedAt": "2025-09-16T21:34:10.515437+00:00",
+          "zone_type": "MPA",
+          "collectionId": "120972",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
           ],
-          [
-            163.020051,
-            5.334437
-          ],
-          [
-            163.020905,
-            5.335268
-          ],
-          [
-            163.01961,
-            5.335409
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                162.967925378,
+                5.416352036
+              ],
+              [
+                162.98123151,
+                5.365728357
+              ],
+              [
+                162.990942402,
+                5.369253717
+              ],
+              [
+                162.997690375,
+                5.415585688
+              ],
+              [
+                162.967925378,
+                5.416352036
+              ]
+            ]
           ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 120977,
+        "bbox": [
+          162.99724,
+          5.253468,
+          163.00775,
+          5.261676
         ],
-        [
-          [
-            163.019673,
-            5.348978
+        "properties": {
+          "6289": "tourism",
+          "12419": "TOURISM",
+          "id": "120977",
+          "name": "tourism",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2025-09-16T21:37:45.902998+00:00",
+          "updatedAt": "2025-09-16T21:37:49.421593+00:00",
+          "zone_type": "TOURISM",
+          "collectionId": "120972",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "TOURISM",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Tourism",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
           ],
-          [
-            163.020191,
-            5.349321
-          ],
-          [
-            163.020029,
-            5.349555
-          ],
-          [
-            163.019673,
-            5.348978
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                162.997243853,
+                5.253468033
+              ],
+              [
+                163.007750102,
+                5.255560453
+              ],
+              [
+                163.006767542,
+                5.2616756
+              ],
+              [
+                163.0015287,
+                5.2589001
+              ],
+              [
+                162.9980252,
+                5.2594521
+              ],
+              [
+                162.997243853,
+                5.253468033
+              ]
+            ]
           ]
+        }
+      },
+      {
+        "type": "Feature",
+        "id": 120974,
+        "bbox": [
+          162.93085,
+          5.2671413,
+          162.94472,
+          5.2717376
         ],
-        [
-          [
-            163.030115,
-            5.334588
+        "properties": {
+          "6289": "aquaculture-site",
+          "12419": "AQUA",
+          "id": "120974",
+          "name": "aquaculture-site",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2025-09-16T21:34:35.071065+00:00",
+          "updatedAt": "2025-09-16T21:34:38.917842+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "120972",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
           ],
-          [
-            163.030622,
-            5.334389
-          ],
-          [
-            163.030878,
-            5.334905
-          ],
-          [
-            163.030115,
-            5.334588
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": {
+          "type": "Polygon",
+          "coordinates": [
+            [
+              [
+                162.9308545,
+                5.2716254
+              ],
+              [
+                162.9410988,
+                5.2671763
+              ],
+              [
+                162.9438559,
+                5.2678965
+              ],
+              [
+                162.942943425,
+                5.27098085
+              ],
+              [
+                162.9308545,
+                5.2716254
+              ]
+            ],
+            [
+              [
+                162.9388219,
+                5.2685657
+              ],
+              [
+                162.9398262,
+                5.2692736
+              ],
+              [
+                162.9395639,
+                5.2684042
+              ],
+              [
+                162.9388219,
+                5.2685657
+              ]
+            ]
           ]
-        ],
-        [
-          [
-            163.031737,
-            5.333908
-          ],
-          [
-            163.031953,
-            5.333609
-          ],
-          [
-            163.032118,
-            5.334255
-          ],
-          [
-            163.031737,
-            5.333908
-          ]
-        ]
-      ]
-    }
+        }
+      }
+    ]
   },
   "land": {
     "type": "FeatureCollection",
@@ -303,7 +498,7 @@
     "features": [
       {
         "type": "Feature",
-        "id": "c3abe429-6138-4747-be47-e6a3d49e0549",
+        "id": "fbfedddf-6030-47a7-9bf6-dd6905307363",
         "properties": {
           "fid": 3,
           "MRGID": 49046,
@@ -320,8 +515,8 @@
           "UN_TER1": 583,
           "ID": 3,
           "line_length": 186455.86262734962,
-          "id": "c3abe429-6138-4747-be47-e6a3d49e0549",
-          "name": "featureCollection-c0db0ebb-9e8e-4f80-a1b5-9ca1df34d763-0"
+          "id": "fbfedddf-6030-47a7-9bf6-dd6905307363",
+          "name": "featureCollection-0ca63a94-5a56-403c-ad6b-f20bfa5a14a4-0"
         },
         "geometry": {
           "type": "Polygon",

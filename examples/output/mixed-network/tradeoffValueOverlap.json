@@ -40,6 +40,42 @@
       "geographyId": null,
       "metricId": "tradeoffValueOverlap",
       "classId": "benthic_tradeoff",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "benthic_tradeoff",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "benthic_tradeoff",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "benthic_tradeoff",
       "sketchId": "24666",
       "groupId": null,
       "value": 0,
@@ -111,6 +147,42 @@
       "sketchId": "24665",
       "groupId": "aquaculture",
       "value": 2133.494159,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "fisheries_tradeoff",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "fisheries_tradeoff",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "fisheries_tradeoff",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -191,6 +263,42 @@
       "sketchId": "24665",
       "groupId": "aquaculture",
       "value": 361478.080415,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "nearshore",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "nearshore",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "tradeoffValueOverlap",
+      "classId": "nearshore",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true

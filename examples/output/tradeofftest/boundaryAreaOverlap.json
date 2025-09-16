@@ -79,6 +79,42 @@
         "sketchName": "tradeofftest",
         "isCollection": true
       }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "25166",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "25166",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "25166",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
     }
   ],
   "sketch": {

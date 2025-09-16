@@ -32,6 +32,39 @@
       "extra": {
         "sketchName": "pohnpei"
       }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
     }
   ],
   "sketch": {

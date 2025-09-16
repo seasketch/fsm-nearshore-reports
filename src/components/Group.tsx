@@ -26,7 +26,7 @@ import {
   groupColorMap,
   groupDisplayMapPl,
   groupDisplayMapSg,
-  sketchClassIdToGroup,
+  getGroup,
 } from "../util/getGroup.js";
 
 // Table styling for Show by Zone table
@@ -119,6 +119,7 @@ const sketchCollectionReport = (
   printing: boolean = false,
 ) => {
   const sketches = toNullSketchArray(sketch);
+  const sketchIdToGroup = getGroup(sketch);
   const columns: Column<Metric>[] = [
     {
       Header: " ",
@@ -142,7 +143,7 @@ const sketchCollectionReport = (
         collapsed={!printing}
         key={String(printing) + "Zone"}
       >
-        {genMpaSketchTable(sketches, t)}
+        {genMpaSketchTable(sketches, sketchIdToGroup, t)}
       </Collapse>
       {!printing && (
         <Collapse title={t("Learn More")}>
@@ -156,7 +157,11 @@ const sketchCollectionReport = (
 /**
  * Show by Zone sketch table for sketch collection
  */
-const genMpaSketchTable = (sketches: NullSketch[], t: any) => {
+const genMpaSketchTable = (
+  sketches: NullSketch[],
+  sketchIdToGroup: Record<string, string>,
+  t: any,
+) => {
   const columns: Column<NullSketch>[] = [
     {
       Header: t("Zone"),
@@ -164,18 +169,14 @@ const genMpaSketchTable = (sketches: NullSketch[], t: any) => {
     },
     {
       Header: t("Zone Type"),
-      accessor: (row) => (
-        <GroupPill
-          groupColorMap={groupColorMap}
-          group={sketchClassIdToGroup[row.properties.sketchClassId]}
-        >
-          {t(
-            groupDisplayMapSg[
-              sketchClassIdToGroup[row.properties.sketchClassId]
-            ],
-          )}
-        </GroupPill>
-      ),
+      accessor: (row) => {
+        const group = sketchIdToGroup[row.properties.id];
+        return (
+          <GroupPill groupColorMap={groupColorMap} group={group}>
+            {t(groupDisplayMapSg[group])}
+          </GroupPill>
+        );
+      },
     },
   ];
 

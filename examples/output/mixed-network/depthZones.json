@@ -40,6 +40,42 @@
       "geographyId": null,
       "metricId": "depthZones",
       "classId": "Abyssal",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Abyssal",
       "sketchId": "24666",
       "groupId": null,
       "value": 0,
@@ -110,6 +146,42 @@
       "classId": "Lower bathyal",
       "sketchId": "24665",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Lower bathyal",
+      "sketchId": "24665",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "mixed-network",
@@ -190,6 +262,42 @@
       "classId": "Mesophotic",
       "sketchId": "24665",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Mesophotic",
+      "sketchId": "24665",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "mixed-network",
@@ -280,6 +388,42 @@
       "geographyId": null,
       "metricId": "depthZones",
       "classId": "Other reef",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Other reef",
       "sketchId": "24666",
       "groupId": null,
       "value": 326907.684054,
@@ -350,6 +494,42 @@
       "classId": "Rariphotic",
       "sketchId": "24665",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Rariphotic",
+      "sketchId": "24665",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "mixed-network",
@@ -440,6 +620,42 @@
       "geographyId": null,
       "metricId": "depthZones",
       "classId": "Shallow reef",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Shallow reef",
       "sketchId": "24666",
       "groupId": null,
       "value": 519351.534601,
@@ -510,6 +726,42 @@
       "classId": "Upper bathyal",
       "sketchId": "24665",
       "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "Upper bathyal",
+      "sketchId": "24665",
+      "groupId": "other",
       "value": 0,
       "extra": {
         "sketchName": "mixed-network",

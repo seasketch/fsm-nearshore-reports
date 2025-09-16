@@ -32,6 +32,39 @@
       "extra": {
         "sketchName": "test"
       }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
     }
   ],
   "sketch": {
