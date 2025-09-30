@@ -4,6 +4,7 @@ import {
   Collapse,
   LayerToggle,
   ResultsCard,
+  Skeleton,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import { ReportResult } from "@seasketch/geoprocessing/client-core";
@@ -39,7 +40,7 @@ export const BenthicHabitat: React.FunctionComponent<ReportProps> = (props) => {
         useChildCard
       >
         {(data: ReportResult) => {
-          const [{ id }] = useSketchProperties();
+          if (!data || !data.metrics) return <Skeleton />;
 
           return (
             <>

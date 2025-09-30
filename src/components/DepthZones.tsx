@@ -4,6 +4,7 @@ import {
   Collapse,
   LayerToggle,
   ResultsCard,
+  Skeleton,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import { ReportResult } from "@seasketch/geoprocessing/client-core";
@@ -39,6 +40,8 @@ export const DepthZones: React.FunctionComponent<ReportProps> = (props) => {
         useChildCard
       >
         {(data: ReportResult) => {
+          if (!data || !data.metrics) return <Skeleton />;
+
           return (
             <>
               <Card title={t("Depth Zones")}>

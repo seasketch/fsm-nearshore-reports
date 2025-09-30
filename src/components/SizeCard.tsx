@@ -17,6 +17,8 @@ import {
   VerticalSpacer,
   KeySection,
   LayerToggle,
+  Skeleton,
+  ErrorStatus,
 } from "@seasketch/geoprocessing/client-ui";
 import { styled } from "styled-components";
 import project from "../../project/projectClient.js";
@@ -54,6 +56,8 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
         useChildCard
       >
         {(data: ReportResult) => {
+          if (!data || !data.metrics) return <Skeleton />;
+
           if (Object.keys(data).length === 0) throw new Error(notFoundString);
 
           // Get overall area of sketch metric
@@ -70,9 +74,9 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
           );
 
           // Format area metrics for key section display
-          const areaDisplay = roundLower(
-            squareMeterToKilometer(areaMetric.value),
-          );
+          const areaDisplay = areaMetric.value
+            ? roundLower(squareMeterToKilometer(areaMetric.value))
+            : 0;
           const percDisplay = percentWithEdge(
             areaMetric.value / totalAreaMetric.value,
           );
@@ -222,17 +226,20 @@ const ErrorIndicator = styled.div`
 const genWarning = (curGeography: Geography) => {
   return (
     <Card>
-      <div role="alert">
-        <ErrorIndicator />
-        <Trans i18nKey="SizeCard - warning 1">
-          This plan <b>does not</b> overlap with{" "}
-        </Trans>{" "}
-        {curGeography.display}
-        <Trans i18nKey="SizeCard - warning 2">
-          's territorial sea, please select a different planning area for useful
-          report metrics.
-        </Trans>
-      </div>
+      <ErrorStatus
+        msg={
+          <>
+            <Trans i18nKey="SizeCard - warning 1">
+              This plan <b>does not</b> overlap with{" "}
+            </Trans>{" "}
+            {curGeography.display}
+            <Trans i18nKey="SizeCard - warning 2">
+              's territorial sea, please select a different planning area for
+              useful report metrics.
+            </Trans>
+          </>
+        }
+      />
     </Card>
   );
 };

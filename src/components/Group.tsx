@@ -11,6 +11,7 @@ import {
   RbcsIcon,
   GroupPill,
   useSketchProperties,
+  Skeleton,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -46,6 +47,8 @@ export const Group: React.FunctionComponent<ReportProps> = (props) => {
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard title={t("Plan Overview")} functionName="groupCountOverlap">
         {(data: ReportResult) => {
+          if (!data || !data.metrics) return <Skeleton />;
+
           return (
             <ReportError>
               {isCollection

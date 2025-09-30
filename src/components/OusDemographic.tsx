@@ -5,6 +5,7 @@ import {
   KeySection,
   ClassTable,
   ReportChartFigure,
+  Skeleton,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
@@ -92,6 +93,8 @@ export const OusDemographic: React.FunctionComponent<ReportProps> = (props) => {
         }}
       >
         {(data: ReportResult) => {
+          if (!data || !data.metrics) return <Skeleton />;
+
           // Filter down to people count metrics for top-level sketch
           const singlePeopleCountMetrics = data.metrics.filter(
             (m) =>
