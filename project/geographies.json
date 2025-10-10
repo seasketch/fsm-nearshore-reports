@@ -5,7 +5,7 @@
     "display": "Chuuk",
     "groups": [],
     "layerId": "U816lpRvr",
-    "precalc": true
+    "precalc": false
   },
   {
     "geographyId": "kosrae",
@@ -21,7 +21,7 @@
     "display": "Pohnpei",
     "layerId": "uUqfw6yqj",
     "groups": [],
-    "precalc": true
+    "precalc": false
   },
   {
     "geographyId": "yap",
@@ -29,6 +29,6 @@
     "display": "Yap",
     "layerId": "90TgHdb_j",
     "groups": [],
-    "precalc": true
+    "precalc": false
   }
 ]

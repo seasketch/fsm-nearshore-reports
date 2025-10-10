@@ -7,23 +7,30 @@ import {
   ToolbarCard,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
-import ViabilityPage from "../components/ViabilityPage.js";
-import RepresentationPage from "../components/RepresentationPage.js";
-import { useTranslation } from "react-i18next";
 import { Translator } from "../components/TranslatorAsync.js";
 import project from "../../project/projectClient.js";
 import { useReactToPrint } from "react-to-print";
 import { PrintButton, PrintPopup, SketchAttributes } from "../util/Print.js";
 import { Settings } from "../util/Settings.js";
 import { Footer } from "../util/Footer.js";
+import { Group } from "../components/Group.js";
+import { SizeCard } from "../components/SizeCard.js";
+import { OUSCard } from "../components/OUSCard.js";
+import { OusDemographic } from "../components/OusDemographic.js";
+import { SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
+import { ReefGeomorphic } from "../components/ReefGeomorphic.js";
+import { DepthZones } from "../components/DepthZones.js";
+import { useTranslation } from "react-i18next";
+import { CoralACA } from "../components/CoralACA.js";
+import { SeagrassACA } from "../components/SeagrassACA.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
   const viabilityId = "viability";
-  const representationId = "representation";
+  const habitatId = "habitat";
   const segments = [
     { id: viabilityId, label: t("Viability") },
-    { id: representationId, label: t("Representation") },
+    { id: habitatId, label: t("Key Habitats") },
   ];
   const [tab, setTab] = useState<string>(viabilityId);
 
@@ -117,11 +124,27 @@ const BaseReport = () => {
           <SketchAttributes {...attributes} />
         </div>
         <ReportPage hidden={!isPrinting && tab !== viabilityId}>
-          <ViabilityPage geographyId={geographyId} printing={isPrinting} />
+          <Group geographyId={geographyId} printing={isPrinting} />
+          <SizeCard geographyId={geographyId} printing={isPrinting} />
+          {geographyId === "kosrae" && (
+            <OUSCard geographyId={geographyId} printing={isPrinting} />
+          )}
+          {geographyId === "kosrae" && (
+            <OusDemographic geographyId={geographyId} printing={isPrinting} />
+          )}
+          {!isPrinting && <SketchAttributesCard autoHide />}
         </ReportPage>
-        <ReportPage hidden={!isPrinting && tab !== representationId}>
-          <RepresentationPage geographyId={geographyId} printing={isPrinting} />
-        </ReportPage>
+        {geographyId === "kosrae" && (
+          <ReportPage hidden={!isPrinting && tab !== habitatId}>
+            <>
+              <CoralACA geographyId={geographyId} printing={isPrinting} />
+              <SeagrassACA geographyId={geographyId} printing={isPrinting} />
+
+              <ReefGeomorphic geographyId={geographyId} printing={isPrinting} />
+              <DepthZones geographyId={geographyId} printing={isPrinting} />
+            </>
+          </ReportPage>
+        )}
       </div>
 
       {/* Footer */}

@@ -1,0 +1,117 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "coralACA",
+      "classId": "coral",
+      "sketchId": "24597",
+      "groupId": null,
+      "value": 957001.668054,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralACA",
+      "classId": "coral",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 957001.668054,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralACA",
+      "classId": "coral",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralACA",
+      "classId": "coral",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralACA",
+      "classId": "coral",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralACA",
+      "classId": "coral",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 24597,
+    "bbox": [
+      163.01389563063253,
+      5.277971758225115,
+      163.105764796,
+      5.399092568
+    ],
+    "type": "Feature",
+    "properties": {
+      "6289": "test",
+      "id": "24597",
+      "name": "test",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-01-18T21:24:53.060168+00:00",
+      "updatedAt": "2024-01-18T21:24:53.060168+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "745",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6292,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    },
+    "geometry": null
+  }
+}

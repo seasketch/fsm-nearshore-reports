@@ -3,7 +3,6 @@ import {
   MultiPolygon,
   Polygon,
   getFirstFromParam,
-  splitSketchAntimeridian,
   Feature,
   isInternalVectorDatasource,
   getFlatGeobufFilename,
@@ -25,61 +24,39 @@ import {
 import { clipToGeography } from "../util/clipToGeography.js";
 import { getGroup, groups } from "../util/getGroup.js";
 
-const mg = project.getMetricGroup("habitat_aca");
+const mg = project.getMetricGroup("coralACA");
 
-export async function habitatAca(
+export async function coralACA(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
   extraParams: DefaultExtraParams = {},
 ): Promise<ReportResult> {
-  // Use caller-provided geographyId if provided
+  // Clip to portion of sketch within current geography
   const geographyId = getFirstFromParam("geographyIds", extraParams);
-
-  // Get geography features, falling back to geography assigned to default-boundary group
   const curGeography = project.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
+  const clippedSketch = await clipToGeography(sketch, curGeography);
 
-  // Support sketches crossing antimeridian
-  const splitSketch = splitSketchAntimeridian(sketch);
-
-  // Clip to portion of sketch within current geography
-  const clippedSketch = await clipToGeography(splitSketch, curGeography);
-
-  let cachedFeatures: Record<string, Feature<Polygon>[]> = {};
+  // Fetch features
   const featuresByClass: Record<string, Feature<Polygon>[]> = {};
-
   const polysByBoundary = (
     await Promise.all(
       mg.classes.map(async (curClass) => {
-        if (!curClass.datasourceId) {
-          throw new Error(`Missing datasourceId ${curClass.classId}`);
-        }
+        if (!curClass.datasourceId)
+          throw new Error(`Missing data ${curClass.classId}`);
         const ds = project.getDatasourceById(curClass.datasourceId);
         if (isInternalVectorDatasource(ds)) {
           const url = `${project.dataBucketUrl()}${getFlatGeobufFilename(ds)}`;
 
-          // Fetch features overlapping with sketch, pull from cache if already fetched
-          const dsFeatures =
-            cachedFeatures[curClass.datasourceId] ||
-            (await getFeaturesForSketchBBoxes<Polygon>(sketch, url));
-          cachedFeatures[curClass.datasourceId] = dsFeatures;
+          const dsFeatures = await getFeaturesForSketchBBoxes<Polygon>(
+            clippedSketch,
+            url,
+          );
+          featuresByClass[curClass.classId] = dsFeatures;
 
-          // If this is a sub-class, filter by class name, exclude null geometry too
-          // ToDo: should do deeper match to classKey
-          const finalFeatures =
-            curClass.classKey && curClass.classId !== `${ds.datasourceId}_all`
-              ? dsFeatures.filter((feat) => {
-                  return (
-                    feat.geometry &&
-                    feat.properties![ds.classKeys[0]] === curClass.classId
-                  );
-                }, [])
-              : dsFeatures;
-          featuresByClass[curClass.classId] = finalFeatures;
-
-          return finalFeatures;
+          return dsFeatures;
         }
         return [];
       }),
@@ -91,6 +68,7 @@ export async function habitatAca(
     };
   }, {});
 
+  // Run overlap analysis
   const metrics: Metric[] = (
     await Promise.all(
       mg.classes.map(async (curClass) => {
@@ -113,13 +91,11 @@ export async function habitatAca(
     [],
   );
 
-  // Generate area metrics grouped by zone type, with area overlap within zones removed
-  // Each sketch gets one group metric for its zone type, while collection generates one for each zone type
+  // Generate group metrics
   const sketchToZone = getGroup(sketch);
   const metricToZone = (sketchMetric: Metric) => {
     return sketchToZone[sketchMetric.sketchId!];
   };
-
   const groupMetrics = await overlapFeaturesGroupMetrics({
     metricId: mg.metricId,
     groupIds: groups,
@@ -129,14 +105,16 @@ export async function habitatAca(
     featuresByClass,
   });
 
+  console.log(groupMetrics);
+
   return {
     metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
     sketch: toNullSketch(sketch, true),
   };
 }
 
-export default new GeoprocessingHandler(habitatAca, {
-  title: "habitatAca",
+export default new GeoprocessingHandler(coralACA, {
+  title: "coralACA",
   description: "key benthic habitat aca metrics",
   timeout: 900, // seconds
   executionMode: "async",

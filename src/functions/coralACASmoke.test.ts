@@ -3,18 +3,18 @@ import {
   writeResultOutput,
 } from "@seasketch/geoprocessing/scripts/testing";
 import { describe, test, expect } from "vitest";
-import { habitatAca } from "./habitatAca.js";
+import { coralACA } from "./coralACA.js";
 
 describe("Basic smoke tests", () => {
   test("handler function is present", () => {
-    expect(typeof habitatAca).toBe("function");
+    expect(typeof coralACA).toBe("function");
   });
-  test("habitatAca - tests run against all examples", async () => {
+  test("coralACA - tests run against all examples", async () => {
     const examples = await getExamplePolygonSketchAll();
     for (const example of examples) {
-      const result = await habitatAca(example);
+      const result = await coralACA(example);
       expect(result).toBeTruthy();
-      writeResultOutput(result, "habitatAca", example.properties.name);
+      writeResultOutput(result, "coralACA", example.properties.name);
     }
   }, 120_000);
 });

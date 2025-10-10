@@ -32,7 +32,6 @@ import {
 import {
   groupColorMap,
   groupDisplayMapPl,
-  groupDisplayMapSg,
   groups,
   groupsDisplay,
 } from "./getGroup.js";

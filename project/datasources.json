@@ -236,19 +236,6 @@
     "src": "data/src/Data_Products/heatmaps/Kosrae/heatmaps_final/transportation.tif"
   },
   {
-    "datasourceId": "benthic",
-    "geo_type": "vector",
-    "formats": ["fgb", "json"],
-    "precalc": true,
-    "layerName": "benthic_map",
-    "classKeys": ["class"],
-    "created": "2024-01-24T20:56:16.691Z",
-    "lastUpdated": "2025-03-19T17:52:41.214Z",
-    "src": "data/src/Data_Products/Allen_Coral_Atlas/Benthic-Map/benthic_map.fgb",
-    "propertiesToKeep": ["class"],
-    "explodeMulti": true
-  },
-  {
     "datasourceId": "reef_geomorph",
     "geo_type": "vector",
     "formats": ["fgb"],
@@ -262,15 +249,41 @@
     "explodeMulti": true
   },
   {
-    "src": "data/src/Data_Received/EmLab/depth_zones/depth_zones.geojson",
-    "layerName": "depth_zones",
-    "geo_type": "vector",
     "datasourceId": "depth_zones",
+    "geo_type": "vector",
     "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "depth_zones",
     "classKeys": ["zone"],
     "created": "2025-09-16T22:26:37.284Z",
     "lastUpdated": "2025-09-16T22:26:37.284Z",
+    "src": "data/src/Data_Received/EmLab/depth_zones/depth_zones.geojson",
     "propertiesToKeep": ["zone"],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "benthicACA_coralalgae",
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "benthic_coralalgae",
+    "classKeys": [],
+    "created": "2025-10-10T16:39:45.546Z",
+    "lastUpdated": "2025-10-10T16:39:45.546Z",
+    "src": "data/src/Data_Received/Allen Coral Atlas/benthic_coralalgae.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "src": "data/src/Data_Received/Allen Coral Atlas/benthic_seagrass.fgb",
+    "layerName": "benthic_seagrass",
+    "geo_type": "vector",
+    "datasourceId": "benthicACA_seagrass",
+    "formats": ["fgb"],
+    "classKeys": [],
+    "created": "2025-10-10T16:40:03.685Z",
+    "lastUpdated": "2025-10-10T16:40:03.685Z",
+    "propertiesToKeep": [],
     "explodeMulti": true,
     "precalc": true
   }

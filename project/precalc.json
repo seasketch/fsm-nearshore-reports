@@ -58,6 +58,14 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "benthicACA_seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 12394562.519953517
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "chuuk-total",
     "sketchId": null,
     "groupId": null,
@@ -622,6 +630,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 20499
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "benthicACA_seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3660
   },
   {
     "geographyId": "chuuk",
@@ -1338,6 +1354,22 @@
   {
     "geographyId": "kosrae",
     "metricId": "area",
+    "classId": "benthicACA_coralalgae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4366010.2710166285
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "benthicACA_seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3852437.4376259064
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
     "classId": "chuuk-total",
     "sketchId": null,
     "groupId": null,
@@ -1894,6 +1926,22 @@
     "sketchId": null,
     "groupId": null,
     "value": 1008
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "benthicACA_coralalgae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1494
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "benthicACA_seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 668
   },
   {
     "geographyId": "kosrae",
