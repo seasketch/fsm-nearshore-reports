@@ -2,7 +2,9 @@
   {
     "datasourceId": "global-clipping-osm-land",
     "geo_type": "vector",
-    "formats": ["subdivided"],
+    "formats": [
+      "subdivided"
+    ],
     "precalc": false,
     "idProperty": "gid",
     "nameProperty": "gid",
@@ -12,7 +14,9 @@
   {
     "datasourceId": "global-clipping-eez-land-union",
     "geo_type": "vector",
-    "formats": ["subdivided"],
+    "formats": [
+      "subdivided"
+    ],
     "precalc": false,
     "idProperty": "UNION",
     "nameProperty": "UNION",
@@ -22,7 +26,10 @@
   {
     "datasourceId": "global-eez-mr-v12",
     "geo_type": "vector",
-    "formats": ["fgb", "json"],
+    "formats": [
+      "fgb",
+      "json"
+    ],
     "precalc": false,
     "metadata": {
       "name": "World EEZ v11",
@@ -36,10 +43,14 @@
     "nameProperty": "GEONAME",
     "propertyFilter": {
       "property": "GEONAME",
-      "values": ["Micronesian Exclusive Economic Zone"]
+      "values": [
+        "Micronesian Exclusive Economic Zone"
+      ]
     },
     "bboxFilter": [
-      135.31555560000015, -1.171388888586307, 165.67611110000007,
+      135.31555560000015,
+      -1.171388888586307,
+      165.67611110000007,
       13.44070556000014
     ],
     "classKeys": [],
@@ -48,7 +59,10 @@
   {
     "datasourceId": "world",
     "geo_type": "vector",
-    "formats": ["json", "fgb"],
+    "formats": [
+      "json",
+      "fgb"
+    ],
     "precalc": false,
     "metadata": {
       "name": "World Outline Polygon",
@@ -65,7 +79,10 @@
   {
     "datasourceId": "nearshore",
     "geo_type": "vector",
-    "formats": ["fgb", "json"],
+    "formats": [
+      "fgb",
+      "json"
+    ],
     "precalc": true,
     "layerName": "nearshore_mr_osm",
     "classKeys": [],
@@ -78,7 +95,10 @@
   {
     "datasourceId": "chuuk",
     "geo_type": "vector",
-    "formats": ["fgb", "json"],
+    "formats": [
+      "fgb",
+      "json"
+    ],
     "precalc": true,
     "layerName": "chuuk_nearshore_mr_osm",
     "classKeys": [],
@@ -91,7 +111,10 @@
   {
     "datasourceId": "kosrae",
     "geo_type": "vector",
-    "formats": ["fgb", "json"],
+    "formats": [
+      "fgb",
+      "json"
+    ],
     "precalc": true,
     "layerName": "kosrae_nearshore_mr_osm",
     "classKeys": [],
@@ -104,7 +127,10 @@
   {
     "datasourceId": "pohnpei",
     "geo_type": "vector",
-    "formats": ["fgb", "json"],
+    "formats": [
+      "fgb",
+      "json"
+    ],
     "precalc": true,
     "layerName": "pohnpei_nearshore_mr_osm",
     "classKeys": [],
@@ -117,7 +143,10 @@
   {
     "datasourceId": "yap",
     "geo_type": "vector",
-    "formats": ["fgb", "json"],
+    "formats": [
+      "fgb",
+      "json"
+    ],
     "precalc": true,
     "layerName": "yap_nearshore_mr_osm",
     "classKeys": [],
@@ -130,7 +159,9 @@
   {
     "datasourceId": "ous_aquaculture",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -142,7 +173,9 @@
   {
     "datasourceId": "ous_community_recreational_use",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -154,7 +187,9 @@
   {
     "datasourceId": "ous_construction_infrastructure",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -166,7 +201,9 @@
   {
     "datasourceId": "ous_cultural_use",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -178,7 +215,9 @@
   {
     "datasourceId": "ous_fisheries",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -190,7 +229,9 @@
   {
     "datasourceId": "ous_maritime_activity",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -202,7 +243,9 @@
   {
     "datasourceId": "ous_research",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -214,7 +257,9 @@
   {
     "datasourceId": "ous_tourism",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -226,7 +271,9 @@
   {
     "datasourceId": "ous_transportation",
     "geo_type": "raster",
-    "formats": ["tif"],
+    "formats": [
+      "tif"
+    ],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -238,33 +285,47 @@
   {
     "datasourceId": "reef_geomorph",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "reef_geomorph_complete",
-    "classKeys": ["class"],
+    "classKeys": [
+      "class"
+    ],
     "created": "2025-09-16T22:19:34.700Z",
     "lastUpdated": "2025-09-16T22:19:34.700Z",
     "src": "data/src/Data_Received/EmLab/reef_geomorphology_mcr/reef_geomorph_complete.geojson",
-    "propertiesToKeep": ["class"],
+    "propertiesToKeep": [
+      "class"
+    ],
     "explodeMulti": true
   },
   {
     "datasourceId": "depth_zones",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "depth_zones",
-    "classKeys": ["zone"],
+    "classKeys": [
+      "zone"
+    ],
     "created": "2025-09-16T22:26:37.284Z",
     "lastUpdated": "2025-09-16T22:26:37.284Z",
     "src": "data/src/Data_Received/EmLab/depth_zones/depth_zones.geojson",
-    "propertiesToKeep": ["zone"],
+    "propertiesToKeep": [
+      "zone"
+    ],
     "explodeMulti": true
   },
   {
     "datasourceId": "benthicACA_coralalgae",
     "geo_type": "vector",
-    "formats": ["fgb"],
+    "formats": [
+      "fgb"
+    ],
     "precalc": true,
     "layerName": "benthic_coralalgae",
     "classKeys": [],
@@ -275,14 +336,200 @@
     "explodeMulti": true
   },
   {
-    "src": "data/src/Data_Received/Allen Coral Atlas/benthic_seagrass.fgb",
-    "layerName": "benthic_seagrass",
-    "geo_type": "vector",
     "datasourceId": "benthicACA_seagrass",
-    "formats": ["fgb"],
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "benthic_seagrass",
     "classKeys": [],
     "created": "2025-10-10T16:40:03.685Z",
     "lastUpdated": "2025-10-10T16:40:03.685Z",
+    "src": "data/src/Data_Received/Allen Coral Atlas/benthic_seagrass.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "spawnAgg_barracuda",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "barracuda",
+    "classKeys": [
+      "species_translated"
+    ],
+    "created": "2025-10-13T18:33:29.927Z",
+    "lastUpdated": "2025-10-13T18:33:29.927Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/barracuda.fgb",
+    "propertiesToKeep": [
+      "species_translated"
+    ],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "spawnAgg_blackJack",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "black_jack",
+    "classKeys": [],
+    "created": "2025-10-13T18:33:51.828Z",
+    "lastUpdated": "2025-10-13T18:33:51.828Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/black_jack.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "spawnAgg_blacktailSnapper",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "blacktail_snapper",
+    "classKeys": [],
+    "created": "2025-10-13T18:34:09.394Z",
+    "lastUpdated": "2025-10-13T18:34:09.394Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/blacktail_snapper.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "spawnAgg_emperorSp",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "emperor_sp",
+    "classKeys": [],
+    "created": "2025-10-13T18:34:30.756Z",
+    "lastUpdated": "2025-10-13T18:34:30.756Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/emperor_sp.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "spawnAgg_lowfinRudderfish",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "lowfin_rudderfish",
+    "classKeys": [],
+    "created": "2025-10-13T18:34:50.890Z",
+    "lastUpdated": "2025-10-13T18:34:50.890Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/lowfin_rudderfish.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "spawnAgg_mulletFringelip",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "mullet_fringelip",
+    "classKeys": [],
+    "created": "2025-10-13T19:46:13.703Z",
+    "lastUpdated": "2025-10-13T19:46:13.703Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/mullet_fringelip.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "spawnAgg_mulletSp",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "mullet_sp",
+    "classKeys": [],
+    "created": "2025-10-13T19:46:45.713Z",
+    "lastUpdated": "2025-10-13T19:46:45.713Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/mullet_sp.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "spawnAgg_oneSpotSnapper",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "one_spot_snapper",
+    "classKeys": [],
+    "created": "2025-10-13T19:47:07.328Z",
+    "lastUpdated": "2025-10-13T19:47:07.328Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/one_spot_snapper.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "spawnAgg_orangeSpineUnicornfish",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "orange_spine_unicorn_fish",
+    "classKeys": [],
+    "created": "2025-10-13T19:47:26.935Z",
+    "lastUpdated": "2025-10-13T19:47:26.935Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/orange_spine_unicorn_fish.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "spawnAgg_rabbitfishSpp",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "rabbitfish_spp",
+    "classKeys": [],
+    "created": "2025-10-13T19:47:41.444Z",
+    "lastUpdated": "2025-10-13T19:47:41.444Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/rabbitfish_spp.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "spawnAgg_randallsRabbitfish",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "randalls_rabbitfish",
+    "classKeys": [],
+    "created": "2025-10-13T19:48:05.198Z",
+    "lastUpdated": "2025-10-13T19:48:05.198Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/randalls_rabbitfish.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/scribbled_rabbitfish.fgb",
+    "layerName": "scribbled_rabbitfish",
+    "geo_type": "vector",
+    "datasourceId": "spawnAgg_scribbledRabbitfish",
+    "formats": [
+      "fgb"
+    ],
+    "classKeys": [],
+    "created": "2025-10-13T19:48:26.219Z",
+    "lastUpdated": "2025-10-13T19:48:26.219Z",
     "propertiesToKeep": [],
     "explodeMulti": true,
     "precalc": true

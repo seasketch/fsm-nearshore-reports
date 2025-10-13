@@ -23,6 +23,7 @@ import { DepthZones } from "../components/DepthZones.js";
 import { useTranslation } from "react-i18next";
 import { CoralACA } from "../components/CoralACA.js";
 import { SeagrassACA } from "../components/SeagrassACA.js";
+import { SpawnAgg } from "../components/SpawnAgg.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -139,7 +140,7 @@ const BaseReport = () => {
             <>
               <CoralACA geographyId={geographyId} printing={isPrinting} />
               <SeagrassACA geographyId={geographyId} printing={isPrinting} />
-
+              <SpawnAgg geographyId={geographyId} printing={isPrinting} />
               <ReefGeomorphic geographyId={geographyId} printing={isPrinting} />
               <DepthZones geographyId={geographyId} printing={isPrinting} />
             </>

@@ -578,6 +578,110 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "spawnAgg_barracuda-Barracuda",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_barracuda-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_blackJack-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_blacktailSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_emperorSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_lowfinRudderfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_mulletFringelip-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_mulletSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_oneSpotSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_orangeSpineUnicornfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_rabbitfishSpp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_randallsRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "spawnAgg_scribbledRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -1155,6 +1259,110 @@
     "geographyId": "chuuk",
     "metricId": "count",
     "classId": "reef_geomorph-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_barracuda-Barracuda",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_barracuda-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_blackJack-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_blacktailSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_emperorSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_lowfinRudderfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_mulletFringelip-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_mulletSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_oneSpotSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_orangeSpineUnicornfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_rabbitfishSpp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_randallsRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "spawnAgg_scribbledRabbitfish-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -1882,6 +2090,110 @@
   {
     "geographyId": "kosrae",
     "metricId": "area",
+    "classId": "spawnAgg_barracuda-Barracuda",
+    "sketchId": null,
+    "groupId": null,
+    "value": 84277.45652352116
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_barracuda-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 84277.45652352116
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_blackJack-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 61422.01842227965
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_blacktailSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 21778.48436298512
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_emperorSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5600695.30157542
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_lowfinRudderfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 36602.58639503771
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_mulletFringelip-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 137318.54052513168
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_mulletSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 5600695.30157542
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_oneSpotSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 28737.414581202895
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_orangeSpineUnicornfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 36602.58639503771
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_rabbitfishSpp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 218859.6163865264
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_randallsRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2857170.5774395633
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "spawnAgg_scribbledRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 107434.78737237774
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -2454,6 +2766,110 @@
     "sketchId": null,
     "groupId": null,
     "value": 76
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_barracuda-Barracuda",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_barracuda-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_blackJack-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_blacktailSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_emperorSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_lowfinRudderfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_mulletFringelip-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_mulletSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_oneSpotSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_orangeSpineUnicornfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_rabbitfishSpp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_randallsRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "spawnAgg_scribbledRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
   },
   {
     "geographyId": "kosrae",
@@ -3162,6 +3578,110 @@
   {
     "geographyId": "pohnpei",
     "metricId": "area",
+    "classId": "spawnAgg_barracuda-Barracuda",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_barracuda-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_blackJack-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_blacktailSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_emperorSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_lowfinRudderfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_mulletFringelip-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_mulletSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_oneSpotSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_orangeSpineUnicornfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_rabbitfishSpp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_randallsRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "spawnAgg_scribbledRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -3715,6 +4235,110 @@
     "geographyId": "pohnpei",
     "metricId": "count",
     "classId": "reef_geomorph-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_barracuda-Barracuda",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_barracuda-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_blackJack-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_blacktailSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_emperorSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_lowfinRudderfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_mulletFringelip-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_mulletSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_oneSpotSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_orangeSpineUnicornfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_rabbitfishSpp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_randallsRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "spawnAgg_scribbledRabbitfish-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -4442,6 +5066,110 @@
   {
     "geographyId": "yap",
     "metricId": "area",
+    "classId": "spawnAgg_barracuda-Barracuda",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_barracuda-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_blackJack-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_blacktailSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_emperorSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_lowfinRudderfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_mulletFringelip-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_mulletSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_oneSpotSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_orangeSpineUnicornfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_rabbitfishSpp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_randallsRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "spawnAgg_scribbledRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -5011,6 +5739,110 @@
     "geographyId": "yap",
     "metricId": "count",
     "classId": "reef_geomorph-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_barracuda-Barracuda",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_barracuda-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_blackJack-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_blacktailSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_emperorSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_lowfinRudderfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_mulletFringelip-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_mulletSp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_oneSpotSnapper-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_orangeSpineUnicornfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_rabbitfishSpp-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_randallsRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "spawnAgg_scribbledRabbitfish-total",
     "sketchId": null,
     "groupId": null,
     "value": 0

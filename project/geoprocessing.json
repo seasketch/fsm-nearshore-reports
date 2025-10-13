@@ -9,7 +9,9 @@
       "source": "src/clients/MpaTabReport.tsx"
     }
   ],
-  "preprocessingFunctions": ["src/functions/clipToOceanNearshore.ts"],
+  "preprocessingFunctions": [
+    "src/functions/clipToOceanNearshore.ts"
+  ],
   "geoprocessingFunctions": [
     "src/functions/groupCountOverlap.ts",
     "src/functions/boundaryAreaOverlap.ts",
@@ -19,6 +21,7 @@
     "src/functions/ousDemographicOverlap.ts",
     "src/functions/printMap.ts",
     "src/functions/coralACA.ts",
-    "src/functions/seagrassACA.ts"
+    "src/functions/seagrassACA.ts",
+    "src/functions/spawnAgg.ts"
   ]
 }

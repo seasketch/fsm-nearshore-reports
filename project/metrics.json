@@ -405,5 +405,72 @@
         "layerId": ""
       }
     ]
+  },
+  {
+    "metricId": "spawnAgg",
+    "type": "areaOverlap",
+    "layerId": "MRRyzwSsK",
+    "classes": [
+      {
+        "datasourceId": "spawnAgg_barracuda",
+        "classId": "spawnAgg_barracuda",
+        "display": "Barracuda"
+      },
+      {
+        "datasourceId": "spawnAgg_blackJack",
+        "classId": "spawnAgg_blackJack",
+        "display": "Black Jack"
+      },
+      {
+        "datasourceId": "spawnAgg_blacktailSnapper",
+        "classId": "spawnAgg_blacktailSnapper",
+        "display": "Blacktail Snapper"
+      },
+      {
+        "datasourceId": "spawnAgg_emperorSp",
+        "classId": "spawnAgg_emperorSp",
+        "display": "Emperor"
+      },
+      {
+        "datasourceId": "spawnAgg_lowfinRudderfish",
+        "classId": "spawnAgg_lowfinRudderfish",
+        "display": "Lowfin Rudderfish"
+      },
+      {
+        "datasourceId": "spawnAgg_mulletFringelip",
+        "classId": "spawnAgg_mulletFringelip",
+        "display": "Mullet Fringelip"
+      },
+      {
+        "datasourceId": "spawnAgg_mulletSp",
+        "classId": "spawnAgg_mulletSp",
+        "display": "Mullet"
+      },
+      {
+        "datasourceId": "spawnAgg_oneSpotSnapper",
+        "classId": "spawnAgg_oneSpotSnapper",
+        "display": "One Spot Snapper"
+      },
+      {
+        "datasourceId": "spawnAgg_orangeSpineUnicornfish",
+        "classId": "spawnAgg_orangeSpineUnicornfish",
+        "display": "Orange Spine Unicornfish"
+      },
+      {
+        "datasourceId": "spawnAgg_rabbitfishSpp",
+        "classId": "spawnAgg_rabbitfishSpp",
+        "display": "Rabbitfish"
+      },
+      {
+        "datasourceId": "spawnAgg_randallsRabbitfish",
+        "classId": "spawnAgg_randallsRabbitfish",
+        "display": "Randalls Rabbitfish"
+      },
+      {
+        "datasourceId": "spawnAgg_scribbledRabbitfish",
+        "classId": "spawnAgg_scribbledRabbitfish",
+        "display": "Scribbled Rabbitfish"
+      }
+    ]
   }
 ]

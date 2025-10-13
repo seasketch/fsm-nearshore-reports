@@ -1,0 +1,1532 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 32310.638873,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 32310.638873,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 32310.638873,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 32310.638873,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 32310.638873,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 32310.638873,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 32310.638873,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 32310.638873,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "24665",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "24666",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "24667",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 24665,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 24667,
+        "bbox": [
+          162.9308545,
+          5.2671412,
+          162.944730692,
+          5.2717376
+        ],
+        "type": "Feature",
+        "properties": {
+          "6333": "aquaculture-site",
+          "id": "24667",
+          "name": "aquaculture-site",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2024-01-22T19:34:45.136882+00:00",
+          "updatedAt": "2024-01-22T19:34:47.762303+00:00",
+          "description": null,
+          "collectionId": "24665",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "752",
+          "userAttributes": [
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6335,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6336,
+              "alternateLanguages": {}
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 24666,
+        "bbox": [
+          162.968300094,
+          5.3656883,
+          162.997420869,
+          5.416262167
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "mpa",
+          "id": "24666",
+          "name": "mpa",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2024-01-22T19:34:26.038043+00:00",
+          "updatedAt": "2024-01-22T19:34:28.590769+00:00",
+          "collectionId": "24665",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "6293": "mixed-network",
+      "id": "24665",
+      "name": "mixed-network",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-01-22T19:34:06.684054+00:00",
+      "updatedAt": "2024-01-22T19:34:47.762303+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "746",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6294,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6295,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    }
+  }
+}
