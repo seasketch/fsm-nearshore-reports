@@ -61,7 +61,7 @@
     "classId": "benthicACA_coralalgae-total",
     "sketchId": null,
     "groupId": null,
-    "value": 96677361.98633957
+    "value": 96677361.98633917
   },
   {
     "geographyId": "chuuk",
@@ -3082,6 +3082,22 @@
   {
     "geographyId": "pohnpei",
     "metricId": "area",
+    "classId": "benthicACA_coralalgae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 51404049.252544194
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "benthicACA_seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 57285711.3615104
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
     "classId": "chuuk-total",
     "sketchId": null,
     "groupId": null,
@@ -3742,6 +3758,22 @@
     "sketchId": null,
     "groupId": null,
     "value": 19969
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "benthicACA_coralalgae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 18633
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "benthicACA_seagrass-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 7803
   },
   {
     "geographyId": "pohnpei",
