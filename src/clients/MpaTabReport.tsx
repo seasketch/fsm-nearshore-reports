@@ -135,17 +135,18 @@ const BaseReport = () => {
           )}
           {!isPrinting && <SketchAttributesCard autoHide />}
         </ReportPage>
-        {geographyId === "kosrae" && (
-          <ReportPage hidden={!isPrinting && tab !== habitatId}>
+
+        <ReportPage hidden={!isPrinting && tab !== habitatId}>
+          <CoralACA geographyId={geographyId} printing={isPrinting} />
+          <SeagrassACA geographyId={geographyId} printing={isPrinting} />
+          {geographyId === "kosrae" && (
             <>
-              <CoralACA geographyId={geographyId} printing={isPrinting} />
-              <SeagrassACA geographyId={geographyId} printing={isPrinting} />
               <SpawnAgg geographyId={geographyId} printing={isPrinting} />
               <ReefGeomorphic geographyId={geographyId} printing={isPrinting} />
               <DepthZones geographyId={geographyId} printing={isPrinting} />
             </>
-          </ReportPage>
-        )}
+          )}
+        </ReportPage>
       </div>
 
       {/* Footer */}
