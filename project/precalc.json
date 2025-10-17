@@ -2,6 +2,46 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -90,6 +130,54 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "depth_zones-0 - 30m: Altiphotic",
     "sketchId": null,
     "groupId": null,
@@ -139,6 +227,78 @@
     "geographyId": "chuuk",
     "metricId": "area",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "gear_verticalLongline-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -506,6 +666,38 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
@@ -690,6 +882,46 @@
   {
     "geographyId": "chuuk",
     "metricId": "count",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -778,6 +1010,54 @@
   {
     "geographyId": "chuuk",
     "metricId": "count",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
     "classId": "depth_zones-0 - 30m: Altiphotic",
     "sketchId": null,
     "groupId": null,
@@ -827,6 +1107,78 @@
     "geographyId": "chuuk",
     "metricId": "count",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "gear_verticalLongline-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -1194,6 +1546,38 @@
   {
     "geographyId": "chuuk",
     "metricId": "count",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
@@ -1378,6 +1762,166 @@
   {
     "geographyId": "chuuk",
     "metricId": "sum",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "gear_verticalLongline-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": null,
@@ -1449,6 +1993,198 @@
   },
   {
     "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "gear_verticalLongline-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
     "metricId": "valid",
     "classId": "ous_aquaculture-total",
     "sketchId": null,
@@ -1518,6 +2254,78 @@
     "sketchId": null,
     "groupId": null,
     "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 265056.255964
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 153719.724944
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 8929.253697
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 119832.221412
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1570654.910382
   },
   {
     "geographyId": "kosrae",
@@ -1602,6 +2410,54 @@
   {
     "geographyId": "kosrae",
     "metricId": "area",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 6235318.94707
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 6622360.32443
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 17249102.886769
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2307378.960835
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 10103989.773615
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 73206306.42125
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
     "classId": "depth_zones-0 - 30m: Altiphotic",
     "sketchId": null,
     "groupId": null,
@@ -1654,6 +2510,78 @@
     "sketchId": null,
     "groupId": null,
     "value": 2636673881.563806
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2569855626.131026
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 85829284.799387
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 13825488.607168
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 15911869.010438
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 68067263.515185
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 13664123.32951
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 38549307.817638
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2546030669.199547
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "gear_verticalLongline-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 268231759.225307
   },
   {
     "geographyId": "kosrae",
@@ -2018,6 +2946,38 @@
   {
     "geographyId": "kosrae",
     "metricId": "area",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2579725620.228158
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2522990441.405412
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 12108893.995612
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 26528917.993047
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
@@ -2202,6 +3162,46 @@
   {
     "geographyId": "kosrae",
     "metricId": "count",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 36018
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 925
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 4476
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 7386
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2982
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -2282,6 +3282,54 @@
   {
     "geographyId": "kosrae",
     "metricId": "count",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 90332
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 66392
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 88492
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 77489
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 69121
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 256822
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
     "classId": "depth_zones-0 - 30m: Altiphotic",
     "sketchId": null,
     "groupId": null,
@@ -2334,6 +3382,78 @@
     "sketchId": null,
     "groupId": null,
     "value": 6
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2886954
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 216938
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 66412
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 106095
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 179140
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 70440
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 116483
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2889957
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "gear_verticalLongline-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 471024
   },
   {
     "geographyId": "kosrae",
@@ -2698,6 +3818,38 @@
   {
     "geographyId": "kosrae",
     "metricId": "count",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2889546
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2845698
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 81466
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 134473
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
@@ -2882,6 +4034,166 @@
   {
     "geographyId": "kosrae",
     "metricId": "sum",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2447387.548889
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 430711.930176
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 7774640.46875
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 97327.335327
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 140999.110901
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 30296835.461395
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 3965842.406502
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 6025011.742889
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 11556555.829788
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 11889990.740702
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2744354.883664
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 16096500.462748
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 30082504.25933
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 9885230.651074
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 11953839.696785
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 5340832.165133
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 10670492.152653
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 15838775.885491
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 4474822.488781
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "gear_verticalLongline-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1411244.145716
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": null,
@@ -2950,6 +4262,198 @@
     "sketchId": null,
     "groupId": null,
     "value": 332.193213
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 29752197.688877
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 53429512.98875
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2873825.235907
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1644535.04015
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 311
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 133
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 9
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 123
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1618
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 7126
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 7864
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 20393
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2648
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 12002
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 88619
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2830191
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 98002
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 14619
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 18042
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 73782
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 15327
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 44570
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2807701
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "gear_verticalLongline-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 315803
   },
   {
     "geographyId": "kosrae",
@@ -3022,6 +4526,78 @@
     "sketchId": null,
     "groupId": null,
     "value": 296586
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2842112
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2757482
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 14604
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 30201
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
   },
   {
     "geographyId": "pohnpei",
@@ -3106,6 +4682,54 @@
   {
     "geographyId": "pohnpei",
     "metricId": "area",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
     "classId": "depth_zones-0 - 30m: Altiphotic",
     "sketchId": null,
     "groupId": null,
@@ -3155,6 +4779,78 @@
     "geographyId": "pohnpei",
     "metricId": "area",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "gear_verticalLongline-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -3522,6 +5218,38 @@
   {
     "geographyId": "pohnpei",
     "metricId": "area",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
@@ -3706,6 +5434,46 @@
   {
     "geographyId": "pohnpei",
     "metricId": "count",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -3786,6 +5554,54 @@
   {
     "geographyId": "pohnpei",
     "metricId": "count",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
     "classId": "depth_zones-0 - 30m: Altiphotic",
     "sketchId": null,
     "groupId": null,
@@ -3835,6 +5651,78 @@
     "geographyId": "pohnpei",
     "metricId": "count",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "gear_verticalLongline-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -4202,6 +6090,38 @@
   {
     "geographyId": "pohnpei",
     "metricId": "count",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
@@ -4386,6 +6306,166 @@
   {
     "geographyId": "pohnpei",
     "metricId": "sum",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "gear_verticalLongline-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": null,
@@ -4457,6 +6537,198 @@
   },
   {
     "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "gear_verticalLongline-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
     "metricId": "valid",
     "classId": "ous_aquaculture-total",
     "sketchId": null,
@@ -4523,6 +6795,78 @@
     "geographyId": "pohnpei",
     "metricId": "valid",
     "classId": "ous_transportation-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "aquaculture-trochusFarming-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -4610,6 +6954,54 @@
   {
     "geographyId": "yap",
     "metricId": "area",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
     "classId": "depth_zones-0 - 30m: Altiphotic",
     "sketchId": null,
     "groupId": null,
@@ -4659,6 +7051,78 @@
     "geographyId": "yap",
     "metricId": "area",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "gear_verticalLongline-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -5026,6 +7490,38 @@
   {
     "geographyId": "yap",
     "metricId": "area",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
@@ -5210,6 +7706,46 @@
   {
     "geographyId": "yap",
     "metricId": "count",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -5290,6 +7826,54 @@
   {
     "geographyId": "yap",
     "metricId": "count",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
     "classId": "depth_zones-0 - 30m: Altiphotic",
     "sketchId": null,
     "groupId": null,
@@ -5339,6 +7923,78 @@
     "geographyId": "yap",
     "metricId": "count",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "gear_verticalLongline-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -5706,6 +8362,38 @@
   {
     "geographyId": "yap",
     "metricId": "count",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
@@ -5890,6 +8578,166 @@
   {
     "geographyId": "yap",
     "metricId": "sum",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "gear_verticalLongline-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": null,
@@ -5961,6 +8809,198 @@
   },
   {
     "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "aquaculture-clamFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "aquaculture-coralFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "aquaculture-finfishFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "aquaculture-seaCucumberFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "cultural_handicrafts-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "cultural_historicalSite-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "cultural_preservationFood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "cultural_preservationWood-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "cultural_seaCucumberCollection-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "gear_bottomFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "gear_casting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "gear_castNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "gear_gatheringReefGleaning-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "gear_spearHarpoon-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "gear_torchFishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "gear_trapFishFenceGillNet-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "gear_trolling-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "gear_verticalLongline-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
     "metricId": "valid",
     "classId": "ous_aquaculture-total",
     "sketchId": null,
@@ -6027,6 +9067,38 @@
     "geographyId": "yap",
     "metricId": "valid",
     "classId": "ous_transportation-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "purpose_churchCultural-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "purpose_homeConsumption-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "purpose_sale-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "purpose_sendToFamilyAbroad-total",
     "sketchId": null,
     "groupId": null,
     "value": 0

@@ -2,6 +2,822 @@
   "metrics": [
     {
       "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-clamFarming",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 390663.661133,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-clamFarming",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-clamFarming",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 390663.661133,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-coralFarming",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-coralFarming",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-coralFarming",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-finfishFarming",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-finfishFarming",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-finfishFarming",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-seaCucumberFarming",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-seaCucumberFarming",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-seaCucumberFarming",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-trochusFarming",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-trochusFarming",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-trochusFarming",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_handicrafts",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 312436.849365,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_handicrafts",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_handicrafts",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 312436.849365,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_historicalSite",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 262689.925507,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_historicalSite",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_historicalSite",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 262689.925507,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationFood",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 683967.562893,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationFood",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 181176.342041,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationFood",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 865143.904934,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationWood",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 550121.540253,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationWood",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 108183.291016,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationWood",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 658304.831268,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_seaCucumberCollection",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 1418180.571907,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_seaCucumberCollection",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_seaCucumberCollection",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 1418180.571907,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_turtleHarvesting",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 43655.06514,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_turtleHarvesting",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 50913.406952,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_turtleHarvesting",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 94568.472092,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_bottomFishing",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 1078900.688281,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_bottomFishing",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 158892.242735,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_bottomFishing",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 1237792.931015,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_casting",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 648934.011224,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_casting",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 10960.003127,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_casting",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 659894.01435,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_castNet",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_castNet",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_castNet",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_gatheringReefGleaning",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 1120840.503448,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_gatheringReefGleaning",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 621.627991,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_gatheringReefGleaning",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 1121462.131439,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_spearHarpoon",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 112802.774712,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_spearHarpoon",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 16250.159092,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_spearHarpoon",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 129052.933804,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_torchFishing",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 630690.08149,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_torchFishing",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_torchFishing",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 630690.08149,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trapFishFenceGillNet",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 420495.206841,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trapFishFenceGillNet",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 8561.186829,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trapFishFenceGillNet",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 429056.39367,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trolling",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 243063.5986,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trolling",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 55488.941918,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trolling",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 298552.540518,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_verticalLongline",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 57030.914597,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_verticalLongline",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 4159.413998,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_verticalLongline",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 61190.328594,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_churchCultural",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 1583463.011112,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_churchCultural",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 69228.293045,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_churchCultural",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 1652691.304157,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_homeConsumption",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 2564030.215416,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_homeConsumption",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 155675.232021,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_homeConsumption",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 2719705.447438,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sale",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sale",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 6669.15423,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sale",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 6669.15423,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sendToFamilyAbroad",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 44076.887321,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sendToFamilyAbroad",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 22032.727036,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sendToFamilyAbroad",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 66109.614357,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "25164",

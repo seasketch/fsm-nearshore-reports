@@ -1,11 +1,15 @@
 import React from "react";
 import {
+  ClassTable,
   Collapse,
   ResultsCard,
   Skeleton,
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
-import { ReportResult } from "@seasketch/geoprocessing/client-core";
+import {
+  ReportResult,
+  toPercentMetric,
+} from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
 import Translator from "./TranslatorAsync.js";
@@ -33,12 +37,26 @@ export const OUSCard: React.FunctionComponent<ReportProps> = (props) => {
   return (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
-        title={t("Ocean Use Within Planning Area")}
+        title={t("Ocean Use")}
         functionName="ousValueOverlap"
         extraParams={{ geographyIds: [curGeography.geographyId] }}
       >
         {(data: ReportResult) => {
           if (!data || !data.metrics) return <Skeleton />;
+
+          const subsectorMetricGroup = project.getMetricGroup(
+            "ousSubsectorValueOverlap",
+          );
+          const subsectorMetrics = toPercentMetric(
+            data.metrics.filter(
+              (m) => m.metricId === "ousSubsectorValueOverlap",
+            ),
+            project.getPrecalcMetrics(
+              subsectorMetricGroup,
+              "sum",
+              curGeography.geographyId,
+            ),
+          );
 
           return (
             <>
@@ -93,6 +111,134 @@ export const OUSCard: React.FunctionComponent<ReportProps> = (props) => {
                 )}
               </Translator>
 
+              <Collapse title={t("Show by Aquaculture Type")}>
+                <ClassTable
+                  rows={subsectorMetrics.filter((m) =>
+                    m.classId?.startsWith("aquaculture"),
+                  )}
+                  metricGroup={{
+                    ...subsectorMetricGroup,
+                    classes: subsectorMetricGroup.classes.filter((c) =>
+                      c.classId?.startsWith("aquaculture"),
+                    ),
+                  }}
+                  columnConfig={[
+                    {
+                      columnLabel: "Aquaculture Type",
+                      type: "class",
+                      width: 30,
+                    },
+                    {
+                      columnLabel: "% Value",
+                      type: "metricChart",
+                      metricId: subsectorMetricGroup.metricId,
+                      valueFormatter: "percent",
+                      chartOptions: {
+                        showTitle: true,
+                      },
+                      width: 20,
+                      colStyle: { textAlign: "center" },
+                    },
+                  ]}
+                />
+              </Collapse>
+
+              <Collapse title={t("Show by Fishing Gear")}>
+                <ClassTable
+                  rows={subsectorMetrics.filter((m) =>
+                    m.classId?.startsWith("gear"),
+                  )}
+                  metricGroup={{
+                    ...subsectorMetricGroup,
+                    classes: subsectorMetricGroup.classes.filter((c) =>
+                      c.classId?.startsWith("gear"),
+                    ),
+                  }}
+                  columnConfig={[
+                    {
+                      columnLabel: "Gear Type",
+                      type: "class",
+                      width: 30,
+                    },
+                    {
+                      columnLabel: "% Value",
+                      type: "metricChart",
+                      metricId: subsectorMetricGroup.metricId,
+                      valueFormatter: "percent",
+                      chartOptions: {
+                        showTitle: true,
+                      },
+                      width: 20,
+                      colStyle: { textAlign: "center" },
+                    },
+                  ]}
+                />
+              </Collapse>
+
+              <Collapse title={t("Show by Fishing Purpose")}>
+                <ClassTable
+                  rows={subsectorMetrics.filter((m) =>
+                    m.classId?.startsWith("purpose"),
+                  )}
+                  metricGroup={{
+                    ...subsectorMetricGroup,
+                    classes: subsectorMetricGroup.classes.filter((c) =>
+                      c.classId?.startsWith("purpose"),
+                    ),
+                  }}
+                  columnConfig={[
+                    {
+                      columnLabel: "Fishing Purpose",
+                      type: "class",
+                      width: 30,
+                    },
+                    {
+                      columnLabel: "% Value",
+                      type: "metricChart",
+                      metricId: subsectorMetricGroup.metricId,
+                      valueFormatter: "percent",
+                      chartOptions: {
+                        showTitle: true,
+                      },
+                      width: 20,
+                      colStyle: { textAlign: "center" },
+                    },
+                  ]}
+                />
+              </Collapse>
+
+              <Collapse title={t("Show by Cultural Use Type")}>
+                <ClassTable
+                  rows={subsectorMetrics.filter((m) =>
+                    m.classId?.startsWith("cultural"),
+                  )}
+                  metricGroup={{
+                    ...subsectorMetricGroup,
+                    classes: subsectorMetricGroup.classes.filter((c) =>
+                      c.classId?.startsWith("cultural"),
+                    ),
+                  }}
+                  columnConfig={[
+                    {
+                      columnLabel: "Cultural Use Type",
+                      type: "class",
+                      width: 30,
+                    },
+                    {
+                      columnLabel: "% Value",
+                      type: "metricChart",
+                      metricId: subsectorMetricGroup.metricId,
+                      valueFormatter: "percent",
+                      chartOptions: {
+                        showTitle: true,
+                      },
+                      width: 20,
+                      colStyle: { textAlign: "center" },
+                    },
+                  ]}
+                />
+              </Collapse>
+
               {!props.printing && (
                 <Collapse title={t("Learn more")}>
                   <Trans i18nKey="OUS Card - learn more">
@@ -109,14 +255,13 @@ export const OUSCard: React.FunctionComponent<ReportProps> = (props) => {
                     </p>
                     <p>
                       Value is then used as a proxy for measuring the potential
-                      economic loss to sectors caused by the creation of
-                      protected areas. This report can be used to minimize the
-                      potential impact of a plan on a sector, as well as
-                      identify and reduce conflict between conservation
-                      objectives and sector activities. The higher the
-                      proportion of value within the plan, the greater the
-                      potential impact to the fishery if access or activities
-                      are restricted.
+                      loss to sectors caused by the creation of protected areas.
+                      This report can be used to minimize the potential impact
+                      of a plan on a sector, as well as identify and reduce
+                      conflict between conservation objectives and sector
+                      activities. The higher the proportion of value within the
+                      plan, the greater the potential impact to the activity if
+                      access is restricted.
                     </p>
                     <p>
                       Note, the resulting heatmaps are only representative of

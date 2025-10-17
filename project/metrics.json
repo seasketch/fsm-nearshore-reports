@@ -87,6 +87,132 @@
     ]
   },
   {
+    "metricId": "ousSubsectorValueOverlap",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "aquaculture-clamFarming",
+        "display": "Clam Farming",
+        "datasourceId": "aquaculture-clamFarming"
+      },
+      {
+        "classId": "aquaculture-coralFarming",
+        "display": "Coral Farming",
+        "datasourceId": "aquaculture-coralFarming"
+      },
+      {
+        "classId": "aquaculture-finfishFarming",
+        "display": "Finfish Farming",
+        "datasourceId": "aquaculture-finfishFarming"
+      },
+      {
+        "classId": "aquaculture-seaCucumberFarming",
+        "display": "Sea Cucumber Farming",
+        "datasourceId": "aquaculture-seaCucumberFarming"
+      },
+      {
+        "classId": "aquaculture-trochusFarming",
+        "display": "Trochus Farming",
+        "datasourceId": "aquaculture-trochusFarming"
+      },
+      {
+        "classId": "gear_bottomFishing",
+        "display": "Bottom Fishing",
+        "datasourceId": "gear_bottomFishing"
+      },
+      {
+        "classId": "gear_castNet",
+        "display": "Cast Net",
+        "datasourceId": "gear_castNet"
+      },
+      {
+        "classId": "gear_casting",
+        "display": "Casting",
+        "datasourceId": "gear_casting"
+      },
+      {
+        "classId": "gear_gatheringReefGleaning",
+        "display": "Gathering & Reef Gleaning",
+        "datasourceId": "gear_gatheringReefGleaning"
+      },
+      {
+        "classId": "gear_torchFishing",
+        "display": "Torch Fishing",
+        "datasourceId": "gear_torchFishing"
+      },
+      {
+        "classId": "gear_spearHarpoon",
+        "display": "Spear & Harpoon",
+        "datasourceId": "gear_spearHarpoon"
+      },
+      {
+        "classId": "gear_trapFishFenceGillNet",
+        "display": "Trap, Fish Fence, & Gill Net",
+        "datasourceId": "gear_trapFishFenceGillNet"
+      },
+      {
+        "classId": "gear_trolling",
+        "display": "Trolling",
+        "datasourceId": "gear_trolling"
+      },
+      {
+        "classId": "gear_verticalLongline",
+        "display": "Vertical Longline",
+        "datasourceId": "gear_verticalLongline"
+      },
+      {
+        "classId": "cultural_handicrafts",
+        "display": "Handicrafts",
+        "datasourceId": "cultural_handicrafts"
+      },
+      {
+        "classId": "cultural_historicalSite",
+        "display": "Historical Site",
+        "datasourceId": "cultural_historicalSite"
+      },
+      {
+        "classId": "cultural_preservationFood",
+        "display": "Preservation: Food",
+        "datasourceId": "cultural_preservationFood"
+      },
+      {
+        "classId": "cultural_preservationWood",
+        "display": "Preservation: Wood",
+        "datasourceId": "cultural_preservationWood"
+      },
+      {
+        "classId": "cultural_seaCucumberCollection",
+        "display": "Sea Cucumber Collection",
+        "datasourceId": "cultural_seaCucumberCollection"
+      },
+      {
+        "classId": "cultural_turtleHarvesting",
+        "display": "Turtle Harvesting",
+        "datasourceId": "cultural_turtleHarvesting"
+      },
+      {
+        "classId": "purpose_churchCultural",
+        "display": "Church/Cultural",
+        "datasourceId": "purpose_churchCultural"
+      },
+      {
+        "classId": "purpose_homeConsumption",
+        "display": "Home Consumption",
+        "datasourceId": "purpose_homeConsumption"
+      },
+      {
+        "classId": "purpose_sale",
+        "display": "Sale",
+        "datasourceId": "purpose_sale"
+      },
+      {
+        "classId": "purpose_sendToFamilyAbroad",
+        "display": "Send to Family Abroad",
+        "datasourceId": "purpose_sendToFamilyAbroad"
+      }
+    ]
+  },
+  {
     "metricId": "coralACA",
     "type": "areaOverlap",
     "layerId": "kBre13eD_",

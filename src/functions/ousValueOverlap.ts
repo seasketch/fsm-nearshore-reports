@@ -96,8 +96,42 @@ export async function ousValueOverlap(
     featuresByClass,
   });
 
+  //subsector metrics
+  const subsectorMg = project.getMetricGroup("ousSubsectorValueOverlap");
+  const subsectorMetrics: Metric[] = (
+    await Promise.all(
+      subsectorMg.classes.map(async (curClass) => {
+        // start raster load and move on in loop while awaiting finish
+        if (!curClass.datasourceId)
+          throw new Error(`Expected datasourceId for ${curClass}`);
+        const url = `${project.dataBucketUrl()}${getCogFilename(
+          project.getInternalRasterDatasourceById(curClass.datasourceId),
+        )}`;
+        const raster = await loadCog(url);
+        // start analysis as soon as source load done
+        const overlapResult = await rasterMetrics(raster, {
+          metricId: subsectorMg.metricId,
+          feature: clippedSketch,
+        });
+        return overlapResult.map(
+          (metrics): Metric => ({
+            ...metrics,
+            classId: curClass.classId,
+            geographyId: curGeography.geographyId,
+          }),
+        );
+      }),
+    )
+  ).reduce(
+    // merge
+    (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
+    [],
+  );
+
   return {
-    metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
+    metrics: sortMetrics(
+      rekeyMetrics([...metrics, ...groupMetrics, ...subsectorMetrics]),
+    ),
     sketch: toNullSketch(sketch, true),
   };
 }

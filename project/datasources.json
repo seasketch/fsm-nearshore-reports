@@ -520,18 +520,354 @@
     "explodeMulti": true
   },
   {
-    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/scribbled_rabbitfish.fgb",
-    "layerName": "scribbled_rabbitfish",
-    "geo_type": "vector",
     "datasourceId": "spawnAgg_scribbledRabbitfish",
+    "geo_type": "vector",
     "formats": [
       "fgb"
     ],
+    "precalc": true,
+    "layerName": "scribbled_rabbitfish",
     "classKeys": [],
     "created": "2025-10-13T19:48:26.219Z",
     "lastUpdated": "2025-10-13T19:48:26.219Z",
+    "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/scribbled_rabbitfish.fgb",
     "propertiesToKeep": [],
-    "explodeMulti": true,
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "aquaculture-clamFarming",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-16T19:29:05.252Z",
+    "lastUpdated": "2025-10-16T19:29:05.252Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/aquaculture/clam_farming.tif"
+  },
+  {
+    "datasourceId": "aquaculture-coralFarming",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-16T19:29:20.095Z",
+    "lastUpdated": "2025-10-16T19:29:20.095Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/aquaculture/coral_farming.tif"
+  },
+  {
+    "datasourceId": "aquaculture-finfishFarming",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-16T19:29:39.276Z",
+    "lastUpdated": "2025-10-16T19:29:39.276Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/aquaculture/finfish_farming.tif"
+  },
+  {
+    "datasourceId": "aquaculture-seaCucumberFarming",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-16T19:29:58.769Z",
+    "lastUpdated": "2025-10-16T19:29:58.769Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/aquaculture/sea_cucumber_farming.tif"
+  },
+  {
+    "datasourceId": "aquaculture-trochusFarming",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-16T19:30:24.574Z",
+    "lastUpdated": "2025-10-16T19:30:24.574Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/aquaculture/trochus_farming.tif"
+  },
+  {
+    "datasourceId": "gear_bottomFishing",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:20:57.584Z",
+    "lastUpdated": "2025-10-17T18:24:36.825Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_gear/bottom_fishing.tif"
+  },
+  {
+    "datasourceId": "gear_castNet",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:21:11.703Z",
+    "lastUpdated": "2025-10-17T18:24:36.977Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_gear/cast_net.tif"
+  },
+  {
+    "datasourceId": "gear_casting",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:21:23.159Z",
+    "lastUpdated": "2025-10-17T18:24:37.198Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_gear/casting.tif"
+  },
+  {
+    "datasourceId": "gear_gatheringReefGleaning",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:21:39.786Z",
+    "lastUpdated": "2025-10-17T18:24:37.388Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_gear/gathering_reef_gleaning.tif"
+  },
+  {
+    "datasourceId": "gear_torchFishing",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:22:28.094Z",
+    "lastUpdated": "2025-10-17T18:24:37.515Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_gear/other_torch_fishing.tif"
+  },
+  {
+    "datasourceId": "gear_spearHarpoon",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:22:40.960Z",
+    "lastUpdated": "2025-10-17T18:24:37.693Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_gear/spear_harpoon.tif"
+  },
+  {
+    "datasourceId": "gear_trapFishFenceGillNet",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:22:59.388Z",
+    "lastUpdated": "2025-10-17T18:24:37.829Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_gear/trap_fish_fence_gill_net.tif"
+  },
+  {
+    "datasourceId": "gear_trolling",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:23:11.726Z",
+    "lastUpdated": "2025-10-17T18:24:38.254Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_gear/trolling.tif"
+  },
+  {
+    "datasourceId": "gear_verticalLongline",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:23:27.285Z",
+    "lastUpdated": "2025-10-17T18:24:38.496Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_gear/vertical_longline.tif"
+  },
+  {
+    "datasourceId": "cultural_handicrafts",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:33:10.721Z",
+    "lastUpdated": "2025-10-17T18:33:10.721Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/cultural/handicrafts.tif"
+  },
+  {
+    "datasourceId": "cultural_historicalSite",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:33:26.085Z",
+    "lastUpdated": "2025-10-17T18:33:26.085Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/cultural/historical_site.tif"
+  },
+  {
+    "datasourceId": "cultural_preservationFood",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:33:42.580Z",
+    "lastUpdated": "2025-10-17T18:33:42.580Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/cultural/preservation_food.tif"
+  },
+  {
+    "datasourceId": "cultural_preservationWood",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:33:56.804Z",
+    "lastUpdated": "2025-10-17T18:33:56.804Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/cultural/preservation_wood.tif"
+  },
+  {
+    "datasourceId": "cultural_seaCucumberCollection",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:34:19.651Z",
+    "lastUpdated": "2025-10-17T18:34:19.651Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/cultural/sea_cucumber_collection.tif"
+  },
+  {
+    "datasourceId": "cultural_turtleHarvesting",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:34:35.228Z",
+    "lastUpdated": "2025-10-17T18:34:35.228Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/cultural/turtle_harvesting.tif"
+  },
+  {
+    "datasourceId": "purpose_churchCultural",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:50:58.274Z",
+    "lastUpdated": "2025-10-17T18:50:58.274Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_purpose/church_cultural.tif"
+  },
+  {
+    "datasourceId": "purpose_homeConsumption",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:51:17.493Z",
+    "lastUpdated": "2025-10-17T18:51:17.493Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_purpose/home_consumption.tif"
+  },
+  {
+    "datasourceId": "purpose_sale",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-17T18:51:31.141Z",
+    "lastUpdated": "2025-10-17T18:51:31.141Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_purpose/sale.tif"
+  },
+  {
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_purpose/send_to_family_abroad.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "purpose_sendToFamilyAbroad",
+    "formats": [
+      "tif"
+    ],
+    "created": "2025-10-17T18:51:48.716Z",
+    "lastUpdated": "2025-10-17T18:51:48.716Z",
+    "noDataValue": 0,
+    "measurementType": "quantitative",
     "precalc": true
   }
 ]

@@ -2,6 +2,270 @@
   "metrics": [
     {
       "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-clamFarming",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 1548216.982422,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-coralFarming",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-finfishFarming",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 1163713.875,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-seaCucumberFarming",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 63342.278076,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-trochusFarming",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_handicrafts",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 26018363.783119,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_historicalSite",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 844369.748772,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationFood",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 581307.268433,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationWood",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 3100023.748779,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_seaCucumberCollection",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 2035955.559305,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_turtleHarvesting",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 1283862.833198,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_bottomFishing",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 3319858.262308,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_casting",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 16233966.356173,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_castNet",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 7083784.274997,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_gatheringReefGleaning",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 3889509.574604,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_spearHarpoon",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 507007.965698,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_torchFishing",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 7357601.5536,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trapFishFenceGillNet",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 8142470.686943,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trolling",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 397880.846071,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_verticalLongline",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 443401.639128,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_churchCultural",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 10559581.959501,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_homeConsumption",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 22998436.687216,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sale",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 1033005.17543,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sendToFamilyAbroad",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 476897.42828,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "24597",
