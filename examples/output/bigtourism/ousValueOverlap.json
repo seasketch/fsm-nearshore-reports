@@ -266,6 +266,105 @@
     },
     {
       "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_coastalFishReefFish",
+      "sketchId": "120979",
+      "groupId": "band-0",
+      "value": 12918726.627931,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_crab",
+      "sketchId": "120979",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_lobster",
+      "sketchId": "120979",
+      "groupId": "band-0",
+      "value": 38014.804688,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_oceanicFish",
+      "sketchId": "120979",
+      "groupId": "band-0",
+      "value": 342577.529616,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_ornamentalFish",
+      "sketchId": "120979",
+      "groupId": "band-0",
+      "value": 495764.370728,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_other",
+      "sketchId": "120979",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_seaCucumber",
+      "sketchId": "120979",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_shellfish",
+      "sketchId": "120979",
+      "groupId": "band-0",
+      "value": 84584.498062,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_turtle",
+      "sketchId": "120979",
+      "groupId": "band-0",
+      "value": 425870.616837,
+      "extra": {
+        "sketchName": "bigtourism"
+      }
+    },
+    {
+      "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "120979",

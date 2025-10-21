@@ -209,6 +209,51 @@
         "classId": "purpose_sendToFamilyAbroad",
         "display": "Send to Family Abroad",
         "datasourceId": "purpose_sendToFamilyAbroad"
+      },
+      {
+        "classId": "species_coastalFishReefFish",
+        "display": "Coastal / Reef Fish",
+        "datasourceId": "species_coastalFishReefFish"
+      },
+      {
+        "classId": "species_crab",
+        "display": "Crab",
+        "datasourceId": "species_crab"
+      },
+      {
+        "classId": "species_lobster",
+        "display": "Lobster",
+        "datasourceId": "species_lobster"
+      },
+      {
+        "classId": "species_oceanicFish",
+        "display": "Oceanic Fish, Tuna, and Pelagic Fish",
+        "datasourceId": "species_oceanicFish"
+      },
+      {
+        "classId": "species_ornamentalFish",
+        "display": "Ornamental Fish",
+        "datasourceId": "species_ornamentalFish"
+      },
+      {
+        "classId": "species_other",
+        "display": "Other",
+        "datasourceId": "species_other"
+      },
+      {
+        "classId": "species_seaCucumber",
+        "display": "Sea Cucumber",
+        "datasourceId": "species_seaCucumber"
+      },
+      {
+        "classId": "species_shellfish",
+        "display": "Shellfish",
+        "datasourceId": "species_shellfish"
+      },
+      {
+        "classId": "species_turtle",
+        "display": "Turtle",
+        "datasourceId": "species_turtle"
       }
     ]
   },

@@ -874,6 +874,78 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "species_turtle-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -1754,6 +1826,78 @@
   {
     "geographyId": "chuuk",
     "metricId": "count",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "species_turtle-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -2025,6 +2169,78 @@
   },
   {
     "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "species_turtle-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
     "metricId": "valid",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
@@ -2283,6 +2499,78 @@
     "geographyId": "chuuk",
     "metricId": "valid",
     "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "species_turtle-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -3150,6 +3438,78 @@
     "sketchId": null,
     "groupId": null,
     "value": 107434.78737237774
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2569859258.190665
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1376024.01302
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1085726.605663
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2546030669.199547
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 610827.847031
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 465160.367422
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 244415.621394
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1161810.148027
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "species_turtle-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 27544728.325637
   },
   {
     "geographyId": "kosrae",
@@ -4026,6 +4386,78 @@
   {
     "geographyId": "kosrae",
     "metricId": "count",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2886954
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 16172
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 25910
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2889957
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 9423
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 6454
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2235
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 14334
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "species_turtle-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 103425
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -4297,6 +4729,78 @@
   },
   {
     "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 79071434.050436
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 977320.850937
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 125394.906708
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 4578278.804222
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 945682.994263
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 288280.975433
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 507080.448853
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1158087.178234
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "species_turtle-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 572727.794085
+  },
+  {
+    "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
@@ -4558,6 +5062,78 @@
     "sketchId": null,
     "groupId": "band-0",
     "value": 30201
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2830195
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1529
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1135
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2807701
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 656
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 513
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 214
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1330
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "species_turtle-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 35887
   },
   {
     "geographyId": "pohnpei",
@@ -5419,6 +5995,78 @@
     "geographyId": "pohnpei",
     "metricId": "area",
     "classId": "spawnAgg_scribbledRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "species_turtle-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -6298,6 +6946,78 @@
   {
     "geographyId": "pohnpei",
     "metricId": "count",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "species_turtle-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -6569,6 +7289,78 @@
   },
   {
     "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "species_turtle-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
     "metricId": "valid",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
@@ -6827,6 +7619,78 @@
     "geographyId": "pohnpei",
     "metricId": "valid",
     "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "species_turtle-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -7691,6 +8555,78 @@
     "geographyId": "yap",
     "metricId": "area",
     "classId": "spawnAgg_scribbledRabbitfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "species_turtle-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -8570,6 +9506,78 @@
   {
     "geographyId": "yap",
     "metricId": "count",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "species_turtle-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
     "classId": "yap-total",
     "sketchId": null,
     "groupId": null,
@@ -8841,6 +9849,78 @@
   },
   {
     "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "species_turtle-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
     "metricId": "valid",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
@@ -9099,6 +10179,78 @@
     "geographyId": "yap",
     "metricId": "valid",
     "classId": "purpose_sendToFamilyAbroad-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "species_coastalFishReefFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "species_crab-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "species_lobster-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "species_oceanicFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "species_ornamentalFish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "species_other-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "species_seaCucumber-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "species_shellfish-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "species_turtle-total",
     "sketchId": null,
     "groupId": null,
     "value": 0

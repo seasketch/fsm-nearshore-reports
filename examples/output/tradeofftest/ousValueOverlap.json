@@ -818,6 +818,312 @@
     },
     {
       "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_coastalFishReefFish",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 4123392.542039,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_coastalFishReefFish",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 196082.007948,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_coastalFishReefFish",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 4319474.549987,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_crab",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 29802.098495,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_crab",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_crab",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 29802.098495,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_lobster",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_lobster",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_lobster",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_oceanicFish",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 94545.36331,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_oceanicFish",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 57981.19045,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_oceanicFish",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 152526.55376,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_ornamentalFish",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_ornamentalFish",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_ornamentalFish",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_other",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_other",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_other",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_seaCucumber",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_seaCucumber",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_seaCucumber",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_shellfish",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_shellfish",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_shellfish",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_turtle",
+      "sketchId": "25164",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa1_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_turtle",
+      "sketchId": "25165",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa2_tradeofftest"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_turtle",
+      "sketchId": "25166",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "tradeofftest",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "25164",

@@ -818,6 +818,312 @@
     },
     {
       "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_coastalFishReefFish",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 3594510.672572,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_coastalFishReefFish",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 2864725.925493,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_coastalFishReefFish",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 729784.747079,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_crab",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 308045.391357,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_crab",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_crab",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 308045.391357,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_lobster",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_lobster",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_lobster",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_oceanicFish",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 60691.866718,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_oceanicFish",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 56956.584243,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_oceanicFish",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 3735.282475,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_ornamentalFish",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_ornamentalFish",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_ornamentalFish",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_other",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_other",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_other",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_seaCucumber",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_seaCucumber",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_seaCucumber",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_shellfish",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 24891.110962,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_shellfish",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_shellfish",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 24891.110962,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_turtle",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_turtle",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_turtle",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
       "metricId": "ousValueOverlap",
       "classId": "ous_aquaculture",
       "sketchId": "24665",

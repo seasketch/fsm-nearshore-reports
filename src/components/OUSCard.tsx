@@ -207,6 +207,38 @@ export const OUSCard: React.FunctionComponent<ReportProps> = (props) => {
                 />
               </Collapse>
 
+              <Collapse title={t("Show by Fishing Species")}>
+                <ClassTable
+                  rows={subsectorMetrics.filter((m) =>
+                    m.classId?.startsWith("species"),
+                  )}
+                  metricGroup={{
+                    ...subsectorMetricGroup,
+                    classes: subsectorMetricGroup.classes.filter((c) =>
+                      c.classId?.startsWith("species"),
+                    ),
+                  }}
+                  columnConfig={[
+                    {
+                      columnLabel: "Species",
+                      type: "class",
+                      width: 30,
+                    },
+                    {
+                      columnLabel: "% Value",
+                      type: "metricChart",
+                      metricId: subsectorMetricGroup.metricId,
+                      valueFormatter: "percent",
+                      chartOptions: {
+                        showTitle: true,
+                      },
+                      width: 20,
+                      colStyle: { textAlign: "center" },
+                    },
+                  ]}
+                />
+              </Collapse>
+
               <Collapse title={t("Show by Cultural Use Type")}>
                 <ClassTable
                   rows={subsectorMetrics.filter((m) =>

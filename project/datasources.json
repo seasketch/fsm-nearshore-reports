@@ -857,15 +857,141 @@
     "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_purpose/sale.tif"
   },
   {
-    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_purpose/send_to_family_abroad.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "purpose_sendToFamilyAbroad",
+    "geo_type": "raster",
     "formats": [
       "tif"
     ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
     "created": "2025-10-17T18:51:48.716Z",
     "lastUpdated": "2025-10-17T18:51:48.716Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_purpose/send_to_family_abroad.tif"
+  },
+  {
+    "datasourceId": "species_coastalFishReefFish",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-21T18:24:51.882Z",
+    "lastUpdated": "2025-10-21T18:24:51.882Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/coastal_fish_reef_fish.tif"
+  },
+  {
+    "datasourceId": "species_crab",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-21T18:25:02.221Z",
+    "lastUpdated": "2025-10-21T18:25:02.221Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/crab.tif"
+  },
+  {
+    "datasourceId": "species_lobster",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-21T18:25:13.369Z",
+    "lastUpdated": "2025-10-21T18:25:13.369Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/lobster.tif"
+  },
+  {
+    "datasourceId": "species_oceanicFish",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-21T18:25:51.950Z",
+    "lastUpdated": "2025-10-21T18:25:51.950Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/oceanic_fish_tuna_and_pelagic_fish.tif"
+  },
+  {
+    "datasourceId": "species_ornamentalFish",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-21T18:26:07.653Z",
+    "lastUpdated": "2025-10-21T18:26:07.653Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/ornamental_fish.tif"
+  },
+  {
+    "datasourceId": "species_other",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-21T18:26:17.071Z",
+    "lastUpdated": "2025-10-21T18:26:17.071Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/other.tif"
+  },
+  {
+    "datasourceId": "species_seaCucumber",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-21T18:26:27.558Z",
+    "lastUpdated": "2025-10-21T18:26:27.558Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/sea_cucumber.tif"
+  },
+  {
+    "datasourceId": "species_shellfish",
+    "geo_type": "raster",
+    "formats": [
+      "tif"
+    ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2025-10-21T18:26:38.250Z",
+    "lastUpdated": "2025-10-21T18:26:38.250Z",
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/shellfish.tif"
+  },
+  {
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/turtle.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "species_turtle",
+    "formats": [
+      "tif"
+    ],
+    "created": "2025-10-21T18:26:49.694Z",
+    "lastUpdated": "2025-10-21T18:26:49.694Z",
     "noDataValue": 0,
     "measurementType": "quantitative",
     "precalc": true
