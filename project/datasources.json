@@ -84,11 +84,11 @@
       "json"
     ],
     "precalc": true,
-    "layerName": "nearshore_mr_osm",
+    "layerName": "nearshore_mr_osmAndIslandAtlas",
     "classKeys": [],
     "created": "2024-01-18T19:50:00.407Z",
-    "lastUpdated": "2025-03-19T17:52:31.449Z",
-    "src": "data/src/Analytics/current-vector.gpkg",
+    "lastUpdated": "2025-10-27T16:26:27.234Z",
+    "src": "data/src/Analytics/nearshore_mr_osmAndIslandAtlas.fgb",
     "propertiesToKeep": [],
     "explodeMulti": true
   },
@@ -116,11 +116,11 @@
       "json"
     ],
     "precalc": true,
-    "layerName": "kosrae_nearshore_mr_osm",
+    "layerName": "kosrae_nearshore_mr_islandAtlas",
     "classKeys": [],
     "created": "2024-01-18T19:52:08.630Z",
-    "lastUpdated": "2025-03-19T17:52:31.627Z",
-    "src": "data/src/Analytics/state_nearshore_boundaries/kosrae_nearshore_mr_osm.geojson",
+    "lastUpdated": "2025-10-24T21:43:25.964Z",
+    "src": "data/src/Analytics/state_nearshore_boundaries/kosrae_nearshore_mr_islandAtlas.fgb",
     "propertiesToKeep": [],
     "explodeMulti": true
   },
@@ -983,17 +983,17 @@
     "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/shellfish.tif"
   },
   {
-    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/turtle.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "species_turtle",
+    "geo_type": "raster",
     "formats": [
       "tif"
     ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
     "created": "2025-10-21T18:26:49.694Z",
     "lastUpdated": "2025-10-21T18:26:49.694Z",
-    "noDataValue": 0,
-    "measurementType": "quantitative",
-    "precalc": true
+    "src": "data/src/Data_Products/heatmaps/Kosrae/by_subsector/fishing_species/turtle.tif"
   }
 ]

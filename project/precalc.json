@@ -2580,31 +2580,31 @@
     "metricId": "area",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 265056.255964
+    "groupId": null,
+    "value": 266760.797803
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "aquaculture-coralFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 153719.724944
+    "groupId": null,
+    "value": 154875.512349
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "aquaculture-finfishFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 8929.253697
+    "groupId": null,
+    "value": 9921.392997
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "aquaculture-seaCucumberFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 119832.221412
   },
   {
@@ -2612,7 +2612,7 @@
     "metricId": "area",
     "classId": "aquaculture-trochusFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 1570654.910382
   },
   {
@@ -2677,7 +2677,7 @@
     "classId": "benthicACA_coralalgae-total",
     "sketchId": null,
     "groupId": null,
-    "value": 4366010.2710166285
+    "value": 4366175.845347245
   },
   {
     "geographyId": "kosrae",
@@ -2685,7 +2685,7 @@
     "classId": "benthicACA_seagrass-total",
     "sketchId": null,
     "groupId": null,
-    "value": 3852437.4376259064
+    "value": 3852790.732136675
   },
   {
     "geographyId": "kosrae",
@@ -2700,48 +2700,48 @@
     "metricId": "area",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 6235318.94707
+    "groupId": null,
+    "value": 6307944.75013
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "cultural_historicalSite-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 6622360.32443
+    "groupId": null,
+    "value": 6621518.213504
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "cultural_preservationFood-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 17249102.886769
+    "groupId": null,
+    "value": 17254177.893748
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "cultural_preservationWood-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2307378.960835
+    "groupId": null,
+    "value": 2322192.194345
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "cultural_seaCucumberCollection-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 10103989.773615
+    "groupId": null,
+    "value": 10103147.914777
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "cultural_turtleHarvesting-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 73206306.42125
+    "groupId": null,
+    "value": 73190610.91778
   },
   {
     "geographyId": "kosrae",
@@ -2749,7 +2749,7 @@
     "classId": "depth_zones-0 - 30m: Altiphotic",
     "sketchId": null,
     "groupId": null,
-    "value": 77976900.70614891
+    "value": 77766623.75569588
   },
   {
     "geographyId": "kosrae",
@@ -2797,79 +2797,79 @@
     "classId": "depth_zones-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2636673881.563806
+    "value": 2636463604.613353
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "gear_bottomFishing-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2569855626.131026
+    "groupId": null,
+    "value": 2569836557.817916
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "gear_casting-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 85829284.799387
+    "groupId": null,
+    "value": 85856434.3252
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "gear_castNet-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 13825488.607168
+    "groupId": null,
+    "value": 13892634.765668
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "gear_gatheringReefGleaning-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 15911869.010438
+    "groupId": null,
+    "value": 15931271.577682
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "gear_spearHarpoon-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 68067263.515185
+    "groupId": null,
+    "value": 68059883.149945
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "gear_torchFishing-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 13664123.32951
+    "groupId": null,
+    "value": 13667689.356346
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "gear_trapFishFenceGillNet-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 38549307.817638
+    "groupId": null,
+    "value": 38583039.543123
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "gear_trolling-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2546030669.199547
+    "groupId": null,
+    "value": 2546029762.39691
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "gear_verticalLongline-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 268231759.225307
+    "groupId": null,
+    "value": 268253842.694242
   },
   {
     "geographyId": "kosrae",
@@ -3133,7 +3133,7 @@
     "classId": "kosrae-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2642577683.0023313
+    "value": 2637447288.9035025
   },
   {
     "geographyId": "kosrae",
@@ -3149,7 +3149,7 @@
     "classId": "nearshore-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2642577683.0023313
+    "value": 2636463683.525035
   },
   {
     "geographyId": "kosrae",
@@ -3157,7 +3157,7 @@
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2037248.375353
+    "value": 2036843.4363
   },
   {
     "geographyId": "kosrae",
@@ -3165,7 +3165,7 @@
     "classId": "ous_community_recreational_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 11545622.277493
+    "value": 11552101.30234
   },
   {
     "geographyId": "kosrae",
@@ -3173,7 +3173,7 @@
     "classId": "ous_construction_infrastructure-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2516696.214037
+    "value": 2519530.787408
   },
   {
     "geographyId": "kosrae",
@@ -3181,7 +3181,7 @@
     "classId": "ous_cultural_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 90134573.916339
+    "value": 90117161.537062
   },
   {
     "geographyId": "kosrae",
@@ -3189,7 +3189,7 @@
     "classId": "ous_fisheries-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2591971144.466471
+    "value": 2591924981.414436
   },
   {
     "geographyId": "kosrae",
@@ -3197,7 +3197,7 @@
     "classId": "ous_maritime_activity-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2606180455.83422
+    "value": 2606131863.147866
   },
   {
     "geographyId": "kosrae",
@@ -3205,7 +3205,7 @@
     "classId": "ous_research-total",
     "sketchId": null,
     "groupId": null,
-    "value": 199096384.160181
+    "value": 199056295.19394
   },
   {
     "geographyId": "kosrae",
@@ -3213,7 +3213,7 @@
     "classId": "ous_tourism-total",
     "sketchId": null,
     "groupId": null,
-    "value": 11073058.402709
+    "value": 11074678.158921
   },
   {
     "geographyId": "kosrae",
@@ -3221,7 +3221,7 @@
     "classId": "ous_transportation-total",
     "sketchId": null,
     "groupId": null,
-    "value": 120099253.955969
+    "value": 120050256.330563
   },
   {
     "geographyId": "kosrae",
@@ -3236,31 +3236,31 @@
     "metricId": "area",
     "classId": "purpose_churchCultural-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2579725620.228158
+    "groupId": null,
+    "value": 2579759204.354311
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "purpose_homeConsumption-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2522990441.405412
+    "groupId": null,
+    "value": 2522981291.788328
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "purpose_sale-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 12108893.995612
+    "groupId": null,
+    "value": 12122160.381803
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "purpose_sendToFamilyAbroad-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 26528917.993047
   },
   {
@@ -3269,7 +3269,7 @@
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
-    "value": 1092754.3981528901
+    "value": 1084794.0073337306
   },
   {
     "geographyId": "kosrae",
@@ -3277,7 +3277,7 @@
     "classId": "reef_geomorph-Channel",
     "sketchId": null,
     "groupId": null,
-    "value": 146110.5107059741
+    "value": 145857.56239901052
   },
   {
     "geographyId": "kosrae",
@@ -3285,7 +3285,7 @@
     "classId": "reef_geomorph-Deep lagoon",
     "sketchId": null,
     "groupId": null,
-    "value": 2032016.6598278272
+    "value": 2029127.6779190477
   },
   {
     "geographyId": "kosrae",
@@ -3293,7 +3293,7 @@
     "classId": "reef_geomorph-Diffuse fringing",
     "sketchId": null,
     "groupId": null,
-    "value": 3680950.8983838176
+    "value": 3637150.344050999
   },
   {
     "geographyId": "kosrae",
@@ -3309,7 +3309,7 @@
     "classId": "reef_geomorph-Forereef",
     "sketchId": null,
     "groupId": null,
-    "value": 11636926.155928135
+    "value": 11602188.161470745
   },
   {
     "geographyId": "kosrae",
@@ -3317,7 +3317,7 @@
     "classId": "reef_geomorph-Pass",
     "sketchId": null,
     "groupId": null,
-    "value": 782058.1601010166
+    "value": 781260.9429600581
   },
   {
     "geographyId": "kosrae",
@@ -3325,7 +3325,7 @@
     "classId": "reef_geomorph-Reef flat",
     "sketchId": null,
     "groupId": null,
-    "value": 12519316.122199995
+    "value": 12467083.042493848
   },
   {
     "geographyId": "kosrae",
@@ -3333,7 +3333,7 @@
     "classId": "reef_geomorph-total",
     "sketchId": null,
     "groupId": null,
-    "value": 32109696.83873301
+    "value": 31967025.672060806
   },
   {
     "geographyId": "kosrae",
@@ -3341,7 +3341,7 @@
     "classId": "spawnAgg_barracuda-Barracuda",
     "sketchId": null,
     "groupId": null,
-    "value": 84277.45652352116
+    "value": 82751.01609895135
   },
   {
     "geographyId": "kosrae",
@@ -3349,7 +3349,7 @@
     "classId": "spawnAgg_barracuda-total",
     "sketchId": null,
     "groupId": null,
-    "value": 84277.45652352116
+    "value": 82751.01609895135
   },
   {
     "geographyId": "kosrae",
@@ -3373,7 +3373,7 @@
     "classId": "spawnAgg_emperorSp-total",
     "sketchId": null,
     "groupId": null,
-    "value": 5600695.30157542
+    "value": 5619758.696097739
   },
   {
     "geographyId": "kosrae",
@@ -3397,7 +3397,7 @@
     "classId": "spawnAgg_mulletSp-total",
     "sketchId": null,
     "groupId": null,
-    "value": 5600695.30157542
+    "value": 5619758.696097739
   },
   {
     "geographyId": "kosrae",
@@ -3421,7 +3421,7 @@
     "classId": "spawnAgg_rabbitfishSpp-total",
     "sketchId": null,
     "groupId": null,
-    "value": 218859.6163865264
+    "value": 220210.61029083258
   },
   {
     "geographyId": "kosrae",
@@ -3429,7 +3429,7 @@
     "classId": "spawnAgg_randallsRabbitfish-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2857170.5774395633
+    "value": 2868769.932308631
   },
   {
     "geographyId": "kosrae",
@@ -3437,78 +3437,78 @@
     "classId": "spawnAgg_scribbledRabbitfish-total",
     "sketchId": null,
     "groupId": null,
-    "value": 107434.78737237774
+    "value": 110801.50128131648
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "species_coastalFishReefFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2569859258.190665
+    "groupId": null,
+    "value": 2569851994.071385
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "species_crab-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 1376024.01302
+    "groupId": null,
+    "value": 1396722.869985
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "species_lobster-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 1085726.605663
+    "groupId": null,
+    "value": 1089552.954934
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "species_oceanicFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2546030669.199547
+    "groupId": null,
+    "value": 2546029762.39691
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "species_ornamentalFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 610827.847031
+    "groupId": null,
+    "value": 616414.687096
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "species_other-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 465160.367422
+    "groupId": null,
+    "value": 467880.603488
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "species_seaCucumber-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 244415.621394
+    "groupId": null,
+    "value": 242131.36325
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "species_shellfish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 1161810.148027
+    "groupId": null,
+    "value": 1177533.894392
   },
   {
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "species_turtle-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 27544728.325637
   },
   {
@@ -3524,40 +3524,40 @@
     "metricId": "count",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 36018
+    "groupId": null,
+    "value": 36406
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "aquaculture-coralFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 925
+    "groupId": null,
+    "value": 1015
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "aquaculture-finfishFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 4476
+    "groupId": null,
+    "value": 4767
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "aquaculture-seaCucumberFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 7386
+    "groupId": null,
+    "value": 7648
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "aquaculture-trochusFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2982
+    "groupId": null,
+    "value": 3008
   },
   {
     "geographyId": "kosrae",
@@ -3621,7 +3621,7 @@
     "classId": "benthicACA_coralalgae-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1494
+    "value": 1497
   },
   {
     "geographyId": "kosrae",
@@ -3644,48 +3644,48 @@
     "metricId": "count",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 90332
+    "groupId": null,
+    "value": 91243
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "cultural_historicalSite-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 66392
+    "groupId": null,
+    "value": 67191
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "cultural_preservationFood-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 88492
+    "groupId": null,
+    "value": 89231
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "cultural_preservationWood-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 77489
+    "groupId": null,
+    "value": 78309
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "cultural_seaCucumberCollection-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 69121
+    "groupId": null,
+    "value": 69664
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "cultural_turtleHarvesting-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 256822
+    "groupId": null,
+    "value": 257751
   },
   {
     "geographyId": "kosrae",
@@ -3748,72 +3748,72 @@
     "metricId": "count",
     "classId": "gear_bottomFishing-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2886954
+    "groupId": null,
+    "value": 2887791
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "gear_casting-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 216938
+    "groupId": null,
+    "value": 217818
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "gear_castNet-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 66412
+    "groupId": null,
+    "value": 67231
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "gear_gatheringReefGleaning-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 106095
+    "groupId": null,
+    "value": 106944
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "gear_spearHarpoon-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 179140
+    "groupId": null,
+    "value": 180004
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "gear_torchFishing-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 70440
+    "groupId": null,
+    "value": 71239
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "gear_trapFishFenceGillNet-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 116483
+    "groupId": null,
+    "value": 117383
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "gear_trolling-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2889957
+    "groupId": null,
+    "value": 2890803
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "gear_verticalLongline-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 471024
+    "groupId": null,
+    "value": 471967
   },
   {
     "geographyId": "kosrae",
@@ -4077,7 +4077,7 @@
     "classId": "kosrae-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1
+    "value": 7
   },
   {
     "geographyId": "kosrae",
@@ -4101,7 +4101,7 @@
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6482970
+    "value": 6484907
   },
   {
     "geographyId": "kosrae",
@@ -4109,7 +4109,7 @@
     "classId": "ous_community_recreational_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6482970
+    "value": 6484907
   },
   {
     "geographyId": "kosrae",
@@ -4117,7 +4117,7 @@
     "classId": "ous_construction_infrastructure-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6482970
+    "value": 6484907
   },
   {
     "geographyId": "kosrae",
@@ -4125,7 +4125,7 @@
     "classId": "ous_cultural_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6482970
+    "value": 6484907
   },
   {
     "geographyId": "kosrae",
@@ -4133,7 +4133,7 @@
     "classId": "ous_fisheries-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6482970
+    "value": 6484907
   },
   {
     "geographyId": "kosrae",
@@ -4141,7 +4141,7 @@
     "classId": "ous_maritime_activity-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6482970
+    "value": 6484907
   },
   {
     "geographyId": "kosrae",
@@ -4149,7 +4149,7 @@
     "classId": "ous_research-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6482970
+    "value": 6484907
   },
   {
     "geographyId": "kosrae",
@@ -4157,7 +4157,7 @@
     "classId": "ous_tourism-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6482970
+    "value": 6484907
   },
   {
     "geographyId": "kosrae",
@@ -4165,7 +4165,7 @@
     "classId": "ous_transportation-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6482970
+    "value": 6484907
   },
   {
     "geographyId": "kosrae",
@@ -4180,32 +4180,32 @@
     "metricId": "count",
     "classId": "purpose_churchCultural-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2889546
+    "groupId": null,
+    "value": 2890395
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "purpose_homeConsumption-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2845698
+    "groupId": null,
+    "value": 2846538
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "purpose_sale-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 81466
+    "groupId": null,
+    "value": 82316
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "purpose_sendToFamilyAbroad-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 134473
+    "groupId": null,
+    "value": 135391
   },
   {
     "geographyId": "kosrae",
@@ -4213,7 +4213,7 @@
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
-    "value": 10
+    "value": 8
   },
   {
     "geographyId": "kosrae",
@@ -4269,7 +4269,7 @@
     "classId": "reef_geomorph-Reef flat",
     "sketchId": null,
     "groupId": null,
-    "value": 29
+    "value": 28
   },
   {
     "geographyId": "kosrae",
@@ -4277,7 +4277,7 @@
     "classId": "reef_geomorph-total",
     "sketchId": null,
     "groupId": null,
-    "value": 76
+    "value": 73
   },
   {
     "geographyId": "kosrae",
@@ -4388,72 +4388,72 @@
     "metricId": "count",
     "classId": "species_coastalFishReefFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2886954
+    "groupId": null,
+    "value": 2887791
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "species_crab-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 16172
+    "groupId": null,
+    "value": 16733
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "species_lobster-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 25910
+    "groupId": null,
+    "value": 26596
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "species_oceanicFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2889957
+    "groupId": null,
+    "value": 2890803
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "species_ornamentalFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 9423
+    "groupId": null,
+    "value": 9727
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "species_other-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 6454
+    "groupId": null,
+    "value": 6789
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "species_seaCucumber-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2235
+    "groupId": null,
+    "value": 2283
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "species_shellfish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 14334
+    "groupId": null,
+    "value": 14824
   },
   {
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "species_turtle-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 103425
+    "groupId": null,
+    "value": 104056
   },
   {
     "geographyId": "kosrae",
@@ -4468,31 +4468,31 @@
     "metricId": "sum",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2447387.548889
+    "groupId": null,
+    "value": 2449491.167725
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "aquaculture-coralFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 430711.930176
+    "groupId": null,
+    "value": 432632.857788
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "aquaculture-finfishFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 7774640.46875
+    "groupId": null,
+    "value": 7968592.78125
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "aquaculture-seaCucumberFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 97327.335327
   },
   {
@@ -4500,7 +4500,7 @@
     "metricId": "sum",
     "classId": "aquaculture-trochusFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 140999.110901
   },
   {
@@ -4508,120 +4508,120 @@
     "metricId": "sum",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 30296835.461395
+    "groupId": null,
+    "value": 42975980.46637
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "cultural_historicalSite-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 3965842.406502
+    "groupId": null,
+    "value": 3997953.406441
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "cultural_preservationFood-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 6025011.742889
+    "groupId": null,
+    "value": 6041616.542736
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "cultural_preservationWood-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 11556555.829788
+    "groupId": null,
+    "value": 20614355.022293
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "cultural_seaCucumberCollection-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 11889990.740702
+    "groupId": null,
+    "value": 12311716.132471
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "cultural_turtleHarvesting-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2744354.883664
+    "groupId": null,
+    "value": 2744107.945924
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "gear_bottomFishing-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 16096500.462748
+    "groupId": null,
+    "value": 16102358.579537
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "gear_casting-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 30082504.25933
+    "groupId": null,
+    "value": 33715285.405997
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "gear_castNet-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 9885230.651074
+    "groupId": null,
+    "value": 10161416.295694
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "gear_gatheringReefGleaning-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 11953839.696785
+    "groupId": null,
+    "value": 12202824.662292
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "gear_spearHarpoon-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 5340832.165133
+    "groupId": null,
+    "value": 4844592.43714
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "gear_torchFishing-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 10670492.152653
+    "groupId": null,
+    "value": 10501752.681675
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "gear_trapFishFenceGillNet-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 15838775.885491
+    "groupId": null,
+    "value": 15971076.28215
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "gear_trolling-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 4474822.488781
+    "groupId": null,
+    "value": 4473677.619856
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "gear_verticalLongline-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 1411244.145716
+    "groupId": null,
+    "value": 1411319.403032
   },
   {
     "geographyId": "kosrae",
@@ -4629,7 +4629,7 @@
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": null,
-    "value": 238566.531215
+    "value": 47572.000564
   },
   {
     "geographyId": "kosrae",
@@ -4637,7 +4637,7 @@
     "classId": "ous_community_recreational_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2979621.850933
+    "value": 4101614.68574
   },
   {
     "geographyId": "kosrae",
@@ -4645,7 +4645,7 @@
     "classId": "ous_construction_infrastructure-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1233.53879
+    "value": 1424.288751
   },
   {
     "geographyId": "kosrae",
@@ -4653,7 +4653,7 @@
     "classId": "ous_cultural_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 177198.314894
+    "value": 241328.388613
   },
   {
     "geographyId": "kosrae",
@@ -4661,7 +4661,7 @@
     "classId": "ous_fisheries-total",
     "sketchId": null,
     "groupId": null,
-    "value": 237108.018852
+    "value": 255533.655033
   },
   {
     "geographyId": "kosrae",
@@ -4669,7 +4669,7 @@
     "classId": "ous_maritime_activity-total",
     "sketchId": null,
     "groupId": null,
-    "value": 25501.471353
+    "value": 26209.273522
   },
   {
     "geographyId": "kosrae",
@@ -4677,7 +4677,7 @@
     "classId": "ous_research-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2054.739117
+    "value": 2041.732443
   },
   {
     "geographyId": "kosrae",
@@ -4685,7 +4685,7 @@
     "classId": "ous_tourism-total",
     "sketchId": null,
     "groupId": null,
-    "value": 53.309747
+    "value": 53.258496
   },
   {
     "geographyId": "kosrae",
@@ -4693,110 +4693,110 @@
     "classId": "ous_transportation-total",
     "sketchId": null,
     "groupId": null,
-    "value": 332.193213
+    "value": 321.439723
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "purpose_churchCultural-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 29752197.688877
+    "groupId": null,
+    "value": 30088697.432402
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "purpose_homeConsumption-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 53429512.98875
+    "groupId": null,
+    "value": 53833331.059504
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "purpose_sale-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2873825.235907
+    "groupId": null,
+    "value": 2877435.60197
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "purpose_sendToFamilyAbroad-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 1644535.04015
+    "groupId": null,
+    "value": 1643395.759834
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "species_coastalFishReefFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 79071434.050436
+    "groupId": null,
+    "value": 79521812.580932
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "species_crab-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 977320.850937
+    "groupId": null,
+    "value": 1033601.890305
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "species_lobster-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 125394.906708
+    "groupId": null,
+    "value": 126380.224213
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "species_oceanicFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 4578278.804222
+    "groupId": null,
+    "value": 4577597.943505
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "species_ornamentalFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 945682.994263
+    "groupId": null,
+    "value": 961806.273682
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "species_other-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 288280.975433
+    "groupId": null,
+    "value": 289660.407806
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "species_seaCucumber-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 507080.448853
+    "groupId": null,
+    "value": 483923.733643
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "species_shellfish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 1158087.178234
+    "groupId": null,
+    "value": 1187719.20956
   },
   {
     "geographyId": "kosrae",
     "metricId": "sum",
     "classId": "species_turtle-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 572727.794085
   },
   {
@@ -4804,31 +4804,31 @@
     "metricId": "valid",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 311
+    "groupId": null,
+    "value": 313
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "aquaculture-coralFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 133
+    "groupId": null,
+    "value": 134
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "aquaculture-finfishFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 9
+    "groupId": null,
+    "value": 10
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "aquaculture-seaCucumberFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 123
   },
   {
@@ -4836,7 +4836,7 @@
     "metricId": "valid",
     "classId": "aquaculture-trochusFarming-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 1618
   },
   {
@@ -4844,120 +4844,120 @@
     "metricId": "valid",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 7126
+    "groupId": null,
+    "value": 7209
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "cultural_historicalSite-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 7864
+    "groupId": null,
+    "value": 7863
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "cultural_preservationFood-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 20393
+    "groupId": null,
+    "value": 20399
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "cultural_preservationWood-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2648
+    "groupId": null,
+    "value": 2665
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "cultural_seaCucumberCollection-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 12002
+    "groupId": null,
+    "value": 12001
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "cultural_turtleHarvesting-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 88619
+    "groupId": null,
+    "value": 88600
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "gear_bottomFishing-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2830191
+    "groupId": null,
+    "value": 2830170
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "gear_casting-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 98002
+    "groupId": null,
+    "value": 98033
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "gear_castNet-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 14619
+    "groupId": null,
+    "value": 14690
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "gear_gatheringReefGleaning-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 18042
+    "groupId": null,
+    "value": 18064
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "gear_spearHarpoon-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 73782
+    "groupId": null,
+    "value": 73774
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "gear_torchFishing-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 15327
+    "groupId": null,
+    "value": 15331
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "gear_trapFishFenceGillNet-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 44570
+    "groupId": null,
+    "value": 44609
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "gear_trolling-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2807701
+    "groupId": null,
+    "value": 2807700
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "gear_verticalLongline-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 315803
+    "groupId": null,
+    "value": 315829
   },
   {
     "geographyId": "kosrae",
@@ -4965,7 +4965,7 @@
     "classId": "ous_aquaculture-total",
     "sketchId": null,
     "groupId": null,
-    "value": 5031
+    "value": 5030
   },
   {
     "geographyId": "kosrae",
@@ -4973,7 +4973,7 @@
     "classId": "ous_community_recreational_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 28512
+    "value": 28528
   },
   {
     "geographyId": "kosrae",
@@ -4981,7 +4981,7 @@
     "classId": "ous_construction_infrastructure-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6215
+    "value": 6222
   },
   {
     "geographyId": "kosrae",
@@ -4989,7 +4989,7 @@
     "classId": "ous_cultural_use-total",
     "sketchId": null,
     "groupId": null,
-    "value": 222588
+    "value": 222545
   },
   {
     "geographyId": "kosrae",
@@ -4997,7 +4997,7 @@
     "classId": "ous_fisheries-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6400892
+    "value": 6400778
   },
   {
     "geographyId": "kosrae",
@@ -5005,7 +5005,7 @@
     "classId": "ous_maritime_activity-total",
     "sketchId": null,
     "groupId": null,
-    "value": 6435982
+    "value": 6435862
   },
   {
     "geographyId": "kosrae",
@@ -5013,7 +5013,7 @@
     "classId": "ous_research-total",
     "sketchId": null,
     "groupId": null,
-    "value": 491670
+    "value": 491571
   },
   {
     "geographyId": "kosrae",
@@ -5021,7 +5021,7 @@
     "classId": "ous_tourism-total",
     "sketchId": null,
     "groupId": null,
-    "value": 27345
+    "value": 27349
   },
   {
     "geographyId": "kosrae",
@@ -5029,38 +5029,38 @@
     "classId": "ous_transportation-total",
     "sketchId": null,
     "groupId": null,
-    "value": 296586
+    "value": 296465
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "purpose_churchCultural-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2842112
+    "groupId": null,
+    "value": 2842149
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "purpose_homeConsumption-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2757482
+    "groupId": null,
+    "value": 2757472
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "purpose_sale-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 14604
+    "groupId": null,
+    "value": 14620
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "purpose_sendToFamilyAbroad-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 30201
   },
   {
@@ -5068,71 +5068,71 @@
     "metricId": "valid",
     "classId": "species_coastalFishReefFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2830195
+    "groupId": null,
+    "value": 2830187
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "species_crab-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 1529
+    "groupId": null,
+    "value": 1552
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "species_lobster-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 1135
+    "groupId": null,
+    "value": 1139
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "species_oceanicFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 2807701
+    "groupId": null,
+    "value": 2807700
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "species_ornamentalFish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 656
+    "groupId": null,
+    "value": 662
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "species_other-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 513
+    "groupId": null,
+    "value": 516
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "species_seaCucumber-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 214
+    "groupId": null,
+    "value": 212
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "species_shellfish-total",
     "sketchId": null,
-    "groupId": "band-0",
-    "value": 1330
+    "groupId": null,
+    "value": 1348
   },
   {
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "species_turtle-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 35887
   },
   {
