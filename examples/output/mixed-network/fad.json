@@ -1,0 +1,12 @@
+{
+  "metricId": "fad",
+  "value": 0,
+  "classId": null,
+  "groupId": null,
+  "geographyId": null,
+  "sketchId": "24665",
+  "extra": {
+    "sketchName": "mixed-network",
+    "isCollection": true
+  }
+}

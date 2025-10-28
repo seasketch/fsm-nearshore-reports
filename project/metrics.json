@@ -666,5 +666,17 @@
         "layerId": "aEgxddmW7"
       }
     ]
+  },
+  {
+    "metricId": "fad",
+    "type": "areaOverlap",
+    "datasourceId": "fad_buffer",
+    "layerId": "x5xZhqk3D",
+    "classes": [
+      {
+        "classId": "fad_buffer",
+        "display": "FAD Buffer"
+      }
+    ]
   }
 ]

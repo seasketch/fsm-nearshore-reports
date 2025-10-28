@@ -25,6 +25,7 @@ import { CoralACA } from "../components/CoralACA.js";
 import { SeagrassACA } from "../components/SeagrassACA.js";
 import { SpawnAgg } from "../components/SpawnAgg.js";
 import { Mangroves } from "../components/Mangroves.js";
+import { FAD } from "../components/FAD.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -129,10 +130,11 @@ const BaseReport = () => {
           <Group geographyId={geographyId} printing={isPrinting} />
           <SizeCard geographyId={geographyId} printing={isPrinting} />
           {geographyId === "kosrae" && (
-            <OUSCard geographyId={geographyId} printing={isPrinting} />
-          )}
-          {geographyId === "kosrae" && (
-            <OusDemographic geographyId={geographyId} printing={isPrinting} />
+            <>
+              <FAD geographyId={geographyId} printing={isPrinting} />
+              <OUSCard geographyId={geographyId} printing={isPrinting} />
+              <OusDemographic geographyId={geographyId} printing={isPrinting} />
+            </>
           )}
           {!isPrinting && <SketchAttributesCard autoHide />}
         </ReportPage>
