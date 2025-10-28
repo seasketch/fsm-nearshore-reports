@@ -2749,7 +2749,7 @@
     "classId": "depth_zones-0 - 30m: Altiphotic",
     "sketchId": null,
     "groupId": null,
-    "value": 77766623.75569588
+    "value": 78698660.08308439
   },
   {
     "geographyId": "kosrae",
@@ -2781,7 +2781,7 @@
     "classId": "depth_zones-3500 - 6500m: Abyssal",
     "sketchId": null,
     "groupId": null,
-    "value": 674945726.0303992
+    "value": 674945792.596373
   },
   {
     "geographyId": "kosrae",
@@ -2797,7 +2797,7 @@
     "classId": "depth_zones-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2636463604.613353
+    "value": 2637395707.5067153
   },
   {
     "geographyId": "kosrae",
@@ -3269,7 +3269,7 @@
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
-    "value": 1084794.0073337306
+    "value": 1067821.4627967176
   },
   {
     "geographyId": "kosrae",
@@ -3277,7 +3277,7 @@
     "classId": "reef_geomorph-Channel",
     "sketchId": null,
     "groupId": null,
-    "value": 145857.56239901052
+    "value": 146016.44453691787
   },
   {
     "geographyId": "kosrae",
@@ -3285,7 +3285,7 @@
     "classId": "reef_geomorph-Deep lagoon",
     "sketchId": null,
     "groupId": null,
-    "value": 2029127.6779190477
+    "value": 2050361.0843047635
   },
   {
     "geographyId": "kosrae",
@@ -3293,7 +3293,7 @@
     "classId": "reef_geomorph-Diffuse fringing",
     "sketchId": null,
     "groupId": null,
-    "value": 3637150.344050999
+    "value": 3769572.5000385083
   },
   {
     "geographyId": "kosrae",
@@ -3309,7 +3309,7 @@
     "classId": "reef_geomorph-Forereef",
     "sketchId": null,
     "groupId": null,
-    "value": 11602188.161470745
+    "value": 11522455.930426333
   },
   {
     "geographyId": "kosrae",
@@ -3317,7 +3317,7 @@
     "classId": "reef_geomorph-Pass",
     "sketchId": null,
     "groupId": null,
-    "value": 781260.9429600581
+    "value": 782033.7285779816
   },
   {
     "geographyId": "kosrae",
@@ -3325,7 +3325,7 @@
     "classId": "reef_geomorph-Reef flat",
     "sketchId": null,
     "groupId": null,
-    "value": 12467083.042493848
+    "value": 13038056.66261058
   },
   {
     "geographyId": "kosrae",
@@ -3333,7 +3333,7 @@
     "classId": "reef_geomorph-total",
     "sketchId": null,
     "groupId": null,
-    "value": 31967025.672060806
+    "value": 32595881.746725157
   },
   {
     "geographyId": "kosrae",
@@ -4213,7 +4213,7 @@
     "classId": "reef_geomorph-Aquatic land features",
     "sketchId": null,
     "groupId": null,
-    "value": 8
+    "value": 12
   },
   {
     "geographyId": "kosrae",
@@ -4229,7 +4229,7 @@
     "classId": "reef_geomorph-Deep lagoon",
     "sketchId": null,
     "groupId": null,
-    "value": 2
+    "value": 3
   },
   {
     "geographyId": "kosrae",
@@ -4237,7 +4237,7 @@
     "classId": "reef_geomorph-Diffuse fringing",
     "sketchId": null,
     "groupId": null,
-    "value": 6
+    "value": 10
   },
   {
     "geographyId": "kosrae",
@@ -4253,7 +4253,7 @@
     "classId": "reef_geomorph-Forereef",
     "sketchId": null,
     "groupId": null,
-    "value": 17
+    "value": 20
   },
   {
     "geographyId": "kosrae",
@@ -4269,7 +4269,7 @@
     "classId": "reef_geomorph-Reef flat",
     "sketchId": null,
     "groupId": null,
-    "value": 28
+    "value": 36
   },
   {
     "geographyId": "kosrae",
@@ -4277,7 +4277,7 @@
     "classId": "reef_geomorph-total",
     "sketchId": null,
     "groupId": null,
-    "value": 73
+    "value": 93
   },
   {
     "geographyId": "kosrae",

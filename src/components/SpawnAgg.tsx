@@ -40,24 +40,12 @@ export const SpawnAgg: React.FunctionComponent<ReportProps> = (props) => {
         title={t("Spawning Aggregations")}
         functionName="spawnAgg"
         extraParams={{ geographyIds: [curGeography.geographyId] }}
-        useChildCard
       >
         {(data: ReportResult) => {
           if (!data || !data.metrics) return <Skeleton />;
 
           return (
-            <ToolbarCard
-              title={t("Spawning Aggregations")}
-              items={
-                <>
-                  <LayerToggle
-                    label={t("Show On Map")}
-                    layerId={mg.layerId}
-                    simple
-                  />
-                </>
-              }
-            >
+            <>
               {isCollection
                 ? groupedCollectionReport(data, precalcMetrics, mg, t)
                 : groupedSketchReport(data, precalcMetrics, mg, t)}
@@ -109,7 +97,7 @@ export const SpawnAgg: React.FunctionComponent<ReportProps> = (props) => {
                   </Trans>
                 </Collapse>
               )}
-            </ToolbarCard>
+            </>
           );
         }}
       </ResultsCard>

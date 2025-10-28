@@ -580,67 +580,78 @@
   {
     "metricId": "spawnAgg",
     "type": "areaOverlap",
-    "layerId": "MRRyzwSsK",
     "classes": [
       {
         "datasourceId": "spawnAgg_barracuda",
         "classId": "spawnAgg_barracuda",
-        "display": "Barracuda"
+        "display": "Barracuda",
+        "layerId": "I6r3QJGq5"
       },
       {
         "datasourceId": "spawnAgg_blackJack",
         "classId": "spawnAgg_blackJack",
-        "display": "Black Jack"
+        "display": "Black Jack",
+        "layerId": "tUSOpwO6B"
       },
       {
         "datasourceId": "spawnAgg_blacktailSnapper",
         "classId": "spawnAgg_blacktailSnapper",
-        "display": "Blacktail Snapper"
+        "display": "Blacktail Snapper",
+        "layerId": "n42UuIJIY"
       },
       {
         "datasourceId": "spawnAgg_emperorSp",
         "classId": "spawnAgg_emperorSp",
-        "display": "Emperor"
+        "display": "Emperor",
+        "layerId": "C_nvCungB"
       },
       {
         "datasourceId": "spawnAgg_lowfinRudderfish",
         "classId": "spawnAgg_lowfinRudderfish",
-        "display": "Lowfin Rudderfish"
+        "display": "Lowfin Rudderfish",
+        "layerId": "0pBLZYOe4"
       },
       {
         "datasourceId": "spawnAgg_mulletFringelip",
         "classId": "spawnAgg_mulletFringelip",
-        "display": "Mullet Fringelip"
+        "display": "Mullet Fringelip",
+        "layerId": "wi55s8QKZ"
       },
       {
         "datasourceId": "spawnAgg_mulletSp",
         "classId": "spawnAgg_mulletSp",
-        "display": "Mullet"
+        "display": "Mullet",
+        "layerId": "1A4bTBu1V"
       },
       {
         "datasourceId": "spawnAgg_oneSpotSnapper",
         "classId": "spawnAgg_oneSpotSnapper",
-        "display": "One Spot Snapper"
+        "display": "One Spot Snapper",
+        "layerId": "0OVQKklg1"
       },
       {
         "datasourceId": "spawnAgg_orangeSpineUnicornfish",
         "classId": "spawnAgg_orangeSpineUnicornfish",
-        "display": "Orange Spine Unicornfish"
+        "display": "Orange Spine Unicornfish",
+        "layerId": "waIDRADBl"
       },
       {
         "datasourceId": "spawnAgg_rabbitfishSpp",
         "classId": "spawnAgg_rabbitfishSpp",
-        "display": "Rabbitfish"
+        "display": "Rabbitfish",
+        "layerId": "hP3yuqkgC"
       },
       {
         "datasourceId": "spawnAgg_randallsRabbitfish",
         "classId": "spawnAgg_randallsRabbitfish",
-        "display": "Randalls Rabbitfish"
+        "display": "Randalls Rabbitfish",
+        "layerId": "kulukq7nh"
       },
       {
         "datasourceId": "spawnAgg_scribbledRabbitfish",
         "classId": "spawnAgg_scribbledRabbitfish",
-        "display": "Scribbled Rabbitfish"
+        "display": "Scribbled Rabbitfish",
+        "layerId": "2eWPgemUs"
       }
     ]
   }
