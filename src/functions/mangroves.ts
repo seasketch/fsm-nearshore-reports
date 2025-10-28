@@ -118,5 +118,5 @@ export default new GeoprocessingHandler(mangroves, {
   executionMode: "async",
   // Specify any Sketch Class form attributes that are required
   requiresProperties: [],
-  memory: 10240,
+  memory: 4096,
 });

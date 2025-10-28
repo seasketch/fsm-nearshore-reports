@@ -59,5 +59,5 @@ export default new GeoprocessingHandler(fad, {
   executionMode: "async",
   timeout: 40,
   requiresProperties: [],
-  memory: 10240,
+  memory: 1024,
 });

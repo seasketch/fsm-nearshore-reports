@@ -142,5 +142,5 @@ export default new GeoprocessingHandler(depthZones, {
   executionMode: "async",
   // Specify any Sketch Class form attributes that are required
   requiresProperties: [],
-  memory: 10240,
+  memory: 1024,
 });

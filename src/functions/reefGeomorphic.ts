@@ -142,5 +142,5 @@ export default new GeoprocessingHandler(reefGeomorphic, {
   executionMode: "async",
   // Specify any Sketch Class form attributes that are required
   requiresProperties: [],
-  memory: 10240,
+  memory: 4096,
 });
