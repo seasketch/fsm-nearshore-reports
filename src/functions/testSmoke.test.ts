@@ -15,6 +15,7 @@ import { printMap } from "./printMap.js";
 import { reefGeomorphic } from "./reefGeomorphic.js";
 import { seagrassACA } from "./seagrassACA.js";
 import { spawnAgg } from "./spawnAgg.js";
+import { mangroves } from "./mangroves.js";
 
 // Standard smoke tests
 function createSmokeTest(
@@ -53,6 +54,7 @@ const tests = [
   { name: "reefGeomorphic", func: reefGeomorphic },
   { name: "seagrassACA", func: seagrassACA, timeout: 120_000 },
   { name: "spawnAgg", func: spawnAgg },
+  { name: "mangroves", func: mangroves },
 ];
 
 tests.forEach(({ name, func, timeout }) => {

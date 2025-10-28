@@ -570,6 +570,14 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "mangroves-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "meow-ecos-total",
     "sketchId": null,
     "groupId": null,
@@ -1515,6 +1523,14 @@
     "geographyId": "chuuk",
     "metricId": "count",
     "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "mangroves-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -3138,6 +3154,14 @@
   {
     "geographyId": "kosrae",
     "metricId": "area",
+    "classId": "mangroves-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 651324.9104633358
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
     "classId": "meow-ecos-total",
     "sketchId": null,
     "groupId": null,
@@ -4078,6 +4102,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 7
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "mangroves-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 85
   },
   {
     "geographyId": "kosrae",
@@ -5698,6 +5730,14 @@
   {
     "geographyId": "pohnpei",
     "metricId": "area",
+    "classId": "mangroves-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
     "classId": "meow-ecos-total",
     "sketchId": null,
     "groupId": null,
@@ -6635,6 +6675,14 @@
     "geographyId": "pohnpei",
     "metricId": "count",
     "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "mangroves-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -8258,6 +8306,14 @@
   {
     "geographyId": "yap",
     "metricId": "area",
+    "classId": "mangroves-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
     "classId": "meow-ecos-total",
     "sketchId": null,
     "groupId": null,
@@ -9195,6 +9251,14 @@
     "geographyId": "yap",
     "metricId": "count",
     "classId": "kosrae-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "mangroves-total",
     "sketchId": null,
     "groupId": null,
     "value": 0

@@ -24,6 +24,7 @@ import { useTranslation } from "react-i18next";
 import { CoralACA } from "../components/CoralACA.js";
 import { SeagrassACA } from "../components/SeagrassACA.js";
 import { SpawnAgg } from "../components/SpawnAgg.js";
+import { Mangroves } from "../components/Mangroves.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -141,6 +142,7 @@ const BaseReport = () => {
           <SeagrassACA geographyId={geographyId} printing={isPrinting} />
           {geographyId === "kosrae" && (
             <>
+              <Mangroves geographyId={geographyId} printing={isPrinting} />
               <SpawnAgg geographyId={geographyId} printing={isPrinting} />
               <ReefGeomorphic geographyId={geographyId} printing={isPrinting} />
               <DepthZones geographyId={geographyId} printing={isPrinting} />

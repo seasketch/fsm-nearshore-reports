@@ -1,0 +1,117 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "mangroves",
+      "sketchId": "24608",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "mangroves",
+      "sketchId": "24608",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "mangroves",
+      "sketchId": "24608",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "mangroves",
+      "sketchId": "24608",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "mangroves",
+      "sketchId": "24608",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "mangroves",
+      "classId": "mangroves",
+      "sketchId": "24608",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "pohnpei"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 24608,
+    "bbox": [
+      157.90259,
+      6.9638658,
+      158.03699,
+      7.099727
+    ],
+    "type": "Feature",
+    "properties": {
+      "6289": "pohnpei",
+      "id": "24608",
+      "name": "pohnpei",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-01-19T18:33:19.730358+00:00",
+      "updatedAt": "2024-01-19T18:33:19.730358+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "745",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6292,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    },
+    "geometry": null
+  }
+}

@@ -654,5 +654,17 @@
         "layerId": "2eWPgemUs"
       }
     ]
+  },
+  {
+    "metricId": "mangroves",
+    "type": "areaOverlap",
+    "classes": [
+      {
+        "datasourceId": "mangroves",
+        "classId": "mangroves",
+        "display": "Mangroves",
+        "layerId": "aEgxddmW7"
+      }
+    ]
   }
 ]
