@@ -23,8 +23,8 @@ export const FAD: React.FunctionComponent<ReportProps> = () => {
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard title={t("FAD")} functionName="fad" useChildCard>
         {(data: Metric) => {
+          if (!data) return <Skeleton />;
           const value = data.value;
-          if (value === undefined) return <Skeleton />;
 
           return (
             <Card>

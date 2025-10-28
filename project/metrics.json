@@ -678,5 +678,17 @@
         "display": "FAD Buffer"
       }
     ]
+  },
+  {
+    "metricId": "existingMPAs",
+    "type": "areaOverlap",
+    "datasourceId": "existingMPAs",
+    "layerId": "uKS1IHmgv",
+    "classes": [
+      {
+        "classId": "existingMPAs",
+        "display": "Existing Protected Areas"
+      }
+    ]
   }
 ]

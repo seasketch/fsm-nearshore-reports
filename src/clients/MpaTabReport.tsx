@@ -26,6 +26,7 @@ import { SeagrassACA } from "../components/SeagrassACA.js";
 import { SpawnAgg } from "../components/SpawnAgg.js";
 import { Mangroves } from "../components/Mangroves.js";
 import { FAD } from "../components/FAD.js";
+import { ExistingMPAs } from "../components/ExistingMPAs.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -132,6 +133,7 @@ const BaseReport = () => {
           {geographyId === "kosrae" && (
             <>
               <FAD geographyId={geographyId} printing={isPrinting} />
+              <ExistingMPAs geographyId={geographyId} printing={isPrinting} />
               <OUSCard geographyId={geographyId} printing={isPrinting} />
               <OusDemographic geographyId={geographyId} printing={isPrinting} />
             </>

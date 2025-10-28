@@ -22,6 +22,7 @@
     "src/functions/seagrassACA.ts",
     "src/functions/spawnAgg.ts",
     "src/functions/mangroves.ts",
-    "src/functions/fad.ts"
+    "src/functions/fad.ts",
+    "src/functions/existingMPAs.ts"
   ]
 }
