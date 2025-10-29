@@ -18,6 +18,7 @@ import { spawnAgg } from "./spawnAgg.js";
 import { mangroves } from "./mangroves.js";
 import { fad } from "./fad.js";
 import { existingMPAs } from "./existingMPAs.js";
+import { reefMonitoring } from "./reefMonitoring.js";
 
 // Standard smoke tests
 function createSmokeTest(
@@ -59,6 +60,7 @@ const tests = [
   { name: "mangroves", func: mangroves },
   { name: "fad", func: fad },
   { name: "existingMPAs", func: existingMPAs },
+  { name: "reefMonitoring", func: reefMonitoring },
 ];
 
 tests.forEach(({ name, func, timeout }) => {

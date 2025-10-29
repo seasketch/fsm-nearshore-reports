@@ -27,6 +27,7 @@ import { SpawnAgg } from "../components/SpawnAgg.js";
 import { Mangroves } from "../components/Mangroves.js";
 import { FAD } from "../components/FAD.js";
 import { ExistingMPAs } from "../components/ExistingMPAs.js";
+import { ReefMonitoring } from "../components/ReefMonitoring.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -149,6 +150,7 @@ const BaseReport = () => {
               <Mangroves geographyId={geographyId} printing={isPrinting} />
               <SpawnAgg geographyId={geographyId} printing={isPrinting} />
               <ReefGeomorphic geographyId={geographyId} printing={isPrinting} />
+              <ReefMonitoring geographyId={geographyId} printing={isPrinting} />
               <DepthZones geographyId={geographyId} printing={isPrinting} />
             </>
           )}

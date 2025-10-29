@@ -1,0 +1,183 @@
+{
+  "metrics": [
+    {
+      "geographyId": "kosrae",
+      "metricId": "reefMonitoring",
+      "classId": "benthic_scores",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 1153.162867,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "reefMonitoring",
+      "classId": "benthic_scores",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 1153.162867,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefMonitoring",
+      "classId": "benthic_scores",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefMonitoring",
+      "classId": "benthic_scores",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefMonitoring",
+      "classId": "benthic_scores",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefMonitoring",
+      "classId": "benthic_scores",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "reefMonitoring",
+      "classId": "fish_scores",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 2335.377815,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "reefMonitoring",
+      "classId": "fish_scores",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 2335.377815,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefMonitoring",
+      "classId": "fish_scores",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefMonitoring",
+      "classId": "fish_scores",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefMonitoring",
+      "classId": "fish_scores",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reefMonitoring",
+      "classId": "fish_scores",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 24597,
+    "bbox": [
+      163.013895,
+      5.277971718,
+      163.105764796,
+      5.399092568
+    ],
+    "type": "Feature",
+    "properties": {
+      "6289": "test",
+      "id": "24597",
+      "name": "test",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-01-18T21:24:53.060168+00:00",
+      "updatedAt": "2024-01-18T21:24:53.060168+00:00",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "745",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6292,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    },
+    "geometry": null
+  }
+}

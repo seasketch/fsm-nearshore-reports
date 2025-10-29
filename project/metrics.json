@@ -690,5 +690,23 @@
         "display": "Existing Protected Areas"
       }
     ]
+  },
+  {
+    "metricId": "reefMonitoring",
+    "type": "sumOverlap",
+    "classes": [
+      {
+        "classId": "benthic_scores",
+        "datasourceId": "benthic_scores",
+        "layerId": "cLEkPDftG",
+        "display": "Benthic Reef Health"
+      },
+      {
+        "classId": "fish_scores",
+        "datasourceId": "fish_scores",
+        "layerId": "KLZ38tC7R",
+        "display": "Fish Assemblage Health"
+      }
+    ]
   }
 ]

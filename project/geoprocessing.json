@@ -23,6 +23,7 @@
     "src/functions/spawnAgg.ts",
     "src/functions/mangroves.ts",
     "src/functions/fad.ts",
-    "src/functions/existingMPAs.ts"
+    "src/functions/existingMPAs.ts",
+    "src/functions/reefMonitoring.ts"
   ]
 }

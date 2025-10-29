@@ -42,6 +42,14 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -227,6 +235,14 @@
     "geographyId": "chuuk",
     "metricId": "area",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -1002,6 +1018,14 @@
   {
     "geographyId": "chuuk",
     "metricId": "count",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -1187,6 +1211,14 @@
     "geographyId": "chuuk",
     "metricId": "count",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -1962,6 +1994,14 @@
   {
     "geographyId": "chuuk",
     "metricId": "sum",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
     "groupId": null,
@@ -2003,6 +2043,14 @@
     "geographyId": "chuuk",
     "metricId": "sum",
     "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -2298,6 +2346,14 @@
   {
     "geographyId": "chuuk",
     "metricId": "valid",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
     "groupId": null,
@@ -2339,6 +2395,14 @@
     "geographyId": "chuuk",
     "metricId": "valid",
     "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -2634,6 +2698,14 @@
   {
     "geographyId": "kosrae",
     "metricId": "area",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 36360036.657239
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -2814,6 +2886,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 2637395707.5067153
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "fish_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 36360036.657239
   },
   {
     "geographyId": "kosrae",
@@ -3586,6 +3666,14 @@
   {
     "geographyId": "kosrae",
     "metricId": "count",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 43945
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -3766,6 +3854,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 6
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "fish_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 43945
   },
   {
     "geographyId": "kosrae",
@@ -4538,6 +4634,14 @@
   {
     "geographyId": "kosrae",
     "metricId": "sum",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 4319.90364
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
     "groupId": null,
@@ -4582,6 +4686,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 2744107.945924
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "fish_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 9767.916558
   },
   {
     "geographyId": "kosrae",
@@ -4874,6 +4986,14 @@
   {
     "geographyId": "kosrae",
     "metricId": "valid",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14652
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
     "groupId": null,
@@ -4918,6 +5038,14 @@
     "sketchId": null,
     "groupId": null,
     "value": 88600
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "fish_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 14652
   },
   {
     "geographyId": "kosrae",
@@ -5210,6 +5338,14 @@
   {
     "geographyId": "pohnpei",
     "metricId": "area",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -5387,6 +5523,14 @@
     "geographyId": "pohnpei",
     "metricId": "area",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -6162,6 +6306,14 @@
   {
     "geographyId": "pohnpei",
     "metricId": "count",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -6339,6 +6491,14 @@
     "geographyId": "pohnpei",
     "metricId": "count",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -7114,6 +7274,14 @@
   {
     "geographyId": "pohnpei",
     "metricId": "sum",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
     "groupId": null,
@@ -7155,6 +7323,14 @@
     "geographyId": "pohnpei",
     "metricId": "sum",
     "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -7450,6 +7626,14 @@
   {
     "geographyId": "pohnpei",
     "metricId": "valid",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
     "groupId": null,
@@ -7491,6 +7675,14 @@
     "geographyId": "pohnpei",
     "metricId": "valid",
     "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -7779,6 +7971,14 @@
     "geographyId": "yap",
     "metricId": "area",
     "classId": "aquaculture-trochusFarming-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "benthic_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -7963,6 +8163,14 @@
     "geographyId": "yap",
     "metricId": "area",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -8738,6 +8946,14 @@
   {
     "geographyId": "yap",
     "metricId": "count",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
     "classId": "benthic-Coral/Algae",
     "sketchId": null,
     "groupId": null,
@@ -8915,6 +9131,14 @@
     "geographyId": "yap",
     "metricId": "count",
     "classId": "depth_zones-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -9690,6 +9914,14 @@
   {
     "geographyId": "yap",
     "metricId": "sum",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
     "groupId": null,
@@ -9731,6 +9963,14 @@
     "geographyId": "yap",
     "metricId": "sum",
     "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -10026,6 +10266,14 @@
   {
     "geographyId": "yap",
     "metricId": "valid",
+    "classId": "benthic_scores-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
     "classId": "cultural_handicrafts-total",
     "sketchId": null,
     "groupId": null,
@@ -10067,6 +10315,14 @@
     "geographyId": "yap",
     "metricId": "valid",
     "classId": "cultural_turtleHarvesting-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "fish_scores-total",
     "sketchId": null,
     "groupId": null,
     "value": 0

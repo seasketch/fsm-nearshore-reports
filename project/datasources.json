@@ -2,10 +2,7 @@
   {
     "datasourceId": "nearshore",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "nearshore_mr_osmAndIslandAtlas",
     "classKeys": [],
@@ -18,10 +15,7 @@
   {
     "datasourceId": "chuuk",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "chuuk_nearshore_mr_osm",
     "classKeys": [],
@@ -34,10 +28,7 @@
   {
     "datasourceId": "kosrae",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "kosrae_nearshore_mr_islandAtlas",
     "classKeys": [],
@@ -50,10 +41,7 @@
   {
     "datasourceId": "pohnpei",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "pohnpei_nearshore_mr_osm",
     "classKeys": [],
@@ -66,10 +54,7 @@
   {
     "datasourceId": "yap",
     "geo_type": "vector",
-    "formats": [
-      "fgb",
-      "json"
-    ],
+    "formats": ["fgb", "json"],
     "precalc": true,
     "layerName": "yap_nearshore_mr_osm",
     "classKeys": [],
@@ -82,9 +67,7 @@
   {
     "datasourceId": "ous_aquaculture",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -96,9 +79,7 @@
   {
     "datasourceId": "ous_community_recreational_use",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -110,9 +91,7 @@
   {
     "datasourceId": "ous_construction_infrastructure",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -124,9 +103,7 @@
   {
     "datasourceId": "ous_cultural_use",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -138,9 +115,7 @@
   {
     "datasourceId": "ous_fisheries",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -152,9 +127,7 @@
   {
     "datasourceId": "ous_maritime_activity",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -166,9 +139,7 @@
   {
     "datasourceId": "ous_research",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -180,9 +151,7 @@
   {
     "datasourceId": "ous_tourism",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -194,9 +163,7 @@
   {
     "datasourceId": "ous_transportation",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -208,47 +175,33 @@
   {
     "datasourceId": "reef_geomorph",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "reef_geomorph_complete",
-    "classKeys": [
-      "class"
-    ],
+    "classKeys": ["class"],
     "created": "2025-09-16T22:19:34.700Z",
     "lastUpdated": "2025-10-28T17:58:07.328Z",
     "src": "data/src/Data_Received/EmLab/reef_geomorphology_mcr/reef_geomorph_complete.geojson",
-    "propertiesToKeep": [
-      "class"
-    ],
+    "propertiesToKeep": ["class"],
     "explodeMulti": true
   },
   {
     "datasourceId": "depth_zones",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "depth_zones",
-    "classKeys": [
-      "zone"
-    ],
+    "classKeys": ["zone"],
     "created": "2025-09-16T22:26:37.284Z",
     "lastUpdated": "2025-10-28T17:58:39.058Z",
     "src": "data/src/Data_Received/EmLab/depth_zones/depth_zones.geojson",
-    "propertiesToKeep": [
-      "zone"
-    ],
+    "propertiesToKeep": ["zone"],
     "explodeMulti": true
   },
   {
     "datasourceId": "benthicACA_coralalgae",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "benthic_coralalgae",
     "classKeys": [],
@@ -261,9 +214,7 @@
   {
     "datasourceId": "benthicACA_seagrass",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "benthic_seagrass",
     "classKeys": [],
@@ -276,28 +227,20 @@
   {
     "datasourceId": "spawnAgg_barracuda",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "barracuda",
-    "classKeys": [
-      "species_translated"
-    ],
+    "classKeys": ["species_translated"],
     "created": "2025-10-13T18:33:29.927Z",
     "lastUpdated": "2025-10-13T18:33:29.927Z",
     "src": "data/src/Data_Products/kosrae-spawning-aggregation/shapes-dissolved-by-species/barracuda.fgb",
-    "propertiesToKeep": [
-      "species_translated"
-    ],
+    "propertiesToKeep": ["species_translated"],
     "explodeMulti": true
   },
   {
     "datasourceId": "spawnAgg_blackJack",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "black_jack",
     "classKeys": [],
@@ -310,9 +253,7 @@
   {
     "datasourceId": "spawnAgg_blacktailSnapper",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "blacktail_snapper",
     "classKeys": [],
@@ -325,9 +266,7 @@
   {
     "datasourceId": "spawnAgg_emperorSp",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "emperor_sp",
     "classKeys": [],
@@ -340,9 +279,7 @@
   {
     "datasourceId": "spawnAgg_lowfinRudderfish",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "lowfin_rudderfish",
     "classKeys": [],
@@ -355,9 +292,7 @@
   {
     "datasourceId": "spawnAgg_mulletFringelip",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "mullet_fringelip",
     "classKeys": [],
@@ -370,9 +305,7 @@
   {
     "datasourceId": "spawnAgg_mulletSp",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "mullet_sp",
     "classKeys": [],
@@ -385,9 +318,7 @@
   {
     "datasourceId": "spawnAgg_oneSpotSnapper",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "one_spot_snapper",
     "classKeys": [],
@@ -400,9 +331,7 @@
   {
     "datasourceId": "spawnAgg_orangeSpineUnicornfish",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "orange_spine_unicorn_fish",
     "classKeys": [],
@@ -415,9 +344,7 @@
   {
     "datasourceId": "spawnAgg_rabbitfishSpp",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "rabbitfish_spp",
     "classKeys": [],
@@ -430,9 +357,7 @@
   {
     "datasourceId": "spawnAgg_randallsRabbitfish",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "randalls_rabbitfish",
     "classKeys": [],
@@ -445,9 +370,7 @@
   {
     "datasourceId": "spawnAgg_scribbledRabbitfish",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "scribbled_rabbitfish",
     "classKeys": [],
@@ -460,9 +383,7 @@
   {
     "datasourceId": "aquaculture-clamFarming",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -474,9 +395,7 @@
   {
     "datasourceId": "aquaculture-coralFarming",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -488,9 +407,7 @@
   {
     "datasourceId": "aquaculture-finfishFarming",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -502,9 +419,7 @@
   {
     "datasourceId": "aquaculture-seaCucumberFarming",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -516,9 +431,7 @@
   {
     "datasourceId": "aquaculture-trochusFarming",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -530,9 +443,7 @@
   {
     "datasourceId": "gear_bottomFishing",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -544,9 +455,7 @@
   {
     "datasourceId": "gear_castNet",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -558,9 +467,7 @@
   {
     "datasourceId": "gear_casting",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -572,9 +479,7 @@
   {
     "datasourceId": "gear_gatheringReefGleaning",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -586,9 +491,7 @@
   {
     "datasourceId": "gear_torchFishing",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -600,9 +503,7 @@
   {
     "datasourceId": "gear_spearHarpoon",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -614,9 +515,7 @@
   {
     "datasourceId": "gear_trapFishFenceGillNet",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -628,9 +527,7 @@
   {
     "datasourceId": "gear_trolling",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -642,9 +539,7 @@
   {
     "datasourceId": "gear_verticalLongline",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -656,9 +551,7 @@
   {
     "datasourceId": "cultural_handicrafts",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -670,9 +563,7 @@
   {
     "datasourceId": "cultural_historicalSite",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -684,9 +575,7 @@
   {
     "datasourceId": "cultural_preservationFood",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -698,9 +587,7 @@
   {
     "datasourceId": "cultural_preservationWood",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -712,9 +599,7 @@
   {
     "datasourceId": "cultural_seaCucumberCollection",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -726,9 +611,7 @@
   {
     "datasourceId": "cultural_turtleHarvesting",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -740,9 +623,7 @@
   {
     "datasourceId": "purpose_churchCultural",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -754,9 +635,7 @@
   {
     "datasourceId": "purpose_homeConsumption",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -768,9 +647,7 @@
   {
     "datasourceId": "purpose_sale",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -782,9 +659,7 @@
   {
     "datasourceId": "purpose_sendToFamilyAbroad",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -796,9 +671,7 @@
   {
     "datasourceId": "species_coastalFishReefFish",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -810,9 +683,7 @@
   {
     "datasourceId": "species_crab",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -824,9 +695,7 @@
   {
     "datasourceId": "species_lobster",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -838,9 +707,7 @@
   {
     "datasourceId": "species_oceanicFish",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -852,9 +719,7 @@
   {
     "datasourceId": "species_ornamentalFish",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -866,9 +731,7 @@
   {
     "datasourceId": "species_other",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -880,9 +743,7 @@
   {
     "datasourceId": "species_seaCucumber",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -894,9 +755,7 @@
   {
     "datasourceId": "species_shellfish",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -908,9 +767,7 @@
   {
     "datasourceId": "species_turtle",
     "geo_type": "raster",
-    "formats": [
-      "tif"
-    ],
+    "formats": ["tif"],
     "precalc": true,
     "measurementType": "quantitative",
     "band": 1,
@@ -922,9 +779,7 @@
   {
     "datasourceId": "mangroves",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": true,
     "layerName": "mangroves_usgs",
     "classKeys": [],
@@ -937,9 +792,7 @@
   {
     "datasourceId": "fad_buffer",
     "geo_type": "vector",
-    "formats": [
-      "fgb"
-    ],
+    "formats": ["fgb"],
     "precalc": false,
     "layerName": "fad_buffer",
     "classKeys": [],
@@ -950,18 +803,38 @@
     "explodeMulti": true
   },
   {
-    "src": "data/src/Data_Received/EmLab/kosrae_protected_areas/kos_protected_areas.geojson",
-    "layerName": "kos_protected_areas",
-    "geo_type": "vector",
     "datasourceId": "existingMPAs",
-    "formats": [
-      "fgb"
-    ],
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "kos_protected_areas",
     "classKeys": [],
     "created": "2025-10-28T19:28:42.663Z",
     "lastUpdated": "2025-10-28T19:28:42.663Z",
+    "src": "data/src/Data_Received/EmLab/kosrae_protected_areas/kos_protected_areas.geojson",
     "propertiesToKeep": [],
-    "explodeMulti": true,
-    "precalc": true
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "benthic_scores",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "created": "2025-10-29T17:26:51.055Z",
+    "lastUpdated": "2025-10-29T17:41:12.641Z",
+    "src": "data/src/Data_Received/PeterHouk/benthic_scores_interp.tif"
+  },
+  {
+    "datasourceId": "fish_scores",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "created": "2025-10-29T17:27:28.943Z",
+    "lastUpdated": "2025-10-29T17:41:12.802Z",
+    "src": "data/src/Data_Received/PeterHouk/fish_scores_interp.tif"
   }
 ]
