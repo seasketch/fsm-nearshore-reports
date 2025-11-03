@@ -600,7 +600,7 @@
       "classId": "spawnAgg_rabbitfishSpp",
       "sketchId": "24597",
       "groupId": null,
-      "value": 218855.872708,
+      "value": 218417.070277,
       "extra": {
         "sketchName": "test"
       }
@@ -611,7 +611,7 @@
       "classId": "spawnAgg_rabbitfishSpp",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 218855.872708,
+      "value": 218417.070277,
       "extra": {
         "sketchName": "test"
       }
@@ -796,8 +796,8 @@
   "sketch": {
     "id": 24597,
     "bbox": [
-      163.01389563063253,
-      5.277971758225115,
+      163.013895,
+      5.277971718,
       163.105764796,
       5.399092568
     ],

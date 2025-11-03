@@ -354,7 +354,7 @@
       "classId": "spawnAgg_emperorSp",
       "sketchId": "25164",
       "groupId": null,
-      "value": 1731106.410915,
+      "value": 1703054.506715,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -365,7 +365,7 @@
       "classId": "spawnAgg_emperorSp",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 1731106.410915,
+      "value": 1703054.506715,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -398,7 +398,7 @@
       "classId": "spawnAgg_emperorSp",
       "sketchId": "25166",
       "groupId": null,
-      "value": 1731106.410915,
+      "value": 1703054.506715,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -410,7 +410,7 @@
       "classId": "spawnAgg_emperorSp",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 1731106.410915,
+      "value": 1703054.506715,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -702,7 +702,7 @@
       "classId": "spawnAgg_mulletSp",
       "sketchId": "25164",
       "groupId": null,
-      "value": 1731106.410915,
+      "value": 1703054.506715,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -713,7 +713,7 @@
       "classId": "spawnAgg_mulletSp",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 1731106.410915,
+      "value": 1703054.506715,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -746,7 +746,7 @@
       "classId": "spawnAgg_mulletSp",
       "sketchId": "25166",
       "groupId": null,
-      "value": 1731106.410915,
+      "value": 1703054.506715,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -758,7 +758,7 @@
       "classId": "spawnAgg_mulletSp",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 1731106.410915,
+      "value": 1703054.506715,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -1166,7 +1166,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "25164",
       "groupId": null,
-      "value": 176823.018774,
+      "value": 337958.97811,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -1177,7 +1177,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "25164",
       "groupId": "mpa",
-      "value": 176823.018774,
+      "value": 337958.97811,
       "extra": {
         "sketchName": "mpa1_tradeofftest"
       }
@@ -1210,7 +1210,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "25166",
       "groupId": null,
-      "value": 176823.018774,
+      "value": 337958.97811,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -1222,7 +1222,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "25166",
       "groupId": "mpa",
-      "value": 176823.018774,
+      "value": 337958.97811,
       "extra": {
         "sketchName": "tradeofftest",
         "isCollection": true
@@ -1401,8 +1401,8 @@
         "id": 25164,
         "bbox": [
           162.892542493,
-          5.299203114,
-          162.94027022097998,
+          5.299223971889366,
+          162.940270221,
           5.328954813
         ],
         "type": "Feature",
@@ -1449,8 +1449,8 @@
         "bbox": [
           162.899975329,
           5.265675498,
-          162.912005774,
-          5.283676918
+          162.9119785385353,
+          5.283632363144352
         ],
         "type": "Feature",
         "properties": {

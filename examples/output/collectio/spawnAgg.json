@@ -1072,7 +1072,7 @@
       "classId": "spawnAgg_rabbitfishSpp",
       "sketchId": "120979",
       "groupId": null,
-      "value": 195856.56572,
+      "value": 195806.964475,
       "extra": {
         "sketchName": "bigtourism"
       }
@@ -1083,7 +1083,7 @@
       "classId": "spawnAgg_rabbitfishSpp",
       "sketchId": "120979",
       "groupId": "tourism",
-      "value": 195856.56572,
+      "value": 195806.964475,
       "extra": {
         "sketchName": "bigtourism"
       }
@@ -1094,7 +1094,7 @@
       "classId": "spawnAgg_rabbitfishSpp",
       "sketchId": "120980",
       "groupId": null,
-      "value": 195856.56572,
+      "value": 195806.964475,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -1142,7 +1142,7 @@
       "classId": "spawnAgg_rabbitfishSpp",
       "sketchId": "120980",
       "groupId": "tourism",
-      "value": 195856.56572,
+      "value": 195806.964475,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -1166,7 +1166,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "120978",
       "groupId": null,
-      "value": 40523.230689,
+      "value": 55105.659411,
       "extra": {
         "sketchName": "bigmpa"
       }
@@ -1177,7 +1177,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "120978",
       "groupId": "mpa",
-      "value": 40523.230689,
+      "value": 55105.659411,
       "extra": {
         "sketchName": "bigmpa"
       }
@@ -1210,7 +1210,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "120980",
       "groupId": null,
-      "value": 40523.230689,
+      "value": 55105.659411,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true
@@ -1222,7 +1222,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "120980",
       "groupId": "mpa",
-      "value": 40523.230689,
+      "value": 55105.659411,
       "extra": {
         "sketchName": "collectio",
         "isCollection": true

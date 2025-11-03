@@ -1826,7 +1826,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "120972",
       "groupId": null,
-      "value": 185017.891172,
+      "value": 632680.44979,
       "extra": {
         "sketchName": "network-new",
         "isCollection": true
@@ -1862,7 +1862,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "120972",
       "groupId": "energy",
-      "value": 0,
+      "value": 19530.374111,
       "extra": {
         "sketchName": "network-new",
         "isCollection": true
@@ -1886,7 +1886,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "120972",
       "groupId": "other",
-      "value": 141273.971357,
+      "value": 569406.155864,
       "extra": {
         "sketchName": "network-new",
         "isCollection": true
@@ -1942,7 +1942,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "120975",
       "groupId": null,
-      "value": 0,
+      "value": 19530.374111,
       "extra": {
         "sketchName": "energy"
       }
@@ -1953,7 +1953,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "120975",
       "groupId": "energy",
-      "value": 0,
+      "value": 19530.374111,
       "extra": {
         "sketchName": "energy"
       }
@@ -1964,7 +1964,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "120976",
       "groupId": null,
-      "value": 141273.971357,
+      "value": 569406.155864,
       "extra": {
         "sketchName": "other"
       }
@@ -1975,7 +1975,7 @@
       "classId": "spawnAgg_randallsRabbitfish",
       "sketchId": "120976",
       "groupId": "other",
-      "value": 141273.971357,
+      "value": 569406.155864,
       "extra": {
         "sketchName": "other"
       }
@@ -2194,7 +2194,7 @@
         "bbox": [
           162.948314752,
           5.351804115,
-          162.964871460953,
+          162.964853394929,
           5.366448569
         ],
         "type": "Feature",
@@ -2251,7 +2251,7 @@
         "id": 120975,
         "bbox": [
           162.887678688,
-          5.30165075,
+          5.301672913425776,
           162.909447128,
           5.317134216
         ],
@@ -2369,7 +2369,7 @@
           162.997243853,
           5.253468033,
           163.007750102,
-          5.26167559984097
+          5.2616756
         ],
         "type": "Feature",
         "properties": {
@@ -2425,7 +2425,7 @@
         "id": 120974,
         "bbox": [
           162.9308545,
-          5.2671412,
+          5.267143513382385,
           162.944724495,
           5.2717376
         ],

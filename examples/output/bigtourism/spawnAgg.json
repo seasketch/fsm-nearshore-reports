@@ -600,7 +600,7 @@
       "classId": "spawnAgg_rabbitfishSpp",
       "sketchId": "120979",
       "groupId": null,
-      "value": 195856.56572,
+      "value": 195806.964475,
       "extra": {
         "sketchName": "bigtourism"
       }
@@ -644,7 +644,7 @@
       "classId": "spawnAgg_rabbitfishSpp",
       "sketchId": "120979",
       "groupId": "tourism",
-      "value": 195856.56572,
+      "value": 195806.964475,
       "extra": {
         "sketchName": "bigtourism"
       }
