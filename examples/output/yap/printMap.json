@@ -1,0 +1,176 @@
+{
+  "sketch": {
+    "type": "Feature",
+    "id": 121298,
+    "bbox": [
+      137.84166,
+      9.487447,
+      138.10605,
+      9.681969
+    ],
+    "properties": {
+      "6289": "yap",
+      "12419": "TOURISM",
+      "id": "121298",
+      "name": "yap",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2025-09-30T20:16:35.548156+00:00",
+      "updatedAt": "2025-09-30T20:17:32.667828+00:00",
+      "zone_type": "TOURISM",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "745",
+      "userAttributes": [
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6292,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Zone Type",
+          "value": "TOURISM",
+          "exportId": "zone_type",
+          "fieldType": "ComboBox",
+          "valueLabel": "Tourism",
+          "formElementId": 12419,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            137.841652892,
+            9.49905686
+          ],
+          [
+            138.065317239,
+            9.487446381
+          ],
+          [
+            138.061077,
+            9.4914575
+          ],
+          [
+            138.0625934,
+            9.4961044
+          ],
+          [
+            138.077487,
+            9.510127
+          ],
+          [
+            138.0802004,
+            9.5190781
+          ],
+          [
+            138.0777782,
+            9.5201198
+          ],
+          [
+            138.076551,
+            9.523387
+          ],
+          [
+            138.0821604,
+            9.5239953
+          ],
+          [
+            138.0846404,
+            9.5262826
+          ],
+          [
+            138.0834972,
+            9.5305141
+          ],
+          [
+            138.0864524,
+            9.5346083
+          ],
+          [
+            138.0864427,
+            9.5394402
+          ],
+          [
+            138.0911769,
+            9.5431208
+          ],
+          [
+            138.0934145,
+            9.5493209
+          ],
+          [
+            138.097567,
+            9.5505106
+          ],
+          [
+            138.1001548,
+            9.5533773
+          ],
+          [
+            138.1047147,
+            9.5600496
+          ],
+          [
+            138.1032779,
+            9.5634737
+          ],
+          [
+            138.106041529,
+            9.566868827
+          ],
+          [
+            137.924283074,
+            9.681968474
+          ],
+          [
+            137.898377588,
+            9.639556953
+          ],
+          [
+            137.861034386,
+            9.571087661
+          ],
+          [
+            137.847931461,
+            9.534913067
+          ],
+          [
+            137.841652892,
+            9.49905686
+          ]
+        ]
+      ]
+    }
+  },
+  "land": {
+    "type": "FeatureCollection",
+    "bbox": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "features": []
+  }
+}

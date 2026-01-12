@@ -27,7 +27,7 @@
     ]
   },
   {
-    "metricId": "ousValueOverlap",
+    "metricId": "kosraeOus",
     "type": "valueOverlap",
     "classes": [
       {
@@ -386,7 +386,7 @@
       {
         "classId": "ousPeopleCount_all",
         "display": "Total",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       }
     ]
@@ -398,55 +398,55 @@
       {
         "classId": "Fisheries",
         "display": "Fisheries",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Aquaculture",
         "display": "Aquaculture",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Community Recreational Use",
         "display": "Community Recreational Use",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Cultural Use",
         "display": "Cultural Use",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Research / Data Collection",
         "display": "Research & Data Collection",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Tourism",
         "display": "Tourism",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Transportation",
         "display": "Transportation",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Maritime Activity",
         "display": "Maritime Activity",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Construction and Infrastructure",
         "display": "Construction & Infrastructure",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       }
     ]
@@ -458,37 +458,37 @@
       {
         "classId": "Lelu",
         "display": "Lelu",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Malem",
         "display": "Malem",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Tafunsak",
         "display": "Tafunsak",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Utwe",
         "display": "Utwe",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Walung",
         "display": "Walung",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "unknown-municipality",
         "display": "Unknown",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       }
     ]
@@ -500,55 +500,55 @@
       {
         "classId": "Bottom Fishing",
         "display": "Bottom Fishing",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Cast Net",
         "display": "Cast Net",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Casting",
         "display": "Casting",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Gathering / Reef Gleaning",
         "display": "Gathering & Reef Gleaning",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Other(Torch fishing)",
         "display": "Other (Torch Fishing)",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Spear/Harpoon",
         "display": "Spear & Harpoon",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Trap / Fish Fence / Gill Net",
         "display": "Trap, Fish Fence, & Gill Net",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Trolling",
         "display": "Trolling",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Vertical Longline",
         "display": "Vertical Longline",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       }
     ]
@@ -560,19 +560,19 @@
       {
         "classId": "Male",
         "display": "Male",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "Female",
         "display": "Female",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       },
       {
         "classId": "unknown-gender",
         "display": "Unspecified",
-        "datasourceId": "ous_demographics.fgb",
+        "datasourceId": "kosraeOusDemographics.fgb",
         "layerId": ""
       }
     ]
@@ -706,6 +706,54 @@
         "datasourceId": "fish_scores",
         "layerId": "KLZ38tC7R",
         "display": "Fish Assemblage Health"
+      }
+    ]
+  },
+  {
+    "metricId": "yapOus",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "ous_yap_aquacultureMariculture",
+        "display": "Aquaculture & Mariculture",
+        "datasourceId": "ous_yap_aquacultureMariculture",
+        "layerId": "4IpFXBZxR"
+      },
+      {
+        "classId": "ous_yap_communityRecreationalUse",
+        "display": "Community/Recreational",
+        "datasourceId": "ous_yap_communityRecreationalUse",
+        "layerId": "KvW7i16yF"
+      },
+      {
+        "classId": "ous_yap_constructionInfrastructure",
+        "display": "Construction & Infrastructure",
+        "datasourceId": "ous_yap_constructionInfrastructure",
+        "layerId": "3gYfUON6D"
+      },
+      {
+        "classId": "ous_yap_culturalUse",
+        "display": "Cultural Use",
+        "datasourceId": "ous_yap_culturalUse",
+        "layerId": "E14arpsqU"
+      },
+      {
+        "classId": "ous_yap_fishing",
+        "display": "Fishing",
+        "datasourceId": "ous_yap_fishing",
+        "layerId": "5trJYjVvP"
+      },
+      {
+        "classId": "ous_yap_maritimeActivity",
+        "display": "Maritime Activity",
+        "datasourceId": "ous_yap_maritimeActivity",
+        "layerId": "Abo3eh3kJ"
+      },
+      {
+        "classId": "ous_yap_tourism",
+        "display": "Tourism",
+        "datasourceId": "ous_yap_tourism",
+        "layerId": "WsbWV1tB5"
       }
     ]
   }

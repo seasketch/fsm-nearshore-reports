@@ -1,0 +1,2306 @@
+{
+  "metrics": [
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_aquaculture",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_aquaculture",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_aquaculture",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_aquaculture",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_aquaculture",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_aquaculture",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_aquaculture",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_aquaculture",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_aquaculture",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_aquaculture",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 9784.630915,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 5002.772895,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 4781.85802,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 5002.772895,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 5002.772895,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 4781.85802,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 4781.85802,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_cultural_use",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 8487.517261,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_cultural_use",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 8487.517261,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_cultural_use",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_cultural_use",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_cultural_use",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_cultural_use",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_cultural_use",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 8487.517261,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_cultural_use",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 8487.517261,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_cultural_use",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_cultural_use",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_fisheries",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 8737.298358,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_fisheries",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 6604.041912,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_fisheries",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 2133.256445,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_fisheries",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_fisheries",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_fisheries",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_fisheries",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 6604.041912,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_fisheries",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 6604.041912,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_fisheries",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 2133.256445,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_fisheries",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 2133.256445,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 3712.372269,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 28.659069,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 3683.7132,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 28.659069,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 28.659069,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 3683.7132,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 3683.7132,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_research",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 47.125355,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_research",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 46.690586,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_research",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0.434769,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_research",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_research",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_research",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_research",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 46.690586,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_research",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 46.690586,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_research",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0.434769,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_research",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0.434769,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_tourism",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_tourism",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_tourism",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_tourism",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_tourism",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_tourism",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_tourism",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_tourism",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_tourism",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_tourism",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_transportation",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 2.632367,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_transportation",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 2.60258,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_transportation",
+      "sketchId": "24665",
+      "groupId": "aquaculture",
+      "value": 0.029787,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_transportation",
+      "sketchId": "24665",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_transportation",
+      "sketchId": "24665",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_transportation",
+      "sketchId": "24665",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_transportation",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 2.60258,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_transportation",
+      "sketchId": "24666",
+      "groupId": "mpa",
+      "value": 2.60258,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_transportation",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0.029787,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "kosraeOus",
+      "classId": "ous_transportation",
+      "sketchId": "24667",
+      "groupId": "aquaculture",
+      "value": 0.029787,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-clamFarming",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-clamFarming",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-clamFarming",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-coralFarming",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-coralFarming",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-coralFarming",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-finfishFarming",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-finfishFarming",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-finfishFarming",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-seaCucumberFarming",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-seaCucumberFarming",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-seaCucumberFarming",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-trochusFarming",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-trochusFarming",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "aquaculture-trochusFarming",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_handicrafts",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 420067.916748,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_handicrafts",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 377063.791504,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_handicrafts",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 43004.125244,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_historicalSite",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_historicalSite",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_historicalSite",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationFood",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 308964.460449,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationFood",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 308964.460449,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationFood",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationWood",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationWood",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_preservationWood",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_seaCucumberCollection",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 3449412.901733,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_seaCucumberCollection",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 3449412.901733,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_seaCucumberCollection",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_turtleHarvesting",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 15466.361542,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_turtleHarvesting",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 15466.361542,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "cultural_turtleHarvesting",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_bottomFishing",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 464329.774146,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_bottomFishing",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 462151.701267,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_bottomFishing",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 2178.07288,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_casting",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 1420075.946089,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_casting",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 1108354.54966,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_casting",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 311721.396429,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_castNet",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 290258.155991,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_castNet",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 211655.139725,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_castNet",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 78603.016266,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_gatheringReefGleaning",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 1333703.115673,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_gatheringReefGleaning",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 618436.537304,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_gatheringReefGleaning",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 715266.578369,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_spearHarpoon",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 129385.287092,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_spearHarpoon",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 47463.012175,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_spearHarpoon",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 81922.274918,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_torchFishing",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 87239.383087,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_torchFishing",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 87239.383087,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_torchFishing",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trapFishFenceGillNet",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 657595.956871,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trapFishFenceGillNet",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 288109.329917,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trapFishFenceGillNet",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 369486.626953,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trolling",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 45460.736822,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trolling",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 42800.450121,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_trolling",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 2660.286702,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_verticalLongline",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 71918.509293,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_verticalLongline",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 70746.231861,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "gear_verticalLongline",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 1172.277431,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_churchCultural",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 1443366.396746,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_churchCultural",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 896655.635172,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_churchCultural",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 546710.761574,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_homeConsumption",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 2429982.762306,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_homeConsumption",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 1971515.589756,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_homeConsumption",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 458467.17255,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sale",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 88345.879356,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sale",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sale",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 88345.879356,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sendToFamilyAbroad",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 40832.448578,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sendToFamilyAbroad",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 40832.448578,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "purpose_sendToFamilyAbroad",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_coastalFishReefFish",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 3587901.175044,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_coastalFishReefFish",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 2858509.644731,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_coastalFishReefFish",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 729391.530313,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_crab",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 306427.485718,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_crab",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_crab",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 306427.485718,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_lobster",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_lobster",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_lobster",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_oceanicFish",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 60682.434252,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_oceanicFish",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 56956.584243,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_oceanicFish",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 3725.850009,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_ornamentalFish",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_ornamentalFish",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_ornamentalFish",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_other",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_other",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_other",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_seaCucumber",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_seaCucumber",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_seaCucumber",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_shellfish",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 24891.110962,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_shellfish",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_shellfish",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 24891.110962,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_turtle",
+      "sketchId": "24665",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_turtle",
+      "sketchId": "24666",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "mpa"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousSubsectorValueOverlap",
+      "classId": "species_turtle",
+      "sketchId": "24667",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "aquaculture-site"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 24665,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 24667,
+        "bbox": [
+          162.93085,
+          5.2671413,
+          162.94473,
+          5.2717376
+        ],
+        "type": "Feature",
+        "properties": {
+          "6333": "aquaculture-site",
+          "id": "24667",
+          "name": "aquaculture-site",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2024-01-22T19:34:45.136882+00:00",
+          "updatedAt": "2024-01-22T19:34:47.762303+00:00",
+          "description": null,
+          "collectionId": "24665",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "752",
+          "userAttributes": [
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "description",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6335,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6336,
+              "alternateLanguages": {}
+            }
+          ]
+        },
+        "geometry": null
+      },
+      {
+        "id": 24666,
+        "bbox": [
+          162.9683,
+          5.3656883,
+          162.99742,
+          5.416262
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "mpa",
+          "id": "24666",
+          "name": "mpa",
+          "postId": null,
+          "userId": "531",
+          "authors": null,
+          "userSlug": "Abby",
+          "createdAt": "2024-01-22T19:34:26.038043+00:00",
+          "updatedAt": "2024-01-22T19:34:28.590769+00:00",
+          "collectionId": "24665",
+          "isCollection": false,
+          "sharedInForum": false,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "6293": "mixed-network",
+      "id": "24665",
+      "name": "mixed-network",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2024-01-22T19:34:06.684054+00:00",
+      "updatedAt": "2024-01-22T19:34:47.762303+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": false,
+      "sketchClassId": "746",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6294,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6295,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    }
+  }
+}

@@ -12,7 +12,7 @@ import {
   toPercentMetric,
   percentWithEdge,
 } from "@seasketch/geoprocessing/client-core";
-import precalcTotals from "../../data/bin/ousDemographicPrecalcTotals.json" with { type: "json" };
+import precalcTotals from "../../data/bin/kosraeOusDemographicPrecalcTotals.json" with { type: "json" };
 import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
 import { ReportProps } from "../util/ReportProp.js";
@@ -85,8 +85,8 @@ export const OusDemographic: React.FunctionComponent<ReportProps> = (props) => {
   return (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
-        title={t("Ocean Use Demographics")}
-        functionName="ousDemographicOverlap"
+        title={t("Kosrae Ocean Use Demographics")}
+        functionName="kosraeOusDemographicOverlap"
         extraParams={{
           geographyIds: [curGeography.geographyId],
           overlapSketch: true,

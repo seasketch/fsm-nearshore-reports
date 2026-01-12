@@ -6,7 +6,7 @@
       "classId": "Aquatic land features",
       "sketchId": "24665",
       "groupId": null,
-      "value": 301542.871171,
+      "value": 301131.968975,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -30,7 +30,7 @@
       "classId": "Aquatic land features",
       "sketchId": "24665",
       "groupId": "aquaculture",
-      "value": 301542.871171,
+      "value": 301131.968975,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -100,7 +100,7 @@
       "classId": "Aquatic land features",
       "sketchId": "24667",
       "groupId": null,
-      "value": 301542.871171,
+      "value": 301131.968975,
       "extra": {
         "sketchName": "aquaculture-site"
       }
@@ -111,7 +111,7 @@
       "classId": "Aquatic land features",
       "sketchId": "24667",
       "groupId": "aquaculture",
-      "value": 301542.871171,
+      "value": 301131.968975,
       "extra": {
         "sketchName": "aquaculture-site"
       }
@@ -818,7 +818,7 @@
       "classId": "Reef flat",
       "sketchId": "24665",
       "groupId": null,
-      "value": 606668.78069,
+      "value": 605411.235898,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -830,7 +830,7 @@
       "classId": "Reef flat",
       "sketchId": "24665",
       "groupId": "mpa",
-      "value": 606668.78069,
+      "value": 605411.235898,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -890,7 +890,7 @@
       "classId": "Reef flat",
       "sketchId": "24666",
       "groupId": null,
-      "value": 606668.78069,
+      "value": 605411.235898,
       "extra": {
         "sketchName": "mpa"
       }
@@ -901,7 +901,7 @@
       "classId": "Reef flat",
       "sketchId": "24666",
       "groupId": "mpa",
-      "value": 606668.78069,
+      "value": 605411.235898,
       "extra": {
         "sketchName": "mpa"
       }

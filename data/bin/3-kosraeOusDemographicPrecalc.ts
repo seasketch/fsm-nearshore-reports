@@ -1,16 +1,13 @@
 import fs from "fs-extra";
-import { ousDemographicOverlap } from "../../src/functions/ousDemographicOverlap.js";
-import {
-  rekeyMetrics,
-  genSketchCollection,
-} from "@seasketch/geoprocessing";
+import { rekeyMetrics, genSketchCollection } from "@seasketch/geoprocessing";
+import { kosraeOusDemographicOverlap } from "../../src/functions/kosraeOusDemographicOverlap.js";
 
-const DEST_PATH = "ousDemographicPrecalcTotals.json";
+const DEST_PATH = "kosraeOusDemographicPrecalcTotals.json";
 
 async function main() {
   const metrics = rekeyMetrics(
     (
-      await ousDemographicOverlap(genSketchCollection([]), {
+      await kosraeOusDemographicOverlap(genSketchCollection([]), {
         geographyIds: [],
         overlapSketch: false,
       })

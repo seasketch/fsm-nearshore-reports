@@ -1,0 +1,854 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_barracuda",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blackJack",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_blacktailSnapper",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_emperorSp",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_lowfinRudderfish",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletFringelip",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_mulletSp",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_oneSpotSnapper",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_orangeSpineUnicornfish",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_rabbitfishSpp",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_randallsRabbitfish",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "121298",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "121298",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "spawnAgg",
+      "classId": "spawnAgg_scribbledRabbitfish",
+      "sketchId": "121298",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 121298,
+    "bbox": [
+      137.84166,
+      9.487447,
+      138.10605,
+      9.681969
+    ],
+    "type": "Feature",
+    "properties": {
+      "6289": "yap",
+      "12419": "TOURISM",
+      "id": "121298",
+      "name": "yap",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2025-09-30T20:16:35.548156+00:00",
+      "updatedAt": "2025-09-30T20:17:32.667828+00:00",
+      "zone_type": "TOURISM",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "745",
+      "userAttributes": [
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6292,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Zone Type",
+          "value": "TOURISM",
+          "exportId": "zone_type",
+          "fieldType": "ComboBox",
+          "valueLabel": "Tourism",
+          "formElementId": 12419,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    },
+    "geometry": null
+  }
+}

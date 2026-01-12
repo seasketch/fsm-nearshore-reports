@@ -6,7 +6,7 @@
       "classId": "nearshore",
       "sketchId": "24665",
       "groupId": null,
-      "value": 11847583.59516,
+      "value": 11844595.707573,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -18,7 +18,7 @@
       "classId": "nearshore",
       "sketchId": "24665",
       "groupId": "mpa",
-      "value": 11486105.514745,
+      "value": 11484717.50991,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -30,7 +30,7 @@
       "classId": "nearshore",
       "sketchId": "24665",
       "groupId": "aquaculture",
-      "value": 361479.4576997517,
+      "value": 359872.53557356284,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -78,7 +78,7 @@
       "classId": "nearshore",
       "sketchId": "24666",
       "groupId": null,
-      "value": 11486105.514745,
+      "value": 11484717.50991,
       "extra": {
         "sketchName": "mpa"
       }
@@ -89,7 +89,7 @@
       "classId": "nearshore",
       "sketchId": "24666",
       "groupId": "mpa",
-      "value": 11486105.514745,
+      "value": 11484717.50991,
       "extra": {
         "sketchName": "mpa"
       }
@@ -100,7 +100,7 @@
       "classId": "nearshore",
       "sketchId": "24667",
       "groupId": null,
-      "value": 361478.080415,
+      "value": 359878.197663,
       "extra": {
         "sketchName": "aquaculture-site"
       }
@@ -111,7 +111,7 @@
       "classId": "nearshore",
       "sketchId": "24667",
       "groupId": "aquaculture",
-      "value": 361478.080415,
+      "value": 359878.197663,
       "extra": {
         "sketchName": "aquaculture-site"
       }

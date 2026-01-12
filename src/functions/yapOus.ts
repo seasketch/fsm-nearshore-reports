@@ -21,13 +21,12 @@ import {
   toNullSketch,
 } from "@seasketch/geoprocessing/client-core";
 import { clipToGeography } from "../util/clipToGeography.js";
-import { bbox } from "@turf/turf";
 import { loadCog } from "@seasketch/geoprocessing/dataproviders";
 import { getGroup, groups } from "../util/getGroup.js";
 
-const mg = project.getMetricGroup("ousValueOverlap");
+const mg = project.getMetricGroup("yapOus");
 
-export async function ousValueOverlap(
+export async function yapOus(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
@@ -96,48 +95,14 @@ export async function ousValueOverlap(
     featuresByClass,
   });
 
-  //subsector metrics
-  const subsectorMg = project.getMetricGroup("ousSubsectorValueOverlap");
-  const subsectorMetrics: Metric[] = (
-    await Promise.all(
-      subsectorMg.classes.map(async (curClass) => {
-        // start raster load and move on in loop while awaiting finish
-        if (!curClass.datasourceId)
-          throw new Error(`Expected datasourceId for ${curClass}`);
-        const url = `${project.dataBucketUrl()}${getCogFilename(
-          project.getInternalRasterDatasourceById(curClass.datasourceId),
-        )}`;
-        const raster = await loadCog(url);
-        // start analysis as soon as source load done
-        const overlapResult = await rasterMetrics(raster, {
-          metricId: subsectorMg.metricId,
-          feature: clippedSketch,
-        });
-        return overlapResult.map(
-          (metrics): Metric => ({
-            ...metrics,
-            classId: curClass.classId,
-            geographyId: curGeography.geographyId,
-          }),
-        );
-      }),
-    )
-  ).reduce(
-    // merge
-    (metricsSoFar, curClassMetrics) => [...metricsSoFar, ...curClassMetrics],
-    [],
-  );
-
   return {
-    metrics: sortMetrics(
-      rekeyMetrics([...metrics, ...groupMetrics, ...subsectorMetrics]),
-    ),
+    metrics: sortMetrics(rekeyMetrics([...metrics, ...groupMetrics])),
     sketch: toNullSketch(sketch, true),
   };
 }
 
-export default new GeoprocessingHandler(ousValueOverlap, {
-  title: "ousValueOverlap",
+export default new GeoprocessingHandler(yapOus, {
+  title: "yapOus",
   description: "ocean use metrics",
   timeout: 900, // seconds
   executionMode: "async",

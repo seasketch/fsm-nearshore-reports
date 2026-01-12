@@ -9,8 +9,7 @@ import handler, { clipToOceanNearshore } from "./clipToOceanNearshore.js";
 import { coralACA } from "./coralACA.js";
 import { depthZones } from "./depthZones.js";
 import { groupCountOverlap } from "./groupCountOverlap.js";
-import { ousDemographicOverlap } from "./ousDemographicOverlap.js";
-import { ousValueOverlap } from "./ousValueOverlap.js";
+import { kosraeOusDemographicOverlap } from "./kosraeOusDemographicOverlap.js";
 import { printMap } from "./printMap.js";
 import { reefGeomorphic } from "./reefGeomorphic.js";
 import { seagrassACA } from "./seagrassACA.js";
@@ -19,6 +18,8 @@ import { mangroves } from "./mangroves.js";
 import { fad } from "./fad.js";
 import { existingMPAs } from "./existingMPAs.js";
 import { reefMonitoring } from "./reefMonitoring.js";
+import { kosraeOus } from "./kosraeOus.js";
+import { yapOus } from "./yapOus.js";
 
 // Standard smoke tests
 function createSmokeTest(
@@ -51,8 +52,9 @@ const tests = [
   { name: "coralACA", func: coralACA, timeout: 120_000 },
   { name: "depthZones", func: depthZones },
   { name: "groupCountOverlap", func: groupCountOverlap },
-  { name: "ousDemographicOverlap", func: ousDemographicOverlap },
-  { name: "ousValueOverlap", func: ousValueOverlap },
+  { name: "kosraeOusDemographicOverlap", func: kosraeOusDemographicOverlap },
+  { name: "kosraeOus", func: kosraeOus, timeout: 120_000 },
+  { name: "yapOus", func: yapOus, timeout: 120_000 },
   { name: "printMap", func: printMap },
   { name: "reefGeomorphic", func: reefGeomorphic },
   { name: "seagrassACA", func: seagrassACA, timeout: 120_000 },

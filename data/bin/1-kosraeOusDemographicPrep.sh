@@ -19,10 +19,10 @@ rm ../dist/ous_demographics.json
 rm ../dist/ous_demographics.fgb
 
 # Sort by respondent_id (for faster processing at runtime)
-npx tsx ousDemographicSort.ts
+npx tsx kosraeOusDemographicSort.ts
 
 # Create json file for direct import by precalc
-cp ../src/Analytics/ous_demographics_sorted.geojson ../dist/ous_demographics.json
+cp ../src/Analytics/kosraeOusDemographics_sorted.geojson ../dist/kosraeOusDemographics.json
 
 # Create fgb file
-./genFgb.sh ../dist/ous_demographics.json ../dist ous_demographics 'SELECT * FROM kosrae_scrubbed_shapes' -nlt PROMOTE_TO_MULTI
+./genFgb.sh ../dist/kosraeOusDemographics.json ../dist kosraeOusDemographics 'SELECT * FROM kosrae_scrubbed_shapes' -nlt PROMOTE_TO_MULTI

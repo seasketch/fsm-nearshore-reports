@@ -21,10 +21,10 @@ import {
 } from "../util/ProtectionLevelOverlapReports.js";
 import { ReportProps } from "../util/ReportProp.js";
 
-export const OUSCard: React.FunctionComponent<ReportProps> = (props) => {
+export const KosraeOUS: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection, childProperties }] = useSketchProperties();
   const { t } = useTranslation();
-  const mg = project.getMetricGroup("ousValueOverlap", t);
+  const mg = project.getMetricGroup("kosraeOus", t);
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
@@ -37,8 +37,8 @@ export const OUSCard: React.FunctionComponent<ReportProps> = (props) => {
   return (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
-        title={t("Ocean Use")}
-        functionName="ousValueOverlap"
+        title={t("Kosrae Ocean Use")}
+        functionName="kosraeOus"
         extraParams={{ geographyIds: [curGeography.geographyId] }}
       >
         {(data: ReportResult) => {

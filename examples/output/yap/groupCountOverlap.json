@@ -1,0 +1,69 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "groupCountOverlap",
+      "classId": "tourism",
+      "sketchId": null,
+      "groupId": "tourism",
+      "value": 1
+    }
+  ],
+  "sketch": {
+    "id": 121298,
+    "bbox": [
+      137.84166,
+      9.487447,
+      138.10605,
+      9.681969
+    ],
+    "type": "Feature",
+    "properties": {
+      "6289": "yap",
+      "12419": "TOURISM",
+      "id": "121298",
+      "name": "yap",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2025-09-30T20:16:35.548156+00:00",
+      "updatedAt": "2025-09-30T20:17:32.667828+00:00",
+      "zone_type": "TOURISM",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "745",
+      "userAttributes": [
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6292,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Zone Type",
+          "value": "TOURISM",
+          "exportId": "zone_type",
+          "fieldType": "ComboBox",
+          "valueLabel": "Tourism",
+          "formElementId": 12419,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    }
+  }
+}

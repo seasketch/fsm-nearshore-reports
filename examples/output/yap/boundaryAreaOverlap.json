@@ -4,102 +4,95 @@
       "geographyId": "kosrae",
       "metricId": "boundaryAreaOverlap",
       "classId": "nearshore",
-      "sketchId": "24597",
+      "sketchId": "121298",
       "groupId": null,
-      "value": 83871321.012567,
+      "value": 0,
       "extra": {
-        "sketchName": "test"
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "121298",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "121298",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "121298",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
       }
     },
     {
       "geographyId": "kosrae",
       "metricId": "boundaryAreaOverlap",
       "classId": "nearshore",
-      "sketchId": "24597",
-      "groupId": "mpa",
-      "value": 83871321.012567,
-      "extra": {
-        "sketchName": "test"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "boundaryAreaOverlap",
-      "classId": "nearshore",
-      "sketchId": "24597",
-      "groupId": "aquaculture",
-      "value": 0,
-      "extra": {
-        "sketchName": "test"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "boundaryAreaOverlap",
-      "classId": "nearshore",
-      "sketchId": "24597",
-      "groupId": "energy",
-      "value": 0,
-      "extra": {
-        "sketchName": "test"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "boundaryAreaOverlap",
-      "classId": "nearshore",
-      "sketchId": "24597",
+      "sketchId": "121298",
       "groupId": "tourism",
       "value": 0,
       "extra": {
-        "sketchName": "test"
+        "sketchName": "yap"
       }
     },
     {
       "geographyId": null,
       "metricId": "boundaryAreaOverlap",
       "classId": "nearshore",
-      "sketchId": "24597",
+      "sketchId": "121298",
       "groupId": "other",
       "value": 0,
       "extra": {
-        "sketchName": "test"
+        "sketchName": "yap"
       }
     }
   ],
   "sketch": {
-    "id": 24597,
+    "id": 121298,
     "bbox": [
-      163.0139,
-      5.2779717,
-      163.10576,
-      5.3990927
+      137.84166,
+      9.487447,
+      138.10605,
+      9.681969
     ],
     "type": "Feature",
     "properties": {
-      "6289": "test",
-      "id": "24597",
-      "name": "test",
+      "6289": "yap",
+      "12419": "TOURISM",
+      "id": "121298",
+      "name": "yap",
       "postId": null,
       "userId": "531",
       "authors": null,
       "userSlug": "Abby",
-      "createdAt": "2024-01-18T21:24:53.060168+00:00",
-      "updatedAt": "2024-01-18T21:24:53.060168+00:00",
+      "createdAt": "2025-09-30T20:16:35.548156+00:00",
+      "updatedAt": "2025-09-30T20:17:32.667828+00:00",
+      "zone_type": "TOURISM",
       "collectionId": null,
       "isCollection": false,
       "sharedInForum": false,
       "sketchClassId": "745",
       "userAttributes": [
-        {
-          "label": "Description",
-          "value": null,
-          "exportId": "descriptionconsider_adding_a_ra",
-          "fieldType": "TextArea",
-          "valueLabel": null,
-          "formElementId": 6291,
-          "alternateLanguages": {}
-        },
         {
           "label": "Author(s)",
           "value": null,
@@ -107,6 +100,24 @@
           "fieldType": "ShortText",
           "valueLabel": null,
           "formElementId": 6292,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Zone Type",
+          "value": "TOURISM",
+          "exportId": "zone_type",
+          "fieldType": "ComboBox",
+          "valueLabel": "Tourism",
+          "formElementId": 12419,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
           "alternateLanguages": {}
         }
       ],

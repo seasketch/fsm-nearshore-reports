@@ -15,7 +15,8 @@ import { Settings } from "../util/Settings.js";
 import { Footer } from "../util/Footer.js";
 import { Group } from "../components/Group.js";
 import { SizeCard } from "../components/SizeCard.js";
-import { OUSCard } from "../components/OUSCard.js";
+import { KosraeOUS } from "../components/KosraeOUS.js";
+import { YapOUS } from "../components/YapOUS.js";
 import { OusDemographic } from "../components/OusDemographic.js";
 import { SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
 import { ReefGeomorphic } from "../components/ReefGeomorphic.js";
@@ -135,8 +136,13 @@ const BaseReport = () => {
             <>
               <FAD geographyId={geographyId} printing={isPrinting} />
               <ExistingMPAs geographyId={geographyId} printing={isPrinting} />
-              <OUSCard geographyId={geographyId} printing={isPrinting} />
+              <KosraeOUS geographyId={geographyId} printing={isPrinting} />
               <OusDemographic geographyId={geographyId} printing={isPrinting} />
+            </>
+          )}
+          {geographyId === "yap" && (
+            <>
+              <YapOUS geographyId={geographyId} printing={isPrinting} />
             </>
           )}
           {!isPrinting && <SketchAttributesCard autoHide />}

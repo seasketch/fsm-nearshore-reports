@@ -1,31 +1,31 @@
 {
   "metrics": [
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "0 - 30m: Altiphotic",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_aquacultureMariculture",
       "sketchId": "24597",
-      "groupId": null,
-      "value": 22041219.424406,
+      "groupId": "band-0",
+      "value": 0,
       "extra": {
         "sketchName": "test"
       }
     },
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "0 - 30m: Altiphotic",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_aquacultureMariculture",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 22041219.424406,
+      "value": 0,
       "extra": {
         "sketchName": "test"
       }
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "0 - 30m: Altiphotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_aquacultureMariculture",
       "sketchId": "24597",
       "groupId": "aquaculture",
       "value": 0,
@@ -35,8 +35,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "0 - 30m: Altiphotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_aquacultureMariculture",
       "sketchId": "24597",
       "groupId": "energy",
       "value": 0,
@@ -46,8 +46,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "0 - 30m: Altiphotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_aquacultureMariculture",
       "sketchId": "24597",
       "groupId": "tourism",
       "value": 0,
@@ -57,8 +57,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "0 - 30m: Altiphotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_aquacultureMariculture",
       "sketchId": "24597",
       "groupId": "other",
       "value": 0,
@@ -67,31 +67,31 @@
       }
     },
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "130 - 320m: Rariphotic",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_communityRecreationalUse",
       "sketchId": "24597",
-      "groupId": null,
-      "value": 5932320.540637,
+      "groupId": "band-0",
+      "value": 0,
       "extra": {
         "sketchName": "test"
       }
     },
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "130 - 320m: Rariphotic",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_communityRecreationalUse",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 5932320.540637,
+      "value": 0,
       "extra": {
         "sketchName": "test"
       }
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "130 - 320m: Rariphotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_communityRecreationalUse",
       "sketchId": "24597",
       "groupId": "aquaculture",
       "value": 0,
@@ -101,8 +101,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "130 - 320m: Rariphotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_communityRecreationalUse",
       "sketchId": "24597",
       "groupId": "energy",
       "value": 0,
@@ -112,8 +112,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "130 - 320m: Rariphotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_communityRecreationalUse",
       "sketchId": "24597",
       "groupId": "tourism",
       "value": 0,
@@ -123,8 +123,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "130 - 320m: Rariphotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_communityRecreationalUse",
       "sketchId": "24597",
       "groupId": "other",
       "value": 0,
@@ -133,31 +133,31 @@
       }
     },
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "30 - 130m: Mesophotic",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_constructionInfrastructure",
       "sketchId": "24597",
-      "groupId": null,
-      "value": 5204104.224113,
+      "groupId": "band-0",
+      "value": 0,
       "extra": {
         "sketchName": "test"
       }
     },
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "30 - 130m: Mesophotic",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_constructionInfrastructure",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 5204104.224113,
+      "value": 0,
       "extra": {
         "sketchName": "test"
       }
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "30 - 130m: Mesophotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_constructionInfrastructure",
       "sketchId": "24597",
       "groupId": "aquaculture",
       "value": 0,
@@ -167,8 +167,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "30 - 130m: Mesophotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_constructionInfrastructure",
       "sketchId": "24597",
       "groupId": "energy",
       "value": 0,
@@ -178,8 +178,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "30 - 130m: Mesophotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_constructionInfrastructure",
       "sketchId": "24597",
       "groupId": "tourism",
       "value": 0,
@@ -189,8 +189,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "30 - 130m: Mesophotic",
+      "metricId": "yapOus",
+      "classId": "ous_yap_constructionInfrastructure",
       "sketchId": "24597",
       "groupId": "other",
       "value": 0,
@@ -199,31 +199,31 @@
       }
     },
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "320 - 800m: Upper bathyal",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_culturalUse",
       "sketchId": "24597",
-      "groupId": null,
-      "value": 10184737.870145,
+      "groupId": "band-0",
+      "value": 0,
       "extra": {
         "sketchName": "test"
       }
     },
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "320 - 800m: Upper bathyal",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_culturalUse",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 10184737.870145,
+      "value": 0,
       "extra": {
         "sketchName": "test"
       }
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "320 - 800m: Upper bathyal",
+      "metricId": "yapOus",
+      "classId": "ous_yap_culturalUse",
       "sketchId": "24597",
       "groupId": "aquaculture",
       "value": 0,
@@ -233,8 +233,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "320 - 800m: Upper bathyal",
+      "metricId": "yapOus",
+      "classId": "ous_yap_culturalUse",
       "sketchId": "24597",
       "groupId": "energy",
       "value": 0,
@@ -244,8 +244,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "320 - 800m: Upper bathyal",
+      "metricId": "yapOus",
+      "classId": "ous_yap_culturalUse",
       "sketchId": "24597",
       "groupId": "tourism",
       "value": 0,
@@ -255,8 +255,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "320 - 800m: Upper bathyal",
+      "metricId": "yapOus",
+      "classId": "ous_yap_culturalUse",
       "sketchId": "24597",
       "groupId": "other",
       "value": 0,
@@ -265,20 +265,20 @@
       }
     },
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "3500 - 6500m: Abyssal",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_fishing",
       "sketchId": "24597",
-      "groupId": null,
+      "groupId": "band-0",
       "value": 0,
       "extra": {
         "sketchName": "test"
       }
     },
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "3500 - 6500m: Abyssal",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_fishing",
       "sketchId": "24597",
       "groupId": "mpa",
       "value": 0,
@@ -288,8 +288,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "3500 - 6500m: Abyssal",
+      "metricId": "yapOus",
+      "classId": "ous_yap_fishing",
       "sketchId": "24597",
       "groupId": "aquaculture",
       "value": 0,
@@ -299,8 +299,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "3500 - 6500m: Abyssal",
+      "metricId": "yapOus",
+      "classId": "ous_yap_fishing",
       "sketchId": "24597",
       "groupId": "energy",
       "value": 0,
@@ -310,8 +310,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "3500 - 6500m: Abyssal",
+      "metricId": "yapOus",
+      "classId": "ous_yap_fishing",
       "sketchId": "24597",
       "groupId": "tourism",
       "value": 0,
@@ -321,8 +321,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "3500 - 6500m: Abyssal",
+      "metricId": "yapOus",
+      "classId": "ous_yap_fishing",
       "sketchId": "24597",
       "groupId": "other",
       "value": 0,
@@ -331,31 +331,31 @@
       }
     },
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "800 - 3500m: Lower bathyal ",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_maritimeActivity",
       "sketchId": "24597",
-      "groupId": null,
-      "value": 40509029.751714,
+      "groupId": "band-0",
+      "value": 0,
       "extra": {
         "sketchName": "test"
       }
     },
     {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "800 - 3500m: Lower bathyal ",
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_maritimeActivity",
       "sketchId": "24597",
       "groupId": "mpa",
-      "value": 40509029.751714,
+      "value": 0,
       "extra": {
         "sketchName": "test"
       }
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "800 - 3500m: Lower bathyal ",
+      "metricId": "yapOus",
+      "classId": "ous_yap_maritimeActivity",
       "sketchId": "24597",
       "groupId": "aquaculture",
       "value": 0,
@@ -365,8 +365,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "800 - 3500m: Lower bathyal ",
+      "metricId": "yapOus",
+      "classId": "ous_yap_maritimeActivity",
       "sketchId": "24597",
       "groupId": "energy",
       "value": 0,
@@ -376,8 +376,8 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "800 - 3500m: Lower bathyal ",
+      "metricId": "yapOus",
+      "classId": "ous_yap_maritimeActivity",
       "sketchId": "24597",
       "groupId": "tourism",
       "value": 0,
@@ -387,8 +387,74 @@
     },
     {
       "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "800 - 3500m: Lower bathyal ",
+      "metricId": "yapOus",
+      "classId": "ous_yap_maritimeActivity",
+      "sketchId": "24597",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_tourism",
+      "sketchId": "24597",
+      "groupId": "band-0",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "yapOus",
+      "classId": "ous_yap_tourism",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "yapOus",
+      "classId": "ous_yap_tourism",
+      "sketchId": "24597",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "yapOus",
+      "classId": "ous_yap_tourism",
+      "sketchId": "24597",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "yapOus",
+      "classId": "ous_yap_tourism",
+      "sketchId": "24597",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "yapOus",
+      "classId": "ous_yap_tourism",
       "sketchId": "24597",
       "groupId": "other",
       "value": 0,

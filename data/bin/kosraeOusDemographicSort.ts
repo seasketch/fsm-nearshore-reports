@@ -1,5 +1,5 @@
 import fs from "fs-extra";
-import { OusFeatureProperties } from "../../src/util/overlapOusDemographic";
+import { OusFeatureProperties } from "../../src/functions/kosraeOusDemographicOverlap.js";
 import { FeatureCollection, Polygon } from "@seasketch/geoprocessing";
 
 // Assumes already done:
@@ -15,6 +15,6 @@ const sortedShapes = shapeFc.features.sort(
   (a, b) => a.properties.resp_id - b.properties.resp_id,
 );
 fs.writeFileSync(
-  "../src/Analytics/ous_demographics_sorted.geojson",
+  "../src/Analytics/kosraeOusDemographics_sorted.geojson",
   JSON.stringify({ ...shapeFc, features: sortedShapes }),
 );

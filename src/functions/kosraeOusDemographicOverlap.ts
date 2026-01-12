@@ -17,6 +17,7 @@ import {
   toSketchArray,
   clip,
   createMetric,
+  DefaultExtraParams,
 } from "@seasketch/geoprocessing";
 import { clipToGeography } from "../util/clipToGeography.js";
 import { Metric, sortMetrics } from "@seasketch/geoprocessing/client-core";
@@ -58,31 +59,36 @@ export type OusReportResult = {
   metrics: Metric[];
 };
 
+interface OusExtraParams extends DefaultExtraParams {
+  overlapSketch?: boolean;
+}
+
 /** Calculate sketch area overlap inside and outside of multiple planning area boundaries */
-export async function ousDemographicOverlap(
+export async function kosraeOusDemographicOverlap(
   sketch:
     | Sketch<Polygon | MultiPolygon>
     | SketchCollection<Polygon | MultiPolygon>,
-  extraParams: { geographyIds: string[]; overlapSketch: boolean },
+  extraParams: OusExtraParams = {},
 ): Promise<ReportResult> {
   // Use caller-provided geographyId if provided
   const geographyId = getFirstFromParam("geographyIds", extraParams);
+  const overlapSketch = extraParams.overlapSketch !== false;
 
   // Get geography features, falling back to geography assigned to default-boundary group
   const curGeography = projectClient.getGeographyById(geographyId, {
     fallbackGroup: "default-boundary",
   });
 
-  const clippedSketch = extraParams.overlapSketch
+  const clippedSketch = overlapSketch
     ? await clipToGeography(sketch, curGeography, {
         tolerance: 0.00001,
       })
     : sketch;
 
-  const url = `${projectClient.dataBucketUrl()}ous_demographics.fgb`;
+  const url = `${projectClient.dataBucketUrl()}kosraeOusDemographics.fgb`;
 
   const rawShapes = (
-    extraParams.overlapSketch
+    overlapSketch
       ? ((await getFeaturesForSketchBBoxes(clippedSketch, url)) as OusFeature[])
       : ((await loadFgb(url)) as OusFeature[])
   ).sort((a, b) => a.properties.resp_id - b.properties.resp_id);
@@ -90,7 +96,7 @@ export async function ousDemographicOverlap(
   const shapes = genFeatureCollection(rawShapes) as OusFeatureCollection;
 
   const combinedSketch = (() => {
-    if (extraParams.overlapSketch) {
+    if (overlapSketch) {
       const sketches = toSketchArray(
         sketch as
           | Sketch<Polygon | MultiPolygon>
@@ -335,8 +341,8 @@ function genOusClassMetrics<G extends Polygon | MultiPolygon>(
     .reduce<Metric[]>((soFar, classMetrics) => soFar.concat(classMetrics), []);
 }
 
-export default new GeoprocessingHandler(ousDemographicOverlap, {
-  title: "ousDemographicOverlap",
+export default new GeoprocessingHandler(kosraeOusDemographicOverlap, {
+  title: "kosraeOusDemographicOverlap",
   description: "Calculates ous overlap metrics",
   timeout: 900, // seconds
   executionMode: "async",
