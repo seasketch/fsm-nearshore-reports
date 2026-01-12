@@ -10,6 +10,7 @@ import { coralACA } from "./coralACA.js";
 import { depthZones } from "./depthZones.js";
 import { groupCountOverlap } from "./groupCountOverlap.js";
 import { kosraeOusDemographicOverlap } from "./kosraeOusDemographicOverlap.js";
+import { yapOusDemographics } from "./yapOusDemographics.js";
 import { printMap } from "./printMap.js";
 import { reefGeomorphic } from "./reefGeomorphic.js";
 import { seagrassACA } from "./seagrassACA.js";
@@ -53,6 +54,7 @@ const tests = [
   { name: "depthZones", func: depthZones },
   { name: "groupCountOverlap", func: groupCountOverlap },
   { name: "kosraeOusDemographicOverlap", func: kosraeOusDemographicOverlap },
+  { name: "yapOusDemographics", func: yapOusDemographics },
   { name: "kosraeOus", func: kosraeOus, timeout: 120_000 },
   { name: "yapOus", func: yapOus, timeout: 120_000 },
   { name: "printMap", func: printMap },

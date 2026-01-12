@@ -6,3 +6,4 @@ DATA_DIR="$(cd -P "$(dirname "${BASH_SOURCE[0]}")"/.. && pwd)"
 BUCKET="gp-fsm-nearshore-reports-datasets"
 
 aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "kosraeOusDemographics.fgb"
+aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "yapOusDemographics.fgb"

@@ -50,7 +50,9 @@ const FadeInPath = styled.path<{ delay: number }>`
   animation-delay: ${(props) => props.delay}s;
 `;
 
-export const OusDemographic: React.FunctionComponent<ReportProps> = (props) => {
+export const KosraeOusDemographics: React.FunctionComponent<ReportProps> = (
+  props,
+) => {
   const { t } = useTranslation();
 
   const overallMetricGroup = project.getMetricGroup(

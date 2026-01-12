@@ -17,7 +17,7 @@ import { Group } from "../components/Group.js";
 import { SizeCard } from "../components/SizeCard.js";
 import { KosraeOUS } from "../components/KosraeOUS.js";
 import { YapOUS } from "../components/YapOUS.js";
-import { OusDemographic } from "../components/OusDemographic.js";
+import { YapOusDemographics } from "../components/YapOusDemographics.js";
 import { SketchAttributesCard } from "@seasketch/geoprocessing/client-ui";
 import { ReefGeomorphic } from "../components/ReefGeomorphic.js";
 import { DepthZones } from "../components/DepthZones.js";
@@ -29,6 +29,7 @@ import { Mangroves } from "../components/Mangroves.js";
 import { FAD } from "../components/FAD.js";
 import { ExistingMPAs } from "../components/ExistingMPAs.js";
 import { ReefMonitoring } from "../components/ReefMonitoring.js";
+import { KosraeOusDemographics } from "../components/KosraeOusDemographics.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -137,12 +138,19 @@ const BaseReport = () => {
               <FAD geographyId={geographyId} printing={isPrinting} />
               <ExistingMPAs geographyId={geographyId} printing={isPrinting} />
               <KosraeOUS geographyId={geographyId} printing={isPrinting} />
-              <OusDemographic geographyId={geographyId} printing={isPrinting} />
+              <KosraeOusDemographics
+                geographyId={geographyId}
+                printing={isPrinting}
+              />
             </>
           )}
           {geographyId === "yap" && (
             <>
               <YapOUS geographyId={geographyId} printing={isPrinting} />
+              <YapOusDemographics
+                geographyId={geographyId}
+                printing={isPrinting}
+              />
             </>
           )}
           {!isPrinting && <SketchAttributesCard autoHide />}

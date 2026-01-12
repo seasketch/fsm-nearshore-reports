@@ -18,6 +18,7 @@
     "src/functions/reefGeomorphic.ts",
     "src/functions/depthZones.ts",
     "src/functions/kosraeOusDemographicOverlap.ts",
+    "src/functions/yapOusDemographics.ts",
     "src/functions/printMap.ts",
     "src/functions/coralACA.ts",
     "src/functions/seagrassACA.ts",
