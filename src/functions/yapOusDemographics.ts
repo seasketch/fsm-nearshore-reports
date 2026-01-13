@@ -107,10 +107,9 @@ export async function yapOusDemographics(
         return statsSoFar;
 
       // Extract properties from OUS shape
-      // resp_id, totalPeople, and municipality are consistent across a respondent's shapes
+      // resp_id and municipality are consistent across a respondent's shapes
       // curPeople, curSector, and curGears are consistent within a sector per respondent, but not across sectors
       const resp_id = shape.properties.resp_id;
-      const totalPpl = Number(shape.properties.number_of_ppl);
       const municipality: string = shape.properties.municipality
         ? shape.properties.municipality
         : "unknown-municipality";
@@ -147,24 +146,18 @@ export async function yapOusDemographics(
         pplPerRespondent[resp_id] = curPpl;
       }
 
-      // If new number of people represented by respondent, add them (up to total)
-      if (!respondentProcessed[resp_id][curPpl]) {
-        // Calculate new number of people represented by respondent (up to total)
-        let newPplCount = 0;
-        const sum = pplPerRespondent[resp_id] + curPpl;
-        if (sum > totalPpl) {
-          newPplCount = totalPpl;
-        } else {
-          newPplCount = sum;
-        }
-
-        // Calculate additional number to add across stats
-        const addnPeople = newPplCount - pplPerRespondent[resp_id];
+      // If more people represented by respondent, add them
+      if (
+        !respondentProcessed[resp_id][curPpl] &&
+        pplPerRespondent[resp_id] < curPpl
+      ) {
+        // Calculate additional people to add across stats
+        const addnPeople = curPpl - pplPerRespondent[resp_id];
 
         // Adjust totals across stats
         newStats.people += addnPeople;
         newStats.byMunicipality[municipality] += addnPeople;
-        pplPerRespondent[resp_id] = newPplCount;
+        pplPerRespondent[resp_id] = curPpl;
         respondentProcessed[resp_id][curPpl] = true;
       }
 
@@ -196,16 +189,12 @@ export async function yapOusDemographics(
     },
   );
 
-  // calculate sketch % overlap - divide sketch counts by total counts
-  const overallMetrics = [
-    createMetric({
-      metricId: "ousPeopleCount",
-      classId: "ousPeopleCount_all",
-      value: countStats.people,
-      ...(sketch ? { sketchId: sketch.properties.id } : {}),
-    }),
-  ];
-
+  const overallMetric = createMetric({
+    metricId: "ousPeopleCount",
+    classId: "ousPeopleCount_all",
+    value: countStats.people,
+    ...(sketch ? { sketchId: sketch.properties.id } : {}),
+  });
   const sectorMetrics = genOusClassMetrics(countStats.bySector, sketch);
   const municipalityMetrics = genOusClassMetrics(
     countStats.byMunicipality,
@@ -216,7 +205,7 @@ export async function yapOusDemographics(
   const finalMetrics = {
     stats: countStats,
     metrics: [
-      ...overallMetrics,
+      overallMetric,
       ...sectorMetrics,
       ...municipalityMetrics,
       ...gearMetrics,

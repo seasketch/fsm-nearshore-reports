@@ -758,7 +758,7 @@
     ]
   },
   {
-    "metricId": "yapOusOverallDemographicOverlap",
+    "metricId": "yapOusOverallDemog",
     "type": "countOverlap",
     "classes": [
       {
@@ -770,7 +770,7 @@
     ]
   },
   {
-    "metricId": "yapOusSectorDemographicOverlap",
+    "metricId": "yapOusSectorDemog",
     "type": "countOverlap",
     "classes": [
       {
@@ -818,7 +818,7 @@
     ]
   },
   {
-    "metricId": "yapOusMunicipalityDemographicOverlap",
+    "metricId": "yapOusMunicipalityDemog",
     "type": "countOverlap",
     "classes": [
       {
@@ -890,7 +890,7 @@
     ]
   },
   {
-    "metricId": "yapOusGearDemographicOverlap",
+    "metricId": "yapOusGearDemog",
     "type": "countOverlap",
     "classes": [
       {

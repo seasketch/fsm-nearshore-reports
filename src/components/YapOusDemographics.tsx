@@ -4,12 +4,13 @@ import {
   ResultsCard,
   ClassTable,
   Skeleton,
-  useSketchProperties,
+  KeySection,
 } from "@seasketch/geoprocessing/client-ui";
 import {
   ReportResult,
   toPercentMetric,
   percentWithEdge,
+  Metric,
 } from "@seasketch/geoprocessing/client-core";
 import precalcTotals from "../../data/bin/yapOusDemographicPrecalcTotals.json" with { type: "json" };
 import project from "../../project/projectClient.js";
@@ -23,26 +24,14 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
 ) => {
   const { t } = useTranslation();
 
-  const overallMetricGroup = project.getMetricGroup(
-    "yapOusOverallDemographicOverlap",
-    t,
-  );
-  const sectorMetricGroup = project.getMetricGroup(
-    "yapOusSectorDemographicOverlap",
-    t,
-  );
-  const municipalityMetricGroup = project.getMetricGroup(
-    "yapOusMunicipalityDemographicOverlap",
-    t,
-  );
-  const gearMetricGroup = project.getMetricGroup(
-    "yapOusGearDemographicOverlap",
-    t,
-  );
+  const overallMg = project.getMetricGroup("yapOusOverallDemog", t);
+  const sectorMg = project.getMetricGroup("yapOusSectorDemog", t);
+  const municipalityMg = project.getMetricGroup("yapOusMunicipalityDemog", t);
+  const gearMg = project.getMetricGroup("yapOusGearDemog", t);
 
   const METRIC_ID = "ousPeopleCount";
-  const PERC_METRIC_ID = `${overallMetricGroup.metricId}Perc`;
-  const TOTAL_METRIC_ID = `${overallMetricGroup.metricId}Total`;
+  const PERC_METRIC_ID = `${overallMg.metricId}Perc`;
+  const TOTAL_METRIC_ID = `${overallMg.metricId}Total`;
 
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
@@ -59,107 +48,71 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
       >
         {(data: ReportResult) => {
           if (!data || !data.metrics) return <Skeleton />;
-          const [{ id }] = useSketchProperties();
+          const metrics: Metric[] = data.metrics;
+          const precalcMetrics: Metric[] = precalcTotals;
 
-          // Filter down to people count metrics for top-level sketch
-          const singlePeopleCountMetrics = data.metrics.filter(
-            (m) =>
-              m.sketchId === id &&
-              m.metricId &&
-              m.metricId === "ousPeopleCount",
-          );
+          const ppl = metrics.find((m) => m.classId === "ousPeopleCount_all");
+          if (!ppl) throw new Error("No overall people count metric");
+          const pplFormatted = Number.format(ppl.value);
 
-          const singlePeopleTotalCountMetrics = precalcTotals.filter(
-            (m) => m.metricId === "ousPeopleCount",
-          );
-
-          const singlePeopleTotalCountMetric = precalcTotals.find(
+          const totalPpl = precalcTotals.find(
             (m) => m.classId === "ousPeopleCount_all",
           );
-          if (!singlePeopleTotalCountMetric)
-            throw new Error("Expected to find total people count metric");
-          const singlePeopletotalCountFormatted = Number.format(
-            singlePeopleTotalCountMetric.value as number,
-          );
+          if (!totalPpl) throw new Error("No precalc total metric");
+          const totalPplFormatted = Number.format(totalPpl.value);
 
-          const singlePeopleCountMetric = singlePeopleCountMetrics.find(
-            (m) => m.classId === "ousPeopleCount_all",
-          );
-          if (!singlePeopleCountMetric)
-            throw new Error("Expected to find sketch people count metric");
-          const singlePeopleCountFormatted = Number.format(
-            singlePeopleCountMetric.value as number,
-          );
+          const pplPerc = toPercentMetric([ppl], precalcMetrics)[0];
+          const pplPercFormatted = percentWithEdge(pplPerc.value);
 
-          const singlePeopleCountPercMetric = toPercentMetric(
-            [singlePeopleCountMetric],
-            singlePeopleTotalCountMetrics,
-          )[0];
-          if (!singlePeopleCountPercMetric)
-            throw new Error(
-              "Expected to find sketch people count total metric",
-            );
-          const singlePeopleCountPercFormatted = percentWithEdge(
-            singlePeopleCountPercMetric.value,
-          );
-
-          const singleFullMetrics = [
-            ...singlePeopleCountMetrics,
-            ...toPercentMetric(
-              singlePeopleCountMetrics,
-              singlePeopleTotalCountMetrics,
-              { metricIdOverride: PERC_METRIC_ID },
-            ),
+          const allMetrics = [
+            ...metrics,
+            ...toPercentMetric(metrics, precalcMetrics, {
+              metricIdOverride: PERC_METRIC_ID,
+            }),
           ];
 
-          const sectorClassIds = sectorMetricGroup.classes.map(
-            (curClass) => curClass.classId,
-          );
-          const sectorTotalMetrics = singlePeopleTotalCountMetrics
+          // Sector metrics
+          const sectorClassIds = sectorMg.classes.map((c) => c.classId);
+          const sectorTotals = precalcMetrics
             .filter((m) => m.classId && sectorClassIds.includes(m.classId))
             .map((m) => ({ ...m, metricId: TOTAL_METRIC_ID }));
-          const sectorMetrics = singleFullMetrics
+          const sectorMetrics = allMetrics
             .filter((m) => m.classId && sectorClassIds.includes(m.classId))
-            .concat(sectorTotalMetrics);
+            .concat(sectorTotals);
           const numSectors = sectorMetrics.filter(
             (m) => m.metricId === "ousPeopleCount",
           ).length;
           const numSectorsFormatted = Number.format(numSectors);
 
-          const municipalityClassIds = municipalityMetricGroup.classes.map(
-            (curClass) => curClass.classId,
-          );
-          const municipalityTotalMetrics = singlePeopleTotalCountMetrics
-            .filter(
-              (m) => m.classId && municipalityClassIds.includes(m.classId),
-            )
+          // Municipality metrics
+          const municClassIds = municipalityMg.classes.map((c) => c.classId);
+          const municTotals = precalcMetrics
+            .filter((m) => m.classId && municClassIds.includes(m.classId))
             .map((m) => ({ ...m, metricId: TOTAL_METRIC_ID }));
-          const municipalityMetrics = singleFullMetrics
-            .filter(
-              (m) => m.classId && municipalityClassIds.includes(m.classId),
-            )
-            .concat(municipalityTotalMetrics);
-          const numMunicipalities = municipalityMetrics.filter(
+          const municMetrics = allMetrics
+            .filter((m) => m.classId && municClassIds.includes(m.classId))
+            .concat(municTotals);
+          const numMunicipalities = municMetrics.filter(
             (m) =>
               m.metricId === "ousPeopleCount" &&
               m.classId !== "unknown-municipality",
           ).length;
           const numMunicipalitiesFormatted = Number.format(numMunicipalities);
 
-          const gearClassIds = gearMetricGroup.classes.map(
-            (curClass) => curClass.classId,
-          );
-          const gearTotalMetrics = singlePeopleTotalCountMetrics
+          // Gear metrics
+          const gearClassIds = gearMg.classes.map((c) => c.classId);
+          const gearTotals = precalcMetrics
             .filter((m) => m.classId && gearClassIds.includes(m.classId))
             .map((m) => ({ ...m, metricId: TOTAL_METRIC_ID }));
-          const gearMetrics = singleFullMetrics
+          const gearMetrics = allMetrics
             .filter((m) => m.classId && gearClassIds.includes(m.classId))
-            .concat(gearTotalMetrics);
+            .concat(gearTotals);
           const numGears = gearMetrics.filter(
             (m) => m.metricId === "ousPeopleCount",
           ).length;
           const numGearsFormatted = Number.format(numGears);
 
+          // Labels
           const sectorLabel = t("Sector");
           const gearTypeLabel = t("Fishing Method");
           const municipalityLabel = t("Municipality");
@@ -168,6 +121,7 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
           const peopleUsingOceanPercLabel = t(
             "% People Using Ocean Within Plan",
           );
+
           return (
             <>
               <p>
@@ -179,9 +133,30 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
                 </Trans>
               </p>
 
+              <KeySection>
+                <b>{pplFormatted}</b> {t(" of the ")} <b>{totalPplFormatted}</b>
+                {t(
+                  " people represented by this survey use the ocean within this plan. This is ",
+                )}{" "}
+                <b>{pplPercFormatted}</b>
+                {t(" of people represented. They come from ")}
+                <b>
+                  {numMunicipalitiesFormatted}
+                  {t(" municipalities")}
+                </b>
+                {t(" across ")}
+                <b>
+                  {numSectorsFormatted} {t(" sector(s). ")}
+                </b>
+                {t("Those that fish within this plan use ")}
+                <b>
+                  {numGearsFormatted} {t("fishing method(s).")}
+                </b>
+              </KeySection>
+
               <ClassTable
                 rows={sectorMetrics}
-                metricGroup={sectorMetricGroup}
+                metricGroup={sectorMg}
                 columnConfig={[
                   {
                     columnLabel: sectorLabel,
@@ -235,7 +210,7 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
 
                 <ClassTable
                   rows={gearMetrics}
-                  metricGroup={gearMetricGroup}
+                  metricGroup={gearMg}
                   columnConfig={[
                     {
                       columnLabel: gearTypeLabel,
@@ -288,8 +263,8 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
                   </Trans>
                 </p>
                 <ClassTable
-                  rows={municipalityMetrics}
-                  metricGroup={municipalityMetricGroup}
+                  rows={municMetrics}
+                  metricGroup={municipalityMg}
                   columnConfig={[
                     {
                       columnLabel: municipalityLabel,
