@@ -15,7 +15,7 @@
 rm ./yapOusDemographics.geojson
 
 # Select only necessary columns
-ogr2ogr -t_srs "EPSG:4326" -f GeoJSON -nlt PROMOTE_TO_MULTI -wrapdateline -dialect OGRSQL -sql "select anonymized_shapes_clipped.response_id as resp_id, anonymized_shapes_clipped.sector as sector, anonymized_shapes_clipped.total_survey_participants as number_of_ppl, anonymized_shapes_clipped.individuals_represented_in_sector as rep_in_sector, anonymized_shapes_clipped.municipality as municipality, anonymized_shapes_clipped.fishing_type as fishing_type, anonymized_shapes_clipped.fishing_method as fishing_method from anonymized_shapes_clipped" ./yapOusDemographics.geojson ../src/Data_Products/data_packages/yap/anonymized-data-package/shapes/anonymized_shapes_clipped.geojson  
+ogr2ogr -t_srs "EPSG:4326" -f GeoJSON -nlt PROMOTE_TO_MULTI -wrapdateline -dialect OGRSQL -sql "select all_sectors_main_island.response_id as resp_id, all_sectors_main_island.sector as sector, all_sectors_main_island.participants as number_of_ppl, all_sectors_main_island.represented_in_sector as rep_in_sector, all_sectors_main_island.municipality as municipality, all_sectors_main_island.fishing_type as fishing_type, all_sectors_main_island.fishing_method as fishing_method from all_sectors_main_island" ./yapOusDemographics.geojson ../src/Data_Products/heatmaps/yap/shapes/main-island/clipped/all_sectors_main_island.geojson  
 
 # Delete old dist files in prep for new
 rm ../dist/yapOusDemographics.json
@@ -28,4 +28,4 @@ npx tsx yapOusDemographicSort.ts
 cp ./yapOusDemographics_sorted.geojson ../dist/yapOusDemographics.json
 
 # Generate cloud-optimized Flatgeobuf
-./genFgb.sh ../dist/yapOusDemographics.json ../dist yapOusDemographics 'SELECT * FROM anonymized_shapes_clipped' -nlt PROMOTE_TO_MULTI
+./genFgb.sh ../dist/yapOusDemographics.json ../dist yapOusDemographics 'SELECT * FROM all_sectors_main_island' -nlt PROMOTE_TO_MULTI

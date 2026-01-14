@@ -5,7 +5,10 @@ import {
   genFeatureCollection,
   DataClass,
   MetricGroup,
+  getDatasourceFeatures,
 } from "@seasketch/geoprocessing";
+import { Polygon, MultiPolygon } from "@seasketch/geoprocessing/client-core";
+import { booleanIntersects } from "@turf/turf";
 import projectClient from "../../project/projectClient.js";
 import {
   genOusClassMetrics,
@@ -21,7 +24,6 @@ async function main() {
   const url = `${projectClient.dataBucketUrl()}yapOusDemographics.fgb`;
 
   const rawShapes = await loadFgb<OusFeature>(url);
-
   const shapes = genFeatureCollection(rawShapes) as OusFeatureCollection;
 
   // Track counting of respondent/sector level stats, only need to count once
