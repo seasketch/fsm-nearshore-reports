@@ -1033,6 +1033,126 @@
   },
   {
     "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Balabat Managed Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Balabat No Take",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Gachpar MPA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Kaday & Okaw Mangrove Reserve Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Nimpal Channel Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Reey Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Riken MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Rumung",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil no take, no entry zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil traditional manage zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil warning zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Wacholab 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Wacholab 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-West Fanif MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
     "metricId": "count",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
@@ -2059,6 +2179,126 @@
     "geographyId": "chuuk",
     "metricId": "count",
     "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Balabat Managed Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Balabat No Take",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Gachpar MPA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Kaday & Okaw Mangrove Reserve Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Nimpal Channel Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Reey Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Riken MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Rumung",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil no take, no entry zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil traditional manage zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil warning zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Wacholab 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Wacholab 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-West Fanif MMA",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -3905,6 +4145,126 @@
   },
   {
     "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Balabat Managed Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Balabat No Take",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Gachpar MPA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Kaday & Okaw Mangrove Reserve Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Nimpal Channel Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Reey Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Riken MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Rumung",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil no take, no entry zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil traditional manage zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil warning zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Wacholab 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Wacholab 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-West Fanif MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
     "metricId": "count",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
@@ -4923,6 +5283,126 @@
     "geographyId": "kosrae",
     "metricId": "count",
     "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Balabat Managed Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Balabat No Take",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Gachpar MPA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Kaday & Okaw Mangrove Reserve Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Nimpal Channel Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Reey Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Riken MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Rumung",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil no take, no entry zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil traditional manage zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil warning zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Wacholab 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Wacholab 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-West Fanif MMA",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -6769,6 +7249,126 @@
   },
   {
     "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Balabat Managed Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Balabat No Take",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Gachpar MPA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Kaday & Okaw Mangrove Reserve Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Nimpal Channel Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Reey Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Riken MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Rumung",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil no take, no entry zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil traditional manage zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil warning zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Wacholab 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Wacholab 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-West Fanif MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
     "metricId": "count",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
@@ -7787,6 +8387,126 @@
     "geographyId": "pohnpei",
     "metricId": "count",
     "classId": "yap-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Balabat Managed Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Balabat No Take",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Gachpar MPA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Kaday & Okaw Mangrove Reserve Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Nimpal Channel Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Reey Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Riken MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Rumung",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil no take, no entry zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil traditional manage zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil warning zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Wacholab 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Wacholab 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-West Fanif MMA",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -9633,6 +10353,126 @@
   },
   {
     "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Balabat Managed Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2520290.296803533
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Balabat No Take",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1909377.415614486
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Gachpar MPA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1263795.7622028592
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Kaday & Okaw Mangrove Reserve Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 26615.337917444027
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Nimpal Channel Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 763086.1187407132
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Reey Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3869224.282814876
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Riken MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1719494.5035580448
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Rumung",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2873939.7520726365
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil no take, no entry zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 6336129.282760665
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil traditional manage zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 9575914.024347857
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Tamil warning zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 149071.31094386338
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 35578650.97130276
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Wacholab 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 229993.18239600593
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-Wacholab 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 997615.3595509955
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "yapProtectedAreas-West Fanif MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 3344104.3415787807
+  },
+  {
+    "geographyId": "yap",
     "metricId": "count",
     "classId": "aquaculture-clamFarming-total",
     "sketchId": null,
@@ -10654,6 +11494,126 @@
     "sketchId": null,
     "groupId": null,
     "value": 14
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Balabat Managed Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Balabat No Take",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Gachpar MPA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Kaday & Okaw Mangrove Reserve Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Nimpal Channel Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Reey Marine Conservation Area",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Riken MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Rumung",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil no take, no entry zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 2
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil traditional manage zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Tamil warning zone",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 15
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Wacholab 1",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-Wacholab 2",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "yapProtectedAreas-West Fanif MMA",
+    "sketchId": null,
+    "groupId": null,
+    "value": 1
   },
   {
     "geographyId": "yap",

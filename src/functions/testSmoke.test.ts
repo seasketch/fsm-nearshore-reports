@@ -21,6 +21,7 @@ import { existingMPAs } from "./existingMPAs.js";
 import { reefMonitoring } from "./reefMonitoring.js";
 import { kosraeOus } from "./kosraeOus.js";
 import { yapOus } from "./yapOus.js";
+import { yapProtectedAreas } from "./yapProtectedAreas.js";
 
 // Standard smoke tests
 function createSmokeTest(
@@ -65,6 +66,7 @@ const tests = [
   { name: "fad", func: fad },
   { name: "existingMPAs", func: existingMPAs },
   { name: "reefMonitoring", func: reefMonitoring },
+  { name: "yapProtectedAreas", func: yapProtectedAreas },
 ];
 
 tests.forEach(({ name, func, timeout }) => {

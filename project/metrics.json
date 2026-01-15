@@ -984,5 +984,70 @@
         "layerId": ""
       }
     ]
+  },
+  {
+    "metricId": "yapProtectedAreas",
+    "type": "areaOverlap",
+    "datasourceId": "yapProtectedAreas",
+    "classKey": "name",
+    "layerId": "",
+    "classes": [
+      {
+        "classId": "Balabat Managed Area",
+        "display": "Balabat (Managed Area)"
+      },
+      {
+        "classId": "Balabat No Take",
+        "display": "Balabat (No Take)"
+      },
+      {
+        "classId": "Gachpar MPA",
+        "display": "Gachpar MPA"
+      },
+      {
+        "classId": "Kaday & Okaw Mangrove Reserve Area",
+        "display": "Kaday & Okaw Mangrove Reserve Area"
+      },
+      {
+        "classId": "Nimpal Channel Marine Conservation Area",
+        "display": "Nimpal Channel MCA"
+      },
+      {
+        "classId": "Reey Marine Conservation Area",
+        "display": "Reey MCA"
+      },
+      {
+        "classId": "Riken MMA",
+        "display": "Riken MMA"
+      },
+      {
+        "classId": "Rumung",
+        "display": "Rumung"
+      },
+      {
+        "classId": "Tamil no take, no entry zone",
+        "display": "Tamil (No Take, No Entry)"
+      },
+      {
+        "classId": "Tamil traditional manage zone",
+        "display": "Tamil (Traditional Management)"
+      },
+      {
+        "classId": "Tamil warning zone",
+        "display": "Tamil (Warning Zone)"
+      },
+      {
+        "classId": "Wacholab 1",
+        "display": "Wacholab 1"
+      },
+      {
+        "classId": "Wacholab 2",
+        "display": "Wacholab 2"
+      },
+      {
+        "classId": "West Fanif MMA",
+        "display": "West Fanif MMA"
+      }
+    ]
   }
 ]

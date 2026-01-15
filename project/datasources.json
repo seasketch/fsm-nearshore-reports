@@ -1075,17 +1075,36 @@
     "src": "data/src/Data_Products/data_packages/yap/anonymized-data-package/heatmaps/clipped/maritime_activity.tif"
   },
   {
-    "src": "data/src/Data_Products/data_packages/yap/anonymized-data-package/heatmaps/clipped/tourism.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "ous_yap_tourism",
+    "geo_type": "raster",
     "formats": [
       "tif"
     ],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
     "created": "2026-01-12T17:25:05.683Z",
     "lastUpdated": "2026-01-12T17:25:05.683Z",
-    "noDataValue": 0,
-    "measurementType": "quantitative",
-    "precalc": true
+    "src": "data/src/Data_Products/data_packages/yap/anonymized-data-package/heatmaps/clipped/tourism.tif"
+  },
+  {
+    "datasourceId": "yapProtectedAreas",
+    "geo_type": "vector",
+    "formats": [
+      "fgb"
+    ],
+    "precalc": true,
+    "layerName": "yap-mpas",
+    "classKeys": [
+      "name"
+    ],
+    "created": "2026-01-14T20:28:11.187Z",
+    "lastUpdated": "2026-01-15T18:05:16.579Z",
+    "src": "data/src/Data_Products/Yap/MPAs/yap-mpas.fgb",
+    "propertiesToKeep": [
+      "name"
+    ],
+    "explodeMulti": true
   }
 ]

@@ -30,6 +30,7 @@ import { FAD } from "../components/FAD.js";
 import { ExistingMPAs } from "../components/ExistingMPAs.js";
 import { ReefMonitoring } from "../components/ReefMonitoring.js";
 import { KosraeOusDemographics } from "../components/KosraeOusDemographics.js";
+import { YapProtectedAreas } from "../components/YapProtectedAreas.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -148,6 +149,10 @@ const BaseReport = () => {
             <>
               <YapOUS geographyId={geographyId} printing={isPrinting} />
               <YapOusDemographics
+                geographyId={geographyId}
+                printing={isPrinting}
+              />
+              <YapProtectedAreas
                 geographyId={geographyId}
                 printing={isPrinting}
               />
