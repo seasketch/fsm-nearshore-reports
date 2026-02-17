@@ -1,0 +1,590 @@
+{
+  "metrics": [
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Aquatic land features",
+      "sketchId": "129845",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Aquatic land features",
+      "sketchId": "129845",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Aquatic land features",
+      "sketchId": "129845",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Aquatic land features",
+      "sketchId": "129845",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Aquatic land features",
+      "sketchId": "129845",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Aquatic land features",
+      "sketchId": "129845",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Channel",
+      "sketchId": "129845",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Channel",
+      "sketchId": "129845",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Channel",
+      "sketchId": "129845",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Channel",
+      "sketchId": "129845",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Channel",
+      "sketchId": "129845",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Channel",
+      "sketchId": "129845",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Deep lagoon",
+      "sketchId": "129845",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Deep lagoon",
+      "sketchId": "129845",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Deep lagoon",
+      "sketchId": "129845",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Deep lagoon",
+      "sketchId": "129845",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Deep lagoon",
+      "sketchId": "129845",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Deep lagoon",
+      "sketchId": "129845",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Diffuse fringing",
+      "sketchId": "129845",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Diffuse fringing",
+      "sketchId": "129845",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Diffuse fringing",
+      "sketchId": "129845",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Diffuse fringing",
+      "sketchId": "129845",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Diffuse fringing",
+      "sketchId": "129845",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Diffuse fringing",
+      "sketchId": "129845",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Enclosed lagoon",
+      "sketchId": "129845",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Enclosed lagoon",
+      "sketchId": "129845",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Enclosed lagoon",
+      "sketchId": "129845",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Enclosed lagoon",
+      "sketchId": "129845",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Enclosed lagoon",
+      "sketchId": "129845",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Enclosed lagoon",
+      "sketchId": "129845",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Forereef",
+      "sketchId": "129845",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Forereef",
+      "sketchId": "129845",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Forereef",
+      "sketchId": "129845",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Forereef",
+      "sketchId": "129845",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Forereef",
+      "sketchId": "129845",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Forereef",
+      "sketchId": "129845",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Pass",
+      "sketchId": "129845",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Pass",
+      "sketchId": "129845",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Pass",
+      "sketchId": "129845",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Pass",
+      "sketchId": "129845",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Pass",
+      "sketchId": "129845",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Pass",
+      "sketchId": "129845",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Reef flat",
+      "sketchId": "129845",
+      "groupId": null,
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Reef flat",
+      "sketchId": "129845",
+      "groupId": "mpa",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Reef flat",
+      "sketchId": "129845",
+      "groupId": "aquaculture",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Reef flat",
+      "sketchId": "129845",
+      "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Reef flat",
+      "sketchId": "129845",
+      "groupId": "tourism",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "reef_geomorph",
+      "classId": "Reef flat",
+      "sketchId": "129845",
+      "groupId": "other",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    }
+  ],
+  "sketch": {
+    "id": 129845,
+    "bbox": [
+      143.89505,
+      7.342828,
+      143.91377,
+      7.370472
+    ],
+    "type": "Feature",
+    "properties": {
+      "6289": "woleai",
+      "12419": "MPA",
+      "id": "129845",
+      "name": "woleai",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2026-02-12T21:17:45.430825+00:00",
+      "updatedAt": "2026-02-12T21:17:45.430825+00:00",
+      "zone_type": "MPA",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "745",
+      "userAttributes": [
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6292,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Zone Type",
+          "value": "MPA",
+          "exportId": "zone_type",
+          "fieldType": "ComboBox",
+          "valueLabel": "Marine Protected Area",
+          "formElementId": 12419,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    },
+    "geometry": null
+  }
+}

@@ -26,8 +26,16 @@
   {
     "geographyId": "yap",
     "datasourceId": "yap",
-    "display": "Yap",
+    "display": "Yap: Main Island",
     "layerId": "90TgHdb_j",
+    "groups": [],
+    "precalc": true
+  },
+  {
+    "geographyId": "yap_woleai",
+    "datasourceId": "yap_woleai",
+    "display": "Yap: Woleai",
+    "layerId": "",
     "groups": [],
     "precalc": true
   }

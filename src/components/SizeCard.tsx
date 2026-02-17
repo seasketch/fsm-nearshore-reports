@@ -32,6 +32,14 @@ import {
 } from "../util/ProtectionLevelOverlapReports.js";
 import { ReportProps } from "../util/ReportProp.js";
 
+const formatLabel = (display: string) => {
+  if (display === "Yap: Main Island") return "Yap";
+  const idx = display.indexOf(":");
+  if (idx === -1) return display;
+  const after = display.slice(idx + 1).trim();
+  return after.length ? after : display;
+};
+
 export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection, childProperties }] = useSketchProperties();
   const { t } = useTranslation();
@@ -39,6 +47,7 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
+  const geographyLabel = formatLabel(curGeography.display);
   const mg = project.getMetricGroup("boundaryAreaOverlap", t);
   const precalcMetrics = project.getPrecalcMetrics(
     mg,
@@ -99,23 +108,15 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
                   </>
                 }
               >
-                <p>
-                  {curGeography.display}'s{" "}
-                  <Trans i18nKey="SizeCard intro">
-                    state waters extend from the shoreline out to 12 nautical
-                    miles. This report summarizes this coastal plan's overlap
-                    with state waters.
-                  </Trans>
-                </p>
-
                 <KeySection>
                   {t("This plan is")}{" "}
                   <b>
                     {areaDisplay} {areaUnitDisplay}
                   </b>
                   {", "}
-                  {t("which is")} <b>{percDisplay}</b> {t("of ")}{" "}
-                  {curGeography.display}'s {t("state waters")}.
+                  {t("or")} <b>{percDisplay}</b> {t("of ")} {geographyLabel}'s{" "}
+                  {t("waters")}, which extend from the shoreline out to 12
+                  nautical miles.
                 </KeySection>
 
                 <LayerToggle label={mapLabel} layerId={mg.classes[0].layerId} />
@@ -232,7 +233,7 @@ const genWarning = (curGeography: Geography) => {
             <Trans i18nKey="SizeCard - warning 1">
               This plan <b>does not</b> overlap with{" "}
             </Trans>{" "}
-            {curGeography.display}
+            {formatLabel(curGeography.display)}
             <Trans i18nKey="SizeCard - warning 2">
               's territorial sea, please select a different planning area for
               useful report metrics.

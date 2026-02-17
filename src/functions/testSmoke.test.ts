@@ -21,7 +21,9 @@ import { existingMPAs } from "./existingMPAs.js";
 import { reefMonitoring } from "./reefMonitoring.js";
 import { kosraeOus } from "./kosraeOus.js";
 import { yapOus } from "./yapOus.js";
+import { woleaiOus } from "./woleaiOus.js";
 import { yapProtectedAreas } from "./yapProtectedAreas.js";
+import { woleaiOusDemographics } from "./woleaiOusDemographics.js";
 
 // Standard smoke tests
 function createSmokeTest(
@@ -56,8 +58,10 @@ const tests = [
   { name: "groupCountOverlap", func: groupCountOverlap },
   { name: "kosraeOusDemographicOverlap", func: kosraeOusDemographicOverlap },
   { name: "yapOusDemographics", func: yapOusDemographics },
+  { name: "woleaiOusDemographics", func: woleaiOusDemographics },
   { name: "kosraeOus", func: kosraeOus, timeout: 120_000 },
   { name: "yapOus", func: yapOus, timeout: 120_000 },
+  { name: "woleaiOus", func: woleaiOus, timeout: 120_000 },
   { name: "printMap", func: printMap },
   { name: "reefGeomorphic", func: reefGeomorphic },
   { name: "seagrassACA", func: seagrassACA, timeout: 120_000 },

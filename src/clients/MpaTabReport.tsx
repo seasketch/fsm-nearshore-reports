@@ -31,6 +31,8 @@ import { ExistingMPAs } from "../components/ExistingMPAs.js";
 import { ReefMonitoring } from "../components/ReefMonitoring.js";
 import { KosraeOusDemographics } from "../components/KosraeOusDemographics.js";
 import { YapProtectedAreas } from "../components/YapProtectedAreas.js";
+import { WoleaiOus } from "../components/WoleaiOus.js";
+import { WoleaiOusDemographics } from "../components/WoleaiOusDemographics.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -147,12 +149,21 @@ const BaseReport = () => {
           )}
           {geographyId === "yap" && (
             <>
+              <YapProtectedAreas
+                geographyId={geographyId}
+                printing={isPrinting}
+              />
               <YapOUS geographyId={geographyId} printing={isPrinting} />
               <YapOusDemographics
                 geographyId={geographyId}
                 printing={isPrinting}
               />
-              <YapProtectedAreas
+            </>
+          )}
+          {geographyId === "yap_woleai" && (
+            <>
+              <WoleaiOus geographyId={geographyId} printing={isPrinting} />
+              <WoleaiOusDemographics
                 geographyId={geographyId}
                 printing={isPrinting}
               />

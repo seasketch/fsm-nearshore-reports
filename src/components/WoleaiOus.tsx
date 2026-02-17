@@ -17,13 +17,21 @@ import {
 } from "../util/ProtectionLevelOverlapReports.js";
 import { ReportProps } from "../util/ReportProp.js";
 
-export const YapOUS: React.FunctionComponent<ReportProps> = (props) => {
+const formatLabel = (display: string) => {
+  const idx = display.indexOf(":");
+  if (idx === -1) return display;
+  const after = display.slice(idx + 1).trim();
+  return after.length ? after : display;
+};
+
+export const WoleaiOus: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection, childProperties }] = useSketchProperties();
   const { t } = useTranslation();
-  const mg = project.getMetricGroup("yapOus", t);
+  const mg = project.getMetricGroup("woleaiOus", t);
   const curGeography = project.getGeographyById(props.geographyId, {
     fallbackGroup: "default-boundary",
   });
+  const geographyLabel = formatLabel(curGeography.display);
   const precalcMetrics = project.getPrecalcMetrics(
     mg,
     "sum",
@@ -34,7 +42,7 @@ export const YapOUS: React.FunctionComponent<ReportProps> = (props) => {
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={t("Ocean Use")}
-        functionName="yapOus"
+        functionName="woleaiOus"
         extraParams={{ geographyIds: [curGeography.geographyId] }}
       >
         {(data: ReportResult) => {
@@ -43,11 +51,15 @@ export const YapOUS: React.FunctionComponent<ReportProps> = (props) => {
           return (
             <>
               <p>
-                <Trans i18nKey="OUS Card 1">
+                <Trans i18nKey="W OUS Card 1">
                   This report summarizes the percentage of ocean use value
-                  within Yap's waters that overlaps with this plan, as reported
-                  in the Ocean Use Survey. Plans should consider the potential
-                  impact to sectors if access or activities are restricted.
+                  within
+                </Trans>{" "}
+                {geographyLabel}
+                <Trans i18nKey="W OUS Card 2">
+                  's waters that overlaps with this plan, as reported in the
+                  Ocean Use Survey. Plans should consider the potential impact
+                  to sectors if access or activities are restricted.
                 </Trans>
               </p>
 
@@ -90,7 +102,7 @@ export const YapOUS: React.FunctionComponent<ReportProps> = (props) => {
 
               {!props.printing && (
                 <Collapse title={t("Learn more")}>
-                  <Trans i18nKey="OUS Card - learn more">
+                  <Trans i18nKey="WOUS Card - learn more">
                     <p>
                       ℹ️ Overview: to capture the value each sector places on
                       different areas of the nearshore, an Ocean Use Survey was

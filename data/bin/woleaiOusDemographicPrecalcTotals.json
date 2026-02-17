@@ -1,0 +1,178 @@
+[
+  {
+    "metricId": "ousPeopleCount",
+    "value": 294,
+    "classId": "ousPeopleCount_all",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 63,
+    "classId": "Aquaculture & Mariculture",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 107,
+    "classId": "Maritime Activity",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 166,
+    "classId": "Fishing",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 169,
+    "classId": "Community Recreational Use",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 45,
+    "classId": "Construction & Infrastructure",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 21,
+    "classId": "Cultural Use",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 96,
+    "classId": "Falalop (Woleai)",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 64,
+    "classId": "Falalus",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 43,
+    "classId": "Tegailap",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 46,
+    "classId": "Wottegai",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 45,
+    "classId": "Seliap",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 232,
+    "classId": "unknown-gear",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 140,
+    "classId": "Bottom FIshing",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 103,
+    "classId": "Casting",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 157,
+    "classId": "Spear/Harpoon",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 118,
+    "classId": "Trolling",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 18,
+    "classId": "Jigging (Traditional drop-stone)",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 64,
+    "classId": "Cast Net",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 3,
+    "classId": "Fish fence/Gill net",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 42,
+    "classId": "Trap",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 52,
+    "classId": "Vertical Longline",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  }
+]

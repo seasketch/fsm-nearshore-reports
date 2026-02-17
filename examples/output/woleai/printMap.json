@@ -1,0 +1,124 @@
+{
+  "sketch": {
+    "type": "Feature",
+    "id": 129845,
+    "bbox": [
+      143.89505,
+      7.342828,
+      143.91377,
+      7.370472
+    ],
+    "properties": {
+      "6289": "woleai",
+      "12419": "MPA",
+      "id": "129845",
+      "name": "woleai",
+      "postId": null,
+      "userId": "531",
+      "authors": null,
+      "userSlug": "Abby",
+      "createdAt": "2026-02-12T21:17:45.430825+00:00",
+      "updatedAt": "2026-02-12T21:17:45.430825+00:00",
+      "zone_type": "MPA",
+      "collectionId": null,
+      "isCollection": false,
+      "sharedInForum": false,
+      "sketchClassId": "745",
+      "userAttributes": [
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6292,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Zone Type",
+          "value": "MPA",
+          "exportId": "zone_type",
+          "fieldType": "ComboBox",
+          "valueLabel": "Marine Protected Area",
+          "formElementId": 12419,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Description",
+          "value": null,
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6291,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": null
+    },
+    "geometry": {
+      "type": "Polygon",
+      "coordinates": [
+        [
+          [
+            143.895055484,
+            7.364171587
+          ],
+          [
+            143.899090551,
+            7.342827704
+          ],
+          [
+            143.908948305,
+            7.343864647
+          ],
+          [
+            143.9124346,
+            7.351573
+          ],
+          [
+            143.9122849,
+            7.3562027
+          ],
+          [
+            143.913765445,
+            7.356469784
+          ],
+          [
+            143.9123644,
+            7.3567171
+          ],
+          [
+            143.910882773,
+            7.364388986
+          ],
+          [
+            143.9049189,
+            7.3698118
+          ],
+          [
+            143.9019107,
+            7.3704666
+          ],
+          [
+            143.899507,
+            7.3701251
+          ],
+          [
+            143.895055484,
+            7.364171587
+          ]
+        ]
+      ]
+    }
+  },
+  "land": {
+    "type": "FeatureCollection",
+    "bbox": [
+      null,
+      null,
+      null,
+      null
+    ],
+    "features": []
+  }
+}
