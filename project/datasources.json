@@ -846,7 +846,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-01-12T17:19:58.791Z",
-    "lastUpdated": "2026-01-12T17:19:58.791Z",
+    "lastUpdated": "2026-02-18T21:32:06.061Z",
     "src": "data/src/Data_Products/data_packages/yap/anonymized-data-package/heatmaps/clipped/aquaculture_mariculture.tif"
   },
   {
@@ -858,7 +858,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-01-12T17:21:06.679Z",
-    "lastUpdated": "2026-01-12T17:21:06.679Z",
+    "lastUpdated": "2026-02-18T21:32:06.942Z",
     "src": "data/src/Data_Products/data_packages/yap/anonymized-data-package/heatmaps/clipped/community_recreational_use.tif"
   },
   {
@@ -870,7 +870,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-01-12T17:21:30.029Z",
-    "lastUpdated": "2026-01-12T17:21:30.029Z",
+    "lastUpdated": "2026-02-18T21:32:07.868Z",
     "src": "data/src/Data_Products/data_packages/yap/anonymized-data-package/heatmaps/clipped/construction_infrastructure.tif"
   },
   {
@@ -882,7 +882,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-01-12T17:22:00.394Z",
-    "lastUpdated": "2026-01-12T17:22:00.394Z",
+    "lastUpdated": "2026-02-18T21:32:08.951Z",
     "src": "data/src/Data_Products/data_packages/yap/anonymized-data-package/heatmaps/clipped/cultural_use.tif"
   },
   {
@@ -894,7 +894,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-01-12T17:23:09.140Z",
-    "lastUpdated": "2026-01-12T17:23:09.140Z",
+    "lastUpdated": "2026-02-18T21:33:17.483Z",
     "src": "data/src/Data_Products/data_packages/yap/anonymized-data-package/heatmaps/clipped/fishing.tif"
   },
   {
@@ -906,7 +906,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-01-12T17:24:46.738Z",
-    "lastUpdated": "2026-01-12T17:24:46.738Z",
+    "lastUpdated": "2026-02-18T21:33:19.851Z",
     "src": "data/src/Data_Products/data_packages/yap/anonymized-data-package/heatmaps/clipped/maritime_activity.tif"
   },
   {
@@ -918,7 +918,7 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-01-12T17:25:05.683Z",
-    "lastUpdated": "2026-01-12T17:25:05.683Z",
+    "lastUpdated": "2026-02-18T21:33:20.741Z",
     "src": "data/src/Data_Products/data_packages/yap/anonymized-data-package/heatmaps/clipped/tourism.tif"
   },
   {
@@ -969,8 +969,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-17T17:36:39.203Z",
-    "lastUpdated": "2026-02-17T17:36:39.203Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/unclipped/maritime activity/maritime_activity_woleai.tif"
+    "lastUpdated": "2026-02-18T21:33:21.027Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/maritime activity/maritime_activity_woleai.tif"
   },
   {
     "datasourceId": "ous_woleai_fishing",
@@ -981,8 +981,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-17T17:37:07.046Z",
-    "lastUpdated": "2026-02-17T17:37:07.046Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/unclipped/fishing/fishing_woleai.tif"
+    "lastUpdated": "2026-02-18T21:33:21.594Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/fishing/fishing_woleai.tif"
   },
   {
     "datasourceId": "ous_woleai_culturalUse",
@@ -993,8 +993,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-17T17:37:27.342Z",
-    "lastUpdated": "2026-02-17T17:37:27.342Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/unclipped/cultural use/cultural_use_woleai.tif"
+    "lastUpdated": "2026-02-18T21:33:21.853Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/cultural use/cultural_use_woleai.tif"
   },
   {
     "datasourceId": "ous_woleai_constructionInfrastructure",
@@ -1005,8 +1005,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-17T17:37:53.737Z",
-    "lastUpdated": "2026-02-17T17:37:53.737Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/unclipped/construction & infrastructure/construction_infrastructure_woleai.tif"
+    "lastUpdated": "2026-02-18T21:33:22.171Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/construction & infrastructure/construction_infrastructure_woleai.tif"
   },
   {
     "datasourceId": "ous_woleai_commRecUse",
@@ -1017,8 +1017,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-17T17:38:20.442Z",
-    "lastUpdated": "2026-02-17T17:38:20.442Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/unclipped/community recreational use/community_recreational_use_woleai.tif"
+    "lastUpdated": "2026-02-18T21:33:22.873Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/community recreational use/community_recreational_use_woleai.tif"
   },
   {
     "datasourceId": "ous_woleai_aquacultureMariculture",
@@ -1029,8 +1029,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-17T17:38:42.630Z",
-    "lastUpdated": "2026-02-17T17:38:42.630Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/unclipped/aquaculture & mariculture/aquaculture_mariculture_woleai.tif"
+    "lastUpdated": "2026-02-18T21:33:23.467Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/aquaculture & mariculture/aquaculture_mariculture_woleai.tif"
   },
   {
     "datasourceId": "yap_fais",
@@ -1040,7 +1040,7 @@
     "layerName": "atoll_Fais",
     "classKeys": [],
     "created": "2026-02-17T23:04:51.873Z",
-    "lastUpdated": "2026-02-17T23:04:51.873Z",
+    "lastUpdated": "2026-02-18T21:34:58.710Z",
     "src": "data/src/Data_Products/heatmaps/yap/shapes/neighboring-islands/clipped/byAtoll/atoll_Fais.geojson",
     "propertiesToKeep": [],
     "explodeMulti": true
@@ -1054,8 +1054,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-17T23:11:03.315Z",
-    "lastUpdated": "2026-02-17T23:11:03.315Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/community recreational use/community_recreational_use_fais.tif"
+    "lastUpdated": "2026-02-18T21:33:23.761Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/community recreational use/community_recreational_use_fais.tif"
   },
   {
     "datasourceId": "ous_fais_culturalUse",
@@ -1066,8 +1066,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-17T23:11:26.565Z",
-    "lastUpdated": "2026-02-17T23:11:26.565Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/cultural use/cultural_use_fais.tif"
+    "lastUpdated": "2026-02-18T21:33:23.961Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/cultural use/cultural_use_fais.tif"
   },
   {
     "datasourceId": "ous_fais_fishing",
@@ -1078,8 +1078,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-17T23:11:44.337Z",
-    "lastUpdated": "2026-02-17T23:11:44.337Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/fishing/fishing_fais.tif"
+    "lastUpdated": "2026-02-18T21:33:24.310Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/fishing/fishing_fais.tif"
   },
   {
     "datasourceId": "ous_fais_tourism",
@@ -1090,8 +1090,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-17T23:12:05.022Z",
-    "lastUpdated": "2026-02-17T23:12:05.022Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/tourism/tourism_fais.tif"
+    "lastUpdated": "2026-02-18T21:33:24.624Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/tourism/tourism_fais.tif"
   },
   {
     "datasourceId": "yap_ulithi",
@@ -1115,8 +1115,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-18T19:24:02.814Z",
-    "lastUpdated": "2026-02-18T19:24:02.814Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/aquaculture & mariculture/aquaculture_mariculture_ulithi.tif"
+    "lastUpdated": "2026-02-18T21:33:25.870Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/aquaculture & mariculture/aquaculture_mariculture_ulithi.tif"
   },
   {
     "datasourceId": "ous_ulithi_commRecUse",
@@ -1127,8 +1127,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-18T19:24:20.722Z",
-    "lastUpdated": "2026-02-18T19:24:20.722Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/community recreational use/community_recreational_use_ulithi.tif"
+    "lastUpdated": "2026-02-18T21:33:27.139Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/community recreational use/community_recreational_use_ulithi.tif"
   },
   {
     "datasourceId": "ous_ulithi_constructionInfrastructure",
@@ -1139,8 +1139,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-18T19:24:41.389Z",
-    "lastUpdated": "2026-02-18T19:24:41.389Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/construction & infrastructure/construction_infrastructure_ulithi.tif"
+    "lastUpdated": "2026-02-18T21:33:27.444Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/construction & infrastructure/construction_infrastructure_ulithi.tif"
   },
   {
     "datasourceId": "ous_ulithi_culturalUse",
@@ -1151,8 +1151,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-18T19:24:59.577Z",
-    "lastUpdated": "2026-02-18T19:24:59.577Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/cultural use/cultural_use_ulithi.tif"
+    "lastUpdated": "2026-02-18T21:33:29.955Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/cultural use/cultural_use_ulithi.tif"
   },
   {
     "datasourceId": "ous_ulithi_fishing",
@@ -1163,8 +1163,8 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-18T19:25:45.573Z",
-    "lastUpdated": "2026-02-18T19:25:45.573Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/fishing/fishing_ulithi.tif"
+    "lastUpdated": "2026-02-18T21:33:31.399Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/fishing/fishing_ulithi.tif"
   },
   {
     "datasourceId": "ous_ulithi_maritimeActivity",
@@ -1175,19 +1175,19 @@
     "band": 1,
     "noDataValue": 0,
     "created": "2026-02-18T19:27:19.053Z",
-    "lastUpdated": "2026-02-18T19:27:19.053Z",
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/maritime activity/maritime_activity_ulithi.tif"
+    "lastUpdated": "2026-02-18T21:33:31.854Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/maritime activity/maritime_activity_ulithi.tif"
   },
   {
-    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/tourism/tourism_ulithi.tif",
-    "band": 1,
-    "geo_type": "raster",
     "datasourceId": "ous_ulithi_tourism",
+    "geo_type": "raster",
     "formats": ["tif"],
-    "created": "2026-02-18T19:27:34.787Z",
-    "lastUpdated": "2026-02-18T19:27:34.787Z",
-    "noDataValue": 0,
+    "precalc": true,
     "measurementType": "quantitative",
-    "precalc": true
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2026-02-18T19:27:34.787Z",
+    "lastUpdated": "2026-02-18T21:33:32.149Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/tourism/tourism_ulithi.tif"
   }
 ]
