@@ -12,22 +12,22 @@ import {
   percentWithEdge,
   Metric,
 } from "@seasketch/geoprocessing/client-core";
-import precalcTotals from "../../data/bin/yapPrecalc.json" with { type: "json" };
+import precalcTotals from "../../data/bin/faisPrecalc.json" with { type: "json" };
 import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
 import { ReportProps } from "../util/ReportProp.js";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
+export const FaisOusDemographics: React.FunctionComponent<ReportProps> = (
   props,
 ) => {
   const { t } = useTranslation();
 
-  const overallMg = project.getMetricGroup("yapOusOverallDemog", t);
-  const sectorMg = project.getMetricGroup("yapOusSectorDemog", t);
-  const municipalityMg = project.getMetricGroup("yapOusMunicipalityDemog", t);
-  const gearMg = project.getMetricGroup("yapOusGearDemog", t);
+  const overallMg = project.getMetricGroup("faisOusOverallDemog", t);
+  const sectorMg = project.getMetricGroup("faisOusSectorDemog", t);
+  const islandMg = project.getMetricGroup("faisOusIslandDemog", t);
+  const gearMg = project.getMetricGroup("faisOusGearDemog", t);
 
   const METRIC_ID = "ousPeopleCount";
   const PERC_METRIC_ID = `${overallMg.metricId}Perc`;
@@ -41,7 +41,7 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={t("Ocean Use Demographics")}
-        functionName="yapOusDemographics"
+        functionName="faisOusDemographics"
         extraParams={{
           geographyIds: [curGeography.geographyId],
         }}
@@ -84,20 +84,19 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
           ).length;
           const numSectorsFormatted = Number.format(numSectors);
 
-          // Municipality metrics
-          const municClassIds = municipalityMg.classes.map((c) => c.classId);
-          const municTotals = precalcMetrics
-            .filter((m) => m.classId && municClassIds.includes(m.classId))
+          // Island metrics
+          const islandClassIds = islandMg.classes.map((c) => c.classId);
+          const islandTotals = precalcMetrics
+            .filter((m) => m.classId && islandClassIds.includes(m.classId))
             .map((m) => ({ ...m, metricId: TOTAL_METRIC_ID }));
-          const municMetrics = allMetrics
-            .filter((m) => m.classId && municClassIds.includes(m.classId))
-            .concat(municTotals);
-          const numMunicipalities = municMetrics.filter(
+          const islandMetrics = allMetrics
+            .filter((m) => m.classId && islandClassIds.includes(m.classId))
+            .concat(islandTotals);
+          const numIslands = islandMetrics.filter(
             (m) =>
-              m.metricId === "ousPeopleCount" &&
-              m.classId !== "unknown-municipality",
+              m.metricId === "ousPeopleCount" && m.classId !== "unknown-island",
           ).length;
-          const numMunicipalitiesFormatted = Number.format(numMunicipalities);
+          const numIslandsFormatted = Number.format(numIslands);
 
           // Gear metrics
           const gearClassIds = gearMg.classes.map((c) => c.classId);
@@ -115,7 +114,7 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
           // Labels
           const sectorLabel = t("Sector");
           const gearTypeLabel = t("Fishing Method");
-          const municipalityLabel = t("Municipality");
+          const islandLabel = t("Island");
           const totalPeopleLabel = t("Total People Represented In Survey");
           const peopleUsingOceanLabel = t("People Using Ocean Within Plan");
           const peopleUsingOceanPercLabel = t(
@@ -125,9 +124,9 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
           return (
             <>
               <p>
-                <Trans i18nKey="OUS Demographics - intro">
+                <Trans i18nKey="W OUS Demographics - intro">
                   This report summarizes the people that use the ocean within
-                  this area, as represented by the Yap Ocean Use Survey. Plans
+                  this area, as represented by the Ocean Use Survey. Plans
                   should consider the potential benefits and impacts to these
                   people if access or activities are restricted.
                 </Trans>
@@ -141,8 +140,8 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
                 <b>{pplPercFormatted}</b>
                 {t(" of people represented. They come from ")}
                 <b>
-                  {numMunicipalitiesFormatted}
-                  {t(" municipalities")}
+                  {numIslandsFormatted}
+                  {t(" islands")}
                 </b>
                 {t(" across ")}
                 <b>
@@ -254,62 +253,8 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
                 />
               </Collapse>
 
-              <Collapse title={t("Show by Municipality")}>
-                <p>
-                  <Trans i18nKey="OUS Demographics - breakdown by municipality">
-                    The following is a breakdown of the number of people
-                    represented that use the ocean within this area{" "}
-                    <b>by municipality</b>.
-                  </Trans>
-                </p>
-                <ClassTable
-                  rows={municMetrics}
-                  metricGroup={municipalityMg}
-                  columnConfig={[
-                    {
-                      columnLabel: municipalityLabel,
-                      type: "class",
-                      width: 20,
-                      colStyle: { textAlign: "left" },
-                    },
-                    {
-                      columnLabel: peopleUsingOceanLabel,
-                      type: "metricValue",
-                      metricId: METRIC_ID,
-                      valueFormatter: (value) => Number.format(value as number),
-                      chartOptions: {
-                        showTitle: true,
-                      },
-                      width: 25,
-                      colStyle: { textAlign: "center" },
-                    },
-                    {
-                      columnLabel: totalPeopleLabel,
-                      type: "metricValue",
-                      metricId: TOTAL_METRIC_ID,
-                      valueFormatter: (value) => Number.format(value as number),
-                      chartOptions: {
-                        showTitle: true,
-                      },
-                      width: 25,
-                      colStyle: { textAlign: "center" },
-                    },
-                    {
-                      columnLabel: peopleUsingOceanPercLabel,
-                      type: "metricChart",
-                      metricId: PERC_METRIC_ID,
-                      valueFormatter: "percent",
-                      chartOptions: {
-                        showTitle: true,
-                      },
-                      width: 30,
-                    },
-                  ]}
-                />
-              </Collapse>
-
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="OUS Demographics - learn more">
+                <Trans i18nKey="W OUS Demographics - learn more">
                   <p>
                     ℹ️ Overview: An Ocean Use Survey was conducted that
                     identified who is using the ocean, and where they are using
@@ -318,7 +263,7 @@ export const YapOusDemographics: React.FunctionComponent<ReportProps> = (
                   <p>
                     This report provides a breakdown of the people that use the
                     ocean within this area by sector, fishing method, and
-                    village.
+                    island.
                   </p>
                   <p>
                     Note, this report is only representative of the individuals

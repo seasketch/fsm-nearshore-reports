@@ -1031,5 +1031,66 @@
     "created": "2026-02-17T17:38:42.630Z",
     "lastUpdated": "2026-02-17T17:38:42.630Z",
     "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/unclipped/aquaculture & mariculture/aquaculture_mariculture_woleai.tif"
+  },
+  {
+    "datasourceId": "yap_fais",
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "atoll_Fais",
+    "classKeys": [],
+    "created": "2026-02-17T23:04:51.873Z",
+    "lastUpdated": "2026-02-17T23:04:51.873Z",
+    "src": "data/src/Data_Products/heatmaps/yap/shapes/neighboring-islands/clipped/byAtoll/atoll_Fais.geojson",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "ous_fais_commRecUse",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2026-02-17T23:11:03.315Z",
+    "lastUpdated": "2026-02-17T23:11:03.315Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/community recreational use/community_recreational_use_fais.tif"
+  },
+  {
+    "datasourceId": "ous_fais_culturalUse",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2026-02-17T23:11:26.565Z",
+    "lastUpdated": "2026-02-17T23:11:26.565Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/cultural use/cultural_use_fais.tif"
+  },
+  {
+    "datasourceId": "ous_fais_fishing",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2026-02-17T23:11:44.337Z",
+    "lastUpdated": "2026-02-17T23:11:44.337Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/fishing/fishing_fais.tif"
+  },
+  {
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/tourism/tourism_fais.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "ous_fais_tourism",
+    "formats": ["tif"],
+    "created": "2026-02-17T23:12:05.022Z",
+    "lastUpdated": "2026-02-17T23:12:05.022Z",
+    "noDataValue": 0,
+    "measurementType": "quantitative",
+    "precalc": true
   }
 ]

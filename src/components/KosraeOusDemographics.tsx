@@ -12,7 +12,7 @@ import {
   toPercentMetric,
   percentWithEdge,
 } from "@seasketch/geoprocessing/client-core";
-import precalcTotals from "../../data/bin/kosraeOusDemographicPrecalcTotals.json" with { type: "json" };
+import precalcTotals from "../../data/bin/kosraePrecalc.json" with { type: "json" };
 import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
 import { ReportProps } from "../util/ReportProp.js";

@@ -38,5 +38,13 @@
     "layerId": "",
     "groups": [],
     "precalc": true
+  },
+  {
+    "geographyId": "yap_fais",
+    "datasourceId": "yap_fais",
+    "display": "Yap: Fais",
+    "layerId": "",
+    "groups": [],
+    "precalc": true
   }
 ]

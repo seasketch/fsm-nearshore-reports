@@ -1253,5 +1253,161 @@
         "layerId": ""
       }
     ]
+  },
+  {
+    "metricId": "faisOus",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "ous_fais_commRecUse",
+        "display": "Community/Recreational",
+        "datasourceId": "ous_fais_commRecUse",
+        "layerId": "LzyKQakPN"
+      },
+      {
+        "classId": "ous_fais_culturalUse",
+        "display": "Cultural Use",
+        "datasourceId": "ous_fais_culturalUse",
+        "layerId": "E80Q_DygH"
+      },
+      {
+        "classId": "ous_fais_fishing",
+        "display": "Fishing",
+        "datasourceId": "ous_fais_fishing",
+        "layerId": "A4HDUALMR"
+      },
+      {
+        "classId": "ous_fais_tourism",
+        "display": "Tourism",
+        "datasourceId": "ous_fais_tourism",
+        "layerId": "imO86hDfa"
+      }
+    ]
+  },
+  {
+    "metricId": "faisOusOverallDemog",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "ousPeopleCount_all",
+        "display": "Total",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "faisOusSectorDemog",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Fishing",
+        "display": "Fishing",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Community Recreational Use",
+        "display": "Community Recreational Use",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Cultural Use",
+        "display": "Cultural Use",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Tourism",
+        "display": "Tourism",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "faisOusIslandDemog",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Fais",
+        "display": "Fais",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "unknown-island",
+        "display": "Unknown",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "faisOusGearDemog",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Bottom FIshing",
+        "display": "Bottom FIshing",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Cast Net",
+        "display": "Cast Net",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Casting",
+        "display": "Casting",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Fish fence/Gill net",
+        "display": "Fish fence/Gill net",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Gathering/Reef Gleaning",
+        "display": "Gathering/Reef Gleaning",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Jigging (Traditional drop-stone)",
+        "display": "Jigging (Traditional drop-stone)",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Other",
+        "display": "Other",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Spear/Harpoon",
+        "display": "Spear/Harpoon",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Trolling",
+        "display": "Trolling",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "unknown-gear",
+        "display": "Unknown-gear",
+        "datasourceId": "faisOusDemographics.fgb",
+        "layerId": ""
+      }
+    ]
   }
 ]

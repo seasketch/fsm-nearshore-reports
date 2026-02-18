@@ -16,6 +16,7 @@
     "src/functions/kosraeOus.ts",
     "src/functions/yapOus.ts",
     "src/functions/woleaiOus.ts",
+    "src/functions/faisOus.ts",
     "src/functions/reefGeomorphic.ts",
     "src/functions/depthZones.ts",
     "src/functions/kosraeOusDemographicOverlap.ts",

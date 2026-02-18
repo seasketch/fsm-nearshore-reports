@@ -12,7 +12,7 @@ import {
   percentWithEdge,
   Metric,
 } from "@seasketch/geoprocessing/client-core";
-import precalcTotals from "../../data/bin/woleaiOusDemographicPrecalcTotals.json" with { type: "json" };
+import precalcTotals from "../../data/bin/woleaiPrecalc.json" with { type: "json" };
 import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
 import { ReportProps } from "../util/ReportProp.js";

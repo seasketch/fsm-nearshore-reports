@@ -33,6 +33,8 @@ import { KosraeOusDemographics } from "../components/KosraeOusDemographics.js";
 import { YapProtectedAreas } from "../components/YapProtectedAreas.js";
 import { WoleaiOus } from "../components/WoleaiOus.js";
 import { WoleaiOusDemographics } from "../components/WoleaiOusDemographics.js";
+import { FaisOus } from "../components/FaisOus.js";
+import { FaisOusDemographics } from "../components/FaisOusDemographics.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -164,6 +166,15 @@ const BaseReport = () => {
             <>
               <WoleaiOus geographyId={geographyId} printing={isPrinting} />
               <WoleaiOusDemographics
+                geographyId={geographyId}
+                printing={isPrinting}
+              />
+            </>
+          )}
+          {geographyId === "yap_fais" && (
+            <>
+              <FaisOus geographyId={geographyId} printing={isPrinting} />
+              <FaisOusDemographics
                 geographyId={geographyId}
                 printing={isPrinting}
               />
