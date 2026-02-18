@@ -35,6 +35,8 @@ import { WoleaiOus } from "../components/WoleaiOus.js";
 import { WoleaiOusDemographics } from "../components/WoleaiOusDemographics.js";
 import { FaisOus } from "../components/FaisOus.js";
 import { FaisOusDemographics } from "../components/FaisOusDemographics.js";
+import { UlithiOus } from "../components/UlithiOus.js";
+import { UlithiOusDemographics } from "../components/UlithiOusDemographics.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -175,6 +177,15 @@ const BaseReport = () => {
             <>
               <FaisOus geographyId={geographyId} printing={isPrinting} />
               <FaisOusDemographics
+                geographyId={geographyId}
+                printing={isPrinting}
+              />
+            </>
+          )}
+          {geographyId === "yap_ulithi" && (
+            <>
+              <UlithiOus geographyId={geographyId} printing={isPrinting} />
+              <UlithiOusDemographics
                 geographyId={geographyId}
                 printing={isPrinting}
               />

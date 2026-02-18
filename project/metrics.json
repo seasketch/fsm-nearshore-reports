@@ -1409,5 +1409,221 @@
         "layerId": ""
       }
     ]
+  },
+  {
+    "metricId": "ulithiOus",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "ous_ulithi_aquacultureMariculture",
+        "display": "Aquaculture & Mariculture",
+        "datasourceId": "ous_ulithi_aquacultureMariculture",
+        "layerId": "SuurihqKH"
+      },
+      {
+        "classId": "ous_ulithi_commRecUse",
+        "display": "Community Recreational Use",
+        "datasourceId": "ous_ulithi_commRecUse",
+        "layerId": "Apfti0R1J"
+      },
+      {
+        "classId": "ous_ulithi_constructionInfrastructure",
+        "display": "Construction & Infrastructure",
+        "datasourceId": "ous_ulithi_constructionInfrastructure",
+        "layerId": "t9HdkEUeK"
+      },
+      {
+        "classId": "ous_ulithi_culturalUse",
+        "display": "Cultural Use",
+        "datasourceId": "ous_ulithi_culturalUse",
+        "layerId": "JLO036sQe"
+      },
+      {
+        "classId": "ous_ulithi_fishing",
+        "display": "Fishing",
+        "datasourceId": "ous_ulithi_fishing",
+        "layerId": "we4typW1J"
+      },
+      {
+        "classId": "ous_ulithi_maritimeActivity",
+        "display": "Maritime Activity",
+        "datasourceId": "ous_ulithi_maritimeActivity",
+        "layerId": "WBqjSesHN"
+      },
+      {
+        "classId": "ous_ulithi_tourism",
+        "display": "Tourism",
+        "datasourceId": "ous_ulithi_tourism",
+        "layerId": "5il9qWKGt"
+      }
+    ]
+  },
+  {
+    "metricId": "ulithiOusOverallDemog",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "ousPeopleCount_all",
+        "display": "Total",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "ulithiOusSectorDemog",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Fishing",
+        "display": "Fishing",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Maritime Activity",
+        "display": "Maritime Activity",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Cultural Use",
+        "display": "Cultural Use",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Community Recreational Use",
+        "display": "Community Recreational Use",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Aquaculture & Mariculture",
+        "display": "Aquaculture & Mariculture",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Tourism",
+        "display": "Tourism",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Construction & Infrastructure",
+        "display": "Construction & Infrastructure",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "ulithiOusIslandDemog",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Asor",
+        "display": "Asor",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Falalop (Ulithi)",
+        "display": "Falalop (Ulithi)",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Federai",
+        "display": "Federai",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Mog Mog",
+        "display": "Mog Mog",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "unknown-island",
+        "display": "Unknown",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      }
+    ]
+  },
+  {
+    "metricId": "ulithiOusGearDemog",
+    "type": "countOverlap",
+    "classes": [
+      {
+        "classId": "Bottom FIshing",
+        "display": "Bottom FIshing",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Cast Net",
+        "display": "Cast Net",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Casting",
+        "display": "Casting",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Fish fence/Gill net",
+        "display": "Fish fence/Gill net",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Jigging (Traditional drop-stone)",
+        "display": "Jigging (Traditional drop-stone)",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Other",
+        "display": "Other",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Spear/Harpoon",
+        "display": "Spear/Harpoon",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Trap",
+        "display": "Trap",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Trolling",
+        "display": "Trolling",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "unknown-gear",
+        "display": "Unknown-gear",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      },
+      {
+        "classId": "Vertical Longline",
+        "display": "Vertical Longline",
+        "datasourceId": "ulithiOusDemographics.fgb",
+        "layerId": ""
+      }
+    ]
   }
 ]

@@ -35,7 +35,7 @@
     "geographyId": "yap_woleai",
     "datasourceId": "yap_woleai",
     "display": "Yap: Woleai",
-    "layerId": "",
+    "layerId": "uUqfw6yqj",
     "groups": [],
     "precalc": true
   },
@@ -43,7 +43,15 @@
     "geographyId": "yap_fais",
     "datasourceId": "yap_fais",
     "display": "Yap: Fais",
-    "layerId": "",
+    "layerId": "uUqfw6yqj",
+    "groups": [],
+    "precalc": true
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "datasourceId": "yap_ulithi",
+    "display": "Yap: Ulithi",
+    "layerId": "uUqfw6yqj",
     "groups": [],
     "precalc": true
   }

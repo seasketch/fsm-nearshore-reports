@@ -9,3 +9,4 @@ aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age
 aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "yapOusDemographics.fgb"
 aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "woleaiOusDemographics.fgb"
 aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "faisOusDemographics.fgb"
+aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "ulithiOusDemographics.fgb"
