@@ -40,6 +40,7 @@
     "src/functions/elatoOusDemographics.ts",
     "src/functions/faraulepOus.ts",
     "src/functions/faraulepOusDemographics.ts",
-    "src/functions/ifalikOus.ts"
+    "src/functions/ifalikOus.ts",
+    "src/functions/ifalikOusDemographics.ts"
   ]
 }

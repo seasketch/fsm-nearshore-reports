@@ -32,6 +32,9 @@ import { eauripikOus } from "./eauripikOus.js";
 import { eauripikOusDemographics } from "./eauripikOusDemographics.js";
 import { elatoOus } from "./elatoOus.js";
 import { elatoOusDemographics } from "./elatoOusDemographics.js";
+import { faraulepOus } from "./faraulepOus.js";
+import { ifalikOus } from "./ifalikOus.js";
+import { ifalikOusDemographics } from "./ifalikOusDemographics.js";
 
 // Standard smoke tests
 function createSmokeTest(
@@ -71,11 +74,14 @@ const tests = [
   { name: "ulithiOusDemographics", func: ulithiOusDemographics },
   { name: "eauripikOusDemographics", func: eauripikOusDemographics },
   { name: "elatoOusDemographics", func: elatoOusDemographics },
+  { name: "ifalikOusDemographics", func: ifalikOusDemographics },
   { name: "kosraeOus", func: kosraeOus, timeout: 120_000 },
   { name: "yapOus", func: yapOus, timeout: 120_000 },
   { name: "woleaiOus", func: woleaiOus, timeout: 120_000 },
   { name: "faisOus", func: faisOus, timeout: 120_000 },
   { name: "ulithiOus", func: ulithiOus, timeout: 120_000 },
+  { name: "faraulepOus", func: faraulepOus, timeout: 120_000 },
+  { name: "ifalikOus", func: ifalikOus, timeout: 120_000 },
   { name: "eauripikOus", func: eauripikOus, timeout: 120_000 },
   { name: "elatoOus", func: elatoOus, timeout: 120_000 },
   { name: "printMap", func: printMap },

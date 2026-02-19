@@ -21740,7 +21740,7 @@
     "metricId": "area",
     "classId": "ous_elato_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 87299.703546
   },
   {
@@ -21748,7 +21748,7 @@
     "metricId": "area",
     "classId": "ous_elato_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 755340.974919
   },
   {
@@ -21756,7 +21756,7 @@
     "metricId": "area",
     "classId": "ous_elato_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 691565.021811
   },
   {
@@ -21764,7 +21764,7 @@
     "metricId": "area",
     "classId": "ous_elato_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 10944679.123226
   },
   {
@@ -21772,7 +21772,7 @@
     "metricId": "area",
     "classId": "ous_elato_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 161349780.043003
   },
   {
@@ -21780,7 +21780,7 @@
     "metricId": "area",
     "classId": "ous_elato_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 3033482.55143
   },
   {
@@ -21788,7 +21788,7 @@
     "metricId": "area",
     "classId": "ous_elato_tourism-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 19272217.321309
   },
   {
@@ -22732,7 +22732,7 @@
     "metricId": "count",
     "classId": "ous_elato_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 4175
   },
   {
@@ -22740,7 +22740,7 @@
     "metricId": "count",
     "classId": "ous_elato_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 1275121
   },
   {
@@ -22748,7 +22748,7 @@
     "metricId": "count",
     "classId": "ous_elato_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 67764
   },
   {
@@ -22756,7 +22756,7 @@
     "metricId": "count",
     "classId": "ous_elato_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 2238753
   },
   {
@@ -22764,7 +22764,7 @@
     "metricId": "count",
     "classId": "ous_elato_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 2293961
   },
   {
@@ -22772,7 +22772,7 @@
     "metricId": "count",
     "classId": "ous_elato_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 281483
   },
   {
@@ -22780,7 +22780,7 @@
     "metricId": "count",
     "classId": "ous_elato_tourism-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 1639733
   },
   {
@@ -23668,7 +23668,7 @@
     "metricId": "sum",
     "classId": "ous_elato_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 23442785.79834
   },
   {
@@ -23676,7 +23676,7 @@
     "metricId": "sum",
     "classId": "ous_elato_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 71007381.924072
   },
   {
@@ -23684,7 +23684,7 @@
     "metricId": "sum",
     "classId": "ous_elato_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 37424058.443237
   },
   {
@@ -23692,7 +23692,7 @@
     "metricId": "sum",
     "classId": "ous_elato_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 79627956.546227
   },
   {
@@ -23700,7 +23700,7 @@
     "metricId": "sum",
     "classId": "ous_elato_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 45396338.231392
   },
   {
@@ -23708,7 +23708,7 @@
     "metricId": "sum",
     "classId": "ous_elato_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 15617647.244751
   },
   {
@@ -23716,7 +23716,7 @@
     "metricId": "sum",
     "classId": "ous_elato_tourism-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 38928540.560604
   },
   {
@@ -24420,7 +24420,7 @@
     "metricId": "valid",
     "classId": "ous_elato_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 3467
   },
   {
@@ -24428,7 +24428,7 @@
     "metricId": "valid",
     "classId": "ous_elato_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 24435
   },
   {
@@ -24436,7 +24436,7 @@
     "metricId": "valid",
     "classId": "ous_elato_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 24504
   },
   {
@@ -24444,7 +24444,7 @@
     "metricId": "valid",
     "classId": "ous_elato_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 366304
   },
   {
@@ -24452,7 +24452,7 @@
     "metricId": "valid",
     "classId": "ous_elato_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 1502830
   },
   {
@@ -24460,7 +24460,7 @@
     "metricId": "valid",
     "classId": "ous_elato_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 24645
   },
   {
@@ -24468,7 +24468,7 @@
     "metricId": "valid",
     "classId": "ous_elato_tourism-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 697689
   },
   {
@@ -28692,7 +28692,7 @@
     "metricId": "area",
     "classId": "ous_faraulep_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 779188.531998
   },
   {
@@ -28700,7 +28700,7 @@
     "metricId": "area",
     "classId": "ous_faraulep_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 590477.339611
   },
   {
@@ -28708,7 +28708,7 @@
     "metricId": "area",
     "classId": "ous_faraulep_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 1933115.625362
   },
   {
@@ -28716,7 +28716,7 @@
     "metricId": "area",
     "classId": "ous_faraulep_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 8674791.440504
   },
   {
@@ -28724,7 +28724,7 @@
     "metricId": "area",
     "classId": "ous_faraulep_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 205053106.0527
   },
   {
@@ -28732,7 +28732,7 @@
     "metricId": "area",
     "classId": "ous_faraulep_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 4724455.471833
   },
   {
@@ -29684,7 +29684,7 @@
     "metricId": "count",
     "classId": "ous_faraulep_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 211599
   },
   {
@@ -29692,7 +29692,7 @@
     "metricId": "count",
     "classId": "ous_faraulep_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 184345
   },
   {
@@ -29700,7 +29700,7 @@
     "metricId": "count",
     "classId": "ous_faraulep_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 293501
   },
   {
@@ -29708,7 +29708,7 @@
     "metricId": "count",
     "classId": "ous_faraulep_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 621350
   },
   {
@@ -29716,7 +29716,7 @@
     "metricId": "count",
     "classId": "ous_faraulep_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 2696192
   },
   {
@@ -29724,7 +29724,7 @@
     "metricId": "count",
     "classId": "ous_faraulep_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 78283
   },
   {
@@ -30620,7 +30620,7 @@
     "metricId": "sum",
     "classId": "ous_faraulep_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 84212495.621094
   },
   {
@@ -30628,7 +30628,7 @@
     "metricId": "sum",
     "classId": "ous_faraulep_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 226449056.322266
   },
   {
@@ -30636,7 +30636,7 @@
     "metricId": "sum",
     "classId": "ous_faraulep_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 93318407.449341
   },
   {
@@ -30644,7 +30644,7 @@
     "metricId": "sum",
     "classId": "ous_faraulep_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 135279721.257336
   },
   {
@@ -30652,7 +30652,7 @@
     "metricId": "sum",
     "classId": "ous_faraulep_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 61554033.573444
   },
   {
@@ -30660,7 +30660,7 @@
     "metricId": "sum",
     "classId": "ous_faraulep_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 51793253.671078
   },
   {
@@ -31372,7 +31372,7 @@
     "metricId": "valid",
     "classId": "ous_faraulep_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 31644
   },
   {
@@ -31380,7 +31380,7 @@
     "metricId": "valid",
     "classId": "ous_faraulep_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 21975
   },
   {
@@ -31388,7 +31388,7 @@
     "metricId": "valid",
     "classId": "ous_faraulep_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 72585
   },
   {
@@ -31396,7 +31396,7 @@
     "metricId": "valid",
     "classId": "ous_faraulep_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 338022
   },
   {
@@ -31404,7 +31404,7 @@
     "metricId": "valid",
     "classId": "ous_faraulep_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 2024827
   },
   {
@@ -31412,7 +31412,7 @@
     "metricId": "valid",
     "classId": "ous_faraulep_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 42033
   },
   {
@@ -32236,7 +32236,7 @@
     "metricId": "area",
     "classId": "ous_ifalik_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 81472.828991
   },
   {
@@ -32244,7 +32244,7 @@
     "metricId": "area",
     "classId": "ous_ifalik_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 506332.357739
   },
   {
@@ -32252,7 +32252,7 @@
     "metricId": "area",
     "classId": "ous_ifalik_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 2053725.311172
   },
   {
@@ -32260,7 +32260,7 @@
     "metricId": "area",
     "classId": "ous_ifalik_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 17824562.372301
   },
   {
@@ -32268,7 +32268,7 @@
     "metricId": "area",
     "classId": "ous_ifalik_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 2112317.936034
   },
   {
@@ -32276,7 +32276,7 @@
     "metricId": "area",
     "classId": "ous_ifalik_tourism-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 2880125.402752
   },
   {
@@ -32284,7 +32284,7 @@
     "metricId": "area",
     "classId": "ous_ifalike_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 1609973.291188
   },
   {
@@ -33228,7 +33228,7 @@
     "metricId": "count",
     "classId": "ous_ifalik_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 53002
   },
   {
@@ -33236,7 +33236,7 @@
     "metricId": "count",
     "classId": "ous_ifalik_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 242394
   },
   {
@@ -33244,7 +33244,7 @@
     "metricId": "count",
     "classId": "ous_ifalik_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 306913
   },
   {
@@ -33252,7 +33252,7 @@
     "metricId": "count",
     "classId": "ous_ifalik_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 4009223
   },
   {
@@ -33260,7 +33260,7 @@
     "metricId": "count",
     "classId": "ous_ifalik_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 50010
   },
   {
@@ -33268,7 +33268,7 @@
     "metricId": "count",
     "classId": "ous_ifalik_tourism-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 205878
   },
   {
@@ -33276,7 +33276,7 @@
     "metricId": "count",
     "classId": "ous_ifalike_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 289956
   },
   {
@@ -34164,7 +34164,7 @@
     "metricId": "sum",
     "classId": "ous_ifalik_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 9625848.995239
   },
   {
@@ -34172,7 +34172,7 @@
     "metricId": "sum",
     "classId": "ous_ifalik_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 192160375.134766
   },
   {
@@ -34180,7 +34180,7 @@
     "metricId": "sum",
     "classId": "ous_ifalik_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 86849848.304962
   },
   {
@@ -34188,7 +34188,7 @@
     "metricId": "sum",
     "classId": "ous_ifalik_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 42418241.593296
   },
   {
@@ -34196,7 +34196,7 @@
     "metricId": "sum",
     "classId": "ous_ifalik_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 33556756.576889
   },
   {
@@ -34204,7 +34204,7 @@
     "metricId": "sum",
     "classId": "ous_ifalik_tourism-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 37404236.648254
   },
   {
@@ -34212,7 +34212,7 @@
     "metricId": "sum",
     "classId": "ous_ifalike_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 129185520.562546
   },
   {
@@ -34916,7 +34916,7 @@
     "metricId": "valid",
     "classId": "ous_ifalik_aquacultureMariculture-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 4093
   },
   {
@@ -34924,7 +34924,7 @@
     "metricId": "valid",
     "classId": "ous_ifalik_commRecUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 21923
   },
   {
@@ -34932,7 +34932,7 @@
     "metricId": "valid",
     "classId": "ous_ifalik_constructionInfrastructure-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 86955
   },
   {
@@ -34940,7 +34940,7 @@
     "metricId": "valid",
     "classId": "ous_ifalik_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 211347
   },
   {
@@ -34948,7 +34948,7 @@
     "metricId": "valid",
     "classId": "ous_ifalik_maritimeActivity-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 19577
   },
   {
@@ -34956,7 +34956,7 @@
     "metricId": "valid",
     "classId": "ous_ifalik_tourism-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 112080
   },
   {
@@ -34964,7 +34964,7 @@
     "metricId": "valid",
     "classId": "ous_ifalike_culturalUse-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 71724
   },
   {
@@ -35612,7 +35612,7 @@
     "metricId": "area",
     "classId": "ous_elato_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 2930821.380738
   },
   {
@@ -36604,7 +36604,7 @@
     "metricId": "count",
     "classId": "ous_elato_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 71309
   },
   {
@@ -37540,7 +37540,7 @@
     "metricId": "sum",
     "classId": "ous_elato_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 66413.960231
   },
   {
@@ -38292,7 +38292,7 @@
     "metricId": "valid",
     "classId": "ous_elato_fishing-total",
     "sketchId": null,
-    "groupId": "band-0",
+    "groupId": null,
     "value": 27298
   },
   {

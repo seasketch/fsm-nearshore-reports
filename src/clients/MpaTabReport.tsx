@@ -44,6 +44,7 @@ import { ElatoOusDemographics } from "../components/ElatoOusDemographics.js";
 import { FaraulepOus } from "../components/FaraulepOus.js";
 import { FaraulepOusDemographics } from "../components/FaraulepOusDemographics.js";
 import { IfalikOus } from "../components/IfalikOus.js";
+import { IfalikOusDemographics } from "../components/IfalikOusDemographics.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -228,6 +229,10 @@ const BaseReport = () => {
           {geographyId === "yap_ifalik" && (
             <>
               <IfalikOus geographyId={geographyId} printing={isPrinting} />
+              <IfalikOusDemographics
+                geographyId={geographyId}
+                printing={isPrinting}
+              />
             </>
           )}
           {!isPrinting && <SketchAttributesCard autoHide />}
