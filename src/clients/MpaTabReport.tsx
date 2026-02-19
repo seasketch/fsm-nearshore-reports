@@ -45,6 +45,8 @@ import { FaraulepOus } from "../components/FaraulepOus.js";
 import { FaraulepOusDemographics } from "../components/FaraulepOusDemographics.js";
 import { IfalikOus } from "../components/IfalikOus.js";
 import { IfalikOusDemographics } from "../components/IfalikOusDemographics.js";
+import { LamotrekOus } from "../components/LamotrekOus.js";
+import { LamotrekOusDemographics } from "../components/LamotrekOusDemographics.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -230,6 +232,15 @@ const BaseReport = () => {
             <>
               <IfalikOus geographyId={geographyId} printing={isPrinting} />
               <IfalikOusDemographics
+                geographyId={geographyId}
+                printing={isPrinting}
+              />
+            </>
+          )}
+          {geographyId === "yap_lamotrek" && (
+            <>
+              <LamotrekOus geographyId={geographyId} printing={isPrinting} />
+              <LamotrekOusDemographics
                 geographyId={geographyId}
                 printing={isPrinting}
               />

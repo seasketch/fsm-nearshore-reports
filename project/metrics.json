@@ -2050,5 +2050,192 @@
         "display": "Unknown Gear"
       }
     ]
+  },
+  {
+    "metricId": "lamotrekOus",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "ous_lamotrek_aquacultureMariculture",
+        "display": "Aquaculture & Mariculture",
+        "datasourceId": "ous_lamotrek_aquacultureMariculture",
+        "layerId": "b4X4fXz0j"
+      },
+      {
+        "classId": "ous_lamotrek_commRecUse",
+        "display": "Community Recreational Use",
+        "datasourceId": "ous_lamotrek_commRecUse",
+        "layerId": "OUGAb5QlR"
+      },
+      {
+        "classId": "ous_lamotrek_constructionInfrastructure",
+        "display": "Construction & Infrastructure",
+        "datasourceId": "ous_lamotrek_constructionInfrastructure",
+        "layerId": "cG9POdKul"
+      },
+      {
+        "classId": "ous_lamotrek_culturalUse",
+        "display": "Cultural Use",
+        "datasourceId": "ous_lamotrek_culturalUse",
+        "layerId": "ieBjgatIK"
+      },
+      {
+        "classId": "ous_lamotrek_fishing",
+        "display": "Fishing",
+        "datasourceId": "ous_lamotrek_fishing",
+        "layerId": "goTVxS31i"
+      },
+      {
+        "classId": "ous_lamotrek_maritimeActivity",
+        "display": "Maritime Activity",
+        "datasourceId": "ous_lamotrek_maritimeActivity",
+        "layerId": "1h5loZuEw"
+      },
+      {
+        "classId": "ous_lamotrek_tourism",
+        "display": "Tourism",
+        "datasourceId": "ous_lamotrek_tourism",
+        "layerId": "vtAeDEJBk"
+      }
+    ]
+  },
+  {
+    "metricId": "lamotrekOusOverallDemog",
+    "type": "countOverlap",
+    "datasourceId": "lamotrekOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "ousPeopleCount_all",
+        "display": "Total"
+      }
+    ]
+  },
+  {
+    "metricId": "lamotrekOusSectorDemog",
+    "type": "countOverlap",
+    "datasourceId": "lamotrekOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Fishing",
+        "display": "Fishing"
+      },
+      {
+        "classId": "Tourism",
+        "display": "Tourism"
+      },
+      {
+        "classId": "Aquaculture & Mariculture",
+        "display": "Aquaculture & Mariculture"
+      },
+      {
+        "classId": "Maritime Activity",
+        "display": "Maritime Activity"
+      },
+      {
+        "classId": "Cultural Use",
+        "display": "Cultural Use"
+      },
+      {
+        "classId": "Community Recreational Use",
+        "display": "Community Recreational Use"
+      },
+      {
+        "classId": "Construction & Infrastructure",
+        "display": "Construction & Infrastructure"
+      }
+    ]
+  },
+  {
+    "metricId": "lamotrekOusGearDemog",
+    "type": "countOverlap",
+    "datasourceId": "lamotrekOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Bottom FIshing",
+        "display": "Bottom Fishing"
+      },
+      {
+        "classId": "Cast Net",
+        "display": "Cast Net"
+      },
+      {
+        "classId": "Casting",
+        "display": "Casting"
+      },
+      {
+        "classId": "Fish fence/Gill net",
+        "display": "Fish Fence/Gill Net"
+      },
+      {
+        "classId": "Gathering/Reef Gleaning",
+        "display": "Gathering/Reef Gleaning"
+      },
+      {
+        "classId": "Jigging (Traditional drop-stone)",
+        "display": "Jigging (Traditional drop-stone)"
+      },
+      {
+        "classId": "Spear/Harpoon",
+        "display": "Spear/Harpoon"
+      },
+      {
+        "classId": "Traditional Fish Enclosure",
+        "display": "Traditional Fish Enclosure"
+      },
+      {
+        "classId": "Trap",
+        "display": "Trap"
+      },
+      {
+        "classId": "Trolling",
+        "display": "Trolling"
+      },
+      {
+        "classId": "unknown-gear",
+        "display": "Unknown Gear"
+      }
+    ]
+  },
+  {
+    "metricId": "nguluOus",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "ous_ngulu_commRecUse",
+        "display": "Community Recreational Use",
+        "datasourceId": "ous_ngulu_commRecUse",
+        "layerId": "DBlyWiqFv"
+      },
+      {
+        "classId": "ous_ngulu_constructionInfrastructure",
+        "display": "Construction & Infrastructure",
+        "datasourceId": "ous_ngulu_constructionInfrastructure",
+        "layerId": "sWbjkKugR"
+      },
+      {
+        "classId": "ous_ngulu_culturalUse",
+        "display": "Cultural Use",
+        "datasourceId": "ous_ngulu_culturalUse",
+        "layerId": "DN9d1hv5G"
+      },
+      {
+        "classId": "ous_ngulu_fishing",
+        "display": "Fishing",
+        "datasourceId": "ous_ngulu_fishing",
+        "layerId": "Q6lEqGaSh"
+      },
+      {
+        "classId": "ous_ngulu_maritimeActivity",
+        "display": "Maritime Activity",
+        "datasourceId": "ous_ngulu_maritimeActivity",
+        "layerId": "Vd6oUEEmk"
+      },
+      {
+        "classId": "ous_ngulu_tourism",
+        "display": "Tourism",
+        "datasourceId": "ous_ngulu_tourism",
+        "layerId": "08RCC8oG4"
+      }
+    ]
   }
 ]

@@ -35,6 +35,8 @@ import { elatoOusDemographics } from "./elatoOusDemographics.js";
 import { faraulepOus } from "./faraulepOus.js";
 import { ifalikOus } from "./ifalikOus.js";
 import { ifalikOusDemographics } from "./ifalikOusDemographics.js";
+import { lamotrekOus } from "./lamotrekOus.js";
+import { lamotrekOusDemographics } from "./lamotrekOusDemographics.js";
 
 // Standard smoke tests
 function createSmokeTest(
@@ -75,6 +77,7 @@ const tests = [
   { name: "eauripikOusDemographics", func: eauripikOusDemographics },
   { name: "elatoOusDemographics", func: elatoOusDemographics },
   { name: "ifalikOusDemographics", func: ifalikOusDemographics },
+  { name: "lamotrekOusDemographics", func: lamotrekOusDemographics },
   { name: "kosraeOus", func: kosraeOus, timeout: 120_000 },
   { name: "yapOus", func: yapOus, timeout: 120_000 },
   { name: "woleaiOus", func: woleaiOus, timeout: 120_000 },
@@ -84,6 +87,7 @@ const tests = [
   { name: "ifalikOus", func: ifalikOus, timeout: 120_000 },
   { name: "eauripikOus", func: eauripikOus, timeout: 120_000 },
   { name: "elatoOus", func: elatoOus, timeout: 120_000 },
+  { name: "lamotrekOus", func: lamotrekOus, timeout: 120_000 },
   { name: "printMap", func: printMap },
   { name: "reefGeomorphic", func: reefGeomorphic },
   { name: "seagrassACA", func: seagrassACA, timeout: 120_000 },
