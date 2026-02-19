@@ -49,6 +49,8 @@ import { LamotrekOus } from "../components/LamotrekOus.js";
 import { LamotrekOusDemographics } from "../components/LamotrekOusDemographics.js";
 import { NguluOus } from "../components/NguluOus.js";
 import { NguluOusDemographics } from "../components/NguluOusDemographics.js";
+import { SatawalOus } from "../components/SatawalOus.js";
+import { SatawalOusDemographics } from "../components/SatawalOusDemographics.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -252,6 +254,15 @@ const BaseReport = () => {
             <>
               <NguluOus geographyId={geographyId} printing={isPrinting} />
               <NguluOusDemographics
+                geographyId={geographyId}
+                printing={isPrinting}
+              />
+            </>
+          )}
+          {geographyId === "yap_satawal" && (
+            <>
+              <SatawalOus geographyId={geographyId} printing={isPrinting} />
+              <SatawalOusDemographics
                 geographyId={geographyId}
                 printing={isPrinting}
               />

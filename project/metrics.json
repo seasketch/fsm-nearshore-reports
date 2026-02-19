@@ -2318,5 +2318,146 @@
         "display": "Unknown Gear"
       }
     ]
+  },
+  {
+    "metricId": "satawalOus",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "ous_satawal_aquacultureMariculture",
+        "display": "Aquaculture & Mariculture",
+        "datasourceId": "ous_satawal_aquacultureMariculture",
+        "layerId": "MVCCnxsaZ"
+      },
+      {
+        "classId": "ous_satawal_commRecUse",
+        "display": "Community Recreational Use",
+        "datasourceId": "ous_satawal_commRecUse",
+        "layerId": "cjEUQn_0D"
+      },
+      {
+        "classId": "ous_satawal_constructionInfrastructure",
+        "display": "Construction & Infrastructure",
+        "datasourceId": "ous_satawal_constructionInfrastructure",
+        "layerId": "uVFepDTk6"
+      },
+      {
+        "classId": "ous_satawal_culturalUse",
+        "display": "Cultural Use",
+        "datasourceId": "ous_satawal_culturalUse",
+        "layerId": "8Swpxs9wu"
+      },
+      {
+        "classId": "ous_satawal_fishing",
+        "display": "Fishing",
+        "datasourceId": "ous_satawal_fishing",
+        "layerId": "dLSSwZ3fp"
+      },
+      {
+        "classId": "ous_satawal_maritimeActivity",
+        "display": "Maritime Activity",
+        "datasourceId": "ous_satawal_maritimeActivity",
+        "layerId": "4r7UfYViG"
+      },
+      {
+        "classId": "ous_satawal_tourism",
+        "display": "Tourism",
+        "datasourceId": "ous_satawal_tourism",
+        "layerId": "1paWT4nMI"
+      }
+    ]
+  },
+  {
+    "metricId": "satawalOusOverallDemog",
+    "type": "countOverlap",
+    "datasourceId": "satawalOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "ousPeopleCount_all",
+        "display": "Total"
+      }
+    ]
+  },
+  {
+    "metricId": "satawalOusSectorDemog",
+    "type": "countOverlap",
+    "datasourceId": "satawalOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Fishing",
+        "display": "Fishing"
+      },
+      {
+        "classId": "Aquaculture & Mariculture",
+        "display": "Aquaculture & Mariculture"
+      },
+      {
+        "classId": "Community Recreational Use",
+        "display": "Community Recreational Use"
+      },
+      {
+        "classId": "Maritime Activity",
+        "display": "Maritime Activity"
+      },
+      {
+        "classId": "Tourism",
+        "display": "Tourism"
+      },
+      {
+        "classId": "Cultural Use",
+        "display": "Cultural Use"
+      },
+      {
+        "classId": "Construction & Infrastructure",
+        "display": "Construction & Infrastructure"
+      }
+    ]
+  },
+  {
+    "metricId": "satawalOusGearDemog",
+    "type": "countOverlap",
+    "datasourceId": "satawalOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Bottom FIshing",
+        "display": "Bottom Fishing"
+      },
+      {
+        "classId": "Cast Net",
+        "display": "Cast Net"
+      },
+      {
+        "classId": "Casting",
+        "display": "Casting"
+      },
+      {
+        "classId": "Fish fence/Gill net",
+        "display": "Fish Fence/Gill Net"
+      },
+      {
+        "classId": "Gathering/Reef Gleaning",
+        "display": "Gathering/Reef Gleaning"
+      },
+      {
+        "classId": "Jigging (Traditional drop-stone)",
+        "display": "Jigging (Traditional drop-stone)"
+      },
+      {
+        "classId": "Spear/Harpoon",
+        "display": "Spear/Harpoon"
+      },
+      {
+        "classId": "Trap",
+        "display": "Trap"
+      },
+      {
+        "classId": "Trolling",
+        "display": "Trolling"
+      },
+      {
+        "classId": "unknown-gear",
+        "display": "Unknown Gear"
+      }
+    ]
   }
 ]

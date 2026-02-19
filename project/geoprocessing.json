@@ -45,6 +45,8 @@
     "src/functions/lamotrekOus.ts",
     "src/functions/lamotrekOusDemographics.ts",
     "src/functions/nguluOus.ts",
-    "src/functions/nguluOusDemographics.ts"
+    "src/functions/nguluOusDemographics.ts",
+    "src/functions/satawalOus.ts",
+    "src/functions/satawalOusDemographics.ts"
   ]
 }
