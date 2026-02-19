@@ -690,6 +690,62 @@
   {
     "geographyId": "chuuk",
     "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "area",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -2026,6 +2082,62 @@
   {
     "geographyId": "chuuk",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -2930,6 +3042,62 @@
   {
     "geographyId": "chuuk",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -3515,6 +3683,62 @@
     "geographyId": "chuuk",
     "metricId": "valid",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "chuuk",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -4531,6 +4755,62 @@
     "geographyId": "kosrae",
     "metricId": "area",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -5866,6 +6146,62 @@
   {
     "geographyId": "kosrae",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -6770,6 +7106,62 @@
   {
     "geographyId": "kosrae",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -7355,6 +7747,62 @@
     "geographyId": "kosrae",
     "metricId": "valid",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "kosrae",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -8371,6 +8819,62 @@
     "geographyId": "pohnpei",
     "metricId": "area",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -9706,6 +10210,62 @@
   {
     "geographyId": "pohnpei",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -10610,6 +11170,62 @@
   {
     "geographyId": "pohnpei",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -11195,6 +11811,62 @@
     "geographyId": "pohnpei",
     "metricId": "valid",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "pohnpei",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -12211,6 +12883,62 @@
     "geographyId": "yap",
     "metricId": "area",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -13546,6 +14274,62 @@
   {
     "geographyId": "yap",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -14450,6 +15234,62 @@
   {
     "geographyId": "yap",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -15035,6 +15875,62 @@
     "geographyId": "yap",
     "metricId": "valid",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -15686,6 +16582,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 69633905.572151
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
   },
   {
     "geographyId": "yap_eauripik",
@@ -16522,6 +17474,62 @@
   {
     "geographyId": "yap_eauripik",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -17298,6 +18306,62 @@
   {
     "geographyId": "yap_eauripik",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -17886,6 +18950,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 182353
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_eauripik",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
   },
   {
     "geographyId": "yap_eauripik",
@@ -18534,6 +19654,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 0
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 87299.703546
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 755340.974919
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 691565.021811
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 10944679.123226
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 161349780.043003
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 3033482.55143
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 19272217.321309
   },
   {
     "geographyId": "yap_elato",
@@ -19370,6 +20546,62 @@
   {
     "geographyId": "yap_elato",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 4175
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1275121
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 67764
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2238753
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2293961
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 281483
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1639733
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -20146,6 +21378,62 @@
   {
     "geographyId": "yap_elato",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 23442785.79834
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 71007381.924072
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 37424058.443237
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 79627956.546227
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 45396338.231392
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 15617647.244751
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 38928540.560604
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -20734,6 +22022,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 0
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 3467
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 24435
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 24504
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 366304
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 1502830
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 24645
+  },
+  {
+    "geographyId": "yap_elato",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 697689
   },
   {
     "geographyId": "yap_elato",
@@ -21379,6 +22723,62 @@
     "geographyId": "yap_fais",
     "metricId": "area",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -22162,6 +23562,62 @@
   {
     "geographyId": "yap_fais",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -22882,6 +24338,62 @@
   {
     "geographyId": "yap_fais",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -23467,6 +24979,62 @@
     "geographyId": "yap_fais",
     "metricId": "valid",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_fais",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -24115,6 +25683,62 @@
     "geographyId": "yap_faraulep",
     "metricId": "area",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -24954,6 +26578,62 @@
   {
     "geographyId": "yap_faraulep",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -25730,6 +27410,62 @@
   {
     "geographyId": "yap_faraulep",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -26315,6 +28051,62 @@
     "geographyId": "yap_faraulep",
     "metricId": "valid",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_faraulep",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -26963,6 +28755,62 @@
     "geographyId": "yap_ifalik",
     "metricId": "area",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -27802,6 +29650,62 @@
   {
     "geographyId": "yap_ifalik",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -28578,6 +30482,62 @@
   {
     "geographyId": "yap_ifalik",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -29163,6 +31123,62 @@
     "geographyId": "yap_ifalik",
     "metricId": "valid",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ifalik",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -29811,6 +31827,62 @@
     "geographyId": "yap_lamotrek",
     "metricId": "area",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 2930821.380738
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -30650,6 +32722,62 @@
   {
     "geographyId": "yap_lamotrek",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 71309
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -31426,6 +33554,62 @@
   {
     "geographyId": "yap_lamotrek",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 66413.960231
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -32011,6 +34195,62 @@
     "geographyId": "yap_lamotrek",
     "metricId": "valid",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": "band-0",
+    "value": 27298
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_lamotrek",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -32659,6 +34899,62 @@
     "geographyId": "yap_ngulu",
     "metricId": "area",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -33498,6 +35794,62 @@
   {
     "geographyId": "yap_ngulu",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -34274,6 +36626,62 @@
   {
     "geographyId": "yap_ngulu",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -34859,6 +37267,62 @@
     "geographyId": "yap_ngulu",
     "metricId": "valid",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ngulu",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -35507,6 +37971,62 @@
     "geographyId": "yap_satawal",
     "metricId": "area",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -36346,6 +38866,62 @@
   {
     "geographyId": "yap_satawal",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -37122,6 +39698,62 @@
   {
     "geographyId": "yap_satawal",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -37707,6 +40339,62 @@
     "geographyId": "yap_satawal",
     "metricId": "valid",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_satawal",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -38355,6 +41043,62 @@
     "geographyId": "yap_ulithi",
     "metricId": "area",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -39146,6 +41890,62 @@
   {
     "geographyId": "yap_ulithi",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -39874,6 +42674,62 @@
   {
     "geographyId": "yap_ulithi",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -40459,6 +43315,62 @@
     "geographyId": "yap_ulithi",
     "metricId": "valid",
     "classId": "ous_eauripik_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_ulithi",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
     "sketchId": null,
     "groupId": null,
     "value": 0
@@ -41166,6 +44078,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 41743760.845861
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "area",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "area",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "area",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "area",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "area",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "area",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "area",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
   },
   {
     "geographyId": "yap_woleai",
@@ -42202,6 +45170,62 @@
   {
     "geographyId": "yap_woleai",
     "metricId": "count",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "count",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "count",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "count",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "count",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "count",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "count",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "count",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -43122,6 +46146,62 @@
   {
     "geographyId": "yap_woleai",
     "metricId": "sum",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "sum",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "sum",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "sum",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "sum",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "sum",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "sum",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "sum",
     "classId": "ous_fais_commRecUse-total",
     "sketchId": null,
     "groupId": null,
@@ -43710,6 +46790,62 @@
     "sketchId": null,
     "groupId": null,
     "value": 109316
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "valid",
+    "classId": "ous_elato_aquacultureMariculture-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "valid",
+    "classId": "ous_elato_commRecUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "valid",
+    "classId": "ous_elato_constructionInfrastructure-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "valid",
+    "classId": "ous_elato_culturalUse-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "valid",
+    "classId": "ous_elato_fishing-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "valid",
+    "classId": "ous_elato_maritimeActivity-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
+  },
+  {
+    "geographyId": "yap_woleai",
+    "metricId": "valid",
+    "classId": "ous_elato_tourism-total",
+    "sketchId": null,
+    "groupId": null,
+    "value": 0
   },
   {
     "geographyId": "yap_woleai",

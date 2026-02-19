@@ -1585,24 +1585,146 @@
     ]
   },
   {
-    "metricId": "eauripikOusIslandDemog",
+    "metricId": "eauripikOusGearDemog",
     "type": "countOverlap",
     "datasourceId": "eauripikOusDemographics.fgb",
     "classes": [
       {
-        "classId": "Eauripik",
-        "display": "Eauripik"
+        "classId": "Bottom FIshing",
+        "display": "Bottom Fishing"
       },
       {
-        "classId": "unknown-island",
-        "display": "Unknown"
+        "classId": "Cast Net",
+        "display": "Cast Net"
+      },
+      {
+        "classId": "Casting",
+        "display": "Casting"
+      },
+      {
+        "classId": "Fish fence/Gill net",
+        "display": "Fish Fence/Gill net"
+      },
+      {
+        "classId": "Gathering/Reef Gleaning",
+        "display": "Gathering/Reef Gleaning"
+      },
+      {
+        "classId": "Spear/Harpoon",
+        "display": "Spear/Harpoon"
+      },
+      {
+        "classId": "Trap",
+        "display": "Trap"
+      },
+      {
+        "classId": "Trolling",
+        "display": "Trolling"
+      },
+      {
+        "classId": "unknown-gear",
+        "display": "Unknown Gear"
       }
     ]
   },
   {
-    "metricId": "eauripikOusGearDemog",
+    "metricId": "elatoOus",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "ous_elato_aquacultureMariculture",
+        "display": "Aquaculture & Mariculture",
+        "datasourceId": "ous_elato_aquacultureMariculture",
+        "layerId": "jWrUFBEIv"
+      },
+      {
+        "classId": "ous_elato_commRecUse",
+        "display": "Community Recreational Use",
+        "datasourceId": "ous_elato_commRecUse",
+        "layerId": "YY3Zy2_NZ"
+      },
+      {
+        "classId": "ous_elato_constructionInfrastructure",
+        "display": "Construction & Infrastructure",
+        "datasourceId": "ous_elato_constructionInfrastructure",
+        "layerId": "KkP4sSlOg"
+      },
+      {
+        "classId": "ous_elato_culturalUse",
+        "display": "Cultural Use",
+        "datasourceId": "ous_elato_culturalUse",
+        "layerId": "4uDFRsjRs"
+      },
+      {
+        "classId": "ous_elato_fishing",
+        "display": "Fishing",
+        "datasourceId": "ous_elato_fishing",
+        "layerId": "HREC6NXyv"
+      },
+      {
+        "classId": "ous_elato_maritimeActivity",
+        "display": "Maritime Activity",
+        "datasourceId": "ous_elato_maritimeActivity",
+        "layerId": "gwtsVjQnh"
+      },
+      {
+        "classId": "ous_elato_tourism",
+        "display": "Tourism",
+        "datasourceId": "ous_elato_tourism",
+        "layerId": "1tGm3r_s1"
+      }
+    ]
+  },
+  {
+    "metricId": "elatoOusOverallDemog",
     "type": "countOverlap",
-    "datasourceId": "eauripikOusDemographics.fgb",
+    "datasourceId": "elatoOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "ousPeopleCount_all",
+        "display": "Total"
+      }
+    ]
+  },
+  {
+    "metricId": "elatoOusSectorDemog",
+    "type": "countOverlap",
+    "datasourceId": "elatoOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Community Recreational Use",
+        "display": "Community Recreational Use"
+      },
+      {
+        "classId": "Cultural Use",
+        "display": "Cultural Use"
+      },
+      {
+        "classId": "Aquaculture & Mariculture",
+        "display": "Aquaculture & Mariculture"
+      },
+      {
+        "classId": "Fishing",
+        "display": "Fishing"
+      },
+      {
+        "classId": "Maritime Activity",
+        "display": "Maritime Activity"
+      },
+      {
+        "classId": "Construction & Infrastructure",
+        "display": "Construction & Infrastructure"
+      },
+      {
+        "classId": "Tourism",
+        "display": "Tourism"
+      }
+    ]
+  },
+  {
+    "metricId": "elatoOusGearDemog",
+    "type": "countOverlap",
+    "datasourceId": "elatoOusDemographics.fgb",
     "classes": [
       {
         "classId": "Bottom FIshing",

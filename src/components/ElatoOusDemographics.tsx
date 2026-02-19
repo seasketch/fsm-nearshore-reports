@@ -12,21 +12,21 @@ import {
   percentWithEdge,
   Metric,
 } from "@seasketch/geoprocessing/client-core";
-import precalcTotals from "../../data/bin/eauripikPrecalc.json" with { type: "json" };
+import precalcTotals from "../../data/bin/elatoPrecalc.json" with { type: "json" };
 import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
 import { ReportProps } from "../util/ReportProp.js";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const EauripikOusDemographics: React.FunctionComponent<ReportProps> = (
+export const ElatoOusDemographics: React.FunctionComponent<ReportProps> = (
   props,
 ) => {
   const { t } = useTranslation();
 
-  const overallMg = project.getMetricGroup("eauripikOusOverallDemog", t);
-  const sectorMg = project.getMetricGroup("eauripikOusSectorDemog", t);
-  const gearMg = project.getMetricGroup("eauripikOusGearDemog", t);
+  const overallMg = project.getMetricGroup("elatoOusOverallDemog", t);
+  const sectorMg = project.getMetricGroup("elatoOusSectorDemog", t);
+  const gearMg = project.getMetricGroup("elatoOusGearDemog", t);
 
   const METRIC_ID = "ousPeopleCount";
   const PERC_METRIC_ID = `${overallMg.metricId}Perc`;
@@ -40,7 +40,7 @@ export const EauripikOusDemographics: React.FunctionComponent<ReportProps> = (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={t("Ocean Use Demographics")}
-        functionName="eauripikOusDemographics"
+        functionName="elatoOusDemographics"
         extraParams={{
           geographyIds: [curGeography.geographyId],
         }}

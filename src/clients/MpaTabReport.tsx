@@ -39,6 +39,8 @@ import { UlithiOus } from "../components/UlithiOus.js";
 import { UlithiOusDemographics } from "../components/UlithiOusDemographics.js";
 import { EauripikOusDemographics } from "../components/EauripikOusDemographics.js";
 import { EauripikOus } from "../components/EauripikOus.js";
+import { ElatoOus } from "../components/ElatoOus.js";
+import { ElatoOusDemographics } from "../components/ElatoOusDemographics.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -197,6 +199,15 @@ const BaseReport = () => {
             <>
               <EauripikOus geographyId={geographyId} printing={isPrinting} />
               <EauripikOusDemographics
+                geographyId={geographyId}
+                printing={isPrinting}
+              />
+            </>
+          )}
+          {geographyId === "yap_elato" && (
+            <>
+              <ElatoOus geographyId={geographyId} printing={isPrinting} />
+              <ElatoOusDemographics
                 geographyId={geographyId}
                 printing={isPrinting}
               />

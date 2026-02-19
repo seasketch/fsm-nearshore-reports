@@ -30,6 +30,8 @@ import { ulithiOus } from "./ulithiOus.js";
 import { ulithiOusDemographics } from "./ulithiOusDemographics.js";
 import { eauripikOus } from "./eauripikOus.js";
 import { eauripikOusDemographics } from "./eauripikOusDemographics.js";
+import { elatoOus } from "./elatoOus.js";
+import { elatoOusDemographics } from "./elatoOusDemographics.js";
 
 // Standard smoke tests
 function createSmokeTest(
@@ -68,12 +70,14 @@ const tests = [
   { name: "faisOusDemographics", func: faisOusDemographics },
   { name: "ulithiOusDemographics", func: ulithiOusDemographics },
   { name: "eauripikOusDemographics", func: eauripikOusDemographics },
+  { name: "elatoOusDemographics", func: elatoOusDemographics },
   { name: "kosraeOus", func: kosraeOus, timeout: 120_000 },
   { name: "yapOus", func: yapOus, timeout: 120_000 },
   { name: "woleaiOus", func: woleaiOus, timeout: 120_000 },
   { name: "faisOus", func: faisOus, timeout: 120_000 },
   { name: "ulithiOus", func: ulithiOus, timeout: 120_000 },
   { name: "eauripikOus", func: eauripikOus, timeout: 120_000 },
+  { name: "elatoOus", func: elatoOus, timeout: 120_000 },
   { name: "printMap", func: printMap },
   { name: "reefGeomorphic", func: reefGeomorphic },
   { name: "seagrassACA", func: seagrassACA, timeout: 120_000 },

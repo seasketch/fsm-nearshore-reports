@@ -35,6 +35,8 @@
     "src/functions/reefMonitoring.ts",
     "src/functions/yapProtectedAreas.ts",
     "src/functions/eauripikOus.ts",
-    "src/functions/eauripikOusDemographics.ts"
+    "src/functions/eauripikOusDemographics.ts",
+    "src/functions/elatoOus.ts",
+    "src/functions/elatoOusDemographics.ts"
   ]
 }
