@@ -1763,5 +1763,147 @@
         "display": "Unknown Gear"
       }
     ]
+  },
+  {
+    "metricId": "faraulepOus",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "ous_faraulep_aquacultureMariculture",
+        "display": "Aquaculture & Mariculture",
+        "datasourceId": "ous_faraulep_aquacultureMariculture",
+        "layerId": "x5kccBAX5"
+      },
+      {
+        "classId": "ous_faraulep_commRecUse",
+        "display": "Community Recreational Use",
+        "datasourceId": "ous_faraulep_commRecUse",
+        "layerId": "qFxoThrJR"
+      },
+      {
+        "classId": "ous_faraulep_constructionInfrastructure",
+        "display": "Construction & Infrastructure",
+        "datasourceId": "ous_faraulep_constructionInfrastructure",
+        "layerId": "QbyBWQHKc"
+      },
+      {
+        "classId": "ous_faraulep_culturalUse",
+        "display": "Cultural Use",
+        "datasourceId": "ous_faraulep_culturalUse",
+        "layerId": "Tj9jKlVVa"
+      },
+      {
+        "classId": "ous_faraulep_fishing",
+        "display": "Fishing",
+        "datasourceId": "ous_faraulep_fishing",
+        "layerId": "ZPofUIGMU"
+      },
+      {
+        "classId": "ous_faraulep_maritimeActivity",
+        "display": "Maritime Activity",
+        "datasourceId": "ous_faraulep_maritimeActivity",
+        "layerId": "4DFqfH55L"
+      }
+    ]
+  },
+  {
+    "metricId": "faraulepOusOverallDemog",
+    "type": "countOverlap",
+    "datasourceId": "faraulepOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "ousPeopleCount_all",
+        "display": "Total"
+      }
+    ]
+  },
+  {
+    "metricId": "faraulepOusSectorDemog",
+    "type": "countOverlap",
+    "datasourceId": "faraulepOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Cultural Use",
+        "display": "Cultural Use"
+      },
+      {
+        "classId": "Fishing",
+        "display": "Fishing"
+      },
+      {
+        "classId": "Community Recreational Use",
+        "display": "Community Recreational Use"
+      },
+      {
+        "classId": "Maritime Activity",
+        "display": "Maritime Activity"
+      },
+      {
+        "classId": "Aquaculture & Mariculture",
+        "display": "Aquaculture & Mariculture"
+      },
+      {
+        "classId": "Construction & Infrastructure",
+        "display": "Construction & Infrastructure"
+      }
+    ]
+  },
+  {
+    "metricId": "faraulepOusIslandDemog",
+    "type": "countOverlap",
+    "datasourceId": "faraulepOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Fachailap",
+        "display": "Fachailap"
+      },
+      {
+        "classId": "Piig",
+        "display": "Piig"
+      },
+      {
+        "classId": "unknown-island",
+        "display": "Unknown"
+      }
+    ]
+  },
+  {
+    "metricId": "faraulepOusGearDemog",
+    "type": "countOverlap",
+    "datasourceId": "faraulepOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Bottom FIshing",
+        "display": "Bottom Fishing"
+      },
+      {
+        "classId": "Cast Net",
+        "display": "Cast Net"
+      },
+      {
+        "classId": "Casting",
+        "display": "Casting"
+      },
+      {
+        "classId": "Fish fence/Gill net",
+        "display": "Fish Fence/Gill Net"
+      },
+      {
+        "classId": "Spear/Harpoon",
+        "display": "Spear/Harpoon"
+      },
+      {
+        "classId": "Trap",
+        "display": "Trap"
+      },
+      {
+        "classId": "Trolling",
+        "display": "Trolling"
+      },
+      {
+        "classId": "unknown-gear",
+        "display": "Unknown Gear"
+      }
+    ]
   }
 ]

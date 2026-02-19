@@ -37,6 +37,9 @@
     "src/functions/eauripikOus.ts",
     "src/functions/eauripikOusDemographics.ts",
     "src/functions/elatoOus.ts",
-    "src/functions/elatoOusDemographics.ts"
+    "src/functions/elatoOusDemographics.ts",
+    "src/functions/faraulepOus.ts",
+    "src/functions/faraulepOusDemographics.ts",
+    "src/functions/ifalikOus.ts"
   ]
 }

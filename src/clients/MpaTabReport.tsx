@@ -41,6 +41,9 @@ import { EauripikOusDemographics } from "../components/EauripikOusDemographics.j
 import { EauripikOus } from "../components/EauripikOus.js";
 import { ElatoOus } from "../components/ElatoOus.js";
 import { ElatoOusDemographics } from "../components/ElatoOusDemographics.js";
+import { FaraulepOus } from "../components/FaraulepOus.js";
+import { FaraulepOusDemographics } from "../components/FaraulepOusDemographics.js";
+import { IfalikOus } from "../components/IfalikOus.js";
 
 const BaseReport = () => {
   const { t } = useTranslation();
@@ -211,6 +214,20 @@ const BaseReport = () => {
                 geographyId={geographyId}
                 printing={isPrinting}
               />
+            </>
+          )}
+          {geographyId === "yap_faraulep" && (
+            <>
+              <FaraulepOus geographyId={geographyId} printing={isPrinting} />
+              <FaraulepOusDemographics
+                geographyId={geographyId}
+                printing={isPrinting}
+              />
+            </>
+          )}
+          {geographyId === "yap_ifalik" && (
+            <>
+              <IfalikOus geographyId={geographyId} printing={isPrinting} />
             </>
           )}
           {!isPrinting && <SketchAttributesCard autoHide />}
