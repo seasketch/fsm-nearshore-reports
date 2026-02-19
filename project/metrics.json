@@ -386,8 +386,7 @@
       {
         "classId": "ousPeopleCount_all",
         "display": "Total",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       }
     ]
   },
@@ -398,56 +397,47 @@
       {
         "classId": "Fisheries",
         "display": "Fisheries",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Aquaculture",
         "display": "Aquaculture",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Community Recreational Use",
         "display": "Community Recreational Use",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Cultural Use",
         "display": "Cultural Use",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Research / Data Collection",
         "display": "Research & Data Collection",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Tourism",
         "display": "Tourism",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Transportation",
         "display": "Transportation",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Maritime Activity",
         "display": "Maritime Activity",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Construction and Infrastructure",
         "display": "Construction & Infrastructure",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       }
     ]
   },
@@ -458,38 +448,32 @@
       {
         "classId": "Lelu",
         "display": "Lelu",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Malem",
         "display": "Malem",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Tafunsak",
         "display": "Tafunsak",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Utwe",
         "display": "Utwe",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Walung",
         "display": "Walung",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "unknown-municipality",
         "display": "Unknown",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       }
     ]
   },
@@ -500,56 +484,47 @@
       {
         "classId": "Bottom Fishing",
         "display": "Bottom Fishing",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Cast Net",
         "display": "Cast Net",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Casting",
         "display": "Casting",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Gathering / Reef Gleaning",
         "display": "Gathering & Reef Gleaning",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Other(Torch fishing)",
         "display": "Other (Torch Fishing)",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Spear/Harpoon",
         "display": "Spear & Harpoon",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Trap / Fish Fence / Gill Net",
         "display": "Trap, Fish Fence, & Gill Net",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Trolling",
         "display": "Trolling",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Vertical Longline",
         "display": "Vertical Longline",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       }
     ]
   },
@@ -560,20 +535,17 @@
       {
         "classId": "Male",
         "display": "Male",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "Female",
         "display": "Female",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       },
       {
         "classId": "unknown-gender",
         "display": "Unspecified",
-        "datasourceId": "kosraeOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "kosraeOusDemographics.fgb"
       }
     ]
   },
@@ -764,8 +736,7 @@
       {
         "classId": "ousPeopleCount_all",
         "display": "Total",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       }
     ]
   },
@@ -776,44 +747,37 @@
       {
         "classId": "Fishing",
         "display": "Fishing",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Maritime Activity",
         "display": "Maritime Activity",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Cultural Use",
         "display": "Cultural Use",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Tourism",
         "display": "Tourism",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Construction & Infrastructure",
         "display": "Construction & Infrastructure",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Community Recreational Use",
         "display": "Community Recreational Use",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Aquaculture & Mariculture",
         "display": "Aquaculture & Mariculture",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       }
     ]
   },
@@ -824,68 +788,57 @@
       {
         "classId": "Dalipebinaw",
         "display": "Dalipebinaw",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Fanif",
         "display": "Fanif",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Gagil",
         "display": "Gagil",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Gilman",
         "display": "Gilman",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Kanifay",
         "display": "Kanifay",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Maap",
         "display": "Maap",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Rull",
         "display": "Rull",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Rumung",
         "display": "Rumung",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Tomil",
         "display": "Tomil",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Weloy",
         "display": "Weloy",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "unknown-municipality",
         "display": "Unknown",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       }
     ]
   },
@@ -896,92 +849,77 @@
       {
         "classId": "Bottom FIshing",
         "display": "Bottom FIshing",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Cast Net",
         "display": "Cast Net",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Casting",
         "display": "Casting",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Fish fence/Gill net",
         "display": "Fish fence/Gill net",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Gathering/Reef Gleaning",
         "display": "Gathering/Reef Gleaning",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Jigging (Traditional drop-stone)",
         "display": "Jigging (Traditional drop-stone)",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Other",
         "display": "Other",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Spear/Harpoon",
         "display": "Spear/Harpoon",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Stone Traps",
         "display": "Stone Traps",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Traditional Fish Enclosure",
         "display": "Traditional Fish Enclosure",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Trap",
         "display": "Trap",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Trolling",
         "display": "Trolling",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "unknown-gear",
         "display": "Unknown-gear",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Vertical Longline",
         "display": "Vertical Longline",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       },
       {
         "classId": "Weir",
         "display": "Weir",
-        "datasourceId": "ous_demographics.fgb",
-        "layerId": ""
+        "datasourceId": "ous_demographics.fgb"
       }
     ]
   },
@@ -1099,8 +1037,7 @@
       {
         "classId": "ousPeopleCount_all",
         "display": "Total",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       }
     ]
   },
@@ -1111,38 +1048,32 @@
       {
         "classId": "Aquaculture & Mariculture",
         "display": "Aquaculture & Mariculture",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Maritime Activity",
         "display": "Maritime Activity",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Fishing",
         "display": "Fishing",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Community Recreational Use",
         "display": "Community Recreational Use",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Construction & Infrastructure",
         "display": "Construction & Infrastructure",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Cultural Use",
         "display": "Cultural Use",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       }
     ]
   },
@@ -1153,38 +1084,32 @@
       {
         "classId": "Falalop (Woleai)",
         "display": "Falalop (Woleai)",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Falalus",
         "display": "Falalus",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Seliap",
         "display": "Seliap",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Tegailap",
         "display": "Tegailap",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Wottegai",
         "display": "Wottegai",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "unknown-island",
         "display": "Unknown",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       }
     ]
   },
@@ -1195,62 +1120,52 @@
       {
         "classId": "Bottom FIshing",
         "display": "Bottom FIshing",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Cast Net",
         "display": "Cast Net",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Casting",
         "display": "Casting",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Fish fence/Gill net",
         "display": "Fish fence/Gill net",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Jigging (Traditional drop-stone)",
         "display": "Jigging (Traditional drop-stone)",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Spear/Harpoon",
         "display": "Spear/Harpoon",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Trap",
         "display": "Trap",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Trolling",
         "display": "Trolling",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "unknown-gear",
         "display": "Unknown-gear",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       },
       {
         "classId": "Vertical Longline",
         "display": "Vertical Longline",
-        "datasourceId": "woleaiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "woleaiOusDemographics.fgb"
       }
     ]
   },
@@ -1291,8 +1206,7 @@
       {
         "classId": "ousPeopleCount_all",
         "display": "Total",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       }
     ]
   },
@@ -1303,26 +1217,22 @@
       {
         "classId": "Fishing",
         "display": "Fishing",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "Community Recreational Use",
         "display": "Community Recreational Use",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "Cultural Use",
         "display": "Cultural Use",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "Tourism",
         "display": "Tourism",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       }
     ]
   },
@@ -1333,14 +1243,12 @@
       {
         "classId": "Fais",
         "display": "Fais",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "unknown-island",
         "display": "Unknown",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       }
     ]
   },
@@ -1351,62 +1259,52 @@
       {
         "classId": "Bottom FIshing",
         "display": "Bottom FIshing",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "Cast Net",
         "display": "Cast Net",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "Casting",
         "display": "Casting",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "Fish fence/Gill net",
         "display": "Fish fence/Gill net",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "Gathering/Reef Gleaning",
         "display": "Gathering/Reef Gleaning",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "Jigging (Traditional drop-stone)",
         "display": "Jigging (Traditional drop-stone)",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "Other",
         "display": "Other",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "Spear/Harpoon",
         "display": "Spear/Harpoon",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "Trolling",
         "display": "Trolling",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       },
       {
         "classId": "unknown-gear",
         "display": "Unknown-gear",
-        "datasourceId": "faisOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "faisOusDemographics.fgb"
       }
     ]
   },
@@ -1465,8 +1363,7 @@
       {
         "classId": "ousPeopleCount_all",
         "display": "Total",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       }
     ]
   },
@@ -1477,44 +1374,37 @@
       {
         "classId": "Fishing",
         "display": "Fishing",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Maritime Activity",
         "display": "Maritime Activity",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Cultural Use",
         "display": "Cultural Use",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Community Recreational Use",
         "display": "Community Recreational Use",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Aquaculture & Mariculture",
         "display": "Aquaculture & Mariculture",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Tourism",
         "display": "Tourism",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Construction & Infrastructure",
         "display": "Construction & Infrastructure",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       }
     ]
   },
@@ -1525,32 +1415,27 @@
       {
         "classId": "Asor",
         "display": "Asor",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Falalop (Ulithi)",
         "display": "Falalop (Ulithi)",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Federai",
         "display": "Federai",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Mog Mog",
         "display": "Mog Mog",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "unknown-island",
         "display": "Unknown",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       }
     ]
   },
@@ -1561,68 +1446,199 @@
       {
         "classId": "Bottom FIshing",
         "display": "Bottom FIshing",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Cast Net",
         "display": "Cast Net",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Casting",
         "display": "Casting",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Fish fence/Gill net",
         "display": "Fish fence/Gill net",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Jigging (Traditional drop-stone)",
         "display": "Jigging (Traditional drop-stone)",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Other",
         "display": "Other",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Spear/Harpoon",
         "display": "Spear/Harpoon",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Trap",
         "display": "Trap",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Trolling",
         "display": "Trolling",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "unknown-gear",
         "display": "Unknown-gear",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
       },
       {
         "classId": "Vertical Longline",
         "display": "Vertical Longline",
-        "datasourceId": "ulithiOusDemographics.fgb",
-        "layerId": ""
+        "datasourceId": "ulithiOusDemographics.fgb"
+      }
+    ]
+  },
+  {
+    "metricId": "eauripikOus",
+    "type": "valueOverlap",
+    "classes": [
+      {
+        "classId": "ous_eauripik_aquacultureMariculture",
+        "display": "Aquaculture & Mariculture",
+        "datasourceId": "ous_eauripik_aquacultureMariculture",
+        "layerId": "BUIL6wcY4"
+      },
+      {
+        "classId": "ous_eauripik_commRecUse",
+        "display": "Community Recreational Use",
+        "datasourceId": "ous_eauripik_commRecUse",
+        "layerId": "NEzBL2clu"
+      },
+      {
+        "classId": "ous_eauripik_constructionInfrastructure",
+        "display": "Construction & Infrastructure",
+        "datasourceId": "ous_eauripik_constructionInfrastructure",
+        "layerId": "kJjKss9D6"
+      },
+      {
+        "classId": "ous_eauripik_culturalUse",
+        "display": "Cultural Use",
+        "datasourceId": "ous_eauripik_culturalUse",
+        "layerId": "RpnjO9aqo"
+      },
+      {
+        "classId": "ous_eauripik_fishing",
+        "display": "Fishing",
+        "datasourceId": "ous_eauripik_fishing",
+        "layerId": "wlGPzK7Mp"
+      },
+      {
+        "classId": "ous_eauripik_maritimeActivity",
+        "display": "Maritime Activity",
+        "datasourceId": "ous_eauripik_maritimeActivity",
+        "layerId": "9I1iijS2A"
+      }
+    ]
+  },
+  {
+    "metricId": "eauripikOusOverallDemog",
+    "type": "countOverlap",
+    "datasourceId": "eauripikOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "ousPeopleCount_all",
+        "display": "Total"
+      }
+    ]
+  },
+  {
+    "metricId": "eauripikOusSectorDemog",
+    "type": "countOverlap",
+    "datasourceId": "eauripikOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Maritime Activity",
+        "display": "Maritime Activity"
+      },
+      {
+        "classId": "Community Recreational Use",
+        "display": "Community Recreational Use"
+      },
+      {
+        "classId": "Fishing",
+        "display": "Fishing"
+      },
+      {
+        "classId": "Cultural Use",
+        "display": "Cultural Use"
+      },
+      {
+        "classId": "Aquaculture & Mariculture",
+        "display": "Aquaculture & Mariculture"
+      },
+      {
+        "classId": "Construction & Infrastructure",
+        "display": "Construction & Infrastructure"
+      }
+    ]
+  },
+  {
+    "metricId": "eauripikOusIslandDemog",
+    "type": "countOverlap",
+    "datasourceId": "eauripikOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Eauripik",
+        "display": "Eauripik"
+      },
+      {
+        "classId": "unknown-island",
+        "display": "Unknown"
+      }
+    ]
+  },
+  {
+    "metricId": "eauripikOusGearDemog",
+    "type": "countOverlap",
+    "datasourceId": "eauripikOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Bottom FIshing",
+        "display": "Bottom Fishing"
+      },
+      {
+        "classId": "Cast Net",
+        "display": "Cast Net"
+      },
+      {
+        "classId": "Casting",
+        "display": "Casting"
+      },
+      {
+        "classId": "Fish fence/Gill net",
+        "display": "Fish Fence/Gill net"
+      },
+      {
+        "classId": "Gathering/Reef Gleaning",
+        "display": "Gathering/Reef Gleaning"
+      },
+      {
+        "classId": "Spear/Harpoon",
+        "display": "Spear/Harpoon"
+      },
+      {
+        "classId": "Trap",
+        "display": "Trap"
+      },
+      {
+        "classId": "Trolling",
+        "display": "Trolling"
+      },
+      {
+        "classId": "unknown-gear",
+        "display": "Unknown Gear"
       }
     ]
   }

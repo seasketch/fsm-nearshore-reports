@@ -28,6 +28,8 @@ import { woleaiOusDemographics } from "./woleaiOusDemographics.js";
 import { faisOusDemographics } from "./faisOusDemographics.js";
 import { ulithiOus } from "./ulithiOus.js";
 import { ulithiOusDemographics } from "./ulithiOusDemographics.js";
+import { eauripikOus } from "./eauripikOus.js";
+import { eauripikOusDemographics } from "./eauripikOusDemographics.js";
 
 // Standard smoke tests
 function createSmokeTest(
@@ -43,11 +45,9 @@ function createSmokeTest(
     test(
       `${functionName} - tests run against all examples`,
       async () => {
-        const examples = await getExamplePolygonSketchAll("ulithi");
+        const examples = await getExamplePolygonSketchAll();
         for (const example of examples) {
-          const result = await functionToTest(example, {
-            geographyIds: ["yap_ulithi"],
-          });
+          const result = await functionToTest(example);
           expect(result).toBeTruthy();
           writeResultOutput(result, functionName, example.properties.name);
         }
@@ -67,11 +67,13 @@ const tests = [
   { name: "woleaiOusDemographics", func: woleaiOusDemographics },
   { name: "faisOusDemographics", func: faisOusDemographics },
   { name: "ulithiOusDemographics", func: ulithiOusDemographics },
+  { name: "eauripikOusDemographics", func: eauripikOusDemographics },
   { name: "kosraeOus", func: kosraeOus, timeout: 120_000 },
   { name: "yapOus", func: yapOus, timeout: 120_000 },
   { name: "woleaiOus", func: woleaiOus, timeout: 120_000 },
   { name: "faisOus", func: faisOus, timeout: 120_000 },
   { name: "ulithiOus", func: ulithiOus, timeout: 120_000 },
+  { name: "eauripikOus", func: eauripikOus, timeout: 120_000 },
   { name: "printMap", func: printMap },
   { name: "reefGeomorphic", func: reefGeomorphic },
   { name: "seagrassACA", func: seagrassACA, timeout: 120_000 },

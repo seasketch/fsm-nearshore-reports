@@ -33,6 +33,8 @@
     "src/functions/fad.ts",
     "src/functions/existingMPAs.ts",
     "src/functions/reefMonitoring.ts",
-    "src/functions/yapProtectedAreas.ts"
+    "src/functions/yapProtectedAreas.ts",
+    "src/functions/eauripikOus.ts",
+    "src/functions/eauripikOusDemographics.ts"
   ]
 }

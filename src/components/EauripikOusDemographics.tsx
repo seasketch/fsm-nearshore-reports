@@ -12,22 +12,22 @@ import {
   percentWithEdge,
   Metric,
 } from "@seasketch/geoprocessing/client-core";
-import precalcTotals from "../../data/bin/faisPrecalc.json" with { type: "json" };
+import precalcTotals from "../../data/bin/eauripikPrecalc.json" with { type: "json" };
 import project from "../../project/projectClient.js";
 import { Trans, useTranslation } from "react-i18next";
 import { ReportProps } from "../util/ReportProp.js";
 
 const Number = new Intl.NumberFormat("en", { style: "decimal" });
 
-export const FaisOusDemographics: React.FunctionComponent<ReportProps> = (
+export const EauripikOusDemographics: React.FunctionComponent<ReportProps> = (
   props,
 ) => {
   const { t } = useTranslation();
 
-  const overallMg = project.getMetricGroup("faisOusOverallDemog", t);
-  const sectorMg = project.getMetricGroup("faisOusSectorDemog", t);
-  const islandMg = project.getMetricGroup("faisOusIslandDemog", t);
-  const gearMg = project.getMetricGroup("faisOusGearDemog", t);
+  const overallMg = project.getMetricGroup("eauripikOusOverallDemog", t);
+  const sectorMg = project.getMetricGroup("eauripikOusSectorDemog", t);
+  const islandMg = project.getMetricGroup("eauripikOusIslandDemog", t);
+  const gearMg = project.getMetricGroup("eauripikOusGearDemog", t);
 
   const METRIC_ID = "ousPeopleCount";
   const PERC_METRIC_ID = `${overallMg.metricId}Perc`;
@@ -41,7 +41,7 @@ export const FaisOusDemographics: React.FunctionComponent<ReportProps> = (
     <div style={{ breakInside: "avoid" }}>
       <ResultsCard
         title={t("Ocean Use Demographics")}
-        functionName="faisOusDemographics"
+        functionName="eauripikOusDemographics"
         extraParams={{
           geographyIds: [curGeography.geographyId],
         }}
@@ -124,7 +124,7 @@ export const FaisOusDemographics: React.FunctionComponent<ReportProps> = (
           return (
             <>
               <p>
-                <Trans i18nKey="W OUS Demographics - intro">
+                <Trans i18nKey="U OUS Demographics - intro">
                   This report summarizes the people that use the ocean within
                   this area, as represented by the Ocean Use Survey. Plans
                   should consider the potential benefits and impacts to these
@@ -249,7 +249,7 @@ export const FaisOusDemographics: React.FunctionComponent<ReportProps> = (
               </Collapse>
 
               <Collapse title={t("Learn more")}>
-                <Trans i18nKey="W OUS Demographics - learn more">
+                <Trans i18nKey="U OUS Demographics - learn more">
                   <p>
                     ℹ️ Overview: An Ocean Use Survey was conducted that
                     identified who is using the ocean, and where they are using

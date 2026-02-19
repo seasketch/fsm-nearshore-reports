@@ -1,0 +1,138 @@
+[
+  {
+    "metricId": "ousPeopleCount",
+    "value": 48,
+    "classId": "ousPeopleCount_all",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 13,
+    "classId": "Maritime Activity",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 34,
+    "classId": "Community Recreational Use",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 33,
+    "classId": "Fishing",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 9,
+    "classId": "Cultural Use",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 20,
+    "classId": "Aquaculture & Mariculture",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 10,
+    "classId": "Construction & Infrastructure",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 48,
+    "classId": "Eauripik",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 39,
+    "classId": "unknown-gear",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 30,
+    "classId": "Spear/Harpoon",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 9,
+    "classId": "Trolling",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 22,
+    "classId": "Bottom FIshing",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 8,
+    "classId": "Fish fence/Gill net",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 32,
+    "classId": "Casting",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 2,
+    "classId": "Cast Net",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 2,
+    "classId": "Trap",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  },
+  {
+    "metricId": "ousPeopleCount",
+    "value": 2,
+    "classId": "Gathering/Reef Gleaning",
+    "groupId": null,
+    "geographyId": null,
+    "sketchId": null
+  }
+]

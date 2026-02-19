@@ -1256,16 +1256,88 @@
     "explodeMulti": true
   },
   {
-    "src": "data/src/Analytics/state_nearshore_boundaries/yap_satawal.fgb",
-    "layerName": "name_satawal",
-    "geo_type": "vector",
     "datasourceId": "yap_satawal",
+    "geo_type": "vector",
     "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "name_satawal",
     "classKeys": [],
     "created": "2026-02-19T17:53:01.319Z",
     "lastUpdated": "2026-02-19T17:53:01.319Z",
+    "src": "data/src/Analytics/state_nearshore_boundaries/yap_satawal.fgb",
     "propertiesToKeep": [],
-    "explodeMulti": true,
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "ous_eauripik_aquacultureMariculture",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2026-02-19T18:04:04.103Z",
+    "lastUpdated": "2026-02-19T18:04:04.103Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/aquaculture & mariculture/aquaculture_mariculture_eauripik.tif"
+  },
+  {
+    "datasourceId": "ous_eauripik_commRecUse",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2026-02-19T18:04:34.202Z",
+    "lastUpdated": "2026-02-19T18:04:34.202Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/community recreational use/community_recreational_use_eauripik.tif"
+  },
+  {
+    "datasourceId": "ous_eauripik_constructionInfrastructure",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2026-02-19T18:04:58.413Z",
+    "lastUpdated": "2026-02-19T18:04:58.413Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/construction & infrastructure/construction_infrastructure_eauripik.tif"
+  },
+  {
+    "datasourceId": "ous_eauripik_culturalUse",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2026-02-19T18:05:18.398Z",
+    "lastUpdated": "2026-02-19T18:05:18.398Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/cultural use/cultural_use_eauripik.tif"
+  },
+  {
+    "datasourceId": "ous_eauripik_fishing",
+    "geo_type": "raster",
+    "formats": ["tif"],
+    "precalc": true,
+    "measurementType": "quantitative",
+    "band": 1,
+    "noDataValue": 0,
+    "created": "2026-02-19T18:05:34.242Z",
+    "lastUpdated": "2026-02-19T18:05:34.242Z",
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/fishing/fishing_eauripik.tif"
+  },
+  {
+    "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/maritime activity/maritime_activity_eauripik.tif",
+    "band": 1,
+    "geo_type": "raster",
+    "datasourceId": "ous_eauripik_maritimeActivity",
+    "formats": ["tif"],
+    "created": "2026-02-19T18:05:58.491Z",
+    "lastUpdated": "2026-02-19T18:05:58.491Z",
+    "noDataValue": 0,
+    "measurementType": "quantitative",
     "precalc": true
   }
 ]
