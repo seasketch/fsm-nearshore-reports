@@ -2237,5 +2237,86 @@
         "layerId": "08RCC8oG4"
       }
     ]
+  },
+  {
+    "metricId": "nguluOusOverallDemog",
+    "type": "countOverlap",
+    "datasourceId": "nguluOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "ousPeopleCount_all",
+        "display": "Total"
+      }
+    ]
+  },
+  {
+    "metricId": "nguluOusSectorDemog",
+    "type": "countOverlap",
+    "datasourceId": "nguluOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Community Recreational Use",
+        "display": "Community Recreational Use"
+      },
+      {
+        "classId": "Maritime Activity",
+        "display": "Maritime Activity"
+      },
+      {
+        "classId": "Fishing",
+        "display": "Fishing"
+      },
+      {
+        "classId": "Cultural Use",
+        "display": "Cultural Use"
+      },
+      {
+        "classId": "Construction & Infrastructure",
+        "display": "Construction & Infrastructure"
+      },
+      {
+        "classId": "Tourism",
+        "display": "Tourism"
+      }
+    ]
+  },
+  {
+    "metricId": "nguluOusGearDemog",
+    "type": "countOverlap",
+    "datasourceId": "nguluOusDemographics.fgb",
+    "classes": [
+      {
+        "classId": "Bottom FIshing",
+        "display": "Bottom Fishing"
+      },
+      {
+        "classId": "Cast Net",
+        "display": "Cast Net"
+      },
+      {
+        "classId": "Casting",
+        "display": "Casting"
+      },
+      {
+        "classId": "Fish fence/Gill net",
+        "display": "Fish Fence/Gill Net"
+      },
+      {
+        "classId": "Spear/Harpoon",
+        "display": "Spear/Harpoon"
+      },
+      {
+        "classId": "Trap",
+        "display": "Trap"
+      },
+      {
+        "classId": "Trolling",
+        "display": "Trolling"
+      },
+      {
+        "classId": "unknown-gear",
+        "display": "Unknown Gear"
+      }
+    ]
   }
 ]

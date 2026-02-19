@@ -43,6 +43,8 @@
     "src/functions/ifalikOus.ts",
     "src/functions/ifalikOusDemographics.ts",
     "src/functions/lamotrekOus.ts",
-    "src/functions/lamotrekOusDemographics.ts"
+    "src/functions/lamotrekOusDemographics.ts",
+    "src/functions/nguluOus.ts",
+    "src/functions/nguluOusDemographics.ts"
   ]
 }
