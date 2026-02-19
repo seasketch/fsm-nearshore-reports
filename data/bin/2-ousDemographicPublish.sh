@@ -1,12 +1,7 @@
 #!/bin/bash
 
 # Uploads OUS Demographic data to s3 bucket
-
 DATA_DIR="$(cd -P "$(dirname "${BASH_SOURCE[0]}")"/.. && pwd)"
 BUCKET="gp-fsm-nearshore-reports-datasets"
 
-aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "kosraeOusDemographics.fgb"
-aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "yapOusDemographics.fgb"
-aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "woleaiOusDemographics.fgb"
-aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "faisOusDemographics.fgb"
-aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "ulithiOusDemographics.fgb"
+aws s3 cp --recursive "${DATA_DIR}/dist/" s3://${BUCKET} --cache-control max-age=3600 --exclude "*" --include "*OusDemographics.fgb"

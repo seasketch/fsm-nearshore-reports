@@ -2,18 +2,12 @@
 
 # Run using this command:
 # ./data/bin/1-ousDemographicPrep.sh kosrae
-# ./data/bin/1-ousDemographicPrep.sh yap
-# ./data/bin/1-ousDemographicPrep.sh woleai
-# ./data/bin/1-ousDemographicPrep.sh fais
 
 # Then publish the data to s3 using this command:
 # ./data/bin/2-ousDemographicPublish.sh
 
 # Then run the precalc using this command:
 # NODE_ENV=test npx tsx ./data/bin/3-ousDemographicPrecalc.ts kosrae
-# NODE_ENV=test npx tsx ./data/bin/3-ousDemographicPrecalc.ts yap
-# NODE_ENV=test npx tsx ./data/bin/3-ousDemographicPrecalc.ts woleai
-# NODE_ENV=test npx tsx ./data/bin/3-ousDemographicPrecalc.ts fais
 
 set -euo pipefail
 

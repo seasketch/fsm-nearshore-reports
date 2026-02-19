@@ -1189,5 +1189,83 @@
     "created": "2026-02-18T19:27:34.787Z",
     "lastUpdated": "2026-02-18T21:33:32.149Z",
     "src": "data/src/Data_Products/heatmaps/yap/rasters/neighboring-islands/clipped/5m/tourism/tourism_ulithi.tif"
+  },
+  {
+    "datasourceId": "yap_elato",
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "name_elato",
+    "classKeys": [],
+    "created": "2026-02-19T17:52:18.159Z",
+    "lastUpdated": "2026-02-19T17:52:18.159Z",
+    "src": "data/src/Analytics/state_nearshore_boundaries/yap_elato.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "yap_faraulep",
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "name_faraulep",
+    "classKeys": [],
+    "created": "2026-02-19T17:52:27.568Z",
+    "lastUpdated": "2026-02-19T17:52:27.568Z",
+    "src": "data/src/Analytics/state_nearshore_boundaries/yap_faraulep.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "yap_ifalik",
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "name_ifalik",
+    "classKeys": [],
+    "created": "2026-02-19T17:52:35.616Z",
+    "lastUpdated": "2026-02-19T17:52:35.616Z",
+    "src": "data/src/Analytics/state_nearshore_boundaries/yap_ifalik.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "yap_lamotrek",
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "name_lamotrek",
+    "classKeys": [],
+    "created": "2026-02-19T17:52:42.897Z",
+    "lastUpdated": "2026-02-19T17:52:42.897Z",
+    "src": "data/src/Analytics/state_nearshore_boundaries/yap_lamotrek.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "datasourceId": "yap_ngulu",
+    "geo_type": "vector",
+    "formats": ["fgb"],
+    "precalc": true,
+    "layerName": "name_ngulu",
+    "classKeys": [],
+    "created": "2026-02-19T17:52:51.662Z",
+    "lastUpdated": "2026-02-19T17:52:51.662Z",
+    "src": "data/src/Analytics/state_nearshore_boundaries/yap_ngulu.fgb",
+    "propertiesToKeep": [],
+    "explodeMulti": true
+  },
+  {
+    "src": "data/src/Analytics/state_nearshore_boundaries/yap_satawal.fgb",
+    "layerName": "name_satawal",
+    "geo_type": "vector",
+    "datasourceId": "yap_satawal",
+    "formats": ["fgb"],
+    "classKeys": [],
+    "created": "2026-02-19T17:53:01.319Z",
+    "lastUpdated": "2026-02-19T17:53:01.319Z",
+    "propertiesToKeep": [],
+    "explodeMulti": true,
+    "precalc": true
   }
 ]
