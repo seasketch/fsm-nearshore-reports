@@ -4,7 +4,7 @@ import {
   percentWithEdge,
   firstMatchingMetric,
   Geography,
-  roundLower,
+  roundDecimal,
   squareMeterToKilometer,
 } from "@seasketch/geoprocessing/client-core";
 import {
@@ -83,13 +83,22 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
           );
 
           // Format area metrics for key section display
-          const areaDisplay = areaMetric.value
-            ? roundLower(squareMeterToKilometer(areaMetric.value))
+          const areaDisplayKm = areaMetric.value
+            ? roundDecimal(squareMeterToKilometer(areaMetric.value), 2, {
+                keepSmallValues: true,
+              })
+            : 0;
+
+          const areaDisplayHa = areaMetric.value
+            ? roundDecimal(areaMetric.value / 10000, 2, {
+                keepSmallValues: true,
+              })
             : 0;
           const percDisplay = percentWithEdge(
             areaMetric.value / totalAreaMetric.value,
           );
-          const areaUnitDisplay = t("km²");
+          const areaUnitHa = t("ha");
+          const areaUnitKm = t("km²");
           const mapLabel = t("Show Map Layer");
 
           return (
@@ -111,7 +120,7 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
                 <KeySection>
                   {t("This plan is")}{" "}
                   <b>
-                    {areaDisplay} {areaUnitDisplay}
+                    {areaDisplayHa} {areaUnitHa} ({areaDisplayKm} {areaUnitKm})
                   </b>
                   {", "}
                   {t("or")} <b>{percDisplay}</b> {t("of ")} {geographyLabel}'s{" "}
