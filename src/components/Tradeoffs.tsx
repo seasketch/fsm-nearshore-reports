@@ -73,10 +73,18 @@ export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
             precalcMetrics,
             (m) => m.groupId === null && m.classId === "nearshore",
           );
-          const areaDisplay = roundDecimal(
-            squareMeterToKilometer(areaMetric.value),
-          );
-          const areaUnitDisplay = t("km²");
+          const areaDisplayKm = areaMetric.value
+            ? roundDecimal(squareMeterToKilometer(areaMetric.value), 2, {
+                keepSmallValues: true,
+              })
+            : 0;
+          const areaDisplayHa = areaMetric.value
+            ? roundDecimal(areaMetric.value / 10000, 2, {
+                keepSmallValues: true,
+              })
+            : 0;
+          const areaUnitKm = t("km²");
+          const areaUnitHa = t("ha");
           const percDisplay = percentWithEdge(
             areaMetric.value / totalAreaMetric.value,
           );
@@ -125,7 +133,8 @@ export const Tradeoffs: React.FunctionComponent<ReportProps> = (props) => {
               <p>
                 {t("This plan designates")}{" "}
                 <b>
-                  {areaDisplay} {areaUnitDisplay} ({percDisplay})
+                  {areaDisplayHa} {areaUnitHa} ({areaDisplayKm} {areaUnitKm}) or
+                  {percDisplay}
                 </b>
                 {t(" of ")} {curGeography.display}
                 {t("'s territorial sea in Marine Protected Areas, protecting ")}

@@ -9,7 +9,7 @@ import {
 } from "@seasketch/geoprocessing/client-ui";
 import {
   percentWithEdge,
-  roundLower,
+  roundDecimal,
   squareMeterToKilometer,
 } from "@seasketch/geoprocessing/client-core";
 import { useTranslation } from "react-i18next";
@@ -45,9 +45,21 @@ export const ExistingMPAs: React.FunctionComponent<ReportProps> = () => {
                 <b>
                   {percentWithEdge(data.overlapPerc)} (
                   {Number(data.overlap) !== 0
-                    ? roundLower(squareMeterToKilometer(Number(data.overlap)))
+                    ? roundDecimal(Number(data.overlap) / 10000, 2, {
+                        keepSmallValues: true,
+                      })
                     : 0}{" "}
-                  km²)
+                  {t("ha")} (
+                  {Number(data.overlap) !== 0
+                    ? roundDecimal(
+                        squareMeterToKilometer(Number(data.overlap)),
+                        2,
+                        {
+                          keepSmallValues: true,
+                        },
+                      )
+                    : 0}{" "}
+                  {t("km²")})
                 </b>{" "}
                 of this area is within existing protected areas.
               </KeySection>

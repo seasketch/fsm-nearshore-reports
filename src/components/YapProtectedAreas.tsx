@@ -12,14 +12,12 @@ import {
   useSketchProperties,
 } from "@seasketch/geoprocessing/client-ui";
 import {
-  GeogProp,
   Metric,
   MetricGroup,
   ReportResult,
   SketchProperties,
   flattenBySketchAllClass,
   metricsWithSketchId,
-  squareMeterToKilometer,
   toPercentMetric,
 } from "@seasketch/geoprocessing/client-core";
 import project from "../../project/projectClient.js";

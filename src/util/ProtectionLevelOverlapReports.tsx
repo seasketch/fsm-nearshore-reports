@@ -514,16 +514,39 @@ export const genAreaGroupLevelTable = (
         style: { color: "#777" },
         columns: [
           {
-            Header: t("Area") + " ".repeat(index),
+            Header: t("Area (ha)") + " ".repeat(index),
+            accessor: (row) => {
+              const value = row[curClass.classId] as number;
+              const haVal = value / 10000;
+
+              // If value is nonzero but would be rounded to zero, replace with < 0.1
+              const valDisplay = haVal
+                ? Number.format(
+                    roundDecimal(haVal, 2, { keepSmallValues: true }),
+                  )
+                : 0;
+              return (
+                <GroupPill
+                  groupColorMap={groupColorMap}
+                  group={row.groupId.toString()}
+                >
+                  {valDisplay + " " + t("ha")}
+                </GroupPill>
+              );
+            },
+          },
+          {
+            Header: t("Area (km²)") + " ".repeat(index),
             accessor: (row) => {
               const value = row[curClass.classId] as number;
               const kmVal = squareMeterToKilometer(value);
 
               // If value is nonzero but would be rounded to zero, replace with < 0.1
-              const valDisplay =
-                kmVal && kmVal < 0.1
-                  ? "< 0.1"
-                  : Number.format(roundDecimal(kmVal));
+              const valDisplay = kmVal
+                ? Number.format(
+                    roundDecimal(kmVal, 2, { keepSmallValues: true }),
+                  )
+                : 0;
               return (
                 <GroupPill
                   groupColorMap={groupColorMap}
@@ -722,7 +745,25 @@ export const genAreaSketchTable = (
         style: { color: "#777" },
         columns: [
           {
-            Header: t("Area") + " ".repeat(index),
+            Header: t("Area (ha)") + " ".repeat(index),
+            accessor: (row) => {
+              const value =
+                aggMetrics[row.sketchId][curClass.classId as string][
+                  mg.metricId
+                ][0].value;
+              const haVal = value / 10000;
+
+              // If value is nonzero but would be rounded to zero, replace with < 0.1
+              const valDisplay = haVal
+                ? Number.format(
+                    roundDecimal(haVal, 2, { keepSmallValues: true }),
+                  )
+                : 0;
+              return valDisplay + " " + t("ha");
+            },
+          },
+          {
+            Header: t("Area (km²)") + " ".repeat(index),
             accessor: (row) => {
               const value =
                 aggMetrics[row.sketchId][curClass.classId as string][
@@ -731,10 +772,11 @@ export const genAreaSketchTable = (
               const kmVal = squareMeterToKilometer(value);
 
               // If value is nonzero but would be rounded to zero, replace with < 0.1
-              const valDisplay =
-                kmVal && kmVal < 0.1
-                  ? "< 0.1"
-                  : Number.format(roundDecimal(kmVal));
+              const valDisplay = kmVal
+                ? Number.format(
+                    roundDecimal(kmVal, 2, { keepSmallValues: true }),
+                  )
+                : 0;
               return valDisplay + " " + t("km²");
             },
           },
