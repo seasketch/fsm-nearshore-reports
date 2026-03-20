@@ -16,17 +16,6 @@
       "metricId": "coralACA",
       "classId": "coral",
       "sketchId": "24597",
-      "groupId": "mpa",
-      "value": 957001.922752,
-      "extra": {
-        "sketchName": "test"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "coralACA",
-      "classId": "coral",
-      "sketchId": "24597",
       "groupId": "aquaculture",
       "value": 0,
       "extra": {
@@ -40,6 +29,17 @@
       "sketchId": "24597",
       "groupId": "energy",
       "value": 0,
+      "extra": {
+        "sketchName": "test"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "coralACA",
+      "classId": "coral",
+      "sketchId": "24597",
+      "groupId": "mpa",
+      "value": 957001.922752,
       "extra": {
         "sketchName": "test"
       }

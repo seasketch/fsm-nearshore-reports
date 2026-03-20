@@ -19,7 +19,7 @@ import {
 import { ReportProps } from "../util/ReportProp.js";
 
 /**
- * SpawnAgg component
+ * Spawning Aggregations component
  */
 export const SpawnAgg: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection, childProperties }] = useSketchProperties();
@@ -86,10 +86,11 @@ export const SpawnAgg: React.FunctionComponent<ReportProps> = (props) => {
                 <Collapse title={t("Learn more")}>
                   <Trans i18nKey="Spawning Aggregations - learn more">
                     <p>
-                      📈 Report: The percentage of each feature type within this
-                      plan is calculated by finding the overlap of each feature
-                      type with the plan, summing its area, then dividing it by
-                      the total area of each feature type found within the
+                      📈 Report: The percentage of each area spawning
+                      aggregation area is calculated by summing the overlap of
+                      each species' spawning aggregation areas with the plan,
+                      then dividing it by the total (dissolved) spawning
+                      aggregation areas for that species found within the
                       selected nearshore planning area. If the plan includes
                       multiple areas that overlap, the overlap is only counted
                       once.

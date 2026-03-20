@@ -1,0 +1,2716 @@
+{
+  "metrics": [
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Aquaculture",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 25
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Bottom Fishing",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 223
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Cast Net",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 109
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Casting",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 250
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Community Recreational Use",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 1200
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Construction and Infrastructure",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 4
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Cultural Use",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 273
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Female",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 80
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Fisheries",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 754
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Gathering / Reef Gleaning",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 131
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Lelu",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 410
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Male",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 121
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Malem",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 350
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Maritime Activity",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 95
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Other(Torch fishing)",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 93
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "ousPeopleCount_all",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 1547
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Research / Data Collection",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 7
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Spear/Harpoon",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 78
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Tafunsak",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 183
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Tourism",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 9
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Transportation",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 80
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Trap / Fish Fence / Gill Net",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 213
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Trolling",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 103
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "unknown-gear",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 1095
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "unknown-gender",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 39
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "unknown-municipality",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 52
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Utwe",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 478
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Vertical Longline",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 22
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousPeopleCount",
+      "classId": "Walung",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 74
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Aquaculture",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 5
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Bottom Fishing",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 49
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Cast Net",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 28
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Casting",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 63
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Community Recreational Use",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 166
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Construction and Infrastructure",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 2
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Cultural Use",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 59
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Female",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 80
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Fisheries",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 189
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Gathering / Reef Gleaning",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 44
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Lelu",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 77
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Male",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 121
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Malem",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 45
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Maritime Activity",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 7
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Other(Torch fishing)",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 16
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "ousRespondentCount_all",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 240
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Research / Data Collection",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 7
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Spear/Harpoon",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 20
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Tafunsak",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 38
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Tourism",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 5
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Transportation",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 80
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Trap / Fish Fence / Gill Net",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 52
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Trolling",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 24
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "unknown-gear",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 205
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "unknown-gender",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 39
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "unknown-municipality",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 6
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Utwe",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 60
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Vertical Longline",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 3
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "ousRespondentCount",
+      "classId": "Walung",
+      "sketchId": "133331",
+      "groupId": null,
+      "value": 14
+    }
+  ],
+  "sketch": {
+    "id": 133331,
+    "type": "FeatureCollection",
+    "features": [
+      {
+        "id": 133350,
+        "bbox": [
+          162.958791267,
+          5.346625617,
+          162.962205958,
+          5.348813804
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Renewable Energy Okat Floating Solar Site (VIABLE)",
+          "6291": "Proposed location of ADB for the 7.5MWp of Floating Solar PV that will be under the IPP.\n\nSite is considered ideal by KUA:\n- Okat is currently considered an industrial area, energy demand is higher in comparison to residential areas.",
+          "6292": "Mark, Ericka, Renton & Jason",
+          "12419": "ENERGY",
+          "id": "133350",
+          "name": "Renewable Energy Okat Floating Solar Site (VIABLE)",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Mark, Ericka, Renton & Jason",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "ENERGY",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Mark, Ericka, Renton & Jason",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "ENERGY",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Renewable Energy",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Proposed location of ADB for the 7.5MWp of Floating Solar PV that will be under the IPP.\n\nSite is considered ideal by KUA:\n- Okat is currently considered an industrial area, energy demand is higher in comparison to residential areas.",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Proposed location of ADB for the 7.5MWp of Floating Solar PV that will be under the IPP.\n\nSite is considered ideal by KUA:\n- Okat is currently considered an industrial area, energy demand is higher in comparison to residential areas."
+        },
+        "geometry": null
+      },
+      {
+        "id": 133356,
+        "bbox": [
+          162.96363370608674,
+          5.3578346642048125,
+          162.972763335,
+          5.363487817
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Z: Tafunsak East",
+          "6292": "Jason Flower",
+          "12419": "MPA",
+          "id": "133356",
+          "name": "Z: Tafunsak East",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Jason Flower",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Jason Flower",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 133341,
+        "bbox": [
+          163.016954721,
+          5.334646203,
+          163.018257713,
+          5.335683101
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "General Aquaculture Area (TBD)",
+          "6291": "Site is currently undergoing new management and site construction. There is potential for aquaculture when operation commences.",
+          "6292": "Steven Palik",
+          "12419": "AQUA",
+          "id": "133341",
+          "name": "General Aquaculture Area (TBD)",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Steven Palik",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Steven Palik",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Site is currently undergoing new management and site construction. There is potential for aquaculture when operation commences.",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Site is currently undergoing new management and site construction. There is potential for aquaculture when operation commences."
+        },
+        "geometry": null
+      },
+      {
+        "id": 133353,
+        "bbox": [
+          163.01722530817003,
+          5.340700932,
+          163.01882502980345,
+          5.343879620996907
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Renewable Energy Nautilus Resort Site (NOT VIABLE)",
+          "6291": "area selected because of not alot of transportation, steady waters, no seagrass\n\nOur group (Mark, Renton, Jason & Ericka) representing KIRMA and KUA believe that this is not viable because it did not meet the minimum depth of 3 feet.",
+          "6292": "austin, trent, ben, steph, annie & mohr, Mark",
+          "12419": "ENERGY",
+          "id": "133353",
+          "name": "Renewable Energy Nautilus Resort Site (NOT VIABLE)",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "austin, trent, ben, steph, annie & mohr, Mark",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "ENERGY",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "austin, trent, ben, steph, annie & mohr, Mark",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "ENERGY",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Renewable Energy",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "area selected because of not alot of transportation, steady waters, no seagrass\n\nOur group (Mark, Renton, Jason & Ericka) representing KIRMA and KUA believe that this is not viable because it did not meet the minimum depth of 3 feet.",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "area selected because of not alot of transportation, steady waters, no seagrass\n\nOur group (Mark, Renton, Jason & Ericka) representing KIRMA and KUA believe that this is not viable because it did not meet the minimum depth of 3 feet."
+        },
+        "geometry": null
+      },
+      {
+        "id": 133348,
+        "bbox": [
+          163.020474182,
+          5.339575092,
+          163.020868553,
+          5.339842815
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Existing Aquaculture Area Lelu Community Project",
+          "6291": "Coral Farming",
+          "6292": "Steven Palik",
+          "12419": "AQUA",
+          "id": "133348",
+          "name": "Existing Aquaculture Area Lelu Community Project",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Steven Palik",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Steven Palik",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Coral Farming",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Coral Farming"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133368,
+        "bbox": [
+          163.01351183415608,
+          5.327769489064639,
+          163.02164936,
+          5.340432437
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Z: Awane Zone",
+          "6292": "Jason Flower",
+          "12419": "MPA",
+          "id": "133368",
+          "name": "Z: Awane Zone",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Jason Flower",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Jason Flower",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 133354,
+        "bbox": [
+          163.026229302,
+          5.316911578,
+          163.038715979,
+          5.325219839
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "P-Z: Weok expanded MPA potential",
+          "6291": "Weok existing MPA with some expansion to get additional key habitats including spawning area. Restrict lobster take and allow all other types of fishing. ",
+          "6292": "Trenton Skilling",
+          "12419": "MPA",
+          "id": "133354",
+          "name": "P-Z: Weok expanded MPA potential",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Trenton Skilling",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Trenton Skilling",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Weok existing MPA with some expansion to get additional key habitats including spawning area. Restrict lobster take and allow all other types of fishing. ",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Weok existing MPA with some expansion to get additional key habitats including spawning area. Restrict lobster take and allow all other types of fishing. "
+        },
+        "geometry": null
+      },
+      {
+        "id": 133346,
+        "bbox": [
+          162.907726429,
+          5.311561585,
+          162.911039605,
+          5.31466647
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Aquaculture Blue hole Trochus Sanctuary Inner Site 4",
+          "6291": "Existing community-based clam & sea cucumber. Not currently under use but considered for future potential purposes. ",
+          "6292": "Bruno, Martin",
+          "12419": "AQUA",
+          "id": "133346",
+          "name": "Aquaculture Blue hole Trochus Sanctuary Inner Site 4",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Bruno, Martin",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Bruno, Martin",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Existing community-based clam & sea cucumber. Not currently under use but considered for future potential purposes. ",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Existing community-based clam & sea cucumber. Not currently under use but considered for future potential purposes. "
+        },
+        "geometry": null
+      },
+      {
+        "id": 133355,
+        "bbox": [
+          162.937605765,
+          5.326508181,
+          162.954075627,
+          5.346001284
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Z: Trochus Sanctuary",
+          "6292": "Jason Flower",
+          "12419": "MPA",
+          "id": "133355",
+          "name": "Z: Trochus Sanctuary",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Jason Flower",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Jason Flower",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 133352,
+        "bbox": [
+          163.017369297,
+          5.344018181,
+          163.020034908,
+          5.347424326
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": " Renewable Energy Pacific Tree Lodge Site (NOT VIABLE)",
+          "6291": "Note: Site was respectfully turned down by KUA representatives due to high vessel traffic, geographic location and unviable conditions.",
+          "12419": "ENERGY",
+          "id": "133352",
+          "name": " Renewable Energy Pacific Tree Lodge Site (NOT VIABLE)",
+          "postId": 2399,
+          "userId": "5",
+          "authors": null,
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "ENERGY",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "ENERGY",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Renewable Energy",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Note: Site was respectfully turned down by KUA representatives due to high vessel traffic, geographic location and unviable conditions.",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Note: Site was respectfully turned down by KUA representatives due to high vessel traffic, geographic location and unviable conditions."
+        },
+        "geometry": null
+      },
+      {
+        "id": 133351,
+        "bbox": [
+          162.960601324,
+          5.356046362000756,
+          162.971504789,
+          5.363027023
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Existing Auaculture Clam & Coral Project",
+          "6291": "Seeding and grow out pans. Variety of coral and fish species benefits to neighboring areas.",
+          "6292": "Bruno, Martin",
+          "12419": "AQUA",
+          "id": "133351",
+          "name": "Existing Auaculture Clam & Coral Project",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Bruno, Martin",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Bruno, Martin",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Seeding and grow out pans. Variety of coral and fish species benefits to neighboring areas.",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Seeding and grow out pans. Variety of coral and fish species benefits to neighboring areas."
+        },
+        "geometry": null
+      },
+      {
+        "id": 133334,
+        "bbox": [
+          162.695696143,
+          5.056159471228227,
+          163.23952731095758,
+          5.57877969
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Ring Zone - 6km buffer from territorial sea boundary",
+          "6291": "This design was created by the Kosrae MSP Working Group and posted here: https://www.seasketch.org/fsm/app/forums/341/672#post-2271\n\nTo clean up the boundaries so that they are \"enforceable\", I created a 6km buffer from the territorial sea and then traced it. ",
+          "6292": "Kosrae MSP Working Group, Will McClintock",
+          "12419": "MPA",
+          "id": "133334",
+          "name": "Ring Zone - 6km buffer from territorial sea boundary (copy)",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Kosrae MSP Working Group, Will McClintock",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Kosrae MSP Working Group, Will McClintock",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "This design was created by the Kosrae MSP Working Group and posted here: https://www.seasketch.org/fsm/app/forums/341/672#post-2271\n\nTo clean up the boundaries so that they are \"enforceable\", I created a 6km buffer from the territorial sea and then traced it. ",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "This design was created by the Kosrae MSP Working Group and posted here: https://www.seasketch.org/fsm/app/forums/341/672#post-2271\n\nTo clean up the boundaries so that they are \"enforceable\", I created a 6km buffer from the territorial sea and then traced it. "
+        },
+        "geometry": null
+      },
+      {
+        "id": 133363,
+        "bbox": [
+          162.912966658,
+          5.057445987,
+          163.004510996,
+          5.276451793984626
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "C: PuertoKos",
+          "6291": "PuertoKos Protected Area covering seamounts, harbor, and pelagic fishes",
+          "6292": "Bj, Carlos",
+          "12419": "MPA",
+          "id": "133363",
+          "name": "C: PuertoKos",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Bj, Carlos",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Bj, Carlos",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "PuertoKos Protected Area covering seamounts, harbor, and pelagic fishes",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "PuertoKos Protected Area covering seamounts, harbor, and pelagic fishes"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133361,
+        "bbox": [
+          162.994631816,
+          5.36815393,
+          163.01947054,
+          5.379295246
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "P-D:  FINANPESE",
+          "6291": "recreational site, tourism, spawning\n",
+          "6292": "MS",
+          "12419": "MPA",
+          "id": "133361",
+          "name": "P-D:  FINANPESE",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "MS",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "MS",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "recreational site, tourism, spawning\n",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "recreational site, tourism, spawning\n"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133345,
+        "bbox": [
+          162.94190449,
+          5.328968142,
+          162.94452162,
+          5.331435348
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Aquaculture Blue hole Trochus Sanctuary Inner Site 3",
+          "6291": "Proposed Fin Fish",
+          "12419": "AQUA",
+          "id": "133345",
+          "name": "Aquaculture Blue hole Trochus Sanctuary Inner Site 3",
+          "postId": 2399,
+          "userId": "5",
+          "authors": null,
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Proposed Fin Fish",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Proposed Fin Fish"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133337,
+        "bbox": [
+          163.015537566,
+          5.329042997,
+          163.018015035,
+          5.331531224
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Aquaculture Area",
+          "6291": "Close to existing CRM site. Accessibility plus monitoring & enforcement is easy. Low oceanic influence. Potential rabbit fish & bivalve farming. There are concerns raised about bivalve site consumption safety, however there is general consensus for seeding site potential. \n\nNote this site is located within an existing MPA.",
+          "6292": "Bruno, Martin & KMSP Working Group",
+          "12419": "AQUA",
+          "id": "133337",
+          "name": "Aquaculture Area",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Bruno, Martin & KMSP Working Group",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Bruno, Martin & KMSP Working Group",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Close to existing CRM site. Accessibility plus monitoring & enforcement is easy. Low oceanic influence. Potential rabbit fish & bivalve farming. There are concerns raised about bivalve site consumption safety, however there is general consensus for seeding site potential. \n\nNote this site is located within an existing MPA.",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Close to existing CRM site. Accessibility plus monitoring & enforcement is easy. Low oceanic influence. Potential rabbit fish & bivalve farming. There are concerns raised about bivalve site consumption safety, however there is general consensus for seeding site potential. \n\nNote this site is located within an existing MPA."
+        },
+        "geometry": null
+      },
+      {
+        "id": 133349,
+        "bbox": [
+          163.022447264,
+          5.318885247,
+          163.025623185,
+          5.321884301
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Revised Renewable Energy Lelu Site (TBD)",
+          "6291": "Revised Renewable Energy Zone/Site in Lelu:\n\nRezoned from original \"Aquaculture\" (Nov 5th & 6th 2015) to Renewable Energy draft zone during MSP workshop (Mar 10th-12th).\n\nSite contains minimal impact to surrounding local use activity and habitat value. Subject to site analysis/inspection for further viability assessment. ",
+          "6292": "Entire Kosrae MSP Working Group",
+          "12419": "ENERGY",
+          "id": "133349",
+          "name": "Revised Renewable Energy Lelu Site (TBD)",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Entire Kosrae MSP Working Group",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "ENERGY",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Entire Kosrae MSP Working Group",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "ENERGY",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Renewable Energy",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Revised Renewable Energy Zone/Site in Lelu:\n\nRezoned from original \"Aquaculture\" (Nov 5th & 6th 2015) to Renewable Energy draft zone during MSP workshop (Mar 10th-12th).\n\nSite contains minimal impact to surrounding local use activity and habitat value. Subject to site analysis/inspection for further viability assessment. ",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Revised Renewable Energy Zone/Site in Lelu:\n\nRezoned from original \"Aquaculture\" (Nov 5th & 6th 2015) to Renewable Energy draft zone during MSP workshop (Mar 10th-12th).\n\nSite contains minimal impact to surrounding local use activity and habitat value. Subject to site analysis/inspection for further viability assessment. "
+        },
+        "geometry": null
+      },
+      {
+        "id": 133342,
+        "bbox": [
+          162.974730934,
+          5.272071717,
+          162.975589185,
+          5.272466626818987
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Existing Clam Aquaculture Area",
+          "6291": " Clams",
+          "12419": "AQUA",
+          "id": "133342",
+          "name": "Existing Clam Aquaculture Area",
+          "postId": 2399,
+          "userId": "5",
+          "authors": null,
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": " Clams",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": " Clams"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133367,
+        "bbox": [
+          162.848364588,
+          5.222591894,
+          162.91990097597883,
+          5.293819499760339
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "B: Testing GrP B MPA ",
+          "6291": "Site design by grp B containing habitats such as sea grass, and Mangrove and pelagic fisheries",
+          "6292": "GRP B",
+          "12419": "MPA",
+          "id": "133367",
+          "name": "B: Testing GrP B MPA ",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "GRP B",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "GRP B",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Site design by grp B containing habitats such as sea grass, and Mangrove and pelagic fisheries",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Site design by grp B containing habitats such as sea grass, and Mangrove and pelagic fisheries"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133366,
+        "bbox": [
+          162.9594370510507,
+          5.368258143,
+          163.13299679188574,
+          5.57877969
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "P-Z: Seaward MPA Potential",
+          "6291": "This is a high fishing pressure area. Perhaps worthy of protection. One dissenting voice - want to keep it open for tuna fishing. ",
+          "6292": "Kosrae Working Group",
+          "12419": "MPA",
+          "id": "133366",
+          "name": "P-Z: Seaward MPA Potential",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Kosrae Working Group",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Kosrae Working Group",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "This is a high fishing pressure area. Perhaps worthy of protection. One dissenting voice - want to keep it open for tuna fishing. ",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "This is a high fishing pressure area. Perhaps worthy of protection. One dissenting voice - want to keep it open for tuna fishing. "
+        },
+        "geometry": null
+      },
+      {
+        "id": 133336,
+        "bbox": [
+          163.011354826,
+          5.262660732,
+          163.028161051,
+          5.283209263
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Z: Malem proposed MPA Expanded Proposed",
+          "6291": "Potential MPA in Malem",
+          "6292": "Trenton Skilling",
+          "12419": "MPA",
+          "id": "133336",
+          "name": "Z: Malem proposed MPA Expanded Proposed",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Trenton Skilling",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Trenton Skilling",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Potential MPA in Malem",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Potential MPA in Malem"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133340,
+        "bbox": [
+          162.963444247,
+          5.275550746,
+          162.964269292,
+          5.277365029
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Existing Clam Aquaculture Area",
+          "6291": "Existing Clam farm with potential for expansion.",
+          "12419": "AQUA",
+          "id": "133340",
+          "name": "Existing Clam Aquaculture Area",
+          "postId": 2399,
+          "userId": "5",
+          "authors": null,
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Existing Clam farm with potential for expansion.",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Existing Clam farm with potential for expansion."
+        },
+        "geometry": null
+      },
+      {
+        "id": 133347,
+        "bbox": [
+          162.90381642426567,
+          5.29260824125804,
+          162.9055768076235,
+          5.294312408
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Aquaculture Sack",
+          "6291": "Seaweed, Mangrove Crab, Fin Fish, Mud Clam.",
+          "12419": "AQUA",
+          "id": "133347",
+          "name": "Aquaculture Sack",
+          "postId": 2399,
+          "userId": "5",
+          "authors": null,
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Seaweed, Mangrove Crab, Fin Fish, Mud Clam.",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Seaweed, Mangrove Crab, Fin Fish, Mud Clam."
+        },
+        "geometry": null
+      },
+      {
+        "id": 133338,
+        "bbox": [
+          163.022459451,
+          5.338923815,
+          163.024578895,
+          5.342706575
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Aquaculture Area",
+          "6291": "site is selected for aquaculture farming due to water quality, habitable, easy enforcement and calm waters. Note the area is also associated with risks to investment during bad weather.",
+          "6292": "austin, trent, ben, steph, annie, vick & mohr",
+          "12419": "AQUA",
+          "id": "133338",
+          "name": "Aquaculture Area",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "austin, trent, ben, steph, annie, vick & mohr",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "austin, trent, ben, steph, annie, vick & mohr",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "site is selected for aquaculture farming due to water quality, habitable, easy enforcement and calm waters. Note the area is also associated with risks to investment during bad weather.",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "site is selected for aquaculture farming due to water quality, habitable, easy enforcement and calm waters. Note the area is also associated with risks to investment during bad weather."
+        },
+        "geometry": null
+      },
+      {
+        "id": 133333,
+        "bbox": [
+          162.89480393,
+          5.286989935,
+          162.907167524,
+          5.309140518
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Z: Peter Walung MPA",
+          "6291": "Walung MPA expansion to include additional habitat and bleaching resistant corals",
+          "6292": "Bruno Ned",
+          "12419": "MPA",
+          "id": "133333",
+          "name": "Z: Peter Walung MPA",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Bruno Ned",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Bruno Ned",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Walung MPA expansion to include additional habitat and bleaching resistant corals",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Walung MPA expansion to include additional habitat and bleaching resistant corals"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133362,
+        "bbox": [
+          163.0196220062488,
+          5.339240405081254,
+          163.021078474,
+          5.340674532
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Z: Blue Zone",
+          "6291": "Change name to Blue Hole. ",
+          "6292": "Jason Flower",
+          "12419": "MPA",
+          "id": "133362",
+          "name": "Z: Blue Zone",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Jason Flower",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Jason Flower",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Change name to Blue Hole. ",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Change name to Blue Hole. "
+        },
+        "geometry": null
+      },
+      {
+        "id": 133359,
+        "bbox": [
+          163.026358291,
+          5.32283278,
+          163.029138849,
+          5.325197976
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Z: Weohk Zone",
+          "6292": "Jason Flower",
+          "12419": "MPA",
+          "id": "133359",
+          "name": "Z: Weohk Zone",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Jason Flower",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Jason Flower",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 133344,
+        "bbox": [
+          162.943302876,
+          5.334626712,
+          162.946673529,
+          5.337125896
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Aquaculture Blue hole Trochus Sanctuary Inner Site 2",
+          "6291": "Proposed Fin Fish",
+          "12419": "AQUA",
+          "id": "133344",
+          "name": "Aquaculture Blue hole Trochus Sanctuary Inner Site 2",
+          "postId": 2399,
+          "userId": "5",
+          "authors": null,
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Proposed Fin Fish",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Proposed Fin Fish"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133335,
+        "bbox": [
+          162.89480393,
+          5.286989935,
+          162.907167524,
+          5.309140518
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "P-Z: Walung MPA Expand / Move Potential",
+          "6291": "Walung MPA expansion to include additional habitat and bleaching resistant corals",
+          "6292": "Bruno Ned",
+          "12419": "MPA",
+          "id": "133335",
+          "name": "P-Z: Walung MPA Expand / Move Potential",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Bruno Ned",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Bruno Ned",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Walung MPA expansion to include additional habitat and bleaching resistant corals",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Walung MPA expansion to include additional habitat and bleaching resistant corals"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133365,
+        "bbox": [
+          162.937143165,
+          5.32596129,
+          162.974326086,
+          5.368617044
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "P-Z: Tafunsak bottom fish zone",
+          "6291": "Idea here for expanding the Tafunsak MPA zone here. So, this could be a no night spear zone, but allowable fishing includes bottom and casting. Consider modifying eastern boundary.",
+          "6292": "Peter Houk",
+          "12419": "MPA",
+          "id": "133365",
+          "name": "P-Z: Tafunsak bottom fish zone",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Peter Houk",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Peter Houk",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Idea here for expanding the Tafunsak MPA zone here. So, this could be a no night spear zone, but allowable fishing includes bottom and casting. Consider modifying eastern boundary.",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Idea here for expanding the Tafunsak MPA zone here. So, this could be a no night spear zone, but allowable fishing includes bottom and casting. Consider modifying eastern boundary."
+        },
+        "geometry": null
+      },
+      {
+        "id": 133357,
+        "bbox": [
+          162.957957489,
+          5.353582048,
+          162.96464227095348,
+          5.359151823
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Z: Tafunsak West",
+          "6292": "Jason Flower",
+          "12419": "MPA",
+          "id": "133357",
+          "name": "Z: Tafunsak West",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Jason Flower",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Jason Flower",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 133339,
+        "bbox": [
+          163.018663376,
+          5.335305906,
+          163.02101114476494,
+          5.336851891822725
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Auaculture Existing Rabbit Fish Area",
+          "6292": "Bruno",
+          "12419": "AQUA",
+          "id": "133339",
+          "name": "Auaculture Existing Rabbit Fish Area",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Bruno",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Bruno",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 133332,
+        "bbox": [
+          162.924488887,
+          5.314944348,
+          162.944369476,
+          5.329015438
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "P-Z: Yela potential MPA",
+          "6291": "Potential no-take near Yela covering all critical habitats and getting closer to 30%. Sometimes spear fishing and net fishing. Change the name - this isn't actually Yela. ",
+          "6292": "PH hypotheses",
+          "12419": "MPA",
+          "id": "133332",
+          "name": "P-Z: Yela potential MPA",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "PH hypotheses",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "PH hypotheses",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Potential no-take near Yela covering all critical habitats and getting closer to 30%. Sometimes spear fishing and net fishing. Change the name - this isn't actually Yela. ",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Potential no-take near Yela covering all critical habitats and getting closer to 30%. Sometimes spear fishing and net fishing. Change the name - this isn't actually Yela. "
+        },
+        "geometry": null
+      },
+      {
+        "id": 133343,
+        "bbox": [
+          162.946171517,
+          5.338232674,
+          162.950582052,
+          5.342659767
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Aquaculture Blue hole Trochus Sanctuary Inner Site 1",
+          "6291": "Proposed Fin Fish",
+          "12419": "AQUA",
+          "id": "133343",
+          "name": "Aquaculture Blue hole Trochus Sanctuary Inner Site 1",
+          "postId": 2399,
+          "userId": "5",
+          "authors": null,
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "AQUA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": null,
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "AQUA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Aquaculture",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Proposed Fin Fish",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Proposed Fin Fish"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133364,
+        "bbox": [
+          162.9578350980047,
+          5.26851765,
+          162.967104521,
+          5.28213636694253
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "P-Z: Utwe Expanded MPA Potential",
+          "6291": "Potential expansion of Utwe MPA",
+          "6292": "PH",
+          "12419": "MPA",
+          "id": "133364",
+          "name": "P-Z: Utwe Expanded MPA Potential",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "PH",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "PH",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": "Potential expansion of Utwe MPA",
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": "Potential expansion of Utwe MPA"
+        },
+        "geometry": null
+      },
+      {
+        "id": 133358,
+        "bbox": [
+          162.904942099,
+          5.309047366,
+          162.912868713,
+          5.315981482
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Z: Walung MPA (Clam Farm)",
+          "6292": "Jason Flower",
+          "12419": "MPA",
+          "id": "133358",
+          "name": "Z: Walung MPA (Clam Farm)",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Jason Flower",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Jason Flower",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      },
+      {
+        "id": 133360,
+        "bbox": [
+          162.95072693138425,
+          5.26913009,
+          162.963723876,
+          5.279282366618676
+        ],
+        "type": "Feature",
+        "properties": {
+          "6289": "Z: Utwe Biosphere Reserve",
+          "6292": "Jason Flower",
+          "12419": "MPA",
+          "id": "133360",
+          "name": "Z: Utwe Biosphere Reserve",
+          "postId": 2399,
+          "userId": "5",
+          "authors": "Jason Flower",
+          "userSlug": "Will",
+          "createdAt": "2026-03-12T01:33:29.282333+00:00",
+          "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+          "zone_type": "MPA",
+          "collectionId": "133331",
+          "isCollection": false,
+          "sharedInForum": true,
+          "sketchClassId": "745",
+          "userAttributes": [
+            {
+              "label": "Author(s)",
+              "value": "Jason Flower",
+              "exportId": "authors",
+              "fieldType": "ShortText",
+              "valueLabel": null,
+              "formElementId": 6292,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Zone Type",
+              "value": "MPA",
+              "exportId": "zone_type",
+              "fieldType": "ComboBox",
+              "valueLabel": "Marine Protected Area",
+              "formElementId": 12419,
+              "alternateLanguages": {}
+            },
+            {
+              "label": "Description",
+              "value": null,
+              "exportId": "descriptionconsider_adding_a_ra",
+              "fieldType": "TextArea",
+              "valueLabel": null,
+              "formElementId": 6291,
+              "alternateLanguages": {}
+            }
+          ],
+          "descriptionconsider_adding_a_ra": null
+        },
+        "geometry": null
+      }
+    ],
+    "properties": {
+      "6293": "Ik kwoe (Unicorn Fish) - For Abby",
+      "6294": "Group Members: Annie, Director Palik, Swenson, Austin, PJ, Carlos",
+      "id": "133331",
+      "name": "Ik kwoe (Unicorn Fish) - For Abby",
+      "postId": 2399,
+      "userId": "5",
+      "authors": null,
+      "userSlug": "Will",
+      "createdAt": "2026-03-12T01:33:29.282333+00:00",
+      "updatedAt": "2026-03-12T02:32:01.99827+00:00",
+      "collectionId": null,
+      "isCollection": true,
+      "sharedInForum": true,
+      "sketchClassId": "746",
+      "userAttributes": [
+        {
+          "label": "Description",
+          "value": "Group Members: Annie, Director Palik, Swenson, Austin, PJ, Carlos",
+          "exportId": "descriptionconsider_adding_a_ra",
+          "fieldType": "TextArea",
+          "valueLabel": null,
+          "formElementId": 6294,
+          "alternateLanguages": {}
+        },
+        {
+          "label": "Author(s)",
+          "value": null,
+          "exportId": "authors",
+          "fieldType": "ShortText",
+          "valueLabel": null,
+          "formElementId": 6295,
+          "alternateLanguages": {}
+        }
+      ],
+      "descriptionconsider_adding_a_ra": "Group Members: Annie, Director Palik, Swenson, Austin, PJ, Carlos"
+    }
+  }
+}

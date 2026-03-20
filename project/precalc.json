@@ -605,7 +605,7 @@
     "classId": "nearshore-total",
     "sketchId": null,
     "groupId": null,
-    "value": 45533180604.76359
+    "value": 45431461796.07894
   },
   {
     "geographyId": "chuuk",
@@ -5765,7 +5765,7 @@
     "classId": "nearshore-total",
     "sketchId": null,
     "groupId": null,
-    "value": 2636463683.525035
+    "value": 2637447288.9035025
   },
   {
     "geographyId": "kosrae",
@@ -7421,7 +7421,7 @@
     "classId": "nearshore-total",
     "sketchId": null,
     "groupId": null,
-    "value": 1
+    "value": 7
   },
   {
     "geographyId": "kosrae",
@@ -10917,7 +10917,7 @@
     "classId": "nearshore-total",
     "sketchId": null,
     "groupId": null,
-    "value": 24429546123.192753
+    "value": 24374971760.155666
   },
   {
     "geographyId": "pohnpei",

@@ -12,17 +12,6 @@
       }
     },
     {
-      "geographyId": "kosrae",
-      "metricId": "boundaryAreaOverlap",
-      "classId": "nearshore",
-      "sketchId": "129845",
-      "groupId": "mpa",
-      "value": 0,
-      "extra": {
-        "sketchName": "woleai"
-      }
-    },
-    {
       "geographyId": null,
       "metricId": "boundaryAreaOverlap",
       "classId": "nearshore",
@@ -39,6 +28,17 @@
       "classId": "nearshore",
       "sketchId": "129845",
       "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "woleai"
+      }
+    },
+    {
+      "geographyId": "kosrae",
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "129845",
+      "groupId": "mpa",
       "value": 0,
       "extra": {
         "sketchName": "woleai"

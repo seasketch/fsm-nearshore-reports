@@ -16,17 +16,6 @@
       "metricId": "depthZones",
       "classId": "0 - 30m: Altiphotic",
       "sketchId": "121298",
-      "groupId": "mpa",
-      "value": 0,
-      "extra": {
-        "sketchName": "yap"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "0 - 30m: Altiphotic",
-      "sketchId": "121298",
       "groupId": "aquaculture",
       "value": 0,
       "extra": {
@@ -39,6 +28,17 @@
       "classId": "0 - 30m: Altiphotic",
       "sketchId": "121298",
       "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "0 - 30m: Altiphotic",
+      "sketchId": "121298",
+      "groupId": "mpa",
       "value": 0,
       "extra": {
         "sketchName": "yap"
@@ -82,17 +82,6 @@
       "metricId": "depthZones",
       "classId": "130 - 320m: Rariphotic",
       "sketchId": "121298",
-      "groupId": "mpa",
-      "value": 0,
-      "extra": {
-        "sketchName": "yap"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "130 - 320m: Rariphotic",
-      "sketchId": "121298",
       "groupId": "aquaculture",
       "value": 0,
       "extra": {
@@ -105,6 +94,17 @@
       "classId": "130 - 320m: Rariphotic",
       "sketchId": "121298",
       "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "130 - 320m: Rariphotic",
+      "sketchId": "121298",
+      "groupId": "mpa",
       "value": 0,
       "extra": {
         "sketchName": "yap"
@@ -148,17 +148,6 @@
       "metricId": "depthZones",
       "classId": "30 - 130m: Mesophotic",
       "sketchId": "121298",
-      "groupId": "mpa",
-      "value": 0,
-      "extra": {
-        "sketchName": "yap"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "30 - 130m: Mesophotic",
-      "sketchId": "121298",
       "groupId": "aquaculture",
       "value": 0,
       "extra": {
@@ -171,6 +160,17 @@
       "classId": "30 - 130m: Mesophotic",
       "sketchId": "121298",
       "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "30 - 130m: Mesophotic",
+      "sketchId": "121298",
+      "groupId": "mpa",
       "value": 0,
       "extra": {
         "sketchName": "yap"
@@ -214,17 +214,6 @@
       "metricId": "depthZones",
       "classId": "320 - 800m: Upper bathyal",
       "sketchId": "121298",
-      "groupId": "mpa",
-      "value": 0,
-      "extra": {
-        "sketchName": "yap"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "320 - 800m: Upper bathyal",
-      "sketchId": "121298",
       "groupId": "aquaculture",
       "value": 0,
       "extra": {
@@ -237,6 +226,17 @@
       "classId": "320 - 800m: Upper bathyal",
       "sketchId": "121298",
       "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "320 - 800m: Upper bathyal",
+      "sketchId": "121298",
+      "groupId": "mpa",
       "value": 0,
       "extra": {
         "sketchName": "yap"
@@ -280,17 +280,6 @@
       "metricId": "depthZones",
       "classId": "3500 - 6500m: Abyssal",
       "sketchId": "121298",
-      "groupId": "mpa",
-      "value": 0,
-      "extra": {
-        "sketchName": "yap"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "3500 - 6500m: Abyssal",
-      "sketchId": "121298",
       "groupId": "aquaculture",
       "value": 0,
       "extra": {
@@ -303,6 +292,17 @@
       "classId": "3500 - 6500m: Abyssal",
       "sketchId": "121298",
       "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "3500 - 6500m: Abyssal",
+      "sketchId": "121298",
+      "groupId": "mpa",
       "value": 0,
       "extra": {
         "sketchName": "yap"
@@ -346,17 +346,6 @@
       "metricId": "depthZones",
       "classId": "800 - 3500m: Lower bathyal ",
       "sketchId": "121298",
-      "groupId": "mpa",
-      "value": 0,
-      "extra": {
-        "sketchName": "yap"
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "depthZones",
-      "classId": "800 - 3500m: Lower bathyal ",
-      "sketchId": "121298",
       "groupId": "aquaculture",
       "value": 0,
       "extra": {
@@ -369,6 +358,17 @@
       "classId": "800 - 3500m: Lower bathyal ",
       "sketchId": "121298",
       "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "yap"
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "depthZones",
+      "classId": "800 - 3500m: Lower bathyal ",
+      "sketchId": "121298",
+      "groupId": "mpa",
       "value": 0,
       "extra": {
         "sketchName": "yap"

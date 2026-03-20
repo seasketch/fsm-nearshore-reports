@@ -467,18 +467,28 @@ export const genPercGroupLevelTable = (
     ...classColumns,
   ];
   return (
-    <PercentSketchTableStyled printing={printing}>
-      <Table
-        className="styled"
-        columns={columns}
-        data={levelAggs.sort((a, b) => a.groupId.localeCompare(b.groupId))}
-      />
-    </PercentSketchTableStyled>
+    <>
+      <PercentSketchTableStyled printing={printing}>
+        <Table
+          className="styled"
+          columns={columns}
+          data={levelAggs.sort((a, b) => a.groupId.localeCompare(b.groupId))}
+        />
+      </PercentSketchTableStyled>
+      <small>
+        The order of precedence for zones of different types is as follows:
+        Aquaculture, Renewable Energy, MPAs, Tourism, Other. To manage overlap
+        and avoid double counting, overlapping area is given to the zone type of
+        higher precedence. (An MPA containing an aquaculture zone will have the
+        aquaculture zone's area subtracted from the total area reported for
+        MPAs.)
+      </small>
+    </>
   );
 };
 
 /**
- * Creates "Show by Protection Level" report with area + percentages
+ * Creates "Show by Zone Type" report with area + percentages
  * @param data data returned from lambda
  * @param precalcMetrics metrics from precalc.json
  * @param metricGroup metric group to get stats for
@@ -621,13 +631,25 @@ export const genAreaGroupLevelTable = (
 
   // If not printing, return a single table
   return (
-    <AreaSketchTableStyled printing={printing}>
-      <Table
-        className="styled"
-        columns={columns}
-        data={levelAggs.sort((a, b) => a.groupId.localeCompare(b.groupId))}
-      />
-    </AreaSketchTableStyled>
+    <>
+      <AreaSketchTableStyled printing={printing}>
+        <Table
+          className="styled"
+          columns={columns}
+          data={levelAggs.sort((a, b) => a.groupId.localeCompare(b.groupId))}
+        />
+      </AreaSketchTableStyled>
+      <small>
+        <i>
+          The order of precedence for zones of different types is as follows:
+          Aquaculture, Renewable Energy, MPAs, Tourism, Other. To manage overlap
+          and avoid double counting, overlapping area is given to the zone type
+          of higher precedence. (An MPA containing an aquaculture zone will have
+          the aquaculture zone's area subtracted from the total area reported
+          for MPAs.)
+        </i>
+      </small>
+    </>
   );
 };
 

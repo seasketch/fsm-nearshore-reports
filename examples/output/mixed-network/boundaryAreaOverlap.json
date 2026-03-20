@@ -17,20 +17,8 @@
       "metricId": "boundaryAreaOverlap",
       "classId": "nearshore",
       "sketchId": "24665",
-      "groupId": "mpa",
-      "value": 11484717.50991,
-      "extra": {
-        "sketchName": "mixed-network",
-        "isCollection": true
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "boundaryAreaOverlap",
-      "classId": "nearshore",
-      "sketchId": "24665",
       "groupId": "aquaculture",
-      "value": 359872.53557356284,
+      "value": 359878.197663,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -43,6 +31,18 @@
       "sketchId": "24665",
       "groupId": "energy",
       "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "boundaryAreaOverlap",
+      "classId": "nearshore",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 11484615.024893787,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true

@@ -7,19 +7,19 @@ import {
 } from "@seasketch/geoprocessing/client-core";
 
 // Designation of protection levels
-export const groups = ["mpa", "aquaculture", "energy", "tourism", "other"];
+export const groups = ["aquaculture", "energy", "mpa", "tourism", "other"];
 export const groupsDisplay = [
-  "Marine Protected Area",
   "Aquaculture Area",
   "Renewable Energy Area",
+  "Marine Protected Area",
   "Tourism Area",
   "Other Area",
 ];
 
 export const zoneTypeToGroup: Record<string, string> = {
-  MPA: "mpa",
   AQUA: "aquaculture",
   ENERGY: "energy",
+  MPA: "mpa",
   TOURISM: "tourism",
   OTHER: "other",
 };
@@ -31,27 +31,27 @@ export const sketchClassIdToGroup: Record<string, string> = {
 
 // Display values for groups (plural)
 export const groupDisplayMapPl: Record<string, string> = {
-  mpa: "Marine Protected Area(s)",
   aquaculture: "Aquaculture Area(s)",
   energy: "Renewable Energy Area(s)",
+  mpa: "Marine Protected Area(s)",
   tourism: "Tourism Area(s)",
   other: "Other Area(s)",
 };
 
 // Display values for groups (singular)
 export const groupDisplayMapSg: Record<string, string> = {
-  mpa: "Marine Protected Area",
   aquaculture: "Aquaculture Area",
   energy: "Renewable Energy Area",
+  mpa: "Marine Protected Area",
   tourism: "Tourism Area",
   other: "Other Area",
 };
 
 // Mapping groupIds to colors
 export const groupColorMap: Record<string, string> = {
-  mpa: "#FFE1A3",
   aquaculture: "#98DBF4",
   energy: "#CC66FF",
+  mpa: "#FFE1A3",
   tourism: "#4DDB98",
   other: "#FF6666",
 };

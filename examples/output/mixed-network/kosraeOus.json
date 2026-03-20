@@ -17,18 +17,6 @@
       "metricId": "kosraeOus",
       "classId": "ous_aquaculture",
       "sketchId": "24665",
-      "groupId": "mpa",
-      "value": 0,
-      "extra": {
-        "sketchName": "mixed-network",
-        "isCollection": true
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "kosraeOus",
-      "classId": "ous_aquaculture",
-      "sketchId": "24665",
       "groupId": "aquaculture",
       "value": 0,
       "extra": {
@@ -42,6 +30,18 @@
       "classId": "ous_aquaculture",
       "sketchId": "24665",
       "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_aquaculture",
+      "sketchId": "24665",
+      "groupId": "mpa",
       "value": 0,
       "extra": {
         "sketchName": "mixed-network",
@@ -133,18 +133,6 @@
       "metricId": "kosraeOus",
       "classId": "ous_community_recreational_use",
       "sketchId": "24665",
-      "groupId": "mpa",
-      "value": 5002.772895,
-      "extra": {
-        "sketchName": "mixed-network",
-        "isCollection": true
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "kosraeOus",
-      "classId": "ous_community_recreational_use",
-      "sketchId": "24665",
       "groupId": "aquaculture",
       "value": 4781.85802,
       "extra": {
@@ -159,6 +147,18 @@
       "sketchId": "24665",
       "groupId": "energy",
       "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_community_recreational_use",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 5002.772895,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -249,18 +249,6 @@
       "metricId": "kosraeOus",
       "classId": "ous_construction_infrastructure",
       "sketchId": "24665",
-      "groupId": "mpa",
-      "value": 0,
-      "extra": {
-        "sketchName": "mixed-network",
-        "isCollection": true
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "kosraeOus",
-      "classId": "ous_construction_infrastructure",
-      "sketchId": "24665",
       "groupId": "aquaculture",
       "value": 0,
       "extra": {
@@ -274,6 +262,18 @@
       "classId": "ous_construction_infrastructure",
       "sketchId": "24665",
       "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_construction_infrastructure",
+      "sketchId": "24665",
+      "groupId": "mpa",
       "value": 0,
       "extra": {
         "sketchName": "mixed-network",
@@ -365,18 +365,6 @@
       "metricId": "kosraeOus",
       "classId": "ous_cultural_use",
       "sketchId": "24665",
-      "groupId": "mpa",
-      "value": 8487.517261,
-      "extra": {
-        "sketchName": "mixed-network",
-        "isCollection": true
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "kosraeOus",
-      "classId": "ous_cultural_use",
-      "sketchId": "24665",
       "groupId": "aquaculture",
       "value": 0,
       "extra": {
@@ -391,6 +379,18 @@
       "sketchId": "24665",
       "groupId": "energy",
       "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_cultural_use",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 8487.517261,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -481,18 +481,6 @@
       "metricId": "kosraeOus",
       "classId": "ous_fisheries",
       "sketchId": "24665",
-      "groupId": "mpa",
-      "value": 6604.041912,
-      "extra": {
-        "sketchName": "mixed-network",
-        "isCollection": true
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "kosraeOus",
-      "classId": "ous_fisheries",
-      "sketchId": "24665",
       "groupId": "aquaculture",
       "value": 2133.256445,
       "extra": {
@@ -507,6 +495,18 @@
       "sketchId": "24665",
       "groupId": "energy",
       "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_fisheries",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 6604.041912,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -597,18 +597,6 @@
       "metricId": "kosraeOus",
       "classId": "ous_maritime_activity",
       "sketchId": "24665",
-      "groupId": "mpa",
-      "value": 28.659069,
-      "extra": {
-        "sketchName": "mixed-network",
-        "isCollection": true
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "kosraeOus",
-      "classId": "ous_maritime_activity",
-      "sketchId": "24665",
       "groupId": "aquaculture",
       "value": 3683.7132,
       "extra": {
@@ -623,6 +611,18 @@
       "sketchId": "24665",
       "groupId": "energy",
       "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_maritime_activity",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 28.659069,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -713,18 +713,6 @@
       "metricId": "kosraeOus",
       "classId": "ous_research",
       "sketchId": "24665",
-      "groupId": "mpa",
-      "value": 46.690586,
-      "extra": {
-        "sketchName": "mixed-network",
-        "isCollection": true
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "kosraeOus",
-      "classId": "ous_research",
-      "sketchId": "24665",
       "groupId": "aquaculture",
       "value": 0.434769,
       "extra": {
@@ -739,6 +727,18 @@
       "sketchId": "24665",
       "groupId": "energy",
       "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_research",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 46.690586,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true
@@ -829,18 +829,6 @@
       "metricId": "kosraeOus",
       "classId": "ous_tourism",
       "sketchId": "24665",
-      "groupId": "mpa",
-      "value": 0,
-      "extra": {
-        "sketchName": "mixed-network",
-        "isCollection": true
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "kosraeOus",
-      "classId": "ous_tourism",
-      "sketchId": "24665",
       "groupId": "aquaculture",
       "value": 0,
       "extra": {
@@ -854,6 +842,18 @@
       "classId": "ous_tourism",
       "sketchId": "24665",
       "groupId": "energy",
+      "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_tourism",
+      "sketchId": "24665",
+      "groupId": "mpa",
       "value": 0,
       "extra": {
         "sketchName": "mixed-network",
@@ -945,18 +945,6 @@
       "metricId": "kosraeOus",
       "classId": "ous_transportation",
       "sketchId": "24665",
-      "groupId": "mpa",
-      "value": 2.60258,
-      "extra": {
-        "sketchName": "mixed-network",
-        "isCollection": true
-      }
-    },
-    {
-      "geographyId": null,
-      "metricId": "kosraeOus",
-      "classId": "ous_transportation",
-      "sketchId": "24665",
       "groupId": "aquaculture",
       "value": 0.029787,
       "extra": {
@@ -971,6 +959,18 @@
       "sketchId": "24665",
       "groupId": "energy",
       "value": 0,
+      "extra": {
+        "sketchName": "mixed-network",
+        "isCollection": true
+      }
+    },
+    {
+      "geographyId": null,
+      "metricId": "kosraeOus",
+      "classId": "ous_transportation",
+      "sketchId": "24665",
+      "groupId": "mpa",
+      "value": 2.60258,
       "extra": {
         "sketchName": "mixed-network",
         "isCollection": true

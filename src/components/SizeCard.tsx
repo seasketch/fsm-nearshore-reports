@@ -40,6 +40,8 @@ const formatLabel = (display: string) => {
   return after.length ? after : display;
 };
 
+const Number = new Intl.NumberFormat("en", { style: "decimal" });
+
 export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
   const [{ isCollection, childProperties }] = useSketchProperties();
   const { t } = useTranslation();
@@ -120,7 +122,8 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
                 <KeySection>
                   {t("This plan is")}{" "}
                   <b>
-                    {areaDisplayHa} {areaUnitHa} ({areaDisplayKm} {areaUnitKm})
+                    {Number.format(areaDisplayHa)} {areaUnitHa} (
+                    {Number.format(areaDisplayKm)} {areaUnitKm})
                   </b>
                   {", "}
                   {t("or")} <b>{percDisplay}</b> {t("of ")} {geographyLabel}'s{" "}
@@ -193,13 +196,8 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
                     </p>
                     <Trans i18nKey="SizeCard - learn more">
                       <p>
-                        {" "}
-                        This report summarizes the size and proportion of this
-                        plan within these boundaries.
-                      </p>
-                      <p>
-                        If sketch boundaries within a plan overlap with each
-                        other, the overlap is only counted once.
+                        This report summarizes the size of this plan within the
+                        selected nearshore planning area.
                       </p>
                     </Trans>
                   </Collapse>
@@ -212,26 +210,6 @@ export const SizeCard: React.FunctionComponent<ReportProps> = (props) => {
     </div>
   );
 };
-
-// styled-components are needed here to use the ::before pseudo selector
-const ErrorIndicator = styled.div`
-  display: inline-block;
-  font-weight: bold;
-  font-size: 18px;
-  line-height: 1em;
-  background-color: #ea4848;
-  width: 20px;
-  height: 20px;
-  border-radius: 20px;
-  color: white;
-  text-align: center;
-  margin-right: 8px;
-  ::before {
-    position: relative;
-    bottom: -1px;
-    content: "!";
-  }
-`;
 
 const genWarning = (curGeography: Geography) => {
   return (

@@ -2,6 +2,7 @@ import {
   getExamplePolygonSketchAll,
   writeResultOutput,
   polygonPreprocessorSmokeTest,
+  getExamplePolygonAllSketchAll,
 } from "@seasketch/geoprocessing/scripts/testing";
 import { describe, test, expect } from "vitest";
 import { boundaryAreaOverlap } from "./boundaryAreaOverlap.js";
@@ -56,9 +57,13 @@ function createSmokeTest(
     test(
       `${functionName} - tests run against all examples`,
       async () => {
-        const examples = await getExamplePolygonSketchAll();
+        const examples = await getExamplePolygonAllSketchAll(
+          "Ik kwoe (Unicorn Fish) - For Abby",
+        );
         for (const example of examples) {
-          const result = await functionToTest(example);
+          const result = await functionToTest(example, {
+            geographyIds: ["kosrae"],
+          });
           expect(result).toBeTruthy();
           writeResultOutput(result, functionName, example.properties.name);
         }

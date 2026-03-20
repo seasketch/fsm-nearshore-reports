@@ -49,7 +49,7 @@ export const ExistingMPAs: React.FunctionComponent<ReportProps> = () => {
                         keepSmallValues: true,
                       })
                     : 0}{" "}
-                  {t("ha")} (
+                  {t("ha")},
                   {Number(data.overlap) !== 0
                     ? roundDecimal(
                         squareMeterToKilometer(Number(data.overlap)),
