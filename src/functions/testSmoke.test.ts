@@ -57,9 +57,7 @@ function createSmokeTest(
     test(
       `${functionName} - tests run against all examples`,
       async () => {
-        const examples = await getExamplePolygonAllSketchAll(
-          "Ik kwoe (Unicorn Fish) - For Abby",
-        );
+        const examples = await getExamplePolygonAllSketchAll();
         for (const example of examples) {
           const result = await functionToTest(example, {
             geographyIds: ["kosrae"],
